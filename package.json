@@ -1,0 +1,22 @@
+{
+  "name": "clic",
+  "version": "1.0.0",
+  "description": "The CLIC association website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scrashdown/CLIC_Website.git"
+  },
+  "author": "Alexandre CHAU, Loïc DROZ",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Scrashdown/CLIC_Website/issues"
+  },
+  "homepage": "https://github.com/Scrashdown/CLIC_Website#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
