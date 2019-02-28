@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <meta charset="utf-8">
 
+    <link rel="stylesheet" href="../public/animate.css">
+
     <!-- TODO : remove this live sass compiler -->
     <script src="in-browser-sass-standalone.min.js"></script>
     <link rel="stylesheet" type="text/sass" href="style.sass">
@@ -33,9 +35,17 @@
 
         <div class="center">
             <div class="content">
+                <div class="caption wow bounceInDown">
+                    <p>Association des étudiants informatique et systèmes de communication EPFL</p>
+                </div>
             </div> <!-- content-->
         </div> <!-- center -->
     </div> <!-- wrapper -->
 </body>
+
+<script src="../public/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 </html>
