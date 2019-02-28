@@ -1,4 +1,5 @@
 $navy-blue: #204561
+$text-color: #778b93
 
 html, body
     padding: 0
@@ -6,6 +7,14 @@ html, body
     width: 100%
     height: 100%
     font-family: 'Lato', Helvetica, Arial, sans-serif
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+*, *:before, *:after
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 
 ul, li, a, p, h1, h2, h3, h4, h5, h6
     margin: 0
@@ -15,7 +24,7 @@ a, p
     font-size: 18px
 
 p
-    color: #778b93
+    color: $text-color
 
 h1
     font-weight: 100
@@ -36,8 +45,13 @@ h3
 .bg-navy-blue
     background: $navy-blue
 
-    h1, p
+    h1
         color: #fff
+    p
+        color: rgba(255,255,255,0.5)
+
+.bg-light-blue-gray
+    background: #f6f7f9
 
 .wrapper
     width: 100%
@@ -121,3 +135,25 @@ h3
     img
         height: 50px
         margin: 20px
+
+.member
+    float: left
+    width: 31%
+    margin: 1%
+    background: #e3ebef
+    padding: 20px
+
+    img
+        float: left
+        width: 33%
+        border-radius: 100%
+        margin-right: 20px
+        background: #fff
+        padding: 5px
+        border: 1px solid #ccc
+    
+    .name
+        padding-top: 20px
+        color: $navy-blue
+        font-weight: bold
+        width: 66%
