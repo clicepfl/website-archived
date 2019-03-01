@@ -220,7 +220,7 @@
         </div> <!-- center -->
     </div> <!-- wrapper -->
 
-    <div class="wrapper footer">
+    <div class="wrapper footer" id="footer">
         <div class="center">
             <div class="content">
                 <div class="col">
@@ -239,6 +239,12 @@
 <script>
     new WOW().init();
     timeline(document.querySelectorAll('.timeline'));
+    const footer = document.getElementById('footer');
+    let footerBackgroundPos = 0
+    setInterval(() => {
+        footer.style.backgroundPosition = `${footerBackgroundPos}% 0%`
+        footerBackgroundPos += 0.01
+    }, 10);
 </script>
 
 </html>
