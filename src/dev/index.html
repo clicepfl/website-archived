@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <meta charset="utf-8">
-
     <link rel="stylesheet" href="../public/animate.css">
+    <link href="dist/css/timeline.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <!-- TODO : remove this live sass compiler -->
     <script src="in-browser-sass-standalone.min.js"></script>
@@ -47,7 +47,8 @@
             <div class="content padded-40">
                 <h1>About</h1>
                 <h3>About the CLIC</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id vulputate justo. Integer tempus,
+                <p class="center-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id vulputate
+                    justo. Integer tempus,
                     purus ac pharetra porta, sem magna laoreet tortor, id porta erat massa quis lacus. Vestibulum mattis
                     magna vel nisi lacinia, sed congue diam varius. Aliquam rhoncus est id leo tincidunt vestibulum eu
                     id felis. Maecenas varius id nulla in dictum. Praesent tristique bibendum sapien et ultrices.
@@ -70,7 +71,8 @@
                 <img src="../public/adnovum.png" alt="adnovum" />
                 <img src="../public/hawaii.png" alt="hawaii" />
 
-                <p class="padded-40">Nam mollis faucibus nunc quis tempor. Aenean ac leo euismod, iaculis nisi a,
+                <p class="center-text padded-40">Nam mollis faucibus nunc quis tempor. Aenean ac leo euismod, iaculis
+                    nisi a,
                     ultrices nulla. Sed mollis malesuada erat et imperdiet. Phasellus auctor arcu non massa pharetra,
                     eget cursus neque feugiat. Nullam dictum rhoncus sem quis ullamcorper. Mauris sollicitudin metus in
                     semper laoreet. Morbi sed tempor turpis. Sed vitae ultrices sapien. Duis finibus dignissim tellus
@@ -144,7 +146,69 @@
 
     <div class="wrapper">
         <div class="center">
+            <div class="content padded-40">
+                <h1>News</h1>
+
+                <div class="timeline">
+                    <div class="timeline__wrap">
+                        <div class="timeline__items">
+                            <div class="timeline__item">
+                                <div class="timeline__content news">
+                                    <h4>LauzHack 2019</h4>
+                                    <p class="date">January 1st, 2019 by John Doe</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla a
+                                        leo quis ornare. Sed aliquet, libero quis scelerisque cursus, est diam ornare
+                                        ante, eu volutpat enim lorem sit amet eros. Vivamus sed placerat arcu. Nullam
+                                        pharetra massa nisi, fermentum posuere arcu ultrices id. Quisque at tortor sit
+                                        amet diam aliquam egestas. Nunc id libero neque. Donec non eleifend ipsum.
+                                        Praesent ultrices a elit sed commodo. Vivamus ullamcorper et ex vitae sagittis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__content news">
+                                    <h4>Faculty dinner 2019</h4>
+                                    <p class="date">January 1st, 2019 by John Doe</p>
+                                    <p>Curabitur sit amet dolor lectus. Pellentesque sed lectus nec lorem euismod
+                                        aliquam ac ac metus. Vestibulum ullamcorper, metus eu rhoncus tempor, eros lorem
+                                        auctor leo, in maximus risus urna nec ligula. Nam luctus nisi vitae est
+                                        vestibulum, id fermentum est tincidunt. Nulla quis elit quis turpis tincidunt
+                                        consequat.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__content news">
+                                    <h4>BarIC at Balélec 2019</h4>
+                                    <p class="date">January 1st, 2019 by John Doe</p>
+                                    <p>Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in
+                                        faucibus. Sed ullamcorper elementum nunc eget varius. Mauris volutpat urna eu
+                                        nibh gravida tempor. Donec et cursus lacus, nec bibendum tortor. Suspendisse at
+                                        rhoncus erat. Aenean sit amet velit tortor. Nunc quis nisi nulla. Donec
+                                        tincidunt lectus mattis, dignissim libero non, vulputate urna. Etiam accumsan
+                                        condimentum enim id laoreet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+    <div class="wrapper bg-turquoise">
+        <div class="center">
+            <div class="content padded-40">
+                <h1>Gallery</h1>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+    <div class="wrapper footer">
+        <div class="center">
             <div class="content">
+                asdfasdf
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -152,8 +216,10 @@
 </body>
 
 <script src="../public/wow.min.js"></script>
+<script src="dist/js/timeline.min.js"></script>
 <script>
     new WOW().init();
+    timeline(document.querySelectorAll('.timeline'));
 </script>
 
 </html>
