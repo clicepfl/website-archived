@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Scrashdown/CLIC_Website#readme",
   "devDependencies": {
     "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
