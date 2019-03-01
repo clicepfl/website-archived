@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/animate.css">
     <link href="dist/css/timeline.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
 
     <!-- TODO : remove this live sass compiler -->
@@ -223,11 +225,21 @@
     <div class="wrapper footer" id="footer">
         <div class="center">
             <div class="content">
-                <div class="col">
-                    <img class="footer-logo" src="/logo_transparent.png" alt="logo" />
-                    <p>Une association à but non-lucratif de l'Ecole Polytechnique Fédérale de Lausanne</p>
-                    <img class="footer-logo" src="/epfl.png" alt="epfl" />
+                <img class="footer-logo" src="/logo_transparent.png" alt="logo" />
+                <img class="footer-logo" src="/epfl.png" alt="epfl" />
+                <p class="big">Une association à but non-lucratif de l'Ecole Polytechnique Fédérale de Lausanne</p>
+                <p class="coord">
+                    CLIC, INN 132 (INN Building), Station 14, CH-1015 Lausanne
+                    <br><a href="/contact" class="underlined">Contactez-nous ></a>
+                    <br><a href="mailto:clic@epfl.ch">clic@epfl.ch</a>
+                </p>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-telegram"></i>
                 </div>
+                <p class="design">Original website design : Alexandre CHAU &amp; Loïc DROZ. <a href="/design-credits">All design credits ></a></p>
+                <p class="legal">&copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly prohibited</p>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -242,8 +254,8 @@
     const footer = document.getElementById('footer');
     let footerBackgroundPos = 0
     setInterval(() => {
-        footer.style.backgroundPosition = `${footerBackgroundPos}% 0%`
-        footerBackgroundPos += 0.01
+        footer.style.backgroundPosition = `${footerBackgroundPos}px ${footerBackgroundPos}px`
+        footerBackgroundPos += 0.2
     }, 10);
 </script>
 
