@@ -205,26 +205,35 @@ h4
     width: 31.333%
     margin: 1%
     background: #e3ebef
-    padding: 20px
+    padding: 15px
     height: 130px
+    position: relative
 
     img
         float: left
-        width: 33%
+        display: block
+        height: 100px
         border-radius: 100%
-        margin-right: 20px
         background: #fff
         padding: 5px
         border: 1px solid #ccc
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+    .desc
+        position: absolute;
+        left: 130px
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     
     .name
-        padding-top: 10px
         color: $navy-blue
         font-weight: bold
-        font-size: 16px
-        width: 66%
-        @media screen and (max-width: 400px)
-            font-size: 14px
+        font-size: 18px
+
     .role
         @media screen and (max-width: 400px)
             font-size: 14px
