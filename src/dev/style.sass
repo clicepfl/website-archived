@@ -100,7 +100,7 @@ h4
 
 .slider
     background: #fff url('epfl.jpg') no-repeat left top
-    background-size: 100% auto
+    background-size: cover
 
 .header
     width: 100%
@@ -110,9 +110,11 @@ h4
 
     .logo
         float: left
-
         img
             height: 60px
+        @media screen and (max-width: 800px)
+            float: none
+            text-align: center
 
     .menu
         float: right
@@ -136,6 +138,8 @@ h4
                 
         ul li.current a, ul li a:hover
                 border-bottom: 3px solid #fff
+        @media screen and (max-width: 800px)
+            display: none
 
 .caption
     width: 70%
@@ -153,13 +157,22 @@ h4
         color: #fff
         @media screen and (max-width: 1200px)
             font-size: 40px
+        @media screen and (max-width: 1000px)
+            font-size: 35px
+        @media screen and (max-width: 700px)
+            font-size: 30px
 
     @media screen and (max-width: 1800px)
         width: 80%
-    @medi screen and (max-width: 1500px)
+    @media screen and (max-width: 1500px)
         margin: 110px auto
     @media screen and (max-width: 1200px)
-        margin: 70px auto
+        margin: 90px auto
+        width: 70%
+    @media screen and (max-width: 820px)
+        width: 90%
+    @media screen and (max-width: 600px)
+        visibility: hidden !important
 
 .sponsors
     img
