@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
-
-    <!-- TODO : remove this live sass compiler -->
-    <script src="in-browser-sass-standalone.min.js"></script>
-    <link rel="stylesheet" type="text/sass" href="style.sass">
 </head>
 
 <body>
@@ -26,11 +22,7 @@
 
                 <div class="menu">
                     <ul>
-                        <li class="current"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="current"><a href="#">Accueil</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,19 +40,21 @@
     <div class="wrapper">
         <div class="center">
             <div class="content padded-40">
-                <h1>About</h1>
-                <h3>About the CLIC</h3>
-                <p class="center-text">La CLIC est l’association des étudiants de la faculté IC 
-                    (Informatique & Systèmes de Communication) de l’EPFL. Notre mission est d’animer 
-                    notre faculté en organisant différents événements au cours du semestre, 
-                    comme par exemple des petit-déjeuners, une distribution de vin chaud ou encore 
-                    un souper de faculté. Nous apportons aussi volontiers notre aide pour les événements 
-                    individuels, par exemple en prêtant du matériel.</p><br>
-                    <!-- TODO: add link to the equipment borrowing webpage, when it exists -->
-                <p class="center-text">La CLIC a aussi un rôle d’incubateur pour les projets individuels. 
-                    Par exemple, LauzHack a été créé en 2016 comme un événement de l’association, 
-                    mais ils ont récemment pris leur envol et sont maintenant indépendants.
-                    <a href="https://lauzhack.com/" target="_blank">Rendez-leur visite!</a></p>
+                <h1>A propos</h1>
+                <h3>Qu'est-ce que la CLIC ?</h3>
+                <p class="center-text padded-40">
+                    La CLIC est l’association des étudiants de la faculté IC (Informatique & Systèmes de Communication)
+                    de l’EPFL. Notre mission est d’animer notre faculté en organisant différents événements au cours du
+                    semestre, comme par exemple des petit-déjeuners, une distribution de vin chaud ou encore un souper
+                    de faculté. Nous apportons aussi volontiers notre aide pour les événements individuels, par exemple
+                    en prêtant du matériel.
+                    <br>
+                    <br>
+                    La CLIC a aussi un rôle d’incubateur pour les projets individuels. Par exemple, LauzHack a été créé
+                    en 2016 comme un événement de l’association, mais ils ont récemment pris leur envol et sont
+                    maintenant indépendants.
+                    <a href="https://lauzhack.com/" target="_blank">Rendez-leur visite!</a>
+                </p>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -69,18 +63,10 @@
         <div class="center">
             <div class="content padded-40 sponsors">
                 <h1>Sponsors</h1>
-                <h3>We'd be nothing without them</h3>
+                <h3>Merci à nos soutiens</h3>
 
                 <img src="/agepoly.png" alt="agepoly" />
-                <img src="/fairtiq.png" alt="fairtiq" />
                 <img src="/je.png" alt="junior-entreprise" />
-
-                <p class="center-text padded-40">Nam mollis faucibus nunc quis tempor. Aenean ac leo euismod, iaculis
-                    nisi a,
-                    ultrices nulla. Sed mollis malesuada erat et imperdiet. Phasellus auctor arcu non massa pharetra,
-                    eget cursus neque feugiat. Nullam dictum rhoncus sem quis ullamcorper. Mauris sollicitudin metus in
-                    semper laoreet. Morbi sed tempor turpis. Sed vitae ultrices sapien. Duis finibus dignissim tellus
-                    sed facilisis. Suspendisse orci dolor, tempor a viverra et, ultrices et nibh.</p>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -89,7 +75,7 @@
         <div class="center">
             <div class="content padded-40">
                 <h1>Team</h1>
-                <h3>Our awesome volunteers</h3>
+                <h3>Notre équipe de bénévoles</h3>
 
                 <div class="member">
                     <img src="/members/oliviercloux.jpg" alt="photo" />
@@ -160,59 +146,6 @@
                     <div class="desc">
                         <p class="name">Alexandre Chau</p>
                         <p class="role">IT Manager</p>
-                    </div>
-                </div>
-            </div> <!-- content -->
-        </div> <!-- center -->
-    </div> <!-- wrapper -->
-
-    <div class="wrapper">
-        <div class="center">
-            <div class="content padded-40">
-                <h1>News</h1>
-
-                <div class="timeline">
-                    <div class="timeline__wrap">
-                        <div class="timeline__items">
-                            <div class="timeline__item">
-                                <div class="timeline__content news">
-                                    <h4>LauzHack 2019</h4>
-                                    <p class="date">January 1st, 2019 by John Doe</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla a
-                                        leo quis ornare. Sed aliquet, libero quis scelerisque cursus, est diam ornare
-                                        ante, eu volutpat enim lorem sit amet eros. Vivamus sed placerat arcu. Nullam
-                                        pharetra massa nisi, fermentum posuere arcu ultrices id. Quisque at tortor sit
-                                        amet diam aliquam egestas. Nunc id libero neque. Donec non eleifend ipsum.
-                                        Praesent ultrices a elit sed commodo. Vivamus ullamcorper et ex vitae sagittis.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline__item">
-                                <div class="timeline__content news">
-                                    <h4>Faculty dinner 2019</h4>
-                                    <p class="date">January 1st, 2019 by John Doe</p>
-                                    <p>Curabitur sit amet dolor lectus. Pellentesque sed lectus nec lorem euismod
-                                        aliquam ac ac metus. Vestibulum ullamcorper, metus eu rhoncus tempor, eros lorem
-                                        auctor leo, in maximus risus urna nec ligula. Nam luctus nisi vitae est
-                                        vestibulum, id fermentum est tincidunt. Nulla quis elit quis turpis tincidunt
-                                        consequat.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline__item">
-                                <div class="timeline__content news">
-                                    <h4>BarIC at Balélec 2019</h4>
-                                    <p class="date">January 1st, 2019 by John Doe</p>
-                                    <p>Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in
-                                        faucibus. Sed ullamcorper elementum nunc eget varius. Mauris volutpat urna eu
-                                        nibh gravida tempor. Donec et cursus lacus, nec bibendum tortor. Suspendisse at
-                                        rhoncus erat. Aenean sit amet velit tortor. Nunc quis nisi nulla. Donec
-                                        tincidunt lectus mattis, dignissim libero non, vulputate urna. Etiam accumsan
-                                        condimentum enim id laoreet.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div> <!-- content -->
