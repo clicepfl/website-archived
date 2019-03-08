@@ -4,7 +4,8 @@
   "description": "The CLIC association website",
   "main": "index.js",
   "scripts": {
-    "start": "cd src/ && node index",
+    "postinstall": "node make",
+    "start": "cd dist/ && node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/Scrashdown/CLIC_Website#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "del": "^4.0.0",
+    "node-sass": "^4.11.0",
+    "promise-sequential": "^1.1.1"
   },
   "dependencies": {
     "express": "^4.16.4"

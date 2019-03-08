@@ -1,1 +1,4 @@
+# Ignore node modules
 node_modules/
+# Ignore dist folder, should be compiled
+dist/
