@@ -18,12 +18,17 @@
 const del = require('del')
 const fs = require('fs')
 const sass = require('node-sass')
+const ncp = require('ncp').ncp
+ncp.limit = 16
 Promise.sequential = require('promise-sequential')
 
 // Build pipeline definition
 clean()
     .then(setup)
     .then(compileSass)
+    .then(copyVendor)
+    .then(copyPublic)
+    .then(done)
     .catch((err) => {
         console.log(err.message ? err.message : err)
     })
@@ -37,6 +42,7 @@ clean()
  * @returns promise with the list of deleted paths
  */
 function clean() {
+    console.log("Deleting dist/ folder...")
     return del("dist/")
 }
 
@@ -45,11 +51,11 @@ function clean() {
  * @returns empty promise
  */
 function setup() {
-    paths = [
+    const paths = [
         'dist/',
         'dist/public/'
     ]
-    promises = paths.map(path => {
+    const promises = paths.map(path => {
         return () => new Promise((resolve, reject) => {
             fs.mkdir(path, (err) => {
                 if (err) reject(err)
@@ -57,6 +63,7 @@ function setup() {
             })
         })
     })
+    console.log(`Creating project structure... [${paths}]`)
     return Promise.sequential(promises)
 }
 
@@ -65,18 +72,62 @@ function setup() {
  * @returns empty promise
  */
 function compileSass() {
+    const src = 'src/sass/style.sass'
+    const dest = 'dist/public/style.css'
+    console.log(`Compiling main style sass... ${src} into ${dest}`)
     return new Promise((resolve, reject) => {
         sass.render({
-            file: 'src/sass/style.sass',
+            file: src,
             outputStyle: 'compressed'
         }, (err, res) => {
             if (err) reject(err)
             else {
-                fs.writeFile('dist/public/style.css', res.css, (errw) => {
+                fs.writeFile(dest, res.css, (errw) => {
                     if (errw) reject(errw)
                     else resolve()
                 })
             }
         })
     })
+}
+
+/**
+ * Copy the vendor folder to dist
+ * @returns empty promise
+ */
+function copyVendor() {
+    const src = 'src/vendor'
+    const dest = 'dist/vendor'
+    console.log(`Copying ${src} directory into ${dest}...`)
+    return new Promise((resolve, reject) => {
+        ncp(src, dest, (err) => {
+            if (err) reject(err)
+            else resolve()
+        })
+    })
+}
+
+/**
+ * Copy the public assets to dist
+ * @returns empty promise
+ */
+function copyPublic() {
+    const src = 'src/public'
+    const dest = 'dist/public'
+    console.log(`Copying ${src} directory into ${dest}...`)
+    return new Promise((resolve, reject) => {
+        ncp(src, dest, (err) => {
+            if (err) reject (err)
+            else resolve()
+        })
+    })
+}
+
+/**
+ * Done function, should be called at the end
+ * @returns empty promise
+ */
+function done() {
+    console.log(`Build finished in dist/ folder!`)
+    return Promise.resolve()
 }

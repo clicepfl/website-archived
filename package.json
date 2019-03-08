@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Scrashdown/CLIC_Website#readme",
   "devDependencies": {
     "del": "^4.0.0",
+    "ncp": "^2.0.0",
     "node-sass": "^4.11.0",
     "promise-sequential": "^1.1.1"
   },
