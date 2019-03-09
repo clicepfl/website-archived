@@ -26,10 +26,9 @@ const config = {
 app.get('/', (req, res) => {
     res.sendFile('static/index.html', { root: __dirname })
 })
-//expose static assets
-app.use(express.static('/vendor/'))
-app.use(express.static('/public/'))
-app.use(express.static('/static/'))
+// expose static assets (our assets are first for priority)
+app.use(express.static('public/'))
+app.use(express.static('vendor/'))
 
 /**
  * Start express server
