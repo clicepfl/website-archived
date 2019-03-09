@@ -9,26 +9,43 @@
 import express from 'express'
 
 /**
- * Initialize express server
+ * Express server instance
  */
 const app = express()
 
 /**
- * Server config
+ * General server config
  */
 const config = {
     port: 8000
 }
 
 /**
+ * Default options for sending files
+ */
+const sendFileDefaultOptions = {
+    root: __dirname
+}
+
+
+/**
  * Express routing
  */
+
+// Homepage
 app.get('/', (req, res) => {
-    res.sendFile('static/index.html', { root: __dirname })
+    res.sendFile('static/index.html', sendFileDefaultOptions)
 })
-// expose static assets (our assets are first for priority)
+// IC Boost day
+app.get(['/icbd', '/icboostday'], (req, res) => {
+    res.sendFile('static/icbd.html', sendFileDefaultOptions)
+})
+// Static assets
 app.use(express.static('public/'))
-app.use(express.static('vendor/'))
+// 404 handle, must be at the end of the routing list !
+app.use((req, res, next) => {
+    res.sendFile('static/404.html', sendFileDefaultOptions)
+})
 
 /**
  * Start express server

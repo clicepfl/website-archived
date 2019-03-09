@@ -5,8 +5,8 @@
     <title>CLIC EPFL | Association des étudiants Informatique &amp; Systèmes de communication</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/animate.css">
-    <link href="/timeline.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/vendor/animate.css">
+    <link href="/vendor/timeline.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -259,17 +259,17 @@
 
 </body>
 
-<script src="/wow.min.js"></script>
-<script src="/timeline.min.js"></script>
+<script src="/vendor/wow.min.js"></script>
+<script src="/vendor/timeline.min.js"></script>
+<script src="/js/animation.clic.js"></script>
 <script>
-    new WOW().init();
-    timeline(document.querySelectorAll('.timeline'));
-    const footer = document.getElementById('footer');
-    let footerBackgroundPos = 0
-    setInterval(() => {
-        footer.style.backgroundPosition = `${footerBackgroundPos}px ${footerBackgroundPos}px`
-        footerBackgroundPos += 0.2
-    }, 10);
+    // on-scroll reveal animation
+    new WOW().init()
+    // news timeline
+    timeline(document.querySelectorAll('.timeline'))
+    // animate footer background
+    const footer = document.getElementById('footer')
+    new AnimationClic.BackgroundDiagonalTranslation(footer, true, true)
 </script>
 
 </html>
