@@ -10,14 +10,16 @@
  * `npm install` as it should be registered inside {@link package.json}
  * as a "postinstall" hook.
  *
- * @file This is the main build script for compiling the server software
- * @author Alexandre CHAU
+ * @file    This is the main build script for compiling the server software
+ * @author  Alexandre CHAU
  */
 
 // Dependencies
-const del = require('del')
+const util = require('util')
 const fs = require('fs')
+const exec = util.promisify(require('child_process').exec)
 const sass = require('node-sass')
+const del = require('del')
 const ncp = require('ncp').ncp
 ncp.limit = 16
 Promise.sequential = require('promise-sequential')
@@ -25,9 +27,12 @@ Promise.sequential = require('promise-sequential')
 // Build pipeline definition
 clean()
     .then(setup)
-    .then(compileSass)
     .then(copyVendor)
     .then(copyPublic)
+    .then(copyStatic)
+    .then(compileSass)
+    .then(compileTypescript)
+    .then(generateTypedoc)
     .then(done)
     .catch((err) => {
         console.log(err.message ? err.message : err)
@@ -68,6 +73,44 @@ function setup() {
 }
 
 /**
+ * Helper function to recursively copy a folder
+ * @returns empty promise
+ */
+function copyr(src, dest) {
+    console.log(`Copying ${src} directory into ${dest}...`)
+    return new Promise((resolve, reject) => {
+        ncp(src, dest, (err) => {
+            if (err) reject (err)
+            else resolve()
+        })
+    })
+}
+
+/**
+ * Copy the vendor folder to dist
+ * @returns empty promise
+ */
+function copyVendor() {
+    copyr('src/vendor', 'dist/vendor')
+}
+
+/**
+ * Copy the public assets to dist
+ * @returns empty promise
+ */
+function copyPublic() {
+    copyr('src/public', 'dist/public')
+}
+
+/**
+ * Copy the static html and files
+ * @returns empty promise
+ */
+function copyStatic() {
+    copyr('src/html', 'dist/static')
+}
+
+/**
  * Compiles the main sass style into its css file
  * @returns empty promise
  */
@@ -92,35 +135,21 @@ function compileSass() {
 }
 
 /**
- * Copy the vendor folder to dist
+ * Compiles typescript sources into JS
  * @returns empty promise
  */
-function copyVendor() {
-    const src = 'src/vendor'
-    const dest = 'dist/vendor'
-    console.log(`Copying ${src} directory into ${dest}...`)
-    return new Promise((resolve, reject) => {
-        ncp(src, dest, (err) => {
-            if (err) reject(err)
-            else resolve()
-        })
-    })
+function compileTypescript() {
+    console.log("Compiling Typescript sources...")
+    return exec("npx tsc")
 }
 
 /**
- * Copy the public assets to dist
+ * Generate Typedoc
  * @returns empty promise
  */
-function copyPublic() {
-    const src = 'src/public'
-    const dest = 'dist/public'
-    console.log(`Copying ${src} directory into ${dest}...`)
-    return new Promise((resolve, reject) => {
-        ncp(src, dest, (err) => {
-            if (err) reject (err)
-            else resolve()
-        })
-    })
+function generateTypedoc() {
+    console.log("Generating Typedoc documentation...")
+    return exec("npx typedoc")
 }
 
 /**

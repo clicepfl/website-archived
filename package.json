@@ -19,10 +19,13 @@
   },
   "homepage": "https://github.com/Scrashdown/CLIC_Website#readme",
   "devDependencies": {
+    "@types/express": "^4.16.1",
     "del": "^4.0.0",
     "ncp": "^2.0.0",
     "node-sass": "^4.11.0",
-    "promise-sequential": "^1.1.1"
+    "promise-sequential": "^1.1.1",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {
     "express": "^4.16.4"

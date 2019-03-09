@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"32":"Variable","2097152":"Object literal"},"rows":[{"id":0,"kind":32,"name":"app","url":"globals.html#app","classes":"tsd-kind-variable tsd-is-not-exported"},{"id":1,"kind":2097152,"name":"config","url":"globals.html#config","classes":"tsd-kind-object-literal tsd-is-not-exported"},{"id":2,"kind":32,"name":"port","url":"globals.html#config.port","classes":"tsd-kind-variable tsd-parent-kind-object-literal tsd-is-not-exported","parent":"config"}]};
