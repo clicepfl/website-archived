@@ -348,6 +348,12 @@ h4
 .absolute
     position: absolute
 
+.ignore-pointer-events
+    pointer-events: none
+
+.force-pointer-events
+    pointer-events: auto
+
 #icbd
     $animationHeight: 700px
 
@@ -397,6 +403,8 @@ h4
 
     .header
         background: rgba(255,255,255,0.5)
+        a
+            @extend .force-pointer-events
         .menu
             ul li a
                 color: #000
