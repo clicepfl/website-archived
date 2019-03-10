@@ -9,7 +9,7 @@
  */
 const AnimationClic = function () {
     // rate of animation (ms)
-    let rate = 10
+    let rate = 12
     // animation functions are registered here
     let callbacks = []
     // synchronized clock
