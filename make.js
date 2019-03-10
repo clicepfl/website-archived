@@ -27,8 +27,8 @@ Promise.sequential = require('promise-sequential')
 // Build pipeline definition
 clean()
     .then(setup)
-    .then(copyVendor)
     .then(copyPublic)
+    .then(copyVendor)
     .then(copyStatic)
     .then(compileSass)
     .then(compileTypescript)
@@ -87,19 +87,19 @@ function copyr(src, dest) {
 }
 
 /**
- * Copy the vendor folder to dist
- * @returns empty promise
- */
-function copyVendor() {
-    copyr('src/vendor', 'dist/vendor')
-}
-
-/**
  * Copy the public assets to dist
  * @returns empty promise
  */
 function copyPublic() {
     copyr('src/public', 'dist/public')
+}
+
+/**
+ * Copy the vendor folder to dist
+ * @returns empty promise
+ */
+function copyVendor() {
+    copyr('src/vendor', 'dist/public/vendor')
 }
 
 /**

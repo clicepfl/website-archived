@@ -5,8 +5,8 @@
     <title>CLIC EPFL | Association des étudiants Informatique &amp; Systèmes de communication</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/animate.css">
-    <link href="/timeline.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/vendor/animate.css">
+    <link href="/vendor/timeline.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -23,7 +23,7 @@
 
                 <div class="menu">
                     <ul>
-                        <li class="current"><a href="#">Accueil</a></li>
+                        <li class="current"><a href="/">Accueil</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,12 +66,57 @@
                 <h1>Sponsors</h1>
                 <h3>Merci à nos soutiens</h3>
 
-                <a href="https://je.epfl.ch/" target="_blank"><img src="/img/je.png" alt="junior-entreprise" style="height:100px" /></a>
-                <a href="https://www.agepoly.ch/" target="_blank"><img src="/img/agepoly.png" alt="agepoly" /></a>
+                <a href="https://je.epfl.ch/" target="_blank">
+                    <img src="/img/je.png" alt="junior-entreprise" style="height:100px" />
+                </a>
+                <a href="https://www.agepoly.ch/" target="_blank">
+                    <img src="/img/agepoly.png" alt="agepoly" />
+                </a>
                 <br>
-                <a href="https://www.vaudoise.ch/" target="_blank"><img src="/img/vaudoise.png" /></a>
+                <a href="https://www.vaudoise.ch/" target="_blank">
+                    <img src="/img/vaudoise.png" />
+                </a>
 
-                <p class="center-text padded-40">La CLIC est une association à but non-lucratif. Grâce à nos sponsors, nous pouvons continuer à vous proposer des événements gratuits tout au long de l’année. De plus, chacun d’entre eux peut vous apporter quelque chose, alors pourquoi ne pas leur rendre visite ?</p>
+                <p class="center-text padded-40">La CLIC est une association à but non-lucratif. Grâce à nos sponsors,
+                    nous pouvons continuer à vous proposer des événements gratuits tout au long de l’année. De plus,
+                    chacun d’entre eux peut vous apporter quelque chose, alors pourquoi ne pas leur rendre visite ?</p>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+    <div class="wrapper">
+        <div class="center">
+            <div class="content padded-40">
+                <h1>News</h1>
+
+                <div class="timeline padded-40">
+                    <div class="timeline__wrap">
+                        <div class="timeline__items">
+                            <div class="timeline__item">
+                                <div class="timeline__content news">
+                                    <h4>IC Boost Day 2019</h4>
+                                    <p class="date">3 mars 2019, par Alexandre Chau</p>
+                                    <p>
+                                        La CLIC est fière de présenter l'IC Boost Day, le jeudi <b>2 mai 2019</b> à
+                                        l'EPFL dans le bâtiment BC!
+                                    </p>
+                                    <p>
+                                        <br>
+                                        De 9h à 17h, venez participer à des mock interviews de recrutement, rencontrer
+                                        des alumnis et assister à diverses présentations et panels! Une occasion unique
+                                        pour vous préparer à votre futur professionnel dans le monde de l'ingénierie
+                                        informatique.
+                                    </p>
+                                    <p>
+                                        <br>
+                                        Visitez notre nouvelle page dédiée à l'IC Boost Day:
+                                        <a href="/icbd">clic.epfl.ch/icbd</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -244,32 +289,37 @@
                 <p class="big">Une association à but non-lucratif de l'Ecole Polytechnique Fédérale de Lausanne</p>
                 <p class="coord">
                     CLIC, INN 132, Station 14, EPFL, CH-1015 Lausanne
-                    <br><a href="mailto:&#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;">&#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;</a>
+                    <br>
+                    <a href="mailto:&#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;">
+                        &#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;
+                    </a>
                 </p>
                 <div class="social">
                     <a href="https://www.facebook.com/clic.epfl/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://t.me/clicnews" target="_blank"><i class="fab fa-telegram"></i></a>
                 </div>
                 <p class="design">Original website design : Alexandre CHAU &amp; Loïc DROZ.</p>
-                <p class="legal">&copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is
-                    strictly prohibited</p>
+                <p class="legal">
+                    &copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly
+                    prohibited
+                </p>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
 
 </body>
 
-<script src="/wow.min.js"></script>
-<script src="/timeline.min.js"></script>
+<script src="/vendor/wow.min.js"></script>
+<script src="/vendor/timeline.min.js"></script>
+<script src="/js/animation.clic.js"></script>
 <script>
-    new WOW().init();
-    timeline(document.querySelectorAll('.timeline'));
-    const footer = document.getElementById('footer');
-    let footerBackgroundPos = 0
-    setInterval(() => {
-        footer.style.backgroundPosition = `${footerBackgroundPos}px ${footerBackgroundPos}px`
-        footerBackgroundPos += 0.2
-    }, 10);
+    // on-scroll reveal animation
+    new WOW().init()
+    // news timeline
+    timeline(document.querySelectorAll('.timeline'))
+    // animate footer background
+    const footer = document.getElementById('footer')
+    new AnimationClic.BackgroundDiagonalTranslation(footer, true, true)
 </script>
 
 </html>
