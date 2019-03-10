@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CLIC EPFL | Association des étudiants Informatique &amp; Systèmes de communication</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vendor/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="icbd">
+    <div class="wrapper bg-animation">
+        <div class="absolute" id="particles-js"></div>
+        <div class="absolute">
+            <div class="header">
+                <div class="center">
+                    <div class="logo">
+                        <img src="/img/logo_black.png" alt="logo" />
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li class="current"><a href="#">&laquo; Retour à l' accueil</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- header-->
+
+            <div class="center">
+                <div class="content">
+                    <h1>IC Boost Day yay</h1>
+                </div> <!-- content-->
+            </div> <!-- center -->
+        </div>
+    </div> <!-- wrapper -->
+
+    <div class="wrapper">
+        <div class="center">
+            <div class="content padded-40">
+                <h1>A propos</h1>
+                <h3>Qu'est-ce que la CLIC ?</h3>
+                <p class="center-text padded-40">
+                    La CLIC est l’association des étudiants de la faculté IC (Informatique & Systèmes de Communication)
+                    de l’EPFL. Notre mission est d’animer notre faculté en organisant différents événements au cours du
+                    semestre, comme par exemple des petit-déjeuners, une distribution de vin chaud ou encore un souper
+                    de faculté. Nous apportons aussi volontiers notre aide pour les événements individuels, par exemple
+                    en prêtant du matériel.
+                    <br>
+                    <br>
+                    La CLIC a aussi un rôle d’incubateur pour les projets individuels. Par exemple, LauzHack a été créé
+                    en 2016 comme un événement de l’association, mais ils ont récemment pris leur envol et sont
+                    maintenant indépendants.
+                    <a href="https://lauzhack.com/" target="_blank">Rendez-leur visite!</a>
+                </p>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+    <div class="wrapper bg-navy-blue">
+        <div class="center">
+            <div class="content padded-40 sponsors">
+                <h1>Sponsors</h1>
+                <h3>Merci à nos soutiens</h3>
+
+                <a href="https://je.epfl.ch/" target="_blank">
+                    <img src="/img/je.png" alt="junior-entreprise" style="height:100px" />
+                </a>
+                <a href="https://www.agepoly.ch/" target="_blank">
+                    <img src="/img/agepoly.png" alt="agepoly" />
+                </a>
+                <br>
+                <a href="https://www.vaudoise.ch/" target="_blank">
+                    <img src="/img/vaudoise.png" />
+                </a>
+
+                <p class="center-text padded-40">La CLIC est une association à but non-lucratif. Grâce à nos sponsors,
+                    nous pouvons continuer à vous proposer des événements gratuits tout au long de l’année. De plus,
+                    chacun d’entre eux peut vous apporter quelque chose, alors pourquoi ne pas leur rendre visite ?</p>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+    <div class="wrapper footer" id="footer">
+        <div class="center">
+            <div class="content">
+                <img class="footer-logo" src="/img/logo_transparent.png" alt="logo" />
+                <img class="footer-logo" src="/img/epfl.png" alt="epfl" />
+                <p class="big">Une association à but non-lucratif de l'Ecole Polytechnique Fédérale de Lausanne</p>
+                <p class="coord">
+                    CLIC, INN 132, Station 14, EPFL, CH-1015 Lausanne
+                    <br>
+                    <a href="mailto:&#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;">
+                        &#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;
+                    </a>
+                </p>
+                <div class="social">
+                    <a href="https://www.facebook.com/clic.epfl/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://t.me/clicnews" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+                <p class="design">Original website design : Alexandre CHAU &amp; Loïc DROZ.</p>
+                <p class="legal">
+                    &copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly
+                    prohibited
+                </p>
+            </div> <!-- content -->
+        </div> <!-- center -->
+    </div> <!-- wrapper -->
+
+</body>
+
+<script src="/vendor/particles.min.js"></script>
+<script src="/vendor/wow.min.js"></script>
+<script src="/js/animation.clic.js"></script>
+<script>
+    // animate footer background
+    const footer = document.getElementById('footer')
+    new AnimationClic.BackgroundDiagonalTranslation(footer, true, true)
+    // activate particles rendering
+    particlesJS.load('particles-js', 'assets/config.particles.json', () => {
+        console.log('Initialized particles.js')
+    })
+</script>
+
+</html>

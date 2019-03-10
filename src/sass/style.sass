@@ -333,3 +333,21 @@ h4
             padding: 5px
         i:hover
             color: #cd0000
+
+.absolute
+    position: absolute
+
+#icbd
+    $animationHeight: 700px
+    .bg-animation
+        height: $animationHeight
+        .absolute
+            width: 100%
+            height: $animationHeight
+    .header
+        background: rgba(255,255,255,0.7)
+        .menu
+            ul li a
+                color: #000
+            ul li.current a, ul li a:hover
+                border-bottom: 3px solid #000
