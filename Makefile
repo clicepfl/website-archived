@@ -28,6 +28,8 @@ make help
 make update
 	Update the production server with the latest git version on master.
 	WARNING this command is destructive of unstaged git changes !
+	WARNING this will kill all running node (and the server) instances !
+	This command assumes that theses services are restarted (automatically)
 -------------------------------------------------------------------------------
 endef
 export HELP_SECTION
@@ -46,3 +48,4 @@ update:
 	git pull
 	npm install
 	git stash
+	killall node
