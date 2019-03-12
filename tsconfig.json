@@ -21,6 +21,7 @@
     ],
     "typedocOptions": {
         "mode": "file",
-        "out": "docs/typedoc/"
+        "out": "docs/typedoc/",
+        "gitRevision": "dev"
     }
 }
