@@ -61,6 +61,7 @@ function setup() {
         'dist/public/'
     ]
     const promises = paths.map(path => {
+        // promise-sequential requires function objects returning promises
         return () => new Promise((resolve, reject) => {
             fs.mkdir(path, (err) => {
                 if (err) reject(err)

@@ -2,7 +2,7 @@
   "name": "clic",
   "version": "1.0.0",
   "description": "The CLIC association website",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
     "postinstall": "node make",
     "start": "cd dist/ && node server",
