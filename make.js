@@ -92,7 +92,7 @@ function copyr(src, dest) {
  * @returns empty promise
  */
 function copyPublic() {
-    copyr('src/public', 'dist/public')
+    return copyr('src/public', 'dist/public')
 }
 
 /**
@@ -100,7 +100,7 @@ function copyPublic() {
  * @returns empty promise
  */
 function copyVendor() {
-    copyr('src/vendor', 'dist/public/vendor')
+    return copyr('src/vendor', 'dist/public/vendor')
 }
 
 /**
@@ -108,7 +108,7 @@ function copyVendor() {
  * @returns empty promise
  */
 function copyStatic() {
-    copyr('src/html', 'dist/static')
+    return copyr('src/html', 'dist/static')
 }
 
 /**
