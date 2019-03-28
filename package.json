@@ -28,6 +28,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-sitemap": "^1.8.0"
   }
 }
