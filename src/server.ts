@@ -10,15 +10,15 @@
  * Imports
  */
 import express from 'express'
-/// Express server instance
+/** Express server instance */
 const app = express()
-/// Sitemap generator
+/** Sitemap generator */
 const sitemap = require('express-sitemap')
 
 /**
  * Configuration
  */
-/// General server config
+/** General server config */
 const config = {
     port: 8000,
     root: __dirname,
@@ -44,6 +44,7 @@ app.use(express.static('public/'))
 /** 
  * Sitemap
  */
+/** Sitemap automatic generation */
 const sm = sitemap({
     generate: app,
     http: config.protocol,
@@ -67,7 +68,7 @@ app.get('/robots.txt', (req, res) => {
  * Must be at the end of the routing list !
  */
 app.use((req, res, next) => {
-    res.sendFile('static/404.html', { root: config.root })
+    res.status(404).sendFile('static/404.html', { root: config.root })
 })
 
 /**
