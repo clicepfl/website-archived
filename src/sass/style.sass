@@ -403,10 +403,12 @@ h4
     pointer-events: auto
 
 #icbd
+    @import "timetable.sass"
+
     $animationHeight: 700px
 
     .planning
-        .event-container
+        .events-container
             display: flex
             flex-wrap: wrap
             justify-content: space-around
@@ -441,11 +443,6 @@ h4
 
             @media screen and (max-width: 850px)
                 width: 75%
-    
-    .timetable
-        img
-            margin-top: 20px
-            width: 100%
 
     .bg-animation
         height: $animationHeight

@@ -24,7 +24,7 @@
 
                     <div class="menu">
                         <ul>
-                            <li class="current"><a href="/">&laquo; Retour à l' accueil</a></li>
+                            <li class="current"><a href="/">&laquo; Back to homepage</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                     <img src="/img/icbd/icbd_logo.png" class="event-logo" alt="IC Boost Day">
 
                     <div class="event-info">
-                        <h1>Jeudi <span>2 mai 2019</span></h1>
-                        <h3>9h à 17h en BC, EPFL</h3>
+                        <h1>Thursday <span>May 2nd 2019</span></h1>
+                        <h3>9 AM to 5 PM, BC Building, EPFL</h3>
                     </div>
                 </div> <!-- content-->
             </div> <!-- center -->
@@ -47,7 +47,6 @@
         <div class="center">
             <div class="content padded-40">
                 <p class="center-text padded-40">
-                    <!-- TODO: check if translation is good -->
                     The CLIC is proud to present the 1st edition of the IC Boost Day, a day dedicated to your
                     career in computer science! Come and try yourself in recruitment mock interviews, meet with alumnis,
                     and join talks and panels! A unique occasion to prepare yourself to your professional future
@@ -66,17 +65,13 @@
         <div class="center">
             <div class="content padded-40 planning">
                 <h1>Activities</h1>
-                <div class="event-container">
+                <div class="events-container">
                     <div class="event">
                         <div class="front">
                             <h3><i class="fas fa-handshake"></i> Mock Interviews</h3>
                         </div>
 
                         <div class="details">
-                            <!-- TODO: add button for showing/hiding this paragraph.
-                                Perhaps it could 'slide' over the original square,
-                                without changing the square's size. For simplicity,
-                                and cleanliness. -->
                             <p>
                                 One of the key points of this day : throughout the day,
                                 you will have the opportunity to pass a mock interview, oriented for IC students.
@@ -94,7 +89,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <p>
                                 From 12:00 to 13:30, and for only CHF 10, you will have the opportunity to have
                                 an informal lunch with 25 alumnis. They are here for you, so you can ask them
@@ -111,7 +105,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <h4>How to prepare for a coding interview</h4>
                             <p>
                                 Coding interviews are not an easy thing, and often a bit scary for the first few times.
@@ -128,7 +121,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <h4>How to make the most out of an internship</h4>
                             <p>
                                 During your master, you must do an internship. Many IC students also chose to do their
@@ -145,7 +137,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <h4>How to network</h4>
                             <p>
                                 Julien Perrochet has spent several months overseas to meet partners of our faculty,
@@ -162,7 +153,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <h4>What happens after a PhD</h4>
                             <p>
                                 Having a master will open many doors; one of them is to do a PhD.
@@ -181,7 +171,6 @@
                         </div>
 
                         <div class="details">
-                            <!-- TODO slide (see above) -->
                             <h4>Womens' place in IT industry</h4>
                             <p>
                                 A hurtful stereotype about our field is that it’s a sexist place.
@@ -193,17 +182,16 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> <!-- events-container -->
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
 
     <div class="wrapper bg-white">
         <div class="center">
-            <div class="content padded-40 timetable">
+            <div class="content padded-40 timetable-container">
                 <h1>Timetable</h1>
-
-                <img src="/img/icbd/ICBD-planning-placeholder.png" alt="icbd timetable" />
+                <div class="timetable"></div>
             </div> <!-- content -->
         </div> <!-- center -->
     </div> <!-- wrapper -->
@@ -247,6 +235,109 @@
     particlesJS.load('particles-js', 'assets/config.particles.json', () => {
         console.log('Initialized particles.js')
     })
+</script>
+
+<script src="/vendor/timetable.js"></script>
+<script>
+    /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
+    let timetable = new Timetable();
+    // Only display hours between 8 and 17
+    timetable.setScope(8, 17);
+
+    timetable.addLocations(['BC HALL', 'BC 420', 'BC 410', 'BC 129', 'BC 229', 'BC 329', 'BC 010', 'BC 133']);
+
+    const YEAR = 2019;
+    const MONTH = 5;
+    const DAY = 2;
+    function date(hour, minute) {
+        return new Date(YEAR, MONTH, DAY, hour, minute);
+    }
+
+    timetable.addEvent(
+        'MIDDAY LUNCH', 'BC HALL', date(12, 0), date(13, 15)
+    );
+
+    // BC 420 events
+    let room = 'BC 420';
+    timetable.addEvent(
+        'TALK How to prepare for a coding interview',
+        room, date(9, 15), date(10, 0)
+    );
+    timetable.addEvent(
+        'TALK How to network (by Julien Perrochet)',
+        room, date(11, 15), date(12, 0)
+    );
+    timetable.addEvent(
+        'TALK What happens after a PhD',
+        room, date(14, 15), date(15, 0)
+    );
+
+    // BC 410 events
+    room = 'BC 410';
+    timetable.addEvent(
+        'TALK How to make the most out of an internship',
+        room, date(10, 15), date(11, 0)
+    );
+    timetable.addEvent(
+        'TALK Womens\' place in the IT industry',
+        room, date(15, 15), date(16, 0)
+    );
+
+    // BC 129 events
+    let eventName = 'MOCK INTERVIEW';
+    room = 'BC 129';
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
+    timetable.addEvent(eventName, room, date(11, 15), date(12, 0));
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+
+    // BC 229 events
+    room = 'BC 229';
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+
+    // BC 329 events
+    room = 'BC 329';
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+
+    // BC 010 events
+    room = 'BC 010';
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
+    timetable.addEvent(eventName, room, date(11, 15), date(12, 0));
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+
+    // BC 133 events
+    room = 'BC 133';
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
+    timetable.addEvent('RUBEN MERZ', room, date(11, 15), date(12, 0));
+    timetable.addEvent('RUBEN MERZ', room, date(13, 15), date(14, 0));
+    timetable.addEvent('RUBEN MERZ', room, date(14, 15), date(15, 0));
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+
+    // Render timetable
+    let renderer = new Timetable.Renderer(timetable);
+    renderer.draw('.timetable');
 </script>
 
 </html>
