@@ -404,46 +404,47 @@ h4
 
 #icbd
     $animationHeight: 700px
-    
-    .planning
-        h3
-            font-size: 40px
-            margin-bottom: 20px
-            margin-top: 40px
-        
-        h4
-            font-weight: 500
-            color: #fff
-            font-size: 25px
-        
-        .category
-            overflow: auto
-        
-        .talks
-            .description
-                width: 33.3%
 
-        .panels
-            .description
-                width: 49.9%
-        
-        .food
-            .description
-                width: 100%
-        
-        .description
-            padding: 0 10px
-            display: inline-block
-            float: left
-        
-        .horizontal-align
-            div:first-child
-                padding-left: 0
-            div:last-child
-                padding-right: 0
+    .planning
+        .event-container
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+
+            margin-top: 20px
+
+        .event
+            width: 45%
+            padding: 30px
+            margin: 20px
+
+            background-color: #fff
+
+            h4
+                font-weight: 600
+
+            h3
+                color: #c9412b
+                font-size: 40px
+
+            p, h4
+                color: $text-color
+
+            .front
+                border-bottom: 1px solid #ccc
+
+                h3
+                    margin-bottom: 20px
+
+            .details h4, .details > p
+                margin-top: 20px
+
+            @media screen and (max-width: 850px)
+                width: 75%
     
     .timetable
         img
+            margin-top: 20px
             width: 100%
 
     .bg-animation
