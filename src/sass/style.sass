@@ -403,7 +403,57 @@ h4
     pointer-events: auto
 
 #icbd
+    @import "timetable.sass"
+
     $animationHeight: 700px
+
+    .registration
+        padding-bottom: 40px
+        text-align: center
+
+        a
+            text-transform: uppercase
+            font-size: 20px
+            color: #fff
+            padding: 10px 20px
+            background-color: #c9412b
+
+    .planning
+        .events-container
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+
+            margin-top: 20px
+
+        .event
+            width: 45%
+            padding: 30px
+            margin: 20px
+
+            background-color: #fff
+
+            h4
+                font-weight: 600
+
+            h3
+                color: #c9412b
+                font-size: 40px
+
+            p, h4
+                color: $text-color
+
+            .front
+                border-bottom: 1px solid #ccc
+
+                h3
+                    margin-bottom: 20px
+
+            .details h4, .details > p
+                margin-top: 20px
+
+            @media screen and (max-width: 850px)
+                width: 75%
 
     .bg-animation
         height: $animationHeight
@@ -427,29 +477,24 @@ h4
 
                 margin 30px 20%
 
-            @media screen and (max-width: 700px)
+            @media screen and (max-width: 500px)
                 width: 80%
                 margin: 50px 10%
-
-            @media screen and (max-width: 500px)
-                width: 90%
-                margin: 50px 5%
 
         .event-info
             text-align: center
 
             h1, h2, h3
-                width: 70%
-                margin: 0 15%
+                width: 80%
+                margin: 0 10%
                 font-weight: 350
                 background: rgba(255, 255, 255, 0.75)
 
             h1
-                @media screen and (max-width: 1050px)
-                    font-size: 70px
+                font-size: 60px
 
-                @media screen and (max-width: 900px)
-                    font-size: 55px
+                @media screen and (max-width: 1050px)
+                    font-size: 50px
 
                 @media screen and (max-width: 700px)
                     font-size: 45px
