@@ -53,6 +53,12 @@
                     in the world of computer engineering.
                 </p>
 
+                <p class="center-text registration">
+                    <a href="https://form.jotformeu.com/90643784572365" target="_blank">
+                        Register Here! <i class="fas fa-arrow-right"></i>
+                    </a>
+                </p>
+
                 <div class="sponsors">
                     <img src="/img/logo.png" alt="clic">
                     <img src="/img/epfl.png" alt="epfl">
@@ -260,11 +266,13 @@
     };
 
     let timetable = new Timetable();
+
     // Only display hours between 8 and 17
     timetable.setScope(8, 17);
 
     timetable.addLocations(['BC HALL', 'BC 420', 'BC 410', 'BC 129', 'BC 229', 'BC 329', 'BC 010', 'BC 133']);
 
+    // BC HALL events
     timetable.addEvent(
         'MIDDAY LUNCH', 'BC HALL', date(12, 0), date(13, 15), LUNCH_OPTIONS
     );
@@ -361,9 +369,9 @@
     timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
     timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
     timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
-    timetable.addEvent('RUBEN MERZ', room, date(11, 15), date(12, 0), MOCK_OPTIONS);
-    timetable.addEvent('RUBEN MERZ', room, date(13, 15), date(14, 0), MOCK_OPTIONS);
-    timetable.addEvent('RUBEN MERZ', room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
     timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
     timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
