@@ -48,8 +48,8 @@
             <div class="content padded-40">
                 <p class="center-text padded-40">
                     The CLIC is proud to present the 1st edition of the IC Boost Day, a day dedicated to your
-                    career in computer science! Come and try yourself in recruitment mock interviews, meet with alumnis,
-                    and join talks and panels! A unique occasion to prepare yourself to your professional future
+                    career in computer science! Come and try yourself in mock recruitment interviews, meet with alumni,
+                    and join talks and panels! A unique occasion to prepare yourself for your professional future
                     in the world of computer engineering.
                 </p>
 
@@ -66,7 +66,7 @@
             <div class="content padded-40 planning">
                 <h1>Activities</h1>
                 <div class="events-container">
-                    <div class="event">
+                    <div id="mock" class="event">
                         <div class="front">
                             <h3><i class="fas fa-handshake"></i> Mock Interviews</h3>
                         </div>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="lunch" class="event">
                         <div class="front">
                             <h3><i class="fas fa-utensils"></i> Midday Lunch</h3>
                         </div>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="coding-interview-talk" class="event">
                         <div class="front">
                             <h3><i class="fas fa-user-tie"></i> Talk</h3>
                         </div>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="internship-talk" class="event">
                         <div class="front">
                             <h3><i class="fas fa-user-tie"></i> Talk</h3>
                         </div>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="network-talk" class="event">
                         <div class="front">
                             <h3><i class="fas fa-user-tie"></i> Talk</h3>
                         </div>
@@ -147,7 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="phd-talk" class="event">
                         <div class="front">
                             <h3><i class="fas fa-chalkboard-teacher"></i> Panel</h3>
                         </div>
@@ -165,7 +165,7 @@
                         </div>
                     </div>
 
-                    <div class="event">
+                    <div id="womens-talk" class="event">
                         <div class="front">
                             <h3><i class="fas fa-chalkboard-teacher"></i> Panel</h3>
                         </div>
@@ -176,7 +176,7 @@
                                 A hurtful stereotype about our field is that it’s a sexist place.
                                 Sadly, we are far from having an equal proportion of men and women,
                                 even though the latter are just as capable.
-                                This panel will host Amina Chebira, ???, ??? and ???, women who successfully
+                                This panel will host Amina Chebira and other women who successfully
                                 completed their studies in IC, and are now working in the industry. Come listen to their story,
                                 the problems they faced and how they solved them.
                             </p>
@@ -240,100 +240,132 @@
 <script src="/vendor/timetable.js"></script>
 <script>
     /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
+
+    const YEAR = 2019;
+    const MONTH = 5;
+    const DAY = 2;
+
+    function date(hour, minute) {
+        return new Date(YEAR, MONTH, DAY, hour, minute);
+    }
+
+    const MOCK_OPTIONS = {
+        url: '#mock',
+        class: 'mock-entry'
+    };
+
+    const LUNCH_OPTIONS = {
+        url: '#lunch',
+        class: 'lunch-entry'
+    };
+
     let timetable = new Timetable();
     // Only display hours between 8 and 17
     timetable.setScope(8, 17);
 
     timetable.addLocations(['BC HALL', 'BC 420', 'BC 410', 'BC 129', 'BC 229', 'BC 329', 'BC 010', 'BC 133']);
 
-    const YEAR = 2019;
-    const MONTH = 5;
-    const DAY = 2;
-    function date(hour, minute) {
-        return new Date(YEAR, MONTH, DAY, hour, minute);
-    }
-
     timetable.addEvent(
-        'MIDDAY LUNCH', 'BC HALL', date(12, 0), date(13, 15)
+        'MIDDAY LUNCH', 'BC HALL', date(12, 0), date(13, 15), LUNCH_OPTIONS
     );
 
     // BC 420 events
     let room = 'BC 420';
     timetable.addEvent(
         'TALK How to prepare for a coding interview',
-        room, date(9, 15), date(10, 0)
+        room, date(9, 15), date(10, 0),
+        {
+            class: 'talk-entry',
+            url: '#coding-interview-talk'
+        }
     );
     timetable.addEvent(
         'TALK How to network (by Julien Perrochet)',
-        room, date(11, 15), date(12, 0)
+        room, date(11, 15), date(12, 0),
+        {
+            class: 'talk-entry',
+            url: '#network-talk'
+        }
     );
     timetable.addEvent(
-        'TALK What happens after a PhD',
-        room, date(14, 15), date(15, 0)
+        'PANEL What happens after a PhD',
+        room, date(14, 15), date(15, 0),
+        {
+            class: 'talk-entry',
+            url: '#phd-talk'
+        }
     );
 
     // BC 410 events
     room = 'BC 410';
     timetable.addEvent(
         'TALK How to make the most out of an internship',
-        room, date(10, 15), date(11, 0)
+        room, date(10, 15), date(11, 0),
+        {
+            class: 'talk-entry',
+            url: '#internship-talk'
+        }
     );
     timetable.addEvent(
-        'TALK Womens\' place in the IT industry',
-        room, date(15, 15), date(16, 0)
+        'PANEL Womens\' place in the IT industry',
+        room, date(15, 15), date(16, 0),
+        {
+            class: 'talk-entry',
+            url: '#womens-talk'
+        }
     );
 
     // BC 129 events
     let eventName = 'MOCK INTERVIEW';
     room = 'BC 129';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
-    timetable.addEvent(eventName, room, date(11, 15), date(12, 0));
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
     // BC 229 events
     room = 'BC 229';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
     // BC 329 events
     room = 'BC 329';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
     // BC 010 events
     room = 'BC 010';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
-    timetable.addEvent(eventName, room, date(11, 15), date(12, 0));
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0));
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0));
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
     // BC 133 events
     room = 'BC 133';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0));
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0));
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0));
-    timetable.addEvent('RUBEN MERZ', room, date(11, 15), date(12, 0));
-    timetable.addEvent('RUBEN MERZ', room, date(13, 15), date(14, 0));
-    timetable.addEvent('RUBEN MERZ', room, date(14, 15), date(15, 0));
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0));
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0));
+    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent('RUBEN MERZ', room, date(11, 15), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent('RUBEN MERZ', room, date(13, 15), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent('RUBEN MERZ', room, date(14, 15), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
 
     // Render timetable
     let renderer = new Timetable.Renderer(timetable);
