@@ -17,7 +17,7 @@ $timetable-heading-height: 30px !default
 $timetable-grid-color: #E5E5E5 !default
 $timetable-grid: 1px solid $timetable-grid-color !default
 $timetable-row-header-padding: 15px !default
-$timetable-row-header-color: #C6D7DE !default
+$timetable-row-header-color: #F6F6F6 !default
 $timetable-legend-row-separator: 1px solid white !default
 $timetable-entry-row-separator: none !default
 $timetable-row-header-gap: 5px solid transparent !default
@@ -25,7 +25,7 @@ $timetable-row-uneven-color: #FDFDFD !default
 $timetable-row-even-color: #F4F4F4 !default
 $timetable-entry-color: #5A5A5A !default
 $timetable-entry-color-hover: darken($timetable-entry-color, 10%) !default
-$timetable-entry-border: 1px solid darken($timetable-entry-color, 15%) !default
+$timetable-entry-border: none !default
 $timetable-entry-padding: 10px !default
 $timetable-background-color: white !default
 
@@ -207,4 +207,17 @@ $timetable-background-color: white !default
 
 		&:hover
 			background-color: $timetable-entry-color-hover
+
+	// Custom entries
+	.mock-entry
+		background-color: #ec6a5e
+
+	.talk-entry
+		background-color: #1f8ecb
+
+	.lunch-entry
+		background-color: #ff9933
+
+	.time-label
+		color: #778b93
 
