@@ -36,7 +36,7 @@
 
                     <div class="event-info">
                         <h1>Thursday <span>May 2nd 2019</span></h1>
-                        <h3>8 AM to 5 PM, BC Building, EPFL</h3>
+                        <h3>9 AM to 4 PM, BC Building, EPFL</h3>
                     </div>
                 </div> <!-- content-->
             </div> <!-- center -->
@@ -79,7 +79,7 @@
 
                         <div class="details">
                             <p>
-                                One of our key highlights : throughout the day, you will have the opportunity to take
+                                One of our key highlights: throughout the day, you will have the opportunity to take
                                 part in mock
                                 interviews, tailored for IC students. Recruiters from various companies such as Google
                                 and Swisscom will run simulated group interviews, at the end of which you will receive a
@@ -116,7 +116,7 @@
                             <p>
                                 Coding interviews are not an easy task and can be intimidating at first.
                                 This talk, by Damien Engels (former CLIC member now working at Google),
-                                will tell you all you need to know about them : how to prepare,
+                                will tell you all you need to know about them: how to prepare,
                                 how to approach them, and the best techniques for your success.
                             </p>
                         </div>
@@ -165,12 +165,12 @@
                             <h4>What happens after a PhD</h4>
                             <p>
                                 Obtaining a Master's degree will open many doors; one of which is completing a PhD.
-                                But many rumours run about this title : too skilled therefore unemployable ?
-                                The best profile in town ? Or a guaranteed career in academia ?
-                                We will host two points of view : Mohamed Kafsi has completed his PhD
+                                But many rumours run about this title: too skilled therefore unemployable?
+                                The best profile in town? Or a guaranteed career in academia?
+                                We will host two points of view: Mohamed Kafsi has completed his PhD
                                 and started working in the industry, while Prof. Grossglauser preferred staying in
                                 academia.
-                                Are you interested in a PhD ? You shouldn't miss this discussion!
+                                Are you interested in a PhD? You shouldn't miss this discussion!
                             </p>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                                 A hurtful stereotype about our field is that it is a sexist environment.
                                 Sadly, we are far from having an equal proportion of men and women,
                                 even though the latter are just as capable.
-                                This panel will host Amina Chebira and other women who successfully
+                                This panel will host, among others, Amina Chebira and Wendy Vanhonacker who successfully
                                 completed their studies in CS, and are now working in the industry. Come and listen to
                                 their
                                 story, the problems they faced and how they solved them.
@@ -224,7 +224,7 @@
                     <a href="https://www.facebook.com/clic.epfl/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://t.me/clicnews" target="_blank"><i class="fab fa-telegram"></i></a>
                 </div>
-                <p class="design">Original website design : Alexandre CHAU &amp; Loïc DROZ.</p>
+                <p class="design">Original website design: Alexandre CHAU &amp; Loïc DROZ.</p>
                 <p class="legal">
                     &copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly
                     prohibited
@@ -273,9 +273,9 @@
     let timetable = new Timetable();
 
     // Only display hours between 8 and 17
-    timetable.setScope(8, 17);
+    timetable.setScope(9, 16);
 
-    timetable.addLocations(['BC HALL', 'BC 420', 'BC 410', 'BC 129', 'BC 229', 'BC 329', 'BC 010', 'BC 133']);
+    timetable.addLocations(['BC HALL', 'BC 420', 'BC 410', 'BC 129', 'BC 010', 'BC 133']);
 
     // BC HALL events
     timetable.addEvent(
@@ -329,56 +329,41 @@
     );
 
     // BC 129 events
-    let eventName = 'MOCK INTERVIEW';
+    let eventName = 'MOCK INTVW';
     room = 'BC 129';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
-
-    // BC 229 events
-    room = 'BC 229';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
-
-    // BC 329 events
-    room = 'BC 329';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(10, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 40), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(11, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 40), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 40), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(14, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 40), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(15, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 40), date(16, 0), MOCK_OPTIONS);
 
     // BC 010 events
     room = 'BC 010';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(10, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 40), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(11, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 40), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 40), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(14, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 40), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(15, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 40), date(16, 0), MOCK_OPTIONS);
 
     // BC 133 events
     room = 'BC 133';
-    timetable.addEvent(eventName, room, date(8, 15), date(9, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(9, 15), date(10, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(10, 15), date(11, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(11, 15), date(12, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(13, 15), date(14, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(14, 15), date(15, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(15, 15), date(16, 0), MOCK_OPTIONS);
-    timetable.addEvent(eventName, room, date(16, 15), date(17, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 15), date(10, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(10, 40), date(11, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 15), date(11, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(11, 40), date(12, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(13, 40), date(14, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 15), date(14, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(14, 40), date(15, 0), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 15), date(15, 35), MOCK_OPTIONS);
+    timetable.addEvent(eventName, room, date(15, 40), date(16, 0), MOCK_OPTIONS);
 
     // Render timetable
     let renderer = new Timetable.Renderer(timetable);
