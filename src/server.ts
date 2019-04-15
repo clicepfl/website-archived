@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
     res.sendFile('static/index.html', { root: config.root })
 })
 // IC Boost day
-app.get(['/icbd', '/icboostday'], (req, res) => {
+app.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
     res.sendFile('static/icbd.html', { root: config.root })
 })
 // Static assets
