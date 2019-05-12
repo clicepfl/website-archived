@@ -38,6 +38,10 @@ app.get('/', (req, res) => {
 app.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
     res.sendFile('static/icbd.html', { root: config.root })
 })
+// About page
+app.get(['/about'], (req, res) => {
+    res.sendFile('static/about.html', { root: config.root })
+})
 // Static assets
 app.use(express.static('public/'))
 
