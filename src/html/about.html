@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <title>CLIC EPFL | L'Association</title>
+    <title>L'Association | CLIC</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vendor/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -55,7 +56,11 @@
             <div class="content padded-40 downloads">
                 <h1>Documents officiels</h1>
                 <ul class="padded-40">
-                    <li><a href="/files/statuts-clic-2019.pdf" target="_blank"><i class="fas fa-file-pdf"></i> (PDF) | Statuts de l'Association CLIC | Public</a></li>
+                    <li>
+                        <a href="/files/statuts-clic-2019.pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i> (PDF) | Statuts de l'association CLIC | Public
+                        </a>
+                    </li>
                 </ul>
             </div> <!-- content -->
         </div> <!-- center -->
@@ -87,5 +92,12 @@
         </div> <!-- center -->
     </div> <!-- wrapper -->
 </body>
+
+<script src="/js/animation.clic.js"></script>
+<script>
+    // animate footer background
+    const footer = document.getElementById('footer')
+    new AnimationClic.BackgroundDiagonalTranslation(footer, true, true)
+</script>
 
 </html>
