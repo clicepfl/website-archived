@@ -522,3 +522,60 @@ h4
 
     .footer
         background-color: #000
+
+#about
+    .downloads
+        .files
+            width: 80%
+            margin: 0 auto
+
+            display: flex
+            flex-flow: row wrap
+            align-items: stretch
+            justify-content: center
+
+            @media screen and (max-width: 600px)
+                flex-flow: column nowrap
+
+            a
+                width: 30%
+                margin: 10px
+                padding: 15px
+
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+
+                background-color: #e3ebef
+                border-radius: 5px
+                border-style: solid
+                border-color: $text-color
+                border-width: 1px
+
+                color: $text-color
+
+                @media screen and (max-width: 900px)
+                    width: 45%
+
+                @media screen and (max-width: 600px)
+                    margin: 10px auto
+                    width: 100%
+
+                span
+                    display: block
+                    width: 100%
+                    margin: 5px auto
+
+                span:first-child
+                    font-size: 40px
+                    margin-top: 0
+
+                span:nth-child(2)
+                    color: $navy-blue
+
+                span:last-child
+                   font-style: italic
+                   margin-bottom: 0
+
+            a:hover
+                background-color: #fff
