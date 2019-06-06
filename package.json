@@ -25,10 +25,10 @@
     "node-sass": "^4.12.0",
     "promise-sequential": "^1.1.1",
     "typedoc": "^0.14.2",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.1"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-sitemap": "^1.8.0"
   }
 }
