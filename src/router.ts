@@ -7,6 +7,8 @@
  */
 
 import express from 'express'
+import sitemap from 'express-sitemap'
+import { config } from './config'
 
 /// Create new router
 const router = express.Router()
@@ -28,6 +30,27 @@ router.get(['/about'], (req, res) => {
 // Static assets
 router.use(express.static('public/'))
 */
+
+/// Sitemap automatic generation
+const sm = sitemap({
+    generate: router,
+    http: config.protocol,
+    url: config.url,
+    route: {
+        '/': {
+            changefreq: 'always',
+            priority: 1.0
+        }
+    }
+})
+/// Sitemap main route
+router.get('/sitemap.xml', (req, res) => {
+    sm.XMLtoWeb(res)
+})
+/// Sitemap robots config route
+router.get('/robots.txt', (req, res) => {
+    sm.TXTtoWeb(res)
+})
 
 /// 404 handle
 /// Must be at the end of the routing list !

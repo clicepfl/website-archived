@@ -6,18 +6,7 @@
  * @author  Alexandre CHAU
  */
 
- import { app } from './index'
- import { config } from './config'
+ import { web } from './app'
 
-/**
- * Setup logging
- */
-
-// TODO
-
-/**
- * Start express server
- */
-app.listen(config.port, () => {
-    console.log(`Server started on port ${config.port}`)
-})
+ /// Start web service
+ web.run()
