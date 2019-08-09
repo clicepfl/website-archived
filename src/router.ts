@@ -29,9 +29,12 @@ router.get(['/about'], (req, res) => {
 })
 */
 
-/// Static assets
-/// ! Relative to root of project !
+/// Static assets !Relative to root of project!
+/// Compiled assets (styles, JS scripts, ...)
 router.use(express.static('dist/static/'))
+/// Vendor libraries assets
+router.use('/vendor', express.static('vendor/'))
+/// Other static assets (images, files, ...)
 router.use(express.static('assets/'))
 
 /// Sitemap automatic generation

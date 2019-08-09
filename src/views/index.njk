@@ -301,3 +301,14 @@
     </div>
     <!-- wrapper -->
 {% endblock %}
+
+{% block postBody %}
+    <script src="/vendor/wow.min.js"></script>
+    <script src="/vendor/timeline.min.js"></script>
+    <script>
+        // on-scroll reveal animation
+        new WOW().init()
+        // news timeline
+        timeline(document.querySelectorAll('.timeline'))
+    </script>
+{% endblock %}}
