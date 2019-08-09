@@ -7,8 +7,11 @@
  * @author  Alexandre CHAU
  */
 const gulp = require('gulp');
-const gulp_ts = require('gulp-typescript');
-const tsProject = gulp_ts.createProject('tsconfig.json');
+const gulpTs = require('gulp-typescript');
+const gulpSass = require('gulp-sass')
+gulpSass.compiler = require('node-sass')
+
+const DIST = 'dist/'
 
 /**
  * Define tasks as functions
@@ -17,15 +20,23 @@ const tsProject = gulp_ts.createProject('tsconfig.json');
 
 /// Compile typescript
 function typescript() {
-    return tsProject.src()
-        .pipe(tsProject())
-        .js.pipe(gulp.dest('dist'));
+    const gulpTsProject = gulpTs.createProject('tsconfig.json');
+    return gulpTsProject.src()
+        .pipe(gulpTsProject())
+        .js.pipe(gulp.dest(DIST));
+}
+
+/// Compile sass
+function sass() {
+    return gulp.src('src/sass/style.sass')
+        .pipe(gulpSass().on('error', gulpSass.logError))
+        .pipe(gulp.dest(`${DIST}/static/`))
 }
 
 /**
  * Final definition to run all tasks
  * Add additional tasks functions as parameter
  */
-const tasks = gulp.parallel(typescript)
+const tasks = gulp.parallel(typescript, sass)
 
 exports.default = tasks

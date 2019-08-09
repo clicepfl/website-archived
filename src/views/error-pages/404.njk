@@ -1,0 +1,43 @@
+{% extends "base.njk" %}
+
+{% block title %}404 Not Found{% endblock %}
+
+{# Override with empty header #}
+{% block header %}{% endblock %}
+
+{% block body %}
+    <div class="wrapper footer full-height" id="main">
+        <div class="center full-height">
+
+            <div class="content">
+                <img class="footer-logo" src="/img/logo_transparent.png" alt="logo"/>
+                <img class="footer-logo" src="/img/epfl.png" alt="epfl"/>
+
+                <div class="padded-40">
+                    <h1>Oh non! 404</h1>
+                    <p>Cette page n'existe pas.</p>
+                    <p>
+                        <a href="/">Retourner à l'accueil &raquo;</a>
+                    </p>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/clic.epfl/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://t.me/clicnews" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+                <p class="design">Original website design : Alexandre CHAU &amp; Loïc DROZ.</p>
+                <p class="legal">&copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly prohibited</p>
+            </div>
+            <!-- content -->
+        </div>
+        <!-- center -->
+    </div>
+    <!-- wrapper -->
+{% endblock %}
+
+{# Override with empty footer #}
+{% block footer %}{% endblock %}
