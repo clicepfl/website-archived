@@ -11,6 +11,7 @@ const config = {
     root: __dirname,
     protocol: 'https',
     url: 'clic.epfl.ch',
+    production: process.env.NODE_ENV === 'production',
 }
 
 export { config }

@@ -18,6 +18,9 @@ const app = express()
 nunjucks.configure('src/views/', {
     autoescape: true,
     express: app,
+    trimBlocks: true,
+    lstripBlocks: true,
+    noCache: !config.production,
 })
 
 /// Mount main router
@@ -27,13 +30,13 @@ app.use('/', router)
 /**
  * Setup logging
  */
-// TODO
+// TODO: initialize logging library
 
 /// Instance of this service
 const web = {
     run: function () {
         app.listen(config.port, () => {
-            console.log(`Server started on port ${config.port}`)
+            console.log(`Server started on port ${config.port} in ${config.production ? 'PRODUCTION' : 'DEBUG'} mode`)
         })
     }
 }
