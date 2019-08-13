@@ -24,7 +24,7 @@
     "ncp": "^2.0.0",
     "node-sass": "^4.12.0",
     "promise-sequential": "^1.1.1",
-    "typedoc": "^0.14.2",
+    "typedoc": "^0.15.0",
     "typescript": "^3.5.1"
   },
   "dependencies": {
