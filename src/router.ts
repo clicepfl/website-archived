@@ -1,8 +1,7 @@
 /**
- * Express main router : defines endpoints for modules
+ * Express main router, defines URL endpoints for modules
  * CLIC website software
  *
- * @file    Main entry point of the server
  * @author  Alexandre CHAU
  */
 
@@ -10,10 +9,10 @@ import express from 'express'
 import sitemap from 'express-sitemap'
 import { config } from './config'
 
-/// Create new router
+/** Fresh router instance */
 const router = express.Router()
 
-/// Homepage
+// Homepage
 router.get('/', (req, res) => {
     res.render('index.njk')
 })
@@ -29,15 +28,19 @@ router.get(['/about'], (req, res) => {
 })
 */
 
-/// Static assets !Relative to root of project!
-/// Compiled assets (styles, JS scripts, ...)
+/** 
+ * Static assets !Relative to root of project!
+ */
+// Compiled assets (styles, JS scripts, ...)
 router.use(express.static('dist/static/'))
-/// Vendor libraries assets
+// Vendor libraries assets
 router.use('/vendor', express.static('vendor/'))
-/// Other static assets (images, files, ...)
+// Other static assets (images, files, ...)
 router.use(express.static('assets/'))
 
-/// Sitemap automatic generation
+/**
+ * Sitemap automatic generation
+ */
 const sm = sitemap({
     generate: router,
     http: config.protocol,
@@ -49,19 +52,22 @@ const sm = sitemap({
         }
     }
 })
-/// Sitemap main route
+// Sitemap main route
 router.get('/sitemap.xml', (req, res) => {
     sm.XMLtoWeb(res)
 })
-/// Sitemap robots config route
+// Sitemap robots config route
 router.get('/robots.txt', (req, res) => {
     sm.TXTtoWeb(res)
 })
 
-/// 404 handle
-/// Must be at the end of the routing list !
+/**
+ * 404 handle
+ * MUST be at the end of the routing list !
+ */
 router.use((req, res, next) => {
     res.status(404).render('error-pages/404.njk')
 })
 
+/** Export router to mount in express server */
 export { router }

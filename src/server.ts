@@ -1,12 +1,11 @@
 /**
- * Main app entry point
+ * Main app entry point, run the compiled JS of this file to start the server
  * CLIC website software
- *
- * @file    Main entry point of the server
+ * 
  * @author  Alexandre CHAU
  */
 
- import { web } from './app'
+import WebService from './web'
 
- /// Start web service
- web.run()
+/** Initialize services */
+WebService.start()

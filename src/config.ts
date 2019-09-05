@@ -1,11 +1,9 @@
 /**
- * Server configuration
+ * Global configuration settings for the server
  * CLIC website software
  *
- * @file    Main entry point of the server
  * @author  Alexandre CHAU
  */
-
 const config = {
     port: 8000,
     root: __dirname,
@@ -14,4 +12,5 @@ const config = {
     production: process.env.NODE_ENV === 'production',
 }
 
+/** Export global server config settings */
 export { config }
