@@ -14,7 +14,7 @@ const router = express.Router()
 
 // Homepage
 router.get('/', (req, res) => {
-    res.render('index.njk')
+    res.render('templates/index.njk')
 })
 
 /**

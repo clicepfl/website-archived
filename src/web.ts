@@ -25,7 +25,7 @@ class WebService {
      */
     start() {
         // Express : setup template engine
-        nunjucks.configure('src/views/', {
+        nunjucks.configure('src/', { // Mount src/ as root for templates
             autoescape: true,
             express: this._app,
             trimBlocks: true,

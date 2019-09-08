@@ -13,11 +13,13 @@
     Contains default values for title, charset, fonts and stylesheets.
     WARNING: the macro DOES NOT define the <head> tag itself.
 
-    @example
-    {% import "templates/base.njk" as base %}
-    <head>
-        {% base.head(title = "My awesome overriden title") %}
-    </head>
+    @param  title   The <title> of the page
+
+    @example    Default usage of head with an overriden title
+        {% import "templates/base.njk" as base %}
+        <head>
+            {{ base.head(title = "My awesome overriden title") }}
+        </head>
 #}
 {% macro head(title = "CLIC EPFL") %}
     <title>{{title}}</title>
@@ -28,7 +30,26 @@
     <link href="/style.css" rel="stylesheet" type="text/css">
 {% endmacro %}
 
-{% block header %}
+{#
+    Header component
+    Inserts a full width header containing the logo and the menu
+
+    @param  append  An element to insert at the end of the header section
+                    You may need to specify the "| safe" filter at call site to
+                    disable escaping of HTML tags (WARNING: DO NOT use this
+                    filter on user-provided data as it allows XSS attacks)
+
+    @example    Insertion of the header with a slider appended
+        {% import "templates/base.njk" as base %}
+        {% set slider %}
+            <!-- NO user-provided strings in the whole definition -->
+            <div class="slider">
+                ...
+            </div>
+        {% endset %}
+        {{ base.header(append = slider | safe) }}
+#}
+{% macro header(append = "") %}
     <div class="wrapper slider">
         <div class="header">
             <div class="center">
@@ -48,16 +69,19 @@
                 </div>
             </div>
         </div>
-        <!-- header-->
-
-        {% block postHeader%}{% endblock %}
+        {{append}}
     </div>
-    <!-- wrapper -->
-{% endblock %}
+{% endmacro %}
 
-{% block body %}{% endblock %}
+{#
+    Footer component
+    Inserts a full width footer containing contact / social infos and credits
 
-{% block footer %}
+    @example    Inserts the footer
+        {% import "templates/base.njk" as base %}
+        {{ base.footer() }}
+#}
+{% macro footer() %}
     <div class="wrapper footer" id="footer">
         <div class="center">
             <div class="content">
@@ -84,9 +108,6 @@
                     &copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly prohibited
                 </p>
             </div>
-            <!-- content -->
         </div>
-        <!-- center -->
     </div>
-    <!-- wrapper -->
-{% endblock %}
+{% endmacro %}

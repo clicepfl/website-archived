@@ -3,7 +3,6 @@
  * Defines all tasks to compile the server software
  * CLIC website software
  *
- * @file    Main entry point of the server
  * @author  Alexandre CHAU
  */
 const gulp = require('gulp');
