@@ -2,6 +2,9 @@
  * Express main router, defines URL endpoints for modules
  * CLIC website software
  *
+ * URL mount points are relative to the base URL (i.e. URL defined at
+ * {@link config.ts} as config.url is root mount point "/")
+ *
  * @author  Alexandre CHAU
  */
 
@@ -28,15 +31,40 @@ router.get(['/about'], (req, res) => {
 })
 */
 
-/** 
- * Static assets !Relative to root of project!
+/**
+ * Compiled assets (styles, JS scripts, ...)
+ * Local links relative to root of project
+ * The following mounts generated assets in "dist/static" to "/static"
+ *
+ * @example
+ * File "src/sass/style.sass" is compiled into "dist/static/style.css" and
+ * hence mounted at URL "/static/style.css"
  */
-// Compiled assets (styles, JS scripts, ...)
-router.use(express.static('dist/static/'))
-// Vendor libraries assets
+router.use('/static', express.static('dist/static/'))
+
+/**
+ * Vendor libraries assets (downloaded distributable files)
+ * Local links relative to root of project
+ * The following mounts vendor assets in folder "vendor" to "/vendor"
+ *
+ * @example
+ * Library file downloaded into "vendor/foo.js" is mounted at URL
+ * "/vendor/foo.js"
+ */
 router.use('/vendor', express.static('vendor/'))
-// Other static assets (images, files, ...)
-router.use(express.static('assets/'))
+
+/**
+ * Other static assets (images, files, general assets, ...)
+ * Local links relative to root of project
+ * The following mounts general assets in folder "assets/" to "/"
+ *
+ * @example
+ * Asset "assets/foo.png" is mounted at URL "/foo.png"
+ *
+ * @warning "assets/img/logo.png" MUST be kept at URL "/img/logo.png" even if it
+ * requires adding an additional routing rule to preserve it!
+ */
+router.use("/", express.static('assets/'))
 
 /**
  * Sitemap automatic generation
