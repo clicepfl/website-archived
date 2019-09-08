@@ -7,7 +7,7 @@
 
 import express from 'express'
 import nunjucks from 'nunjucks'
-import Logger from './logger'
+import { logger } from './logger'
 import { router } from './router'
 import { config } from './config'
 
@@ -37,11 +37,11 @@ class WebService {
         this._app.use('/', router)
 
         // Logger : initialize
-        Logger.init()
+        logger.init()
 
         // Express : start the HTTP server
         this._app.listen(config.port, () => {
-            Logger.log(`Web server started on port ${config.port} in ${config.production ? 'PRODUCTION' : 'DEBUG'} mode`)
+            logger.log(`Web server started on port ${config.port} in ${config.production ? 'PRODUCTION' : 'DEBUG'} mode`)
         })
     }
 }
@@ -49,4 +49,5 @@ class WebService {
 /**
  * Export a single instance of the web service
  */
-export default new WebService()
+const webService = new WebService()
+export { webService }

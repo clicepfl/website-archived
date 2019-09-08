@@ -25,4 +25,5 @@ class Logger {
 /**
  * Export a single instance of the logger service
  */
-export default new Logger()
+const logger = new Logger()
+export { logger }

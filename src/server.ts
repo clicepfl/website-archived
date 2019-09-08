@@ -5,7 +5,7 @@
  * @author  Alexandre CHAU
  */
 
-import WebService from './web'
+import { webService } from './web'
 
 /** Initialize services */
-WebService.start()
+webService.start()

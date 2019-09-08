@@ -11,14 +11,13 @@
 import express from 'express'
 import sitemap from 'express-sitemap'
 import { config } from './config'
+import { homePage } from './pages/home/home'
 
 /** Fresh router instance */
 const router = express.Router()
 
 // Homepage
-router.get('/', (req, res) => {
-    res.render('templates/index.njk')
-})
+router.get('/', homePage.render)
 
 /**
 /// IC Boost day
