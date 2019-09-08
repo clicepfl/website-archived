@@ -27,19 +27,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="/static/style.css" rel="stylesheet" type="text/css">
 {% endmacro %}
 
 {#
     Header component
     Inserts a full width header containing the logo and the menu
 
+    @param tab  String indicating which menu tab should be marked as current
+                Possible values : "home", "about" (add tabs if required)
+
     @param  append  An element to insert at the end of the header section
                     You may need to specify the "| safe" filter at call site to
                     disable escaping of HTML tags (WARNING: DO NOT use this
                     filter on user-provided data as it allows XSS attacks)
 
-    @example    Insertion of the header with a slider appended
+    @example    Insertion of header, marking home tab and with appended slider
         {% import "templates/base.njk" as base %}
         {% set slider %}
             <!-- NO user-provided strings in the whole definition -->
@@ -47,9 +50,9 @@
                 ...
             </div>
         {% endset %}
-        {{ base.header(append = slider | safe) }}
+        {{ base.header(tab = "home", append = slider | safe) }}
 #}
-{% macro header(append = "") %}
+{% macro header(tab = "", append = "") %}
     <div class="wrapper slider">
         <div class="header">
             <div class="center">
@@ -59,10 +62,10 @@
 
                 <div class="menu">
                     <ul>
-                        <li class="current">
+                        <li {% if tab == "home" %}class="current"{% endif %}>
                             <a href="/">Accueil</a>
                         </li>
-                        <li>
+                        <li {% if tab == "about" %}class="current"{% endif %}>
                             <a href="/about">L'Association</a>
                         </li>
                     </ul>
