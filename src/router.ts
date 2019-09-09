@@ -12,12 +12,26 @@ import express from 'express'
 import sitemap from 'express-sitemap'
 import { config } from './config'
 import { homePage } from './pages/home/home'
+import { sponsorsRouter } from './components/sponsors/sponsors-router'
 
 /** Fresh router instance */
 const router = express.Router()
 
-// Homepage
+/**
+ * Homepage
+ */
 router.get('/', homePage.render)
+
+/**
+ * Sponsors router
+ * Routes defined in {@link components/sponsors/sponsors-router.ts} will be
+ * relative to the /sponsors mount point
+ *
+ * @example
+ * Route defined at "/foo" in components/sponsors/sponsors-router.ts will be
+ * mounted at final URL "/sponsors/foo"
+ */
+router.use("/sponsors", sponsorsRouter)
 
 /**
 /// IC Boost day
