@@ -19,7 +19,7 @@
     @param  title   The <title> of the page
 
     @example    Default usage of head with an overriden title
-        {% import "components/base.njk" as base %}
+        {% import "components/base-view.njk" as base %}
         <head>
             {{ base.head(title = "My awesome overriden title") }}
         </head>
@@ -46,7 +46,7 @@
                     filter on user-provided data as it allows XSS attacks)
 
     @example    Insertion of header, marking home tab and with appended slider
-        {% import "components/base.njk" as base %}
+        {% import "components/base-view.njk" as base %}
         {% set slider %}
             <!-- NO user-provided strings in the whole definition -->
             <div class="slider">
@@ -84,7 +84,7 @@
     Inserts a full width footer containing contact / social infos and credits
 
     @example    Inserts the footer
-        {% import "components/base.njk" as base %}
+        {% import "components/base-view.njk" as base %}
         {{ base.footer() }}
 #}
 {% macro footer() %}
