@@ -14,7 +14,7 @@ import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
  * Properties of this class are directly used in template {@link home-view.njk}
  */
 class HomeViewModel {
-    sponsors: Sponsor[] = sponsorsComponent.listValid()
+    sponsorsList: Sponsor[] = sponsorsComponent.listValid()
 }
 
 /**

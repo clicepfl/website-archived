@@ -3,36 +3,42 @@
         "name": "Fairtiq",
         "websiteURL": "https://fairtiq.com/",
         "imageURL": "/sponsors/fairtiq.png",
+        "imageStyles": null,
         "expiration": null
     },
     {
         "name": "Junior Entreprise",
         "websiteURL": "https://je.epfl.ch/",
         "imageURL": "/sponsors/je.png",
+        "imageStyles": "height: 100px;",
         "expiration": null
     },
     {
         "name": "agepoly",
         "websiteURL": "https://www.agepoly.ch/",
         "imageURL": "/sponsors/agepoly.png",
+        "imageStyles": null,
         "expiration": null
     },
     {
         "name": "AdNovum",
         "websiteURL": "https://www.adnovum.ch/",
         "imageURL": "/sponsors/adnovum.png",
+        "imageStyles": null,
         "expiration": null
     },
     {
         "name": "Together AG",
         "websiteURL": "https://together.ch/",
         "imageURL": "/sponsors/together.png",
+        "imageStyles": null,
         "expiration": null
     },
     {
         "name": "Bühler Group",
         "websiteURL": "https://www.buhlergroup.com/",
         "imageURL": "/sponsors/buhler.png",
+        "imageStyles": null,
         "expiration": null
     }
 ]

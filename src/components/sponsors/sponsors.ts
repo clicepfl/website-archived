@@ -12,19 +12,22 @@ import data from './sponsors-list.json'
  * @member name The name of the sponsor
  * @member websiteURL The website of the sponsor
  * @member imageURL The exposed URL of the sponsor's logo ex: /sponsors/logo.png
+ * @member imageStyles Inline CSS to apply to the logo image
  * @member expiration The optional expiration date for this sponsorship contract
  */
 class Sponsor {
     name: string
     websiteURL: string
     imageURL: string
+    imageStyles: string
     expiration?: Date
 
     constructor(name: string, websiteURL: string, imageURL: string,
-        expiration?: Date) {
+        imageStyles: string, expiration?: Date) {
         this.name = name
         this.websiteURL = websiteURL
         this.imageURL = imageURL
+        this.imageStyles = imageStyles
         this.expiration = expiration
     }
 
@@ -40,7 +43,7 @@ class Sponsor {
             console.log(message)
             throw new Error(message)
         } else {
-            return new Sponsor(data.name, data.websiteURL, data.imageURL, data.expiration === null ?
+            return new Sponsor(data.name, data.websiteURL, data.imageURL, data.imageStyles, data.expiration === null ?
                 null : new Date(
                     data.expiration.year,
                     data.expiration.month - 1, // JS's annoying month format
@@ -66,6 +69,8 @@ class Sponsor {
             data.websiteURL !== undefined && typeof data.websiteURL === "string" &&
             // check has property imageURL of type string
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
+            // check has property imageStyles, either null or of type string
+            data.imageStyles !== undefined && (data.imageStyles === null || typeof data.imageStyles === "string") &&
             // check has property expiration
             data.expiration !== undefined && (
                 // check expiration can be null
