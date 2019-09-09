@@ -17,7 +17,11 @@ const DIST = 'dist/'
  * (see https://gulpjs.com/)
  */
 
-/// Compile typescript
+/**
+ * Compile typescript
+ * This compiles all .ts sources in src/ and compile them into dist/. The
+ * typescript compiler is configured with the {@link tsconfig.json} file
+ */
 function typescript() {
     const gulpTsProject = gulpTs.createProject('tsconfig.json');
     return gulpTsProject.src()
@@ -25,7 +29,11 @@ function typescript() {
         .js.pipe(gulp.dest(DIST));
 }
 
-/// Compile sass
+/**
+ * Compile sass
+ * This compiles style definitions in src/sass/style.sass (and imports) into
+ * dist/static/style.css
+ */
 function sass() {
     return gulp.src('src/sass/style.sass')
         .pipe(gulpSass().on('error', gulpSass.logError))
