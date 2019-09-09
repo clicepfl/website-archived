@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es6",
@@ -8,6 +9,7 @@
         "sourceMap": true,
         "outDir": "dist",
         "baseUrl": ".",
+        "resolveJsonModule": true,
         "paths": {
             "*": [
                 "node_modules/*",
@@ -18,5 +20,5 @@
     "include": [
         "src/*",
         "src/**/*"
-    ],
+    ]
 }

@@ -5,8 +5,8 @@
  *
  * @author  Alexandre CHAU
  */
-const gulp = require('gulp');
-const gulpTs = require('gulp-typescript');
+const { exec } = require('child_process')
+const gulp = require('gulp')
 const gulpSass = require('gulp-sass')
 gulpSass.compiler = require('node-sass')
 
@@ -22,11 +22,17 @@ const DIST = 'dist/'
  * This compiles all .ts sources in src/ and compile them into dist/. The
  * typescript compiler is configured with the {@link tsconfig.json} file
  */
-function typescript() {
-    const gulpTsProject = gulpTs.createProject('tsconfig.json');
-    return gulpTsProject.src()
-        .pipe(gulpTsProject())
-        .js.pipe(gulp.dest(DIST));
+function typescript(callback) {
+    /**
+     * We are NOT using gulp-typescript because of a bug when using JSON
+     * modules: the JSON module files are not copied to output dist directory
+     * See https://github.com/ivogabe/gulp-typescript/issues/609
+     */
+    exec('npx tsc', (err, stdout, stderr) => {
+        console.log(stdout)
+        console.log(stderr)
+        callback(err)
+    })
 }
 
 /**

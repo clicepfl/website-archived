@@ -7,26 +7,28 @@
 
 import { Page } from '../page'
 import { Request, Response } from 'express'
+import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
 
 /**
  * View model that binds the data to the template for the home page
  * Properties of this class are directly used in template {@link home-view.njk}
  */
 class HomeViewModel {
-
+    sponsors: Sponsor[] = sponsorsComponent.listValid()
 }
 
 /**
  * Home page class, defines actions for the home page
  */
 class HomePage extends Page {
-    // template path is relative to src/ as defined in web.ts
-    private static template = "pages/home/home-view.njk"
-    private static viewModel = new HomeViewModel()
-
     /** @inheritdoc */
     render(req: Request, res: Response) {
-        res.render(HomePage.template, HomePage.viewModel)
+        // template path is relative to src/ as defined in web.ts
+        const template = "pages/home/home-view.njk"
+        // must re-generate viewmodel for every request (may change over time)
+        const viewModel = new HomeViewModel()
+
+        res.render(template, viewModel)
     }
 }
 
