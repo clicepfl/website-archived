@@ -20,6 +20,7 @@
   "homepage": "https://github.com/clicepfl/clic-website#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-minify-html-2": "^1.0.1",
     "express-sitemap": "^1.8.0",
     "nunjucks": "^3.2.0"
   },

@@ -7,6 +7,7 @@
 
 import express from 'express'
 import nunjucks from 'nunjucks'
+import minifyHTML from 'express-minify-html-2'
 import { logger } from './logger'
 import { router } from './router'
 import { config } from './config'
@@ -32,6 +33,20 @@ class WebService {
             lstripBlocks: true,
             noCache: !config.production, // Do not use cache when in DEBUG mode
         })
+
+        // Express : setup HTML minifier
+        this.app.use(minifyHTML({
+            override: true,
+            exception_url: false,
+            htmlMinifier: {
+                removeComments: true,
+                collapseWhitespace: true,
+                collapseBooleanAttributes: true,
+                removeAttributeQuotes: false,
+                removeEmptyAttributes: true,
+                minifyJS: true
+            }
+        }))
 
         // Express : mount main router
         this.app.use('/', router)
