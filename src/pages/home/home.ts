@@ -21,12 +21,12 @@ class HomeViewModel {
  */
 class HomePage extends Page {
     // template path is relative to src/ as defined in web.ts
-    template = "pages/home/home.njk"
-    viewModel = new HomeViewModel()
+    private static template = "pages/home/home.njk"
+    private static viewModel = new HomeViewModel()
 
     /** @inheritdoc */
     render(req: Request, res: Response) {
-        res.render(this.template, this.viewModel)
+        res.render(HomePage.template, HomePage.viewModel)
     }
 }
 

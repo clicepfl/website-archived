@@ -18,7 +18,7 @@ import { config } from './config'
  */
 class WebService {
     /** Express app instance */
-    _app = express()
+    private readonly app = express()
 
     /**
      * Configures and initializes all the previously defined web services
@@ -27,20 +27,20 @@ class WebService {
         // Express : setup template engine
         nunjucks.configure('src/', { // Mount src/ as root for templates
             autoescape: true,
-            express: this._app,
+            express: this.app,
             trimBlocks: true,
             lstripBlocks: true,
             noCache: !config.production, // Do not use cache when in DEBUG mode
         })
 
         // Express : mount main router
-        this._app.use('/', router)
+        this.app.use('/', router)
 
         // Logger : initialize
         logger.init()
 
         // Express : start the HTTP server
-        this._app.listen(config.port, () => {
+        this.app.listen(config.port, () => {
             logger.log(`Web server started on port ${config.port} in ${config.production ? 'PRODUCTION' : 'DEBUG'} mode`)
         })
     }
