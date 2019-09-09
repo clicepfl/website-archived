@@ -5,6 +5,7 @@
  * @author  Alexandre CHAU
  */
 import data from './sponsors-list.json'
+import { logger } from '../../logger.js'
 
 /**
  * This class represents a Sponsor data type
@@ -40,7 +41,7 @@ class Sponsor {
     static fromAny(data: any): Sponsor {
         if (!Sponsor.is(data)) {
             const message = `Cannot cast data to type Sponsor : wrong shape ${JSON.stringify(data)}`
-            console.log(message)
+            logger.log(message)
             throw new Error(message)
         } else {
             return new Sponsor(data.name, data.websiteURL, data.imageURL, data.imageStyles, data.expiration === null ?
