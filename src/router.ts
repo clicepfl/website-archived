@@ -13,6 +13,7 @@ import sitemap from 'express-sitemap'
 import { config } from './config'
 import { homePage } from './pages/home/home'
 import { sponsorsRouter } from './components/sponsors/sponsors-router'
+import { committeeRouter } from './components/committee/committee-router'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -32,6 +33,17 @@ router.get('/', homePage.render)
  * mounted at final URL "/sponsors/foo"
  */
 router.use("/sponsors", sponsorsRouter)
+
+/**
+ * Committee router
+ * Routes defined in {@link components/committee/committee-router.ts} will be
+ * relative to the /committee mount point
+ *
+ * @example
+ * Route defined at "/foo" in components/committee/committee-router.ts wil be
+ * mounted at final URL "/committee/foo"
+ */
+router.use("/committee", committeeRouter)
 
 /**
 /// IC Boost day

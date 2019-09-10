@@ -8,6 +8,7 @@
 import { Page } from '../page'
 import { Request, Response } from 'express'
 import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
+import { Staff, committeeComponent } from '../../components/committee/committee'
 
 /**
  * View model that binds the data to the template for the home page
@@ -15,6 +16,7 @@ import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
  */
 class HomeViewModel {
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
+    committeeList: Staff[] = committeeComponent.list()
 }
 
 /**

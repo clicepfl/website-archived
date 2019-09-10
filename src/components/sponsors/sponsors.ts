@@ -1,11 +1,11 @@
 /**
- * Defines sponsors logic, datatypes and storage
+ * This module defines sponsors logic, datatypes and storage
  * CLIC website software
  *
  * @author  Alexandre CHAU
  */
 import data from './sponsors-list.json'
-import { logger } from '../../logger.js'
+import { logger } from '../../logger'
 
 /**
  * This class represents a Sponsor data type
@@ -20,7 +20,7 @@ class Sponsor {
     name: string
     websiteURL: string
     imageURL: string
-    imageStyles: string
+    imageStyles?: string
     expiration?: Date
 
     constructor(name: string, websiteURL: string, imageURL: string,
@@ -37,6 +37,7 @@ class Sponsor {
      *
      * @param   data    Object to convert to a Sponsor
      * @throws  errors if input data is not of the correct shape
+     * @warning Modify this method if the properties of the class are changed!
      */
     static fromAny(data: any): Sponsor {
         if (!Sponsor.is(data)) {

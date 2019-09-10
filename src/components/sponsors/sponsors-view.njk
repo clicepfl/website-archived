@@ -20,7 +20,7 @@
 
     @example    Inserts the list of logos, data in the view model is Sponsor[]
         {% import "components/sponsors/sponsors-view.njk" as sponsors %}
-        {{ sponsors.logoImages(sponsorsList = data)}}
+        {{ sponsors.logoImages(sponsorsList = data) }}
 #}
 {% macro logoImages(sponsorsList) %}
     <div class="sponsors">
