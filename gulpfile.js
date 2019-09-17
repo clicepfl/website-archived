@@ -6,6 +6,7 @@
  * @author  Alexandre CHAU
  */
 const { exec } = require('child_process')
+const del = require('del')
 const gulp = require('gulp')
 const gulpSass = require('gulp-sass')
 gulpSass.compiler = require('node-sass')
@@ -16,6 +17,14 @@ const DIST = 'dist/'
  * Define tasks as functions
  * (see https://gulpjs.com/)
  */
+
+/**
+ * Clean dist folder
+ * This removes previous builds in dist/
+ */
+function clean() {
+    return del('dist/')
+}
 
 /**
  * Compile typescript
@@ -47,9 +56,20 @@ function sass() {
 }
 
 /**
- * Final definition to run all tasks
+ * Parallel compilation tasks
+ * Add additional tasks functions as parameter
+ * ! Do not parallelize tasks that are part of the same pipeline !
+ */
+const compile = gulp.parallel(typescript, sass)
+
+/**
+ * Default task
  * Add additional tasks functions as parameter
  */
-const tasks = gulp.parallel(typescript, sass)
+const tasks = gulp.series(clean, compile)
 
+/**
+ * Export tasks, available through gulp [command]
+ */
 exports.default = tasks
+exports.clean = clean
