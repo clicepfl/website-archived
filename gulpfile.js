@@ -56,11 +56,21 @@ function sass() {
 }
 
 /**
+ * Deploy news content
+ * This copies the files in src/components/news/content into
+ * dist/components/news/content
+ */
+function newsContent() {
+    return gulp.src('src/components/news/content/**/*')
+        .pipe(gulp.dest('dist/components/news/content/'))
+}
+
+/**
  * Parallel compilation tasks
  * Add additional tasks functions as parameter
  * ! Do not parallelize tasks that are part of the same pipeline !
  */
-const compile = gulp.parallel(typescript, sass)
+const compile = gulp.parallel(typescript, sass, newsContent)
 
 /**
  * Default task

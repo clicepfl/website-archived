@@ -12,7 +12,7 @@ import { logger } from '../../logger'
 /**
  * News data type
  *
- * @member id Unique integer identifier
+ * @member id Unique identifier
  * @member title Title of the news
  * @member date Date of publication
  * @member author Name of the author
@@ -21,7 +21,7 @@ import { logger } from '../../logger'
  * @member body HTML main content
  */
 class News {
-    id: number
+    id: string
     title: string
     date: Date
     author: string
@@ -29,7 +29,7 @@ class News {
     shortText: string
     body: string
 
-    constructor(id: number, title: string, date: Date, author: string, image: string, shortText: string, body: string) {
+    constructor(id: string, title: string, date: Date, author: string, image: string, shortText: string, body: string) {
         this.id = id
         this.title = title
         this.date = date
@@ -77,7 +77,7 @@ class News {
     static is(data: any): boolean {
         return (
             data !== undefined && data !== null &&
-            data.id !== undefined && typeof data.id === "number" &&
+            data.id !== undefined && typeof data.id === "string" &&
             data.title !== undefined && typeof data.title === "string" &&
             data.date !== undefined && (
                 data.date.day !== undefined && typeof data.data.day === "number" &&
@@ -98,7 +98,7 @@ class News {
  */
 class NewsComponent {
     /** list of all news IDs */
-    private static readonly newsIDs: Array<number> = NewsComponent._loadIDs()
+    private static readonly newsIDs: Array<string> = NewsComponent._loadIDs()
     /** hold news data in memory */
     private static readonly news: Array<News> = NewsComponent._loadNews()
 
@@ -113,12 +113,12 @@ class NewsComponent {
     /**
      * Retrieves all news IDs from storage in content/ folder
      */
-    private static _loadIDs(): Array<number> {
+    private static _loadIDs(): Array<string> {
         // list from storage
         const contentPath = path.resolve(__dirname, "content/")
         const newsIDs = fs.readdirSync(contentPath, { withFileTypes: true })
             .filter(dirent => dirent.isDirectory())
-            .map(dirent => parseInt(dirent.name))
+            .map(dirent => dirent.name)
         return newsIDs.sort()
     }
 
@@ -145,7 +145,7 @@ class NewsComponent {
                 logger.log(msg)
                 throw new Error(msg)
             }
-            const md = fs.readFileSync(mdPath, {encoding: 'utf8'})
+            const md = fs.readFileSync(mdPath, { encoding: 'utf8' })
 
             // convert markdown and assign to builder
             const converter = new showdown.Converter()
@@ -161,4 +161,4 @@ class NewsComponent {
  * Export a single instance of the news component
  */
 const newsComponent = new NewsComponent()
-export { newsComponent }
+export { News, newsComponent }
