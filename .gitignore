@@ -2,3 +2,13 @@
 node_modules/
 # Ignore dist folder, should be compiled
 dist/
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -32,7 +32,7 @@ class Staff {
      * Builds a Staff from any Object that has the correct shape
      *
      * @param   data    Object to convert to Staff
-     * @throws  erros if input data is not of the correct shape
+     * @throws  errors if input data is not of the correct shape
      * @warning Modify this method if the properties of the class are changed!
      */
     static fromAny(data: any): Staff {
