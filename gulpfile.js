@@ -88,3 +88,5 @@ const tasks = gulp.series(clean, compile)
  */
 exports.default = tasks
 exports.clean = clean
+exports.ts = typescript
+exports.sass = sass

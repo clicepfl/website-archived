@@ -137,7 +137,7 @@ class NewsComponent {
         const newsIDs = fs.readdirSync(contentPath, { withFileTypes: true })
             .filter(dirent => dirent.isDirectory())
             .map(dirent => dirent.name)
-        return newsIDs.sort()
+        return newsIDs.sort().reverse()
     }
 
     /**

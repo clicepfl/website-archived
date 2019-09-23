@@ -14,6 +14,7 @@ import { config } from './config'
 import { homePage } from './pages/home/home-page'
 import { sponsorsRouter } from './components/sponsors/sponsors-router'
 import { committeeRouter } from './components/committee/committee-router'
+import { newsRouter } from './components/news/news-router'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -40,10 +41,21 @@ router.use("/sponsors", sponsorsRouter)
  * relative to the /committee mount point
  *
  * @example
- * Route defined at "/foo" in components/committee/committee-router.ts wil be
+ * Route defined at "/foo" in components/committee/committee-router.ts will be
  * mounted at final URL "/committee/foo"
  */
 router.use("/committee", committeeRouter)
+
+/**
+ * News router
+ * Routes defined in {@link components/news/news-router.ts} will be relative
+ * to the /news mount point
+ *
+ * @example
+ * Route defined at "/foo" in components/news/news-router.ts will be mounted
+ * at final URL "/news/foo"
+ */
+router.use("/news", newsRouter)
 
 /**
 /// IC Boost day

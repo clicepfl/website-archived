@@ -11,7 +11,7 @@
  */
 import express from 'express'
 import { newsComponent } from './news'
-import { NewsPage } from '../../pages/news/news-page'
+import { NewsPage } from '../../pages/news-page/news-page'
 
 /** News data */
 const news = newsComponent.list()
@@ -39,7 +39,7 @@ news.forEach(news => {
  * at final URL route "/news/01/foo.png"
  */
 news.forEach(news => {
-    newsRouter.use(`/${news.id}/`, express.static(`src/components/news/content/${news.id}/assets`))
+    newsRouter.use(`/${news.id}`, express.static(`src/components/news/content/${news.id}/assets`))
 })
 
 /** Export committe router to mount in main router */

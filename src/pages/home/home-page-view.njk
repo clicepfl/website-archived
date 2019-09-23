@@ -16,7 +16,6 @@
     <head>
         {{ base.head(title = "CLIC EPFL | Association des étudiants Informatique et Systèmes de communication") }}
         <link rel="stylesheet" href="/vendor/animate.css">
-        <link href="/vendor/timeline.min.css" rel="stylesheet"/>
     </head>
 
     <body>
@@ -71,7 +70,9 @@
                 <div class="content padded-40">
                     <h1>News</h1>
 
-                    {{ news.newsCards(news = lastNewsList) }}
+                    <div class="news padded-40">
+                        {{ news.newsCards(news = lastNewsList) }}
+                    </div>
                 </div>
                 <!-- content -->
             </div>
@@ -123,11 +124,8 @@
     </body>
 
     <script src="/vendor/wow.min.js"></script>
-    <script src="/vendor/timeline.min.js"></script>
     <script>
         // on-scroll reveal animation
         new WOW().init()
-        // news timeline
-        timeline(document.querySelectorAll('.timeline'))
     </script>
 </html>
