@@ -18,7 +18,7 @@ import { News, newsComponent } from '../../components/news/news'
 class HomeViewModel {
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
     committeeList: Staff[] = committeeComponent.list()
-    lastNewsList: News[] = newsComponent.getLast(3)
+    lastNewsList: News[] = newsComponent.getLast(3).map(news => news.withFormattedDate('fr'))
 }
 
 /**

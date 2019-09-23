@@ -66,7 +66,7 @@ function createNewsDest(callback) {
     mkdirp(newsDest, callback)
 }
 function copyNewsContent() {
-    return gulp.src(newsDest + '**/*').pipe(gulp.dest(newsDest))
+    return gulp.src('src/components/news/content/**/*').pipe(gulp.dest(newsDest))
 }
 const newsContent = gulp.series(createNewsDest, copyNewsContent)
 

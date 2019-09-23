@@ -6,6 +6,7 @@
  */
 import fs from 'fs'
 import path from 'path'
+import moment from 'moment'
 import showdown from 'showdown'
 import { logger } from '../../logger'
 
@@ -23,7 +24,7 @@ import { logger } from '../../logger'
 class News {
     id: string
     title: string
-    date: Date
+    date: Date | string
     author: string
     image: string
     shortText: string
@@ -48,7 +49,7 @@ class News {
      */
     static fromAny(data: any): News {
         if (!News.is(data)) {
-            const message = `Cannot cast data to type Message : wrong shape ${JSON.stringify(data)}`
+            const message = `Cannot cast data to type News : wrong shape ${JSON.stringify(data)}`
             logger.log(message)
             throw new Error(message)
         } else {
@@ -80,7 +81,7 @@ class News {
             data.id !== undefined && typeof data.id === "string" &&
             data.title !== undefined && typeof data.title === "string" &&
             data.date !== undefined && (
-                data.date.day !== undefined && typeof data.data.day === "number" &&
+                data.date.day !== undefined && typeof data.date.day === "number" &&
                 data.date.month !== undefined && typeof data.date.month === "number" &&
                 data.date.year !== undefined && typeof data.date.year === "number"
             ) &&
@@ -89,6 +90,16 @@ class News {
             data.shortText !== undefined && typeof data.shortText === "string" &&
             data.body !== undefined && typeof data.body === "string"
         )
+    }
+
+    /**
+     * Returns a news with a formatted date by tranforming its date property
+     * @param locale Locale
+     */
+    withFormattedDate(locale: string): News {
+        const mod = Object.assign({}, this)
+        mod.date = moment(this.date).locale(locale).format("LL")
+        return mod
     }
 }
 
@@ -144,6 +155,7 @@ class NewsComponent {
             }
             // load meta into fresh builder
             const builder: any = require(metaPath)
+            builder.id = newsID
 
             // read Markdown file
             const mdPath = path.resolve(__dirname, `content/${newsID}/body.md`)
