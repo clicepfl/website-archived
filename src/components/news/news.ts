@@ -111,6 +111,13 @@ class NewsComponent {
     }
 
     /**
+     * Returns all news in fresh array
+     */
+    list(): Array<News> {
+        return Object.assign([], NewsComponent.news)
+    }
+
+    /**
      * Retrieves all news IDs from storage in content/ folder
      */
     private static _loadIDs(): Array<string> {

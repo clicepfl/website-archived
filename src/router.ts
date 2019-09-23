@@ -11,7 +11,7 @@
 import express from 'express'
 import sitemap from 'express-sitemap'
 import { config } from './config'
-import { homePage } from './pages/home/home'
+import { homePage } from './pages/home/home-page'
 import { sponsorsRouter } from './components/sponsors/sponsors-router'
 import { committeeRouter } from './components/committee/committee-router'
 
@@ -119,7 +119,7 @@ router.get('/robots.txt', (req, res) => {
  * MUST be at the end of the routing list !
  */
 router.use((req, res, next) => {
-    res.status(404).render('error-pages/404.njk')
+    res.status(404).send('404')
 })
 
 /** Export router to mount in express server */

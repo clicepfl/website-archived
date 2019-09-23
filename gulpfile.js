@@ -6,6 +6,7 @@
  * @author  Alexandre CHAU
  */
 const { exec } = require('child_process')
+const mkdirp = require('mkdirp')
 const del = require('del')
 const gulp = require('gulp')
 const gulpSass = require('gulp-sass')
@@ -60,10 +61,14 @@ function sass() {
  * This copies the files in src/components/news/content into
  * dist/components/news/content
  */
-function newsContent() {
-    return gulp.src('src/components/news/content/**/*')
-        .pipe(gulp.dest('dist/components/news/content/'))
+const newsDest = DIST + 'components/news/content/'
+function createNewsDest(callback) {
+    mkdirp(newsDest, callback)
 }
+function copyNewsContent() {
+    return gulp.src(newsDest + '**/*').pipe(gulp.dest(newsDest))
+}
+const newsContent = gulp.series(createNewsDest, copyNewsContent)
 
 /**
  * Parallel compilation tasks

@@ -28,7 +28,7 @@ class HomePage extends Page {
     /** @inheritdoc */
     render(req: Request, res: Response) {
         // template path is relative to src/ as defined in web.ts
-        const template = "pages/home/home-view.njk"
+        const template = "pages/home/home-page-view.njk"
         // must re-generate viewmodel for every request (may change over time)
         const viewModel = new HomeViewModel()
 
