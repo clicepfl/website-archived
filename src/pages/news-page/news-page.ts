@@ -36,7 +36,7 @@ class NewsPage extends Page {
     }
 
     /** @inheritdoc */
-    render(req: Request, res: Response) {
+    render = (req: Request, res: Response) => {
         // template path is relative to src/ as defined in web.ts
         const template = "pages/news-page/news-page-view.njk"
 

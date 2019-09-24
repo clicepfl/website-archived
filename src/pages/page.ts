@@ -24,6 +24,6 @@ abstract class Page {
      * @param res the express Response that will send the page (concrete
      * redefinitions must invoke res.render)
      */
-    abstract render(req: Request, res: Response): void
+    abstract readonly render: (req: Request, res: Response) => void
 }
 export { Page }
