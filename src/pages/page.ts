@@ -20,6 +20,9 @@ abstract class Page {
      * The render method invokes the rendering engine on the response to
      * generate the page's view
      *
+     * This function is implemented as a member closure instead of an overriden
+     * function to keep the "this" semantics in children classes
+     *
      * @param req the express Request for the route of this page
      * @param res the express Response that will send the page (concrete
      * redefinitions must invoke res.render)

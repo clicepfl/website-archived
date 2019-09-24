@@ -1,0 +1,44 @@
+{#
+    This file contains the template to render the news page
+    (the details of a specific news)
+    CLIC website software
+
+    Template strings are bound to the NewsPageViewModel defined in {@link
+    news-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | " + news.title) }}
+    </head>
+
+    <body>
+        {{ base.header(tab = "news") }}
+
+        <div class="wrapper">
+            <div class="center">
+                <div class="content padded-40 news-article">
+                    <h1>{{news.title}}</h1>
+                    <p class="date">
+                        Publié le
+                        {{news.date}}
+                        par
+                        {{news.author}}
+                    </p>
+
+                    <img src="{{news.image}}" alt="{{news.title}}">
+
+                    {#  News is UNESCAPED html from Markdown template!
+                        DO NOT DISPLAY user-provided input (risk of XSS)! #}
+                    {{ news.body | safe }}
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>

@@ -26,14 +26,14 @@
 #}
 {% macro newsCards(news) %}
     {% for item in news %}
-        <a href="/news/{{item.id}}">
-            <div class="news-item">
+        <div class="news-item">
+            <a href="/news/{{item.id}}">
                 <p class="title">{{item.title}}</p>
                 <p class="date">{{item.date}} par {{item.author}}</p>
                 <img src="{{item.image}}" alt="{{item.title}}">
-                <p class="desc">{{item.shortText}}</p>
-                <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
-            </div>
-        </a>
+            </a>
+            <p class="desc">{{item.shortText}}</p>
+            <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
+        </div>
     {% endfor %}
 {% endmacro %}

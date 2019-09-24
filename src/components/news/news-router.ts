@@ -11,7 +11,7 @@
  */
 import express from 'express'
 import { newsComponent } from './news'
-import { NewsPage } from '../../pages/news-page/news-page'
+import { NewsPage } from '../../pages/article-page/article-page'
 
 /** News data */
 const news = newsComponent.list()

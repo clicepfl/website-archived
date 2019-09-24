@@ -14,7 +14,7 @@ import { News } from '../../components/news/news'
  * Properties of this class are directly used in template {@link
  * news-page-view.njk}
  */
-class NewsViewModel {
+class ArticlePageViewModel {
     news: News
 
     constructor(news: News) {
@@ -25,23 +25,23 @@ class NewsViewModel {
 /**
  * News page class, defines actions for the news pages
  */
-class NewsPage extends Page {
+class ArticlePage extends Page {
     news: News
-    viewModel: NewsViewModel
+    viewModel: ArticlePageViewModel
 
     constructor(news: News) {
         super()
-        this.news = news
-        this.viewModel = new NewsViewModel(news)
+        this.news = news.withFormattedDate('fr')
+        this.viewModel = new ArticlePageViewModel(this.news)
     }
 
     /** @inheritdoc */
     render = (req: Request, res: Response) => {
         // template path is relative to src/ as defined in web.ts
-        const template = "pages/news-page/news-page-view.njk"
+        const template = "pages/article-page/article-page-view.njk"
 
         res.render(template, this.viewModel)
     }
 }
 
-export { NewsPage }
+export { ArticlePage as NewsPage }

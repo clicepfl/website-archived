@@ -311,6 +311,7 @@ h4
 
 .news
     text-align: left
+    display: flex
 
     p, a
         font-size: 16px
@@ -321,6 +322,8 @@ h4
         box-shadow: 0 1px 3px #BBB
         margin: 0 1%
         padding: 15px
+        padding-bottom: 60px
+        position: relative
 
         .title
             font-size: 20px
@@ -338,10 +341,13 @@ h4
             margin: 10px auto
 
         .desc
-            height: 280px
+            font-size: 17px
 
         .more
             display: block
+            position: absolute
+            bottom: 15px
+            right: 15px
             float: right
             color: #fff
             background: $navy-blue
@@ -428,6 +434,29 @@ h4
 
 .force-pointer-events
     pointer-events: auto
+
+.news-article
+    h1
+        font-weight: 100
+        text-transform: uppercase
+        text-align: left
+        font-size: 70px
+        color: #666
+
+        @media screen and (max-width: 600px)
+            font-size: 50px
+
+        @media screen and (max-width: 450px)
+            font-size: 30px
+
+    img
+        margin: 20px 0
+        width: 100%
+        height: 500px
+        object-fit: cover
+
+    p
+        margin-bottom: 20px
 
 #icbd
     @import "timetable.sass"

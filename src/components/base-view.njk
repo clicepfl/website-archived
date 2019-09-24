@@ -40,6 +40,8 @@
     @param tab  String indicating which menu tab should be marked as current
                 Possible values : "home", "about" (add tabs if required)
 
+    @param classes  CSS classes to apply to the wrapper div of the header
+
     @param  append  An element to insert at the end of the header section
                     You may need to specify the "| safe" filter at call site to
                     disable escaping of HTML tags (WARNING: DO NOT use this
@@ -55,8 +57,8 @@
         {% endset %}
         {{ base.header(tab = "home", append = slider | safe) }}
 #}
-{% macro header(tab = "", append = "") %}
-    <div class="wrapper slider">
+{% macro header(tab = "", classes = "bg-navy-blue", append = "") %}
+    <div class="wrapper {{classes}}">
         <div class="header">
             <div class="center">
                 <div class="logo">
@@ -65,11 +67,14 @@
 
                 <div class="menu">
                     <ul>
-                        <li {% if tab == "home" %}class="current"{% endif %}>
+                        <li {% if tab == "home" %} class="current" {% endif %}>
                             <a href="/">Accueil</a>
                         </li>
-                        <li {% if tab == "about" %}class="current"{% endif %}>
+                        <li {% if tab == "about" %} class="current" {% endif %}>
                             <a href="/about">L'Association</a>
+                        </li>
+                        <li {% if tab == "news" %} class="current" {% endif %}>
+                            <a href="/news">News</a>
                         </li>
                     </ul>
                 </div>
