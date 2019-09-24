@@ -1,0 +1,30 @@
+{#
+    This file contains component definitions for gallery related displays
+    CLIC website software
+
+    Please read {@link README.md} in the components folder for guidlines and
+    documentation about templating and view definitions.
+
+    These gallery components are meant to be re-used and composed in templates
+    describing website pages and other components
+
+    @author Alexandre CHAU
+#}
+
+{#
+    Gallery grid
+    This macro displays a gallery grid with the provided photos
+
+    @param images The images to display as array of image URLs
+
+    @example Inserts the images, data in the viewmodel is string[]
+        {% import "components/gallery/gallery-view.njk" as gallery %}
+        {{ gallery.grid(images = data) }}
+#}
+{% macro grid(images) %}
+    <div class="gallery">
+        {% for image in images %}
+            <img src="/gallery/{{image}}" alt="{{image}}">
+        {% endfor %}
+    </div>
+{% endmacro %}

@@ -15,6 +15,7 @@ import { homePage } from './pages/home/home-page'
 import { sponsorsRouter } from './components/sponsors/sponsors-router'
 import { committeeRouter } from './components/committee/committee-router'
 import { newsRouter } from './components/news/news-router'
+import { galleryRouter } from './components/gallery/gallery-router'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -23,6 +24,17 @@ const router = express.Router()
  * Homepage
  */
 router.get('/', homePage.render)
+
+/**
+/// IC Boost day
+router.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
+    res.sendFile('static/icbd.html', { root: config.root })
+})
+/// About page
+router.get(['/about'], (req, res) => {
+    res.sendFile('static/about.html', { root: config.root })
+})
+*/
 
 /**
  * Sponsors router
@@ -58,15 +70,15 @@ router.use("/committee", committeeRouter)
 router.use("/news", newsRouter)
 
 /**
-/// IC Boost day
-router.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
-    res.sendFile('static/icbd.html', { root: config.root })
-})
-/// About page
-router.get(['/about'], (req, res) => {
-    res.sendFile('static/about.html', { root: config.root })
-})
-*/
+ * Gallery router
+ * Routes defined in {@link components/gallery/gallery-router.ts} will be
+ * relative to the /gallery mount point
+ *
+ * @example
+ * Route defined at "/foo" in components/gallery/gallery-router.ts will be
+ * mounted at final URL "/gallery/foo"
+ */
+router.use("/gallery", galleryRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)

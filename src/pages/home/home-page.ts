@@ -10,6 +10,7 @@ import { Request, Response } from 'express'
 import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
 import { Staff, committeeComponent } from '../../components/committee/committee'
 import { News, newsComponent } from '../../components/news/news'
+import { galleryComponent } from '../../components/gallery/gallery'
 
 /**
  * View model that binds the data to the template for the home page
@@ -19,6 +20,7 @@ class HomeViewModel {
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
     committeeList: Staff[] = committeeComponent.list()
     lastNewsList: News[] = newsComponent.getLast(3).map(news => news.withFormattedDate('fr'))
+    galleryPhotos: string[] = galleryComponent.list()
 }
 
 /**

@@ -10,6 +10,7 @@
 {% import "components/news/news-view.njk" as news %}
 {% import "components/sponsors/sponsors-view.njk" as sponsors %}
 {% import "components/committee/committee-view.njk" as committee %}
+{% import "components/gallery/gallery-view.njk" as gallery %}
 
 <!DOCTYPE html>
 <html>
@@ -105,20 +106,7 @@
                 <div class="content padded-40">
                     <h1>Galerie</h1>
 
-                    <div class="gallery">
-                        <img src="/img/gallery/img13.jpg" alt="photo"/>
-                        <img src="/img/gallery/img12.jpg" alt="photo"/>
-                        <img src="/img/gallery/img1.jpg" alt="photo"/>
-                        <img src="/img/gallery/img2.jpg" alt="photo"/>
-                        <img src="/img/gallery/img3.jpg" alt="photo"/>
-                        <img src="/img/gallery/img4.jpg" alt="photo"/>
-                        <img src="/img/gallery/img5.jpg" alt="photo"/>
-                        <img src="/img/gallery/img6.jpg" alt="photo"/>
-                        <img src="/img/gallery/img7.jpg" alt="photo"/>
-                        <img src="/img/gallery/img8.jpg" alt="photo"/>
-                        <img src="/img/gallery/img9.jpg" alt="photo"/>
-                        <img src="/img/gallery/img10.jpg" alt="photo"/>
-                    </div>
+                    {{ gallery.grid(images = galleryPhotos) }}
                 </div>
                 <!-- content -->
             </div>

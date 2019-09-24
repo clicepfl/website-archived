@@ -71,11 +71,25 @@ function copyNewsContent() {
 const newsContent = gulp.series(createNewsDest, copyNewsContent)
 
 /**
+ * Deploy gallery content
+ * This copies the files in src/components/gallery/assets into
+ * dist/components/gallery/assets
+ */
+const galleryDest = DIST + 'components/gallery/assets'
+function createGalleryDest(callback) {
+    mkdirp(galleryDest, callback)
+}
+function copyGalleryContent() {
+    return gulp.src('src/components/gallery/assets/**/*').pipe(gulp.dest(galleryDest))
+}
+const galleryContet = gulp.series(createGalleryDest, copyGalleryContent)
+
+/**
  * Parallel compilation tasks
  * Add additional tasks functions as parameter
  * ! Do not parallelize tasks that are part of the same pipeline !
  */
-const compile = gulp.parallel(typescript, sass, newsContent)
+const compile = gulp.parallel(typescript, sass, newsContent, galleryContet)
 
 /**
  * Default task
