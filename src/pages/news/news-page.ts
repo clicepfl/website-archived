@@ -7,41 +7,37 @@
 
 import { Page } from '../page'
 import { Request, Response } from 'express'
-import { News } from '../../components/news/news'
+import { News, newsComponent } from '../../components/news/news'
 
 /**
  * View model that binds the data to the template for the news page
  * Properties of this class are directly used in template {@link
  * news-page-view.njk}
  */
-class ArticlePageViewModel {
-    news: News
-
-    constructor(news: News) {
-        this.news = news
-    }
+class NewsPageViewModel {
+    newsList: News[] = newsComponent.list().map(n => n.withFormattedDate('fr'))
 }
 
 /**
  * News page class, defines actions for the news pages
  */
-class ArticlePage extends Page {
-    news: News
-    viewModel: ArticlePageViewModel
+class NewsPage extends Page {
+    viewModel: NewsPageViewModel
 
-    constructor(news: News) {
+    constructor() {
         super()
-        this.news = news.withFormattedDate('fr')
-        this.viewModel = new ArticlePageViewModel(this.news)
+        this.viewModel = new NewsPageViewModel()
     }
 
     /** @inheritdoc */
     render = (req: Request, res: Response) => {
         // template path is relative to src/ as defined in web.ts
-        const template = "pages/article-page/article-page-view.njk"
+        const template = "pages/news/news-page-view.njk"
 
         res.render(template, this.viewModel)
     }
 }
 
-export { ArticlePage as NewsPage }
+/** Export a single instance of the news page */
+const newsPage = new NewsPage()
+export { newsPage }

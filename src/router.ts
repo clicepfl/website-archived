@@ -16,6 +16,7 @@ import { sponsorsRouter } from './components/sponsors/sponsors-router'
 import { committeeRouter } from './components/committee/committee-router'
 import { newsRouter } from './components/news/news-router'
 import { galleryRouter } from './components/gallery/gallery-router'
+import { newsPage } from './pages/news/news-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -24,6 +25,11 @@ const router = express.Router()
  * Homepage
  */
 router.get('/', homePage.render)
+
+/**
+ * News page
+ */
+router.get('/news', newsPage.render)
 
 /**
 /// IC Boost day

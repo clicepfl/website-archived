@@ -11,7 +11,7 @@
  */
 import express from 'express'
 import { newsComponent } from './news'
-import { NewsPage } from '../../pages/article-page/article-page'
+import { ArticlePage } from '../../pages/article/article-page'
 
 /** News data */
 const news = newsComponent.list()
@@ -24,7 +24,7 @@ const newsRouter = express.Router()
  * Mounts all news pages to URLs "/{newsID}/"
  */
 news.forEach(news => {
-    newsRouter.get(`/${news.id}`, new NewsPage(news).render)
+    newsRouter.get(`/${news.id}`, new ArticlePage(news).render)
 })
 
 /**
