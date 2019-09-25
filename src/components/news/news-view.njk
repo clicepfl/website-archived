@@ -28,9 +28,9 @@
     {% for item in news %}
         <div class="news-item">
             <a href="/news/{{item.id}}">
+                <img src="{{item.image}}" alt="{{item.title}}">
                 <p class="title">{{item.title}}</p>
                 <p class="date">{{item.date}} par {{item.author}}</p>
-                <img src="{{item.image}}" alt="{{item.title}}">
             </a>
             <p class="desc">{{item.shortText}}</p>
             <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
