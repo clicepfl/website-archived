@@ -441,15 +441,22 @@ h4
     pointer-events: auto
 
 .news-article
+    width: 80%
+    margin: 0 10%
+
+    @media screen and (max-width: 600px)
+        width: 100%
+        margin: 0
+
     h1
         font-weight: 100
         text-transform: uppercase
         text-align: left
-        font-size: 70px
+        font-size: 55px
         color: #666
 
         @media screen and (max-width: 600px)
-            font-size: 50px
+            font-size: 40px
 
         @media screen and (max-width: 450px)
             font-size: 30px

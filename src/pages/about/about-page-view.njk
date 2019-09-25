@@ -1,0 +1,34 @@
+{#
+    This file contains the template to render the about page
+    CLIC website software
+
+    Template strings are bound to the AboutPageViewModel defined in {@link
+    about-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | A propos") }}
+    </head>
+    <body>
+        {{ base.header(tab = "about") }}
+
+        <div class="wrapper">
+            <div class="center">
+                <div class="content padded-40 news-article">
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; A propos
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>
