@@ -7,6 +7,12 @@
 import path from 'path'
 import fs from 'fs'
 
+/**
+ * Gallery content path
+ * Must correct to src/ folder since this will be compiled in dist
+ */
+const CONTENT_PATH = path.resolve(__dirname, "../../../src/components/gallery/")
+
 class GalleryComponent {
     /**
      * @member The list of all images URL in gallery
@@ -24,8 +30,8 @@ class GalleryComponent {
      * Retrieves all images URLs from storage
      */
     private static _load(): string[] {
-        // list from storage
-        const contentPath = path.resolve(__dirname, "assets/")
+        // list from storage (bind to src folder, not dist folder)
+        const contentPath = path.resolve(CONTENT_PATH, "assets/")
         const imageNames = fs.readdirSync(contentPath)
         return imageNames
     }

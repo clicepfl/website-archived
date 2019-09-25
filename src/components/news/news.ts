@@ -11,6 +11,12 @@ import showdown from 'showdown'
 import { logger } from '../../logger'
 
 /**
+ * News content path
+ * Must correct to src/ folder since this will be compiled in dist
+ */
+const CONTENT_PATH = path.resolve(__dirname, "../../../src/components/news/content/")
+
+/**
  * News data type
  *
  * @member id Unique identifier
@@ -132,9 +138,8 @@ class NewsComponent {
      * Retrieves all news IDs from storage in content/ folder
      */
     private static _loadIDs(): Array<string> {
-        // list from storage
-        const contentPath = path.resolve(__dirname, "content/")
-        const newsIDs = fs.readdirSync(contentPath, { withFileTypes: true })
+        // list from storage (bind to src folder, not dist folder)
+        const newsIDs = fs.readdirSync(CONTENT_PATH, { withFileTypes: true })
             .filter(dirent => dirent.isDirectory())
             .map(dirent => dirent.name)
         return newsIDs.sort().reverse()
@@ -147,7 +152,7 @@ class NewsComponent {
     private static _loadNews(): Array<News> {
         return NewsComponent.newsIDs.map(newsID => {
             // read meta file
-            const metaPath = path.resolve(__dirname, `content/${newsID}/meta.json`)
+            const metaPath = path.resolve(CONTENT_PATH, `${newsID}/meta.json`)
             if (!fs.existsSync(metaPath)) {
                 const msg = `meta file missing for news ${newsID} at ${metaPath}`
                 logger.log(msg)
@@ -158,7 +163,7 @@ class NewsComponent {
             builder.id = newsID
 
             // read Markdown file
-            const mdPath = path.resolve(__dirname, `content/${newsID}/body.md`)
+            const mdPath = path.resolve(CONTENT_PATH, `${newsID}/body.md`)
             if (!fs.existsSync(mdPath)) {
                 const msg = `Markdown body file missing for news ${newsID} at ${mdPath}`
                 logger.log(msg)

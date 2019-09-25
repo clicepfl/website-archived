@@ -17,6 +17,7 @@ import { committeeRouter } from './components/committee/committee-router'
 import { newsRouter } from './components/news/news-router'
 import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
+import { aboutPage } from './pages/about/about-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -27,6 +28,11 @@ const router = express.Router()
 router.get('/', homePage.render)
 
 /**
+ * About page
+ */
+router.get('/about', aboutPage.render)
+
+/**
  * News page
  */
 router.get('/news', newsPage.render)
@@ -35,10 +41,6 @@ router.get('/news', newsPage.render)
 /// IC Boost day
 router.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
     res.sendFile('static/icbd.html', { root: config.root })
-})
-/// About page
-router.get(['/about'], (req, res) => {
-    res.sendFile('static/about.html', { root: config.root })
 })
 */
 
