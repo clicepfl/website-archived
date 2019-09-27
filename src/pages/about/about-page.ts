@@ -6,6 +6,7 @@
  */
 import { Page } from '../page'
 import { Request, Response } from 'express'
+import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
 
 /**
  * View model that binds the data to the template for the about page
@@ -13,7 +14,7 @@ import { Request, Response } from 'express'
  * about-page-view.njk}
  */
 class AboutPageViewModel {
-
+    sponsorsList: Sponsor[] = sponsorsComponent.listValid()
 }
 
 /**

@@ -8,11 +8,14 @@
     @author Alexandre CHAU
 #}
 {% import "components/base-view.njk" as base %}
+{% import "components/sponsors/sponsors-view.njk" as sponsors %}
 
 <!DOCTYPE html>
 <html>
     <head>
         {{ base.head(title = "CLIC EPFL | A propos") }}
+        <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
+        <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
     </head>
     <body>
         {{ base.header(tab = "about") }}
@@ -40,6 +43,30 @@
             </div>
         </div>
 
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="overflow-x">
+                        {{sponsors.logoImages(sponsorsList = sponsorsList)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
         {{ base.footer() }}
+
+        <script type="text/javascript" src="/vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="/vendor/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.sponsors').slick({
+                    variableWidth: true,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1000,
+                    centerMode: true
+                })
+            })
+        </script>
     </body>
 </html>
