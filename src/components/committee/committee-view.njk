@@ -35,4 +35,28 @@
             </div>
         </a>
     {% endfor %}
+
+    {#
+        Web developers hall of fame : add yourself if you're working
+        on the CLIC website :) and don't let anyone remove this
+        section : you and I at least deserve our names here forever
+    #}
+    <a href="{{member.websiteURL}}" target="_blank">
+        <div class="member">
+            <img src="/committee/alexandrechau.jpg" alt="Alexandre Chau"/>
+            <div class="desc">
+                <p class="name">Alexandre Chau</p>
+                <p class="role">Web developer</p>
+            </div>
+        </div>
+    </a>
+    <a href="{{member.websiteURL}}" target="_blank">
+        <div class="member">
+            <img src="/committee/loicdroz.jpg" alt="Loïc Droz"/>
+            <div class="desc">
+                <p class="name">Loïc Droz</p>
+                <p class="role">Web developer</p>
+            </div>
+        </div>
+    </a>
 {% endmacro %}
