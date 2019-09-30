@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "node dist/server.js",
+    "stop": "pkill --signal SIGINT nodeWebServer",
     "postinstall": "npx gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

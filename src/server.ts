@@ -7,5 +7,8 @@
 
 import { webService } from './web'
 
+/** Set name of process */
+process.title = "nodeWebServer"
+
 /** Initialize services */
 webService.start()
