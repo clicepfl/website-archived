@@ -9,6 +9,7 @@
 #}
 {% import "components/base-view.njk" as base %}
 {% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/social-view.njk" as social %}
 
 <!DOCTYPE html>
 <html>
@@ -40,9 +41,12 @@
                         Aujourd’hui, la CLIC a bien grandi mais ne perd pas de vue sa mission originale : faire vivre la faculté avec des événements gratuits ou à faible coût, et s’assurer de régulièrement casser la monotonie des cours et des examens. Depuis quelques années, nous tentons également de proposer en supplément du contenu plus sérieux comme des conférences, des talks ou des contacts avec l’industrie, car il s’agit aussi là de besoins des étudiants de la faculté IC.
                     </p>
 
+                    {{ social.stackedRoundIcons() }}
+
                     <div class="padded-40">
                         <a class="more-news" href="files/statuts.pdf" target="_blank">
-                            <i class="fas fa-file-pdf fa-lg" style="padding-right: 5px"></i> Statuts de l'association
+                            <i class="fas fa-file-pdf fa-lg" style="padding-right: 5px"></i>
+                            Statuts de l'association
                         </a>
                     </div>
                 </div>

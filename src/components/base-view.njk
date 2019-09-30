@@ -10,6 +10,7 @@
 
     @author Alexandre CHAU
 #}
+{% import "components/social-view.njk" as social %}
 
 {#
     Default <head> inner section
@@ -29,7 +30,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/vendor/font-awesome.min.css">
     <link href="/static/style.css" rel="stylesheet" type="text/css">
 {% endmacro %}
 
@@ -111,14 +112,9 @@
                         &#99;&#108;&#105;&#99;&#64;&#101;&#112;&#102;&#108;&#46;&#99;&#104;
                     </a>
                 </p>
-                <div class="social">
-                    <a href="https://www.facebook.com/clic.epfl/" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://t.me/clicnews" target="_blank">
-                        <i class="fab fa-telegram"></i>
-                    </a>
-                </div>
+
+                {{ social.icons() }}
+
                 <p class="design">Original website design: Alexandre CHAU &amp; Loïc DROZ.</p>
                 <p class="legal">
                     &copy; CLIC association 2019, all rights reserved. Any reproduction, even partial, is strictly prohibited
