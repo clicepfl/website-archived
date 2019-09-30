@@ -1,0 +1,49 @@
+{#
+    This file contains the template to render the 404 page
+    CLIC website software
+
+    Template strings are bound to the NotFoundPageViewModel defined in {@link
+    404-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/news/news-view.njk" as news %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | 404") }}
+    </head>
+    <body>
+        {{ base.header() }}
+
+        <div class="wrapper">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>OH NON! 404!</h1>
+                    <p style="text-align: center">La page recherchée n'existe pas.</p>
+
+                    <div class="padded-40">
+                        <a class="more-news" href="/">
+                            Retour à l'accueil
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="news">
+                        {{ news.newsCards(news = newsList) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>

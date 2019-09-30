@@ -19,6 +19,7 @@ import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
 import { aboutPage } from './pages/about/about-page'
 import { icbdPage } from './pages/icbd/icbd-page'
+import { notFoundPage } from './pages/404/404-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -149,9 +150,7 @@ router.get('/robots.txt', (req, res) => {
  * 404 handle
  * MUST be at the end of the routing list !
  */
-router.use((req, res, next) => {
-    res.status(404).send('404')
-})
+router.use(notFoundPage.render)
 
 /** Export router to mount in express server */
 export { router }

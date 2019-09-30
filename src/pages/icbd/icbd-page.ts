@@ -16,7 +16,7 @@ class IcbdPageViewModel {
 }
 
 /**
- * About page class, defines actions for the about page
+ * ICBD page class, defines actions for the ICBD page
  */
 class IcbdPage extends Page {
     viewModel: IcbdPageViewModel = new IcbdPageViewModel()
@@ -31,7 +31,7 @@ class IcbdPage extends Page {
 }
 
 /**
- * Export a single instance of the about page
+ * Export a single instance of the ICBD page
  */
 const icbdPage = new IcbdPage()
 export { icbdPage }
