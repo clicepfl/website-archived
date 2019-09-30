@@ -18,6 +18,7 @@ import { newsRouter } from './components/news/news-router'
 import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
 import { aboutPage } from './pages/about/about-page'
+import { icbdPage } from './pages/icbd/icbd-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -38,11 +39,9 @@ router.get('/about', aboutPage.render)
 router.get('/news', newsPage.render)
 
 /**
-/// IC Boost day
-router.get(['/icbd', '/icboostday', '/events/icbd'], (req, res) => {
-    res.sendFile('static/icbd.html', { root: config.root })
-})
-*/
+ * IC Boost day
+ */
+router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
 
 /**
  * Sponsors router
