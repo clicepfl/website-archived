@@ -29,10 +29,12 @@
     <title>{{title}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="/vendor/font-awesome.min.css">
     <link href="/static/style.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/mmenu.css" rel="stylesheet"/>
+    <script src="/vendor/mmenu.js"></script>
 {% endmacro %}
 
 {#
@@ -63,6 +65,11 @@
     <div class="wrapper {{classes}}">
         <div class="header">
             <div class="center">
+
+                <a class="mobile-menu-toggle" href="#mobile-menu">
+                    <i class="fas fa-bars fa-fw"></i>
+                </a>
+
                 <div class="logo">
                     <img src="/img/logo_white.png" alt="logo"/>
                 </div>
@@ -73,15 +80,39 @@
                             <a href="/">Accueil</a>
                         </li>
                         <li {% if tab == "about" %} class="current" {% endif %}>
-                            <a href="/about">L'Association</a>
+                            <a href="/about">L'association</a>
                         </li>
                         <li {% if tab == "news" %} class="current" {% endif %}>
                             <a href="/news">News</a>
                         </li>
                     </ul>
                 </div>
+
+                <div id="mobile-menu">
+                    <ul>
+                        <li>
+                            <a href="/">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="/about">L' association</a>
+                        </li>
+                        <li>
+                            <a href="/news">News</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                        new Mmenu("#mobile-menu", {
+                            "slidingSubmenus": false,
+                            "extensions": ["pagedim-black"]
+                        })
+                    })
+                </script>
             </div>
         </div>
+
         {{append}}
     </div>
 {% endmacro %}
