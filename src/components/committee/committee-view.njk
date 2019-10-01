@@ -1,0 +1,62 @@
+{#
+    This file contains component definitions for committee related displays
+    CLIC website software
+
+    Please read {@link README.md} in the components folder for guidelines and
+    documentation about templating and view definitions.
+
+    These committee components are meant to be re-used and composed in templates
+    describing website pages and other components
+
+    @author Alexandre CHAU
+#}
+
+{#
+    Committee grid
+    This macro displays a grid of all committee members with a card each
+
+    @param members The list of committee members defined as an array of Staff
+                   (type Staff[] as defined in {@link committee.ts})
+
+    @example    Inserts the grid of committee members, data in the view model
+                is Staff[]
+        {% import "components/committee/committee-view.njk" as committee %}
+        {{ committee.staffGrid(members = data) }}
+#}
+{% macro staffGrid(members) %}
+    {% for member in members %}
+        <a href="{{member.websiteURL}}" target="_blank">
+            <div class="member">
+                <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                <div class="desc">
+                    <p class="name">{{member.name}}</p>
+                    <p class="role">{{member.role}}</p>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+
+    {#
+        Web developers hall of fame : add yourself if you're working
+        on the CLIC website :) and don't let anyone remove this
+        section : you and I at least deserve our names here forever
+    #}
+    <a href="https://github.com/dialexo" target="_blank">
+        <div class="member">
+            <img src="/committee/alexandrechau.jpg" alt="Alexandre Chau"/>
+            <div class="desc">
+                <p class="name">Alexandre Chau</p>
+                <p class="role">Web developer</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://github.com/Scrashdown" target="_blank">
+        <div class="member">
+            <img src="/committee/loicdroz.jpg" alt="Loïc Droz"/>
+            <div class="desc">
+                <p class="name">Loïc Droz</p>
+                <p class="role">Web developer</p>
+            </div>
+        </div>
+    </a>
+{% endmacro %}

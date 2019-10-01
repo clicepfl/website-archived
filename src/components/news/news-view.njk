@@ -1,0 +1,39 @@
+{#
+    This file contains component definitions for news related displays
+    CLIC website software
+
+    Please read {@link README.md} in the components folder for guidlines and
+    documentation about templating and view definitions.
+
+    These news components are meant to be re-used and composed in templates
+    describing website pages and other components
+
+    @author Alexandre CHAU
+#}
+
+{#
+    Last news cards
+    This macro displays a list of the latest news inside a card each
+
+    @param lastNews The last news to display (selection should be done
+    beforehand) as an array of News
+                    (type News[] as defined in {@link news.ts})
+
+    @example Inserts the cards of the latest news, data in the view model
+             is News[]
+        {% import "components/news/news-view.njk" as news %}
+        {{ news.newsCards(news = data) }}
+#}
+{% macro newsCards(news) %}
+    {% for item in news %}
+        <div class="news-item">
+            <a href="/news/{{item.id}}">
+                <img src="{{item.image}}" alt="{{item.title}}">
+                <p class="title">{{item.title}}</p>
+                <p class="date">{{item.date}} par {{item.author}}</p>
+            </a>
+            <p class="desc">{{item.shortText}}</p>
+            <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
+        </div>
+    {% endfor %}
+{% endmacro %}

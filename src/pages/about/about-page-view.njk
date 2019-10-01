@@ -1,0 +1,82 @@
+{#
+    This file contains the template to render the about page
+    CLIC website software
+
+    Template strings are bound to the AboutPageViewModel defined in {@link
+    about-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/social-view.njk" as social %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | A propos") }}
+        <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
+        <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
+    </head>
+    <body>
+        {{ base.header(tab = "about") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; A propos
+                    </p>
+
+                    <img src="img/logo.png" alt="logo" class="center-image">
+
+                    <p class="center-text">
+                        La CLIC est née en 2011, alors que la faculté IC rencontrait des difficultés qu’elle ne pouvait pas résoudre seule. Il fallait l’aide des délégués, mais ils devaient aller au-delà de leur rôle. C’est ainsi qu’est née la CDIC. Très rapidement devenue la CLIC (parce c’est quand même plus classe), l’association était composée de délégués principalement, et travaillait en étroite collaboration avec le coaching. La faculté, enchantée de cette collaboration, nous a fourni un bureau proche de l’administration pour une communication rapide. Il s’agissait du bureau INN132, où nous logeons d’ailleurs toujours.
+                        <br><br>
+                        Une fois les problèmes résolus, il devenait temps de penser au fun. Souper de faculté, voyage d’études, bar à Balélec (BarIC), et autres joyeusetés étaient dans l’agenda. Puis les années ont passé, et les événements se sont multipliés : vin chaud en décembre, petits-déjeuners gratuits, ventes d’habits de faculté, soirées jeux-vidéos et bien d’autres.
+                        <br><br>
+                        Ensuite, à l’image de la LudIC ou de LauzHack, des événements sont devenus des commissions, puis sont devenus assez grands pour battre de leurs propres ailes et se sont transformés en associations à part entière.
+                        <br><br>
+                        Aujourd’hui, la CLIC a bien grandi mais ne perd pas de vue sa mission originale : faire vivre la faculté avec des événements gratuits ou à faible coût, et s’assurer de régulièrement casser la monotonie des cours et des examens. Depuis quelques années, nous tentons également de proposer en supplément du contenu plus sérieux comme des conférences, des talks ou des contacts avec l’industrie, car il s’agit aussi là de besoins des étudiants de la faculté IC.
+                    </p>
+
+                    {{ social.stackedRoundIcons() }}
+
+                    <div class="padded-40">
+                        <a class="more-news" href="files/statuts.pdf" target="_blank">
+                            <i class="fas fa-file-pdf fa-lg" style="padding-right: 5px"></i>
+                            Statuts de l'association
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="overflow-x">
+                        {{sponsors.logoImages(sponsorsList = sponsorsList)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+
+        <script type="text/javascript" src="/vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="/vendor/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.sponsors').slick({
+                    variableWidth: true,
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    centerMode: true
+                })
+            })
+        </script>
+    </body>
+</html>

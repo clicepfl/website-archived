@@ -1,0 +1,11 @@
+{
+    "title": "Nouveau site!",
+    "date": {
+        "day": 1,
+        "month": 3,
+        "year": 2019
+    },
+    "author": "Alexandre CHAU",
+    "image": "/img/bg_epfl.jpg",
+    "shortText": "La CLIC inaugure son nouveau site web, réalisé par Alexandre CHAU et Loïc DROZ. Bonne visite!"
+}

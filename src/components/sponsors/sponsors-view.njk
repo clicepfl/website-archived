@@ -1,0 +1,33 @@
+{#
+    This file contains component definitions for sponsors related displays
+    CLIC website software
+
+    Please read {@link README.md} in the components folder for guidelines and
+    documentation about templating and view definitions.
+
+    These sponsors components are meant to be re-used and composed in templates
+    describing website pages and other components
+
+    @author Alexandre CHAU
+#}
+
+{#
+    Sponsors logo images
+    This macro displays a list of logos from all the sponsors
+
+    @param sponsorsList The list of sponsors defined as an array of Sponsor
+                        (type Sponsor[] as defined in {@link sponsors.ts})
+
+    @example    Inserts the list of logos, data in the view model is Sponsor[]
+        {% import "components/sponsors/sponsors-view.njk" as sponsors %}
+        {{ sponsors.logoImages(sponsorsList = data) }}
+#}
+{% macro logoImages(sponsorsList) %}
+    <div class="sponsors">
+        {% for sponsor in sponsorsList %}
+            <a href="{{sponsor.websiteURL}}" target="_blank">
+                <img src="{{sponsor.imageURL}}" alt="{{sponsor.name}}" style="{{sponsor.imageStyles}}">
+            </a>
+        {% endfor %}
+    </div>
+{% endmacro %}
