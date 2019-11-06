@@ -1,10 +1,36 @@
 [
     {
+        "name": "Swissquote",
+        "websiteURL": "https://www.swissquote.ch/",
+        "imageURL": "/sponsors/swissquote.png",
+        "imageStyles": null,
+        "expiration": {
+            "year": 2020,
+            "month": 9,
+            "day": 4
+        }
+    },
+    {
+        "name": "AdNovum",
+        "websiteURL": "https://www.adnovum.ch/",
+        "imageURL": "/sponsors/adnovum.png",
+        "imageStyles": null,
+        "expiration": {
+            "year": 2020,
+            "month": 4,
+            "day": 30
+        }
+    },
+    {
         "name": "Fairtiq",
         "websiteURL": "https://fairtiq.com/",
         "imageURL": "/sponsors/fairtiq.png",
         "imageStyles": null,
-        "expiration": null
+        "expiration": {
+            "year": 2020,
+            "month": 2,
+            "day": 5
+        }
     },
     {
         "name": "Junior Entreprise",
@@ -21,24 +47,36 @@
         "expiration": null
     },
     {
-        "name": "AdNovum",
-        "websiteURL": "https://www.adnovum.ch/",
-        "imageURL": "/sponsors/adnovum.png",
-        "imageStyles": null,
-        "expiration": null
-    },
-    {
         "name": "Together AG",
         "websiteURL": "https://together.ch/",
         "imageURL": "/sponsors/together.png",
         "imageStyles": null,
-        "expiration": null
+        "expiration": {
+            "year": 2020,
+            "month": 11,
+            "day": 9
+        }
     },
     {
-        "name": "Bühler Group",
-        "websiteURL": "https://www.buhlergroup.com/",
-        "imageURL": "/sponsors/buhler.png",
+        "name": "Huawei",
+        "websiteURL": "https://huawei.ch/",
+        "imageURL": "/sponsors/huawei.png",
         "imageStyles": null,
-        "expiration": null
+        "expiration": {
+            "year": 2020,
+            "month": 10,
+            "day": 22
+        }
+    },
+    {
+        "name": "Skwoll",
+        "websiteURL": "https://skwoll.ch/",
+        "imageURL": "/sponsors/skwoll.png",
+        "imageStyles": null,
+        "expiration": {
+            "year": 2020,
+            "month": 10,
+            "day": 8
+        }
     }
 ]
