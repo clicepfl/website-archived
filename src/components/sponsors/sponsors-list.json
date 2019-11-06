@@ -61,7 +61,7 @@
         "name": "Huawei",
         "websiteURL": "https://huawei.ch/",
         "imageURL": "/sponsors/huawei.png",
-        "imageStyles": null,
+        "imageStyles": "height:65px;",
         "expiration": {
             "year": 2020,
             "month": 10,
