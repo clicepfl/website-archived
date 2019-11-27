@@ -12,3 +12,6 @@ Icon?
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Large assets such as long videos
+assets/untracked/
