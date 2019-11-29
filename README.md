@@ -18,7 +18,7 @@ If you're contributing to this repo, you're probably either a:
 
 > **Note:** these instructions are not meant for production deployment. Please refer to the [clic-website-production](https://github.com/clicepfl/clic-website-production) repository for this purpose.
 
-You will need git, [NodeJS](https://nodejs.org/) (>12.13.1) installed on your operating system (Windows, Mac or Linux). Make sure that `node` and `npm` are visible on your PATH environment variable, i.e. from your command line:
+You will need git, [NodeJS](https://nodejs.org/) (>= 12.13.1) installed on your operating system (Windows, Mac or Linux). Make sure that `node` and `npm` are visible on your PATH environment variable, i.e. from your command line:
 
 ```
 node --version
@@ -69,4 +69,4 @@ The `npm install` command is only required once when you first install the repos
 
 The CLIC website software was originally written by Alexandre CHAU ([dialexo](https://github.com/dialexo)) with the help of Loïc DROZ ([Scrashdown](https://github.com/Scrashdown)). Feel free to add your name below if you are a developer on this repository.
 
-- Original IT manager: Jonathan SCANZI ((jonscanzi)[https://github.com/jonscanzi])
+- Original IT manager: Jonathan SCANZI ([jonscanzi](https://github.com/jonscanzi))
