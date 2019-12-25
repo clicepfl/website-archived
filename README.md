@@ -72,6 +72,32 @@ The `npm install` command is only required once when you first install the repos
 
 ## Repository hierarchy
 
+- `assets/` : a folder with general static assets, such as global images, downloadable files, front-end configs and search engine keys. It also contains an `untracked/` subfolder for files that are too big for git, they are thus **not tracked or saved** in this repository. Such files can be found in our cloud storage system and **must be manually copied for deployment** (if you have a better idea to expose big assets, please create a Github issue :smiley:).
+    - Current list of untracked assets:
+        - `rms-conference.webm`
+
+- `dist/` : this folder is only created at build time and contains the compiled code to run the server (compiled Javascript from Typescript sources, CSS output from SASS sources, ...)
+
+- `node_modules/` : this folder is only created once you run `npm install` at least once and contains the required dependencies fetched from the NPM package registry.
+
+- `src/` : this folder contains all the code that we write (Typescript, SASS, templates, ...). See [src/](src/) documentation for internal structure.
+
+- `types/` : this folder contains manually created type definitions for dependencies that are not typed and that do not include a type definition file.
+
+- `vendor/` : this folder contains front-end distributable library sources that are  meant to be statically served for pages (for instance, a bundled jQuery version or icon fonts such as Font-Awesome).
+
+- `.gitignore` : the list of files to ignore in this git repository
+
+- `gulpfile.js` : the build system definition, invoked with `npm install` or `npx gulp`. It contains JS functions of the different build pipeline stages such as cleaning, compiling Typescript and SASS, ...
+
+- `package-lock.json` : the tree of all recursive dependencies of the project. Do not touch this file, NPM does it for you.
+
+- `package.json` : the top-level definition of the project for NodeJS and NPM. It contains metadata, the actions of `npm install`, `npm stop` and `npm test`, and the list of dependencies.
+
+- `README.md` : this file. Recursively see [README.md](README.md).
+
+- `tsconfig.json` : the Typescript compiler configuration. See the [official docs](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+
 ## Workflow
 
 ## Authors and license
