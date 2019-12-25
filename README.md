@@ -14,6 +14,15 @@ If you're contributing to this repo, you're probably either a:
 
 ## Technology stack
 
+This software stack uses the following technologies:
+
+- [Gulp](https://gulpjs.com/), a build system and task runner for JS projects
+- [Typescript](https://www.typescriptlang.org/), a typed language that compiles to Javascript
+- [ExpressJS](https://expressjs.com/), a web server framework
+- [NunjucksJS](https://mozilla.github.io/nunjucks/), a templating engine (see more details about templating [here](src/components/))
+- [Showdown](http://showdownjs.com/), a Markdown to HTML converter
+- [SASS](https://sass-lang.com/), a CSS preprocessor
+
 ## Building and testing locally
 
 > **Note:** these instructions are not meant for production deployment. Please refer to the [clic-website-production](https://github.com/clicepfl/clic-website-production) repository for this purpose.
