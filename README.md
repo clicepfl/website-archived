@@ -10,18 +10,25 @@ If you're contributing to this repo, you're probably either a:
 - IT tasked with deployment: you may want to read the [technology stack](#technology-stack) and [how to build locally](#building-and-testing-locally). However we have an actual deployment repository with scripts to automate installation and updates at [clic-website-production](https://github.com/clicepfl/clic-website-production).
 - Web developer: you probably want to get familiar with the complete codebase, so keep reading :stuck_out_tongue: Please make sure that you are at ease with the [workflow](#workflow) before committing new code.
 
+---
+
 ## Editor guides
+
+---
 
 ## Technology stack
 
 This software stack uses the following technologies:
 
+- [NodejS](https://nodejs.org/), a Javascript runtime environment to execute machine-level, out-of-browser programs
 - [Gulp](https://gulpjs.com/), a build system and task runner for JS projects
 - [Typescript](https://www.typescriptlang.org/), a typed language that compiles to Javascript
 - [ExpressJS](https://expressjs.com/), a web server framework
 - [NunjucksJS](https://mozilla.github.io/nunjucks/), a templating engine (see more details about templating [here](src/components/))
 - [Showdown](http://showdownjs.com/), a Markdown to HTML converter
 - [SASS](https://sass-lang.com/), a CSS preprocessor
+
+---
 
 ## Building and testing locally
 
@@ -70,6 +77,8 @@ This is a list of issues that you may encounter when installing or starting the 
 
 The `npm install` command is only required once when you first install the repository. If you then make changes to the repository, you can simply run `npx gulp` to compile your sources (it will be faster than `npm install` as it will not fetch dependencies). Then, re-start the server with `npm start`.
 
+---
+
 ## Repository hierarchy
 
 - `assets/` : a folder with general static assets, such as global images, downloadable files, front-end configs and search engine keys. It also contains an `untracked/` subfolder for files that are too big for git, they are thus **not tracked or saved** in this repository. Such files can be found in our cloud storage system and **must be manually copied for deployment** (if you have a better idea to expose big assets, please create a Github issue :smiley:).
@@ -98,7 +107,11 @@ The `npm install` command is only required once when you first install the repos
 
 - `tsconfig.json` : the Typescript compiler configuration. See the [official docs](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
+---
+
 ## Workflow
+
+---
 
 ## Authors and license
 
