@@ -14,6 +14,13 @@ If you're contributing to this repo, you're probably either a:
 
 ## Editor guides
 
+Step-by-step instructions on how to modify the content of the website for non-developer content editors:
+
+- [Modifying the news](src/components/news/)
+- [Modifying the committee list](src/components/committee)
+- [Modifying the sponsors list](src/components/sponsors)
+- [Modifying the gallery](src/components/gallery)
+
 ---
 
 ## Technology stack
@@ -111,10 +118,20 @@ The `npm install` command is only required once when you first install the repos
 
 ## Workflow
 
+Features and modifications, including bug fixes, are proposed using branches and forks. **The master branch of this repository is locked**, meaning that each feature must be merged through a Pull Request reviewed by at least one member of the developement team. The workflow to add, modify or remove features is as follows:
+
+1. Announce the modification by filing a new issue in the [Github issues](https://github.com/clicepfl/clic-website/issues). Describe the modification as precisely as possible. The language used in all repositories is English.
+2. Developers create a new branch for the described modification. The branch must be named `{N}-hyphenized-title` where `{N}` is the issue number attributed by Github. For instance, the issue [#52 Create events page](https://github.com/clicepfl/clic-website/issues/52) should have a branch named `52-events-page`. Content editors do not need to create a new branch, they fork the repository and proceed with the instructions.
+3. Modifications are written to the new branch (resp. fork), tested and reviewed by its author.
+4. Once all changes for this feature are finished, make sure that your branch (resp. fork) is up-to-date with the current version on master (`git merge origin/master your-branch` on your branch). Then, create a new [pull request](https://github.com/clicepfl/clic-website/pulls) that compares your branch (resp. fork) against the master. Mention in the body of the pull request the associated issue number (you can type `#` and auto-complete). Assign another developer from the team to review your changes.
+5. The reviewer(s) carefully read the proposed modifications, test them locally and verify that they are sane. They can either accept the pull request or reject it with detailed comments by citing code and explain why the pull request is rejected. **Branches cannot be merged back to master without reviews, as specified in the repository settings**. This code review ensures that at least two people must read the code before deploying.
+6. Once the pull request is accepted, the original author merges the branch back to master (it may be useful to squash the commits of the branch when using the additional features of the pull request merge button). Then the author also **deletes the merged branch from the [branches on Github](https://github.com/clicepfl/clic-website/branches)** (or respectively deletes its copy of its fork). Finally, the author also closes the corresponding issue if no more work needs to be done for it.
+7. The update must be deployed after every merge on master. See the [clic-website-production](https://github.com/clicepfl/clic-website-production) for instructions on how to deploy an update.
+
 ---
 
 ## Authors and license
 
-The CLIC website software was originally written by Alexandre CHAU ([dialexo](https://github.com/dialexo)) with the help of Loïc DROZ ([Scrashdown](https://github.com/Scrashdown)). Feel free to add your name below if you are a developer on this repository.
-
-- Original IT manager: Jonathan SCANZI ([jonscanzi](https://github.com/jonscanzi))
+- Author: Alexandre CHAU ([dialexo](https://github.com/dialexo))
+- Co-author: Loïc DROZ ([Scrashdown](https://github.com/Scrashdown))
+- IT manager: Jonathan SCANZI ([jonscanzi](https://github.com/jonscanzi))
