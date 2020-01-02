@@ -110,7 +110,7 @@ The `npm install` command is only required once when you first install the repos
 
 - `package.json` : the top-level definition of the project for NodeJS and NPM. It contains metadata, the actions of `npm install`, `npm stop` and `npm test`, and the list of dependencies.
 
-- `README.md` : this file.
+- `README.md` : this file
 
 - `tsconfig.json` : the Typescript compiler configuration. See the [official docs](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
