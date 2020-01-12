@@ -6,7 +6,7 @@ You are in folder `src/` from the root of the project. This folder contains cont
 
 - `pages/` folder: contains implementation of page instances, which implements the concrete display template of each page and links it against its viewmodel. See the documentation in [pages/](pages/).
 
-- `sass/` folder: SASS styling sources that are compiled to CSS. They contain style definitions applied on the whole website. The compilation task is defined in the top-level [`gulpfile.js`](`../gulpfile.js`).
+- `sass/` folder: SASS styling sources that are compiled to CSS. They contain style definitions applied on the whole website. The compilation task is defined in the top-level [`gulpfile.js`](../gulpfile.js).
 
 - [`config.ts`](config.ts): global server configuration settings used in the whole codebase (such as port number, production flag, ...).
 
