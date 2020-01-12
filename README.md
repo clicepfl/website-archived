@@ -27,7 +27,7 @@ Step-by-step instructions on how to modify the content of the website for non-de
 
 This software stack uses the following technologies:
 
-- [NodejS](https://nodejs.org/), a Javascript runtime environment to execute machine-level, out-of-browser programs
+- [NodeJS](https://nodejs.org/), a Javascript runtime environment to execute machine-level, out-of-browser programs
 - [Gulp](https://gulpjs.com/), a build system and task runner for JS projects
 - [Typescript](https://www.typescriptlang.org/), a typed language that compiles to Javascript
 - [ExpressJS](https://expressjs.com/), a web server framework
@@ -124,7 +124,7 @@ Features and modifications, including bug fixes, are proposed using branches and
 
 2. Developers create a new branch for the described modification. The branch must be named `{N}-hyphenized-title` where `{N}` is the issue number attributed by Github. For instance, the issue [#52 Create events page](https://github.com/clicepfl/clic-website/issues/52) should have a branch named `52-events-page`. Content editors do not need to create a new branch, they fork the repository and proceed with the instructions.
 
-3. Modifications are written to the new branch (resp. fork), tested and reviewed by its author.
+3. Modifications are written to the new branch (resp. fork), tested and reviewed by its author. Also, do not forget to modify the corresponding documentation according to your changes, if applicable.
 
 4. Once all changes for this feature are finished, make sure that your branch (resp. fork) is up-to-date with the current version on master (`git merge origin/master your-branch` on your branch). Then, create a new [pull request](https://github.com/clicepfl/clic-website/pulls) that compares your branch (resp. fork) against the master. Mention in the body of the pull request the associated issue number (you can type `#` and auto-complete). Assign another developer from the team to review your changes.
 
