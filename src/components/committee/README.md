@@ -4,7 +4,7 @@ This is the committee component, you are in folder `src/components/committee/`.
 
 ## Modifying the committee list
 
-This is a simple guide to modify the committee list (wherever used on the website).
+This is a simple guide for content editors to modify the committee list (wherever used on the website). If you are are developer, use the standard workflow as described in the [top-level README](/README.md).
 
 1. Fork this repository to your account using the `Fork` button in the top right corner of this page on Github
 
@@ -64,7 +64,7 @@ This is a simple guide to modify the committee list (wherever used on the websit
     4. Select your fork as `head repository` and compare your `master` branch against ours
     5. Have a last look at your changes and hit `Create pull request`
 
-7. Delete your fork on Github and your local copy of the repository to ensure that you will not have a stale version later in the future.
+7. Only once your change has been merged back into master by the developers, delete your fork on Github and your local copy of the repository to ensure that you will not have a stale version later in the future (developers should notify you in your Pull Request).
 
 ## Developer notes
 
