@@ -132,7 +132,7 @@ Features and modifications, including bug fixes, are proposed using branches and
 
 6. Once the pull request is accepted, the original author merges the branch back to master (it may be useful to squash the commits of the branch when using the additional features of the pull request merge button). Then the author also **deletes the merged branch from the [branches on Github](https://github.com/clicepfl/clic-website/branches)** (or respectively deletes its copy of its fork). Finally, the author also closes the corresponding issue if no more work needs to be done for it.
 
-7. The live version must be updated by deploying after every merge on master. See the [clic-website-production](https://github.com/clicepfl/clic-website-production) for instructions on how to deploy an update.
+7. The live version must be updated by deploying after every merge on master by a developer. See the [clic-website-production](https://github.com/clicepfl/clic-website-production) for instructions on how to deploy an update.
 
 ---
 
