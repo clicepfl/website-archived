@@ -6,10 +6,10 @@
         "websiteURL": "https://people.epfl.ch/olivier.cloux"
     },
     {
-        "name": "Hugo Hueber",
-        "role": "Vice-président",
-        "imageURL": "/committee/hugohueber.jpg",
-        "websiteURL": "https://people.epfl.ch/hugo.hueber"
+        "name": "Camille Montemagni",
+        "role": "Vice-présidente",
+        "imageURL": "/committee/camillemontemagni.jpg",
+        "websiteURL": "https://people.epfl.ch/camille.montemagni"
     },
     {
         "name": "Natalia Nessler",
@@ -18,16 +18,10 @@
         "websiteURL": "https://people.epfl.ch/natalia.nessler"
     },
     {
-        "name": "Kopiga Rasiah",
+        "name": "Maëlys Billon",
         "role": "Vice-administratrice",
-        "imageURL": "/committee/kopigarasiah.jpg",
-        "websiteURL": "https://people.epfl.ch/kopiga.rasiah"
-    },
-    {
-        "name": "Eloïse Doyard",
-        "role": "Vice-administratrice",
-        "imageURL": "/committee/eloisedoyard.jpg",
-        "websiteURL": "https://people.epfl.ch/eloise.doyard"
+        "imageURL": "/committee/maelysbillon.jpg",
+        "websiteURL": "https://people.epfl.ch/maelys.billon"
     },
     {
         "name": "Jonathan Scanzi",
@@ -36,45 +30,39 @@
         "websiteURL": "https://people.epfl.ch/jonathan.scanzi"
     },
     {
-        "name": "Ruben Ganansia",
-        "role": "Evènements",
-        "imageURL": "/committee/rubenganansia.jpg",
-        "websiteURL": "https://people.epfl.ch/ruben.ganansia"
+        "name": "Manon Michel",
+        "role": "Evénements",
+        "imageURL": "/committee/manonmichel.jpg",
+        "websiteURL": "https://people.epfl.ch/manon.michel"
+    },
+    {
+        "name": "Arthur Vignon",
+        "role": "Evénements",
+        "imageURL": "/committee/arthurvignon.jpg",
+        "websiteURL": "https://people.epfl.ch/arthur.vignon"
     },
     {
         "name": "Rayan Daod Nathoo",
-        "role": "Evènements",
+        "role": "Sponsoring",
         "imageURL": "/committee/rayandaod.jpg",
         "websiteURL": "https://people.epfl.ch/rayan.daodnathoo"
     },
     {
-        "name": "Yusi Zou",
+        "name": "Gonxhe Idrizi",
         "role": "Communication",
-        "imageURL": "/committee/yusizou.jpg",
-        "websiteURL": "https://people.epfl.ch/yusi.zou"
+        "imageURL": "/committee/gonxheidrizi.jpg",
+        "websiteURL": "https://people.epfl.ch/gonxhe.idrizi"
     },
     {
-        "name": "Romain Pugin",
+        "name": "Tom Demont",
+        "role": "Logistique",
+        "imageURL": "/committee/tomdemont.jpg",
+        "websiteURL": "https://people.epfl.ch/tom.demont"
+    },
+    {
+        "name": "Lucas Trognon",
         "role": "Relation Coaching",
-        "imageURL": "/committee/romainpugin.jpg",
-        "websiteURL": "https://people.epfl.ch/romain.pugin"
-    },
-    {
-        "name": "Blanche Duron",
-        "role": "Relation Coaching",
-        "imageURL": "/committee/blancheduron.jpg",
-        "websiteURL": "https://people.epfl.ch/blanche.duron"
-    },
-    {
-        "name": "Camille Montemagni",
-        "role": "Sponsoring",
-        "imageURL": "/committee/camillemontemagni.jpg",
-        "websiteURL": "https://people.epfl.ch/camille.montemagni"
-    },
-    {
-        "name": "Vincent Yuan",
-        "role": "Sponsoring",
-        "imageURL": "/committee/vincentyuan.jpg",
-        "websiteURL": "https://people.epfl.ch/vincent.yuan"
+        "imageURL": "/committee/lucastrognon.jpg",
+        "websiteURL": "https://people.epfl.ch/lucas.trognon"
     }
 ]
