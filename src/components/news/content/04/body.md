@@ -1,7 +1,7 @@
-La CLIC est fière d'annoncer sa deuxième édition d'IC Boost Day, le jeudi 12 mars 2020 de 9h à 17h à l'EPFL dans le bâtiment BC !
+Le fameux souper de faculté organisé par la CLIC revient le jeudi 10 octobre dans le Hall du bâtiment BC à partir de 18h00.
 
-Nous vous proposons différentes activités tout au long de cette journée comme 9 panels, des mock interviews de recrutement, de nombreuses rencontres avec des alumni, des workshops ainsi que des corrections de CV ! Une occasion unique pour vous préparer à votre futur professionnel dans le monde de l'ingénierie informatique.
+Il s’agit d’une occasion idéale pour faire des nouvelles connaissances entre 330 étudiant.e.s de Bachelor et Master ainsi que profiter de l’opportunité de discuter avec 18 professeur.e.s de la faculté IC dans une belle ambiance ! Vous serez servi d’une entrée, un plat principal (végétarien ou non-végétarien) et un dessert, le tout pour le prix de 10CHF. De plus, vins et bières seront aussi en vente à des prix très abordable.
 
-Pour plus d'informations, visitez notre page dédiée à l'IC Boost Day : [clic.epfl.ch/icbd](https://clic.epfl.ch/icbd)
+La CLIC a également mis en place son traditionnel quiz avec 10 questions illustrant la faculté IC.
 
-De plus, pour participer à l'événement, veuillez vous inscrire en cliquant sur le lien suivant : [clic.epfl.ch/inscription](https://docs.google.com/forms/d/e/1FAIpQLSej0_S_AzHSwax-XFGA_m9VvoRr0EmvIIDycfBpvldGhbW75Q/viewform)
+De nombreuses photos ont été prises tout au long de la soirée. L'album photos se trouve sur notre page Facebook : [clic.epfl.ch/galerie](https://www.facebook.com/pg/clic.epfl/photos/?tab=album&album_id=2745069612203888)
