@@ -349,13 +349,16 @@ h4
 .news
     float: left
     text-align: left
-    display: flex
-
-    @media screen and (max-width: 1100px)
-        display: block
 
     p, a
         font-size: 16px
+
+    .news-row
+        display: flex
+        margin-bottom: 20px
+
+        @media screen and (max-width: 1100px)
+            display: block
 
     .news-item
         background: #fff
@@ -372,7 +375,6 @@ h4
             margin: 0 5%
             margin-bottom: 15px
             padding-bottom: 15px
-            float: left
         @media screen and (max-width: 750px)
             padding-bottom: 60px
 
