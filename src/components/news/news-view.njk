@@ -25,15 +25,21 @@
         {{ news.newsCards(news = data) }}
 #}
 {% macro newsCards(news) %}
-    {% for item in news %}
-        <div class="news-item">
-            <a href="/news/{{item.id}}">
-                <img src="{{item.image}}" alt="{{item.title}}">
-                <p class="title">{{item.title}}</p>
-                <p class="date">{{item.date}} par {{item.author}}</p>
-            </a>
-            <p class="desc">{{item.shortText}}</p>
-            <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
+    {% for batch in news | batch(3) %}
+        <div class="news-row">
+            {% for item in batch %}
+                <div class="news-item">
+                    <a href="/news/{{item.id}}">
+                        <img src="{{item.image}}" alt="{{item.title}}">
+                        <p class="title">{{item.title}}</p>
+                        <p class="date">{{item.date}}
+                            par
+                            {{item.author}}</p>
+                    </a>
+                    <p class="desc">{{item.shortText}}</p>
+                    <a href="/news/{{item.id}}" class="more">Lire plus &raquo;</a>
+                </div>
+            {% endfor %}
         </div>
     {% endfor %}
 {% endmacro %}

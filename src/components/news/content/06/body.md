@@ -4,4 +4,4 @@ Nous vous proposons différentes activités tout au long de cette journée comme
 
 Pour plus d'informations, visitez notre page dédiée à l'IC Boost Day : [clic.epfl.ch/icbd](https://clic.epfl.ch/icbd)
 
-De plus, pour participer à l'événement, veuillez vous inscrire en cliquant sur le lien suivant : [clic.epfl.ch/inscription](https://docs.google.com/forms/d/e/1FAIpQLSej0_S_AzHSwax-XFGA_m9VvoRr0EmvIIDycfBpvldGhbW75Q/viewform)
+Pour participer à l'événement, veuillez vous inscrire en ligne sur le [formulaire d'inscription](https://docs.google.com/forms/d/e/1FAIpQLSej0_S_AzHSwax-XFGA_m9VvoRr0EmvIIDycfBpvldGhbW75Q/viewform)
