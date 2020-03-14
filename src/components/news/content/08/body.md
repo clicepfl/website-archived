@@ -4,4 +4,4 @@ En effet, plusieurs mesures strictes ont été mises en place par l'EPFL pour r�
 
 Nous souhaitons cependant remercier toutes les personnes qui auraient pu rendre cet événement formidable.
 
-Un très grand merci notamment à Olvier Cloux et Arthur Vignon pour l'engagement fourni à la mise en place de cet événement. La CLIC est vraiment très fière de vous.
+Un très grand merci notamment à Olivier Cloux et Arthur Vignon pour l'engagement fourni à la mise en place de cet événement. La CLIC est vraiment très fière de vous.
