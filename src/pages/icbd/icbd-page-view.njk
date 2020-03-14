@@ -110,7 +110,7 @@
                                 <p>
                                     The CV is a key element in the recruitement process. Is yours good enough? Register for sessions with our partner
                                     Together to have your CV checked and corrected in a personnal session. Note: to be eligible for this event, you must register for
-                                    and attend the talk on CVs on March 5th. More info on the registration form.
+                                    and attend the talk on CVs on March 3rd. More info on the registration form.
                                 </p>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                     From 12:00 to 13:30, take part in an informal lunch with 25 alumni for free.
                                     You will have the opportunity to ask any question to former students now working in the industry.
                                     This will be a standing lunch so that you can walk around and meet as many people as you wish.
-                                    Note: to take part in this event, you must depose a 10CHF caution that you will get back at the beginning of the lunch.
+                                    Note: to take part in this event, you must leave a 10CHF deposit that you will get back at the beginning of the lunch.
                                 </p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                             <div class="details">
                                 <h4>Throwback ten years after leaving EPFL: what do I regret and which useful learnings have I kept"</h4>
                                 <p>
-                                    Meet Marc Berger, an alumnus that finished his master 10 years ago. During his time in industry, what did he learn? What does he wished he would have learned while at EPFL?
+                                    Meet Marc Berger, an alumnus that finished his master 10 years ago. During his time in industry, what did he learn? What does he wish he would have learned while at EPFL?
                                     Come listen to his experience in this nostalgic talk.
                                 </p>
                             </div>
@@ -265,7 +265,6 @@
             timetable.addLocations([
                 'BC HALL',
                 'BC 410',
-                'BC 010',
                 'BC 420',
                 'BC 129',
                 'BC 229',
@@ -277,6 +276,10 @@
 
             // BC 420 events
             let room = 'BC 420';
+            timetable.addEvent("TALK Throwback ten years after leaving EPFL", room, date(10, 15), date(11, 0), {
+                class: 'talk-entry',
+                url: '#10years-talk'
+            });
             timetable.addEvent('TALK The keys to a good internship', room, date(14, 15), date(15, 0), {
                 class: 'talk-entry',
                 url: '#internship-talk'
@@ -288,11 +291,11 @@
 
             // BC 410 events
             room = 'BC 410';
-            timetable.addEvent('MT Cyber Sec.', room, date(9, 10), date(9, 30), MT_OPTIONS);
+            timetable.addEvent('MT Consul.', room, date(9, 10), date(9, 30), MT_OPTIONS);
             timetable.addEvent('MT Data Science', room, date(9, 40), date(10, 0), MT_OPTIONS);
             timetable.addEvent('MT Net.', room, date(11, 10), date(11, 30), MT_OPTIONS);
             timetable.addEvent('MT Soft. Eng.', room, date(11, 40), date(12, 0), MT_OPTIONS);
-            timetable.addEvent('MT Consul.', room, date(15, 10), date(15, 30), MT_OPTIONS);
+            timetable.addEvent('MT Cyber Sec.', room, date(15, 10), date(15, 30), MT_OPTIONS);
             timetable.addEvent('MT Comp. Vis.', room, date(15, 40), date(16, 0), MT_OPTIONS);
 
             // BC 229 events
@@ -312,12 +315,7 @@
             timetable.addEvent(eventName, room, date(14, 0), date(15, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(15, 0), date(16, 0), MOCK_OPTIONS);
 
-            // BC 010 events
-            timetable.addEvent("TALK Throwback ten years after leaving EPFL", "BC 010", date(10, 15), date(11, 0), {
-                class: 'talk-entry',
-                url: '#10years-talk'
-            });
-
+            // BC 129 events
             room = "BC 129"
             eventName = "CV Checks with Together AG"
             timetable.addEvent(eventName, room, date(9, 0), date(12, 0), CV_OPTIONS);
