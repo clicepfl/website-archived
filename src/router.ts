@@ -146,6 +146,11 @@ router.get('/robots.txt', (req, res) => {
     sm.TXTtoWeb(res)
 })
 
+// Don't ask
+router.get('/demission', (req, res) => {
+    res.redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+})
+
 /**
  * 404 handle
  * MUST be at the end of the routing list !
