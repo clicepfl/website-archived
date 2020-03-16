@@ -74,11 +74,11 @@ You can stop the server by entering `Ctrl+C` in the terminal (this shortcut does
 
 ### Installation troubleshooting
 
-This is a list of issues that you may encounter when installing or starting the server. Feel free to add your own problem and solution, otherwise head over to the [Github issues](https://github.com/clicepfl/clic-website/issues).
+This is a list of issues that you may encounter when installing or starting the server. Feel free to add your own problems and solutions, otherwise head over to the [Github issues](https://github.com/clicepfl/clic-website/issues).
 
 - If you have previously installed an older version of Typescript globally, you may encounter an error such as `ts5023: unknown compiler option 'resolveJsonModule'`. Uninstall your global version of Typescript or update it to the latest (`npm remove -g typescript` or `npm install -g typescript@latest`).
 
-- When running `npm start`, the message `Error: listen EADDRINUSE: address already in use :::8000` may appear in a long stacktrace. This means that your local port `8000` is already used by another process, you will need to stop it before trying again.
+- When running `npm start`, the message `Error: listen EADDRINUSE: address already in use :::8000` may appear in a long stacktrace. This means that your local port `8000` is already used by another process, you will need to stop it before trying again. You may want to search how to list all programs that are using ports for your operating system, such as `netstat -plnt` on Linux.
 
 ### Building during development
 
