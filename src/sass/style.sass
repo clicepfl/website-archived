@@ -547,6 +547,7 @@ h4
 .news-article
     width: 80%
     margin: 0 10%
+    text-align: left
 
     @media screen and (max-width: 600px)
         width: 100%
@@ -555,7 +556,6 @@ h4
     h1
         font-weight: 100
         text-transform: uppercase
-        text-align: left
         font-size: 55px
         color: #666
 
@@ -564,6 +564,37 @@ h4
 
         @media screen and (max-width: 450px)
             font-size: 30px
+
+    h2, h3, h4, h5, h6
+        padding: 0
+        margin: 25px 0 15px 0
+        color: #333
+        font-weight: 700
+    h2
+        font-size: 24px
+    h3
+        font-size: 22px
+    h4
+        font-size: 20px
+    h5
+        font-size: 18px
+    h6
+        font-size: 16px
+
+    ol, ul
+        padding-left: 35px
+        font: normal 18px "Lato", Helvetica, Arial, sans-serif
+        color: $text-color
+        line-height: 1.5
+
+    pre
+        padding: 10px 25px
+        margin: 15px 0
+        border-left: 5px #eee solid
+        color: $text-color
+        font-size: 14px
+        font-family: "Roboto Mono", monospace
+        overflow-y: scroll
 
     img
         margin-top: 10px
@@ -757,8 +788,8 @@ h4
                     color: $navy-blue
 
                 span:last-child
-                   font-style: italic
-                   margin-bottom: 0
+                    font-style: italic
+                    margin-bottom: 0
 
             a:hover
                 background-color: #fff
