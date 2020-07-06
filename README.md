@@ -141,3 +141,21 @@ Features and modifications, including bug fixes, are proposed using branches and
 - Author: Alexandre CHAU ([dialexo](https://github.com/dialexo))
 - Co-author: Loïc DROZ ([Scrashdown](https://github.com/Scrashdown))
 - IT manager: Jonathan SCANZI ([jonscanzi](https://github.com/jonscanzi))
+
+```
+CLIC website software - web server of clic.epfl.ch
+Copyright (C) 2020 Alexandre CHAU, Loïc DROZ, Jonathan SCANZI
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```

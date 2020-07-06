@@ -12,22 +12,24 @@
 #}
 
 {#
-    Last news cards
-    This macro displays a list of the latest news inside a card each
+    News cards
+    This macro displays a list of news each inside a card
 
-    @param lastNews The last news to display (selection should be done
-    beforehand) as an array of News
+    @param news The list of news to display as an array of News
                     (type News[] as defined in {@link news.ts})
 
-    @example Inserts the cards of the latest news, data in the view model
-             is News[]
+    @example Inserts the cards of the news, data in the view model
+             is of type News[]
         {% import "components/news/news-view.njk" as news %}
         {{ news.newsCards(news = data) }}
 #}
 {% macro newsCards(news) %}
-    {% for batch in news | batch(3) %}
+    {# Batch the news chronologically, then reverse the order
+       (however each batch has not been reversed) ... #}
+    {% for batch in news | batch(3) | reverse %}
         <div class="news-row">
-            {% for item in batch %}
+            {# ... so we reverse the batch here #}
+            {% for item in batch | reverse %}
                 <div class="news-item">
                     <a href="/news/{{item.id}}">
                         <img src="{{item.image}}" alt="{{item.title}}">

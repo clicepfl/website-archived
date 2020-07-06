@@ -124,7 +124,8 @@ class NewsComponent {
      * @param n Integer number of news
      */
     getLast(n: number): Array<News> {
-        return Object.assign([], NewsComponent.news.slice(0, n))
+        const length = NewsComponent.news.length
+        return Object.assign([], NewsComponent.news.slice(length-n, length))
     }
 
     /**
@@ -142,7 +143,7 @@ class NewsComponent {
         const newsIDs = fs.readdirSync(CONTENT_PATH, { withFileTypes: true })
             .filter(dirent => dirent.isDirectory())
             .map(dirent => dirent.name)
-        return newsIDs.sort().reverse()
+        return newsIDs.sort()
     }
 
     /**
