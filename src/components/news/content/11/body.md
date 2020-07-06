@@ -4,4 +4,4 @@ Le comité se renouvelle cette année. Game* cherche des gens motivés pour, au 
 
 Intéressé.e ? Envoie un email à videogames@groupes.epfl.ch
 
-Vous pouvez également suivre les activitées de cette commission sur leur [page Facebook](https://www.facebook.com/CLICGameStar/?eid=ARBJWZi6qZkTlcIiT1-feLzJEoVJUhmR-LsdbB0JmWuZqX8it2BL7bb4ZaTTHYtUrv6exGLNMznAYHVC), leur [canal Telegram](https://t.me/CLICGameStar/) ou encore leur [compte Twitter](https://twitter.com/CLICGameStar).
+Vous pouvez également suivre les activitées de cette commission sur leur [page Facebook](https://www.facebook.com/CLICGameStar/), leur [canal Telegram](https://t.me/CLICGameStar/) ou encore leur [compte Twitter](https://twitter.com/CLICGameStar).
