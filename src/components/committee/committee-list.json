@@ -1,51 +1,51 @@
 [
     {
-        "name": "Olivier Cloux",
+        "name": "Rayan Daod",
         "role": "Président",
-        "imageURL": "/committee/oliviercloux.jpg",
-        "websiteURL": "https://people.epfl.ch/olivier.cloux"
+        "imageURL": "/committee/rayandaod.jpg",
+        "websiteURL": "https://people.epfl.ch/rayan.daodnathoo"
     },
     {
         "name": "Camille Montemagni",
-        "role": "Vice-présidente",
+        "role": "Vice-Présidente",
         "imageURL": "/committee/camillemontemagni.jpg",
         "websiteURL": "https://people.epfl.ch/camille.montemagni"
     },
     {
-        "name": "Natalia Nessler",
-        "role": "Administratrice",
-        "imageURL": "/committee/natalianessler.jpg",
-        "websiteURL": "https://people.epfl.ch/natalia.nessler"
-    },
-    {
         "name": "Maëlys Billon",
-        "role": "Vice-administratrice",
+        "role": "Administratrice",
         "imageURL": "/committee/maelysbillon.jpg",
         "websiteURL": "https://people.epfl.ch/maelys.billon"
     },
     {
-        "name": "Jonathan Scanzi",
+        "name": "Éloïse Doyard",
+        "role": "Vice-Administratrice",
+        "imageURL": "/committee/eloisedoyard.jpg",
+        "websiteURL": "https://people.epfl.ch/eloise.doyard"
+    },
+    {
+        "name": "Hugo El Guedj",
         "role": "IT",
-        "imageURL": "/committee/jonathanscanzi.jpg",
-        "websiteURL": "https://people.epfl.ch/jonathan.scanzi"
+        "imageURL": "/committee/default.jpg",
+        "websiteURL": "https://people.epfl.ch/hugo.elguedj"
     },
     {
         "name": "Manon Michel",
-        "role": "Evénements",
+        "role": "Événements",
         "imageURL": "/committee/manonmichel.jpg",
         "websiteURL": "https://people.epfl.ch/manon.michel"
     },
     {
-        "name": "Arthur Vignon",
-        "role": "Evénements",
-        "imageURL": "/committee/arthurvignon.jpg",
-        "websiteURL": "https://people.epfl.ch/arthur.vignon"
+        "name": "Kévin Faustini",
+        "role": "Événements",
+        "imageURL": "/committee/default.jpg",
+        "websiteURL": "https://people.epfl.ch/kevin.faustini"
     },
     {
-        "name": "Rayan Daod Nathoo",
+        "name": "Arthur Vignon",
         "role": "Sponsoring",
-        "imageURL": "/committee/rayandaod.jpg",
-        "websiteURL": "https://people.epfl.ch/rayan.daodnathoo"
+        "imageURL": "/committee/arthurvignon.jpg",
+        "websiteURL": "https://people.epfl.ch/arthur.vignon"
     },
     {
         "name": "Gonxhe Idrizi",
@@ -54,15 +54,21 @@
         "websiteURL": "https://people.epfl.ch/gonxhe.idrizi"
     },
     {
+        "name": "Mallory Henriet",
+        "role": "Communication",
+        "imageURL": "/committee/default.jpg",
+        "websiteURL": "https://people.epfl.ch/mallory.henriet"
+    },
+    {
         "name": "Tom Demont",
         "role": "Logistique",
         "imageURL": "/committee/tomdemont.jpg",
         "websiteURL": "https://people.epfl.ch/tom.demont"
     },
     {
-        "name": "Lucas Trognon",
-        "role": "Relation Coaching",
-        "imageURL": "/committee/lucastrognon.jpg",
-        "websiteURL": "https://people.epfl.ch/lucas.trognon"
+        "name": "Marine Bossanne",
+        "role": "Relations Coaching",
+        "imageURL": "/committee/default.jpg",
+        "websiteURL": "https://people.epfl.ch/marine.bossanne"
     }
 ]
