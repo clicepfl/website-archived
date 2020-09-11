@@ -1,7 +1,7 @@
 {#
     This file contains base components definitions for Nunjucks templates
     CLIC website software
-    
+
     Please read {@link README.md} in this folder for guidelines and
     documentation about templating and view definitions.
 
@@ -82,9 +82,16 @@
                         <li {% if tab == "about" %} class="current" {% endif %}>
                             <a href="/about">L'association</a>
                         </li>
+                        <li {% if tab == "coaching" %} class="current" {% endif %}>
+                            <a href="/coaching">Coaching</a>
+                        </li>
+                        {#<li {% if tab == "events" %} class="current" {% endif %}>
+                            <a href="/events">Events</a>
+                        </li>#}
                         <li {% if tab == "news" %} class="current" {% endif %}>
                             <a href="/news">News</a>
                         </li>
+
                     </ul>
                 </div>
 

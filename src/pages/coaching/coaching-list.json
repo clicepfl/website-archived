@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Abdelaziz",
+    "imageURL": "/coaching/Abdelaziz.png",
+    "websiteURL": "https://people.epfl.ch/abdelaziz.megdiche"
+  },
+  {
+    "name": "Alexandre",
+    "imageURL": "/coaching/Alexandre.png",
+    "websiteURL": "https://people.epfl.ch/alexandre.riou"
+  },
+  {
+    "name": "Alexis",
+    "imageURL": "/coaching/Alexis.png",
+    "websiteURL": "https://people.epfl.ch/alexis.firome"
+  },
+  {
+    "name": "Alp",
+    "imageURL": "/coaching/Alp.png",
+    "websiteURL": "https://people.epfl.ch/alp.ozen"
+  },
+  {
+    "name": "Ambroise",
+    "imageURL": "/coaching/Ambroise.png",
+    "websiteURL": "https://people.epfl.ch/ambroise.borbely"
+  },
+  {
+    "name": "Ana",
+    "imageURL": "/coaching/Ana.png",
+    "websiteURL": "https://people.epfl.ch/anne-laure.tettoni"
+  },
+  {
+    "name": "André",
+    "imageURL": "/coaching/Andre.png",
+    "websiteURL": "https://people.epfl.ch/andre.zarzatapia"
+  },
+  {
+    "name": "Antoine",
+    "imageURL": "/coaching/Antoine.png",
+    "websiteURL": "https://people.epfl.ch/antoine.aubry"
+  },
+  {
+    "name": "Ari",
+    "imageURL": "/coaching/Ari.png",
+    "websiteURL": "https://people.epfl.ch/ariadne.melissargos"
+  },
+  {
+    "name": "Baptiste L.",
+    "imageURL": "/coaching/Baptiste_Lecoeur.png",
+    "websiteURL": "https://people.epfl.ch/baptiste.lecoeur"
+  },
+  {
+    "name": "Baptiste M.",
+    "imageURL": "/coaching/Baptiste_Maquignaz.png",
+    "websiteURL": "https://people.epfl.ch/baptiste.maquignaz"
+  },
+  {
+    "name": "Bérangère",
+    "imageURL": "/coaching/Bérangère.png",
+    "websiteURL": "https://people.epfl.ch/berangere.colbois"
+  },
+  {
+    "name": "Brice",
+    "imageURL": "/coaching/Brice.png",
+    "websiteURL": "https://people.epfl.ch/brice.theurillat"
+  },
+  {
+    "name": "Camille",
+    "imageURL": "/coaching/Camille.png",
+    "websiteURL": "https://people.epfl.ch/camille.steiner"
+  },
+  {
+    "name": "Carl",
+    "imageURL": "/coaching/Carl.png",
+    "websiteURL": "https://people.epfl.ch/carl.schutz"
+  },
+  {
+    "name": "Christelle",
+    "imageURL": "/coaching/Christelle.png",
+    "websiteURL": "https://people.epfl.ch/phi.lam"
+  },
+  {
+    "name": "Cyril",
+    "imageURL": "/coaching/Cyril.png",
+    "websiteURL": "https://people.epfl.ch/cyril.khonaisser"
+  },
+  {
+    "name": "Daniel",
+    "imageURL": "/coaching/Daniel.png",
+    "websiteURL": "https://people.epfl.ch/daniel.tavaresagostinho"
+  },
+  {
+    "name": "Elior",
+    "imageURL": "/coaching/Elior.png",
+    "websiteURL": "https://people.epfl.ch/elior.papiernik"
+  },
+  {
+    "name": "Elisa",
+    "imageURL": "/coaching/Elisa.png",
+    "websiteURL": "https://people.epfl.ch/elisa.bianchi"
+  },
+  {
+    "name": "Fabrice",
+    "imageURL": "/coaching/Fabrice.png",
+    "websiteURL": "https://people.epfl.ch/fabrice.saucy"
+  },
+  {
+    "name": "Laurynas",
+    "imageURL": "/coaching/Laurynas.png",
+    "websiteURL": "https://people.epfl.ch/laurynas.lopata"
+  },
+  {
+    "name": "Léa",
+    "imageURL": "/coaching/Léa.png",
+    "websiteURL": "https://people.epfl.ch/lea.bays"
+  },
+  {
+    "name": "Léo",
+    "imageURL": "/coaching/Léo.png",
+    "websiteURL": "https://people.epfl.ch/leo.theytaz"
+  },
+  {
+    "name": "Lilou",
+    "imageURL": "/coaching/Lilou.png",
+    "websiteURL": "https://people.epfl.ch/lilou.dehondt"
+  },
+  {
+    "name": "Lothaire",
+    "imageURL": "/coaching/Lothaire.png",
+    "websiteURL": "https://people.epfl.ch/lothaire.aubergeon"
+  },
+  {
+    "name": "Lucien",
+    "imageURL": "/coaching/Lucien.png",
+    "websiteURL": "https://people.epfl.ch/lucien.chapuisat"
+  },
+  {
+    "name": "Marine",
+    "imageURL": "/coaching/Marine.png",
+    "websiteURL": "https://people.epfl.ch/marine.bossanne"
+  },
+  {
+    "name": "Max",
+    "imageURL": "/coaching/Max.png",
+    "websiteURL": "https://people.epfl.ch/max.conti"
+  },
+  {
+    "name": "Mehdi",
+    "imageURL": "/coaching/Medhi.png",
+    "websiteURL": "https://people.epfl.ch/mehdi.bouguerraezzina"
+  },
+  {
+    "name": "Nicolas",
+    "imageURL": "/coaching/Nicolas.png",
+    "websiteURL": "https://people.epfl.ch/nicolas.matekalo"
+  },
+  {
+    "name": "Pierre",
+    "imageURL": "/coaching/Pierre.png",
+    "websiteURL": "https://people.epfl.ch/pierre.veron"
+  },
+  {
+    "name": "Solène",
+    "imageURL": "/coaching/Solène.png",
+    "websiteURL": "https://people.epfl.ch/solene.vidal"
+  },
+  {
+    "name": "Srushti",
+    "imageURL": "/coaching/Srushti.png",
+    "websiteURL": "https://people.epfl.ch/srushti.singh"
+  },
+  {
+    "name": "Stéphane",
+    "imageURL": "/coaching/Stéphane.png",
+    "websiteURL": "https://people.epfl.ch/stephane.chedid"
+  },
+  {
+    "name": "Thibaut",
+    "imageURL": "/coaching/Thibaut.png",
+    "websiteURL": "https://people.epfl.ch/thibaut.fleury"
+  },
+  {
+    "name": "Victor",
+    "imageURL": "/coaching/Victor.png",
+    "websiteURL": "https://people.epfl.ch/victor.nazianzeno-lejamtel"
+  },
+  {
+    "name": "William",
+    "imageURL": "/coaching/William.png",
+    "websiteURL": "https://people.epfl.ch/william.ouensanga"
+  },
+  {
+    "name": "Xavier",
+    "imageURL": "/coaching/Xavier.png",
+    "websiteURL": "https://people.epfl.ch/xavier.theimer-lienhard"
+  },
+  {
+    "name": "Yuji",
+    "imageURL": "/coaching/Yuji.png",
+    "websiteURL": "https://people.epfl.ch/eugenie.kwak"
+  }
+]

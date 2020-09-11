@@ -19,6 +19,9 @@ import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
 import { aboutPage } from './pages/about/about-page'
 import { icbdPage } from './pages/icbd/icbd-page'
+import { coachingPage } from './pages/coaching/coaching-page'
+import { coachingListRouter } from './pages/coaching/coaching-router'
+import { eventsPage } from './pages/events/events-page'
 import { notFoundPage } from './pages/404/404-page'
 
 /** Fresh router instance */
@@ -43,6 +46,16 @@ router.get('/news', newsPage.render)
  * IC Boost day
  */
 router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
+
+/**
+ * Coaching page
+ */
+router.get('/coaching', coachingPage.render)
+
+/**
+ * Events page
+ */
+//router.get('/events', eventsPage.render)
 
 /**
  * Sponsors router
@@ -87,6 +100,8 @@ router.use("/news", newsRouter)
  * mounted at final URL "/gallery/foo"
  */
 router.use("/gallery", galleryRouter)
+
+router.use("/coaching", coachingListRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)
