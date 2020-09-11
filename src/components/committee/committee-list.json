@@ -26,7 +26,7 @@
     {
         "name": "Hugo El Guedj",
         "role": "IT",
-        "imageURL": "/committee/default.jpg",
+        "imageURL": "/committee/default.png",
         "websiteURL": "https://people.epfl.ch/hugo.elguedj"
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Kévin Faustini",
         "role": "Événements",
-        "imageURL": "/committee/default.jpg",
+        "imageURL": "/committee/default.png",
         "websiteURL": "https://people.epfl.ch/kevin.faustini"
     },
     {
@@ -56,7 +56,7 @@
     {
         "name": "Mallory Henriet",
         "role": "Communication",
-        "imageURL": "/committee/default.jpg",
+        "imageURL": "/committee/default.png",
         "websiteURL": "https://people.epfl.ch/mallory.henriet"
     },
     {
@@ -68,7 +68,7 @@
     {
         "name": "Marine Bossanne",
         "role": "Relations Coaching",
-        "imageURL": "/committee/default.jpg",
+        "imageURL": "/committee/default.png",
         "websiteURL": "https://people.epfl.ch/marine.bossanne"
     }
 ]
