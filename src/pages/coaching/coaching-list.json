@@ -40,7 +40,7 @@
     "websiteURL": "https://people.epfl.ch/antoine.aubry"
   },
   {
-    "name": "Ari",
+    "name": "Ariadne",
     "imageURL": "/coaching/Ari.png",
     "websiteURL": "https://people.epfl.ch/ariadne.melissargos"
   },
@@ -82,7 +82,7 @@
   {
     "name": "Cyril",
     "imageURL": "/coaching/Cyril.png",
-    "websiteURL": "https://people.epfl.ch/cyril.khonaisser"
+    "websiteURL": "https://people.epfl.ch/cyril.khoneisser"
   },
   {
     "name": "Daniel",
@@ -98,6 +98,11 @@
     "name": "Elisa",
     "imageURL": "/coaching/Elisa.png",
     "websiteURL": "https://people.epfl.ch/elisa.bianchi"
+  },
+  {
+    "name": "Eugénie",
+    "imageURL": "/coaching/Yuji.png",
+    "websiteURL": "https://people.epfl.ch/eugenie.kwak"
   },
   {
     "name": "Fabrice",
@@ -193,10 +198,5 @@
     "name": "Xavier",
     "imageURL": "/coaching/Xavier.png",
     "websiteURL": "https://people.epfl.ch/xavier.theimer-lienhard"
-  },
-  {
-    "name": "Yuji",
-    "imageURL": "/coaching/Yuji.png",
-    "websiteURL": "https://people.epfl.ch/eugenie.kwak"
   }
 ]
