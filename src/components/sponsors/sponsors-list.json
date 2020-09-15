@@ -11,6 +11,17 @@
         }
     },
     {
+        "name": "Logitech",
+        "websiteURL": "https://www.logitech.com/en-ch",
+        "imageURL": "/sponsors/logitech_black.png",
+        "imageStyles": null,
+        "expiration": {
+            "year": 2021,
+            "month": 8,
+            "day": 29
+        }
+    },
+    {
         "name": "AdNovum",
         "websiteURL": "https://www.adnovum.ch/",
         "imageURL": "/sponsors/adnovum.png",
