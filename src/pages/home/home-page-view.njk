@@ -35,17 +35,30 @@
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>A propos</h1>
+                    <h1>À propos</h1>
                     <h3>Qu'est-ce que la CLIC ?</h3>
                     <p class="center-text padded-40">
-                        La CLIC est l’association des étudiants de la faculté IC (Informatique & Systèmes de Communication) de l’EPFL. Notre mission est d’animer notre faculté en organisant différents événements au cours du semestre, comme par exemple des petit-déjeuners, une distribution de vin chaud ou encore un souper de faculté. Nous apportons aussi volontiers notre aide pour les événements individuels, par exemple en prêtant du matériel.
-                        <br>
-                        <br>
-                        La CLIC a aussi un rôle d’incubateur pour les projets individuels. Par exemple, LauzHack a été créé en 2016 comme un événement de l’association, mais ils ont récemment pris leur envol et sont maintenant indépendants.
-                        <a href="https://lauzhack.com/" target="_blank">Rendez-leur visite !</a>
+                      La CLIC est l’Association des étudiant.e.s en Informatique et Communications (incluant donc les programmes de Master en Data Science et Cybersécurité) de l’École Polytechnique Fédérale de Lausanne (EPFL). <br><br>
+                      Chaque année nous organisons plusieurs événements, la plupart gratuits, dans le but d’animer la Faculté IC : des petits-déjeuners, des conférences, de multiples apéros, une journée dédiée à la carrière future de nos étudiant.e.s, une distribution de vin chaud, le traditionnel Souper de Faculté, et bien plus !<br><br>
+                      La CLIC se donne également pour mission de soutenir les projets individuels de ses étudiant.e.s en fournissant un soutien logistique, financier, ou même organisationnel dans certains cas. Par exemple, LauzHack a été créé e 2016 comme un événement de l’association. Contacte-nous si tu as une idée derrière la tête !<br><br>
+                      Enfin, n’hésite pas à passer nous faire un coucou dans notre bureau en INN132 ou sur nos réseaux-sociaux ! Nous serons ravi.e.s de faire ta connaissance 😁
 
                         {{ social.stackedRoundIcons() }}
                     </p>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Team</h1>
+                    <h3>Notre équipe de bénévoles</h3>
+
+                    {{ committee.staffGrid(members = committeeList) }}
                 </div>
                 <!-- content -->
             </div>
@@ -90,21 +103,7 @@
         </div>
         <!-- wrapper -->
 
-        <div class="wrapper bg-light-blue-gray">
-            <div class="center">
-                <div class="content padded-40">
-                    <h1>Team</h1>
-                    <h3>Notre équipe de bénévoles</h3>
-
-                    {{ committee.staffGrid(members = committeeList) }}
-                </div>
-                <!-- content -->
-            </div>
-            <!-- center -->
-        </div>
-        <!-- wrapper -->
-
-        <div class="wrapper bg-turquoise">
+        <div class="wrapper bg-navy-blue">
             <div class="center">
                 <div class="content padded-40">
                     <h1>Galerie</h1>
