@@ -206,6 +206,24 @@ h4
                 text-decoration: none
                 text-transform: uppercase
 
+        ul.sousDeroulant
+          position: absolute
+
+        li.sousDeroulant
+          list-style-type: none
+
+        ul li.sousDeroulant a
+          color: blue
+          display: none
+          position: relative
+
+        ul li:hover .sousDeroulant a
+          color: red
+          display: block
+
+        .menuDeroulant:hover a.mainADeroulant
+          border-bottom: 3px solid #fff
+
         ul li.current a, ul li a:hover
             border-bottom: 3px solid #fff
 
