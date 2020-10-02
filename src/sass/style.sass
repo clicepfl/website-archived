@@ -212,7 +212,7 @@ h4
         li.sousDeroulant
           list-style-type: none
 
-        ul li.sousDeroulant a
+        ul li .sousDeroulant a
           color: blue
           display: none
           position: relative
@@ -220,12 +220,27 @@ h4
         ul li:hover .sousDeroulant a
           color: red
           display: block
+          border-color: red
 
-        .menuDeroulant:hover a.mainADeroulant
+        .menuDeroulant:hover a.mainADeroulant, .currentDeroulant a.mainADeroulant
           border-bottom: 3px solid #fff
 
         ul li.current a, ul li a:hover
             border-bottom: 3px solid #fff
+
+        ul li .currentSousDeroulant a
+          color: blue
+          display: none
+          position: relative
+          border-bottom: 3px solid #fff
+          border-color: blue
+
+        ul li:hover .currentSousDeroulant a
+          color: blue
+          display: block
+          position: relative
+          border-bottom: 3px solid #fff
+          border-color: blue
 
         @media screen and (max-width: 800px)
             display: none

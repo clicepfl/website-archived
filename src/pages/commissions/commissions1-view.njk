@@ -1,0 +1,42 @@
+{#
+    This file contains the template to render for a commissions page
+    CLIC website software
+
+
+
+    @author Maxime Zammit
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/news/news-view.njk" as news %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | commissions1") }}
+    </head>
+    <body>
+        {{ base.header(tab = "commission1") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>OH OUI!</h1>
+                    <p style="text-align: center">La page recherchée n'est pas encore créée.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="news">
+                        {{ news.newsCards(news = newsList) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>

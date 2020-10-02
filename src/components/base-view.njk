@@ -88,11 +88,11 @@
                         <li {% if tab == "news" %} class="current" {% endif %}>
                             <a href="/news">News</a>
                         </li>
-                        <li {% if tab == "commissions" %} class="currentDeroulant" {% else %} class="menuDeroulant" {% endif %}>
-                            <a href="/#" class="mainADeroulant">Commissions</a>
+                        <li {% if (tab == "commission1" or tab == "commission2")  %} class="currentDeroulant" {% else %} class="menuDeroulant" {% endif %}>
+                            <a href="#" class="mainADeroulant">Commissions</a>
                             <ul class="sousDeroulant">
-                              <li class="sousDeroulant">
-                                <a href="#">Sous1</a>
+                              <li {% if (tab == "commission1")  %} class="currentSousDeroulant" {% else %} class="sousDeroulant" {%endif%}>
+                                <a href="/commissions/commissions1">Sous1</a>
                               </li><br>
                               <li class="sousDeroulant">
                                 <a href="#">Sous2</a>
@@ -121,7 +121,7 @@
                             <a href="/#">Commissions</a>
                               <ul class="sousDeroulant">
                                 <li class="sousDeroulant">
-                                  <a href="#">Sous1</a>
+                                  <a href="/commissions/commissions1">Sous1</a>
                                 </li>
                                 <li class="sousDeroulant">
                                   <a href="#">Sous2</a>
