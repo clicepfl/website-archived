@@ -82,22 +82,36 @@
                         <li {% if tab == "about" %} class="current" {% endif %}>
                             <a href="/about">L'association</a>
                         </li>
+
+                        <!-- HERE IS THE DROP MENU - DON't FORGET TO UPDATE THE TAB WHEN ADDING NEW NODE -->
+                        <li {% if (tab == "commission1" or tab == "commission2")  %} class="currentDeroulant" {% else %} class="menuDeroulant" {% endif %}>
+
+                            <a href="#" class="mainADeroulant">Commissions</a>
+                            <ul class="sousDeroulant">
+
+                              <li {% if (tab == "commission1")  %} class="currentSousDeroulant" {% else %} class="sousDeroulant" {%endif%}>
+                                <div class=dropMenuDiv><a href="/commissions/commissions1"><span>Sous 1</span></a></div>
+                              </li><br>
+
+                              <li {% if (tab == "commission2")  %} class="currentSousDeroulant" {% else %} class="sousDeroulant" {%endif%}>
+                                <div class=dropMenuDiv><a href="#"><span>Sous 2</span></a></div>
+                              </li><br>
+
+                              <!-- HERE IS THE TEMPLATE TO ADD AN ELEMENT TO THE MENU -
+                              <li {% if (tab == "commission2")  %} class="currentSousDeroulant" {% else %} class="sousDeroulant" {%endif%}>
+                                <div class=dropMenuDiv><a href="#"><span>Sous2</span></a></div>
+                              </li><br>
+                              -->
+
+                            </ul>
+                        </li>
+
+
                         <li {% if tab == "coaching" %} class="current" {% endif %}>
                             <a href="/coaching">Coaching</a>
                         </li>
                         <li {% if tab == "news" %} class="current" {% endif %}>
                             <a href="/news">News</a>
-                        </li>
-                        <li {% if (tab == "commission1" or tab == "commission2")  %} class="currentDeroulant" {% else %} class="menuDeroulant" {% endif %}>
-                            <a href="#" class="mainADeroulant">Commissions</a>
-                            <ul class="sousDeroulant">
-                              <li {% if (tab == "commission1")  %} class="currentSousDeroulant" {% else %} class="sousDeroulant" {%endif%}>
-                                <a href="/commissions/commissions1">Sous1</a>
-                              </li><br>
-                              <li class="sousDeroulant">
-                                <a href="#">Sous2</a>
-                              </li>
-                            </ul>
                         </li>
 
                     </ul>
@@ -111,12 +125,7 @@
                         <li>
                             <a href="/about">L'association</a>
                         </li>
-                        <li>
-                            <a href="/coaching">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="/news">News</a>
-                        </li>
+
                         <li>
                             <a href="/#">Commissions</a>
                               <ul class="sousDeroulant">
@@ -128,6 +137,15 @@
                                 </li>
                               </ul>
                         </li>
+
+
+                        <li>
+                            <a href="/coaching">Coaching</a>
+                        </li>
+                        <li>
+                            <a href="/news">News</a>
+                        </li>
+
                     </ul>
                 </div>
 

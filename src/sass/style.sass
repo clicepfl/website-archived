@@ -213,14 +213,14 @@ h4
           list-style-type: none
 
         ul li .sousDeroulant a
-          color: blue
+          color: black
           display: none
           position: relative
 
         ul li:hover .sousDeroulant a
-          color: red
+          color: black
           display: block
-          border-color: red
+          border: 0px
 
         .menuDeroulant:hover a.mainADeroulant, .currentDeroulant a.mainADeroulant
           border-bottom: 3px solid #fff
@@ -229,17 +229,32 @@ h4
             border-bottom: 3px solid #fff
 
         ul li .currentSousDeroulant a
-          color: blue
+          color: black
           display: none
           position: relative
-          border-bottom: 3px solid #fff
-          border-color: blue
+          border: 0px
+
+        ul li .currentSousDeroulant span
+          border-bottom: 3px solid
+          border-color: black
+
+        ul li .currentSousDeroulant span:hover, ul li .sousDeroulant span:hover
+          border-bottom: 3px solid
+          border-color: black
+
+        ul li .dropMenuDiv
+          background-color: white
+          position: relative
+
+        ul li:hover .dropMenuDiv
+          background-color: white
+          border: solid black 1px
+          width: 155px
 
         ul li:hover .currentSousDeroulant a
-          color: blue
+          color: black
           display: block
           position: relative
-          border-bottom: 3px solid #fff
           border-color: blue
 
         @media screen and (max-width: 800px)
