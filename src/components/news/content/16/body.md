@@ -1,0 +1,9 @@
+Au vu de la situation sanitaire particulière liée au COVID-19, l'EPFL a été contrainte de mettre en place de nombreuses mesures strictes ne permettant pas aux associations de proposer les verres de bienvenue et d'accueil. Notre association a été ainsi également touchée par ses nouvelles réglementations et nous n'avions pas pu proposer notre événement "Apéro Master" comme il en est coutûme. Nous avons ainsi souhaité concevoir un nouvel événement afin de permettre aux nouveaux/elles et ancien.ne.s étudiant.e.s de revoir leurs ami.e.s et rencontrer les nouveaux.elles arivant.e.s de notre Faculté.
+
+Ainsi notre Faculté a vu naître "Hello World - Les Welcome Games IC" ! Plus de 150 étudiant.e.s se sont réuni.e.s le jeudi 15 octobre 2020, de 14h00 à 20h00 dans le hall du BC pour participer aux nombreuses activités proposées. Chaque étudiant.e avait la possibilité de participer seul.e ou en équipe (max. 3 membres) avec pour but d’amasser le maximum de points et ainsi peut-être gagner l’un de nos nombreux lots ! Comme nous ne pouvions accueillir qu’un maximum de 100 personnes dans ce lieu, nous avions proposé une inscription à l’une des trois plages horaires suivantes : de 14h-16h, de 16h-18h ou de 18-20h.
+
+Loup-Garou, Mario Kart, Just Dance, Juste Prix, Fléchettes, Burger quiz, Course de Vélo, ou encore Game design, de nombreux stands ont été tenus rien que pour nos étudiant.e.s par la CLIC et ses commissions Game*, Orbital Game Jam ainsi qu'IC Travel.
+
+Vous pourrez découvrir de nombreuses photos prises par nos fameuses photographes dans les albums suivants:
+* [Photos prises par Mallory Henriet et Marine Bossanne](https://www.facebook.com/media/set/?set=a.3669908179720022&type=3)
+* [Photos prises par Jessica Chautems](https://www.facebook.com/media/set/?set=a.3669915779719262&type=3)
