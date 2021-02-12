@@ -1,0 +1,24 @@
+[
+    {
+        "name": "IC Travel",
+        "slug": "ic-travel",
+        "imageURL": "ictravel.png",
+        "description": "Description de la commission",
+        "members": [
+            {
+                "name": "Jean Albert",
+                "imageURL": "",
+                "websiteURL": ""
+            },
+            {
+                "name": "Jean Alphonse",
+                "imageURL": "",
+                "websiteURL": ""
+            }
+        ],
+        "social": {
+            "Facebook": "url facebook",
+            "Twitter": "url twitter"
+        }
+    }
+]

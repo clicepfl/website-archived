@@ -22,6 +22,7 @@ import { icbdPage } from './pages/icbd/icbd-page'
 import { coachingPage } from './pages/coaching/coaching-page'
 import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
+import { commissionRouter } from './pages/commissions/commission-router'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -101,6 +102,8 @@ router.use("/news", newsRouter)
 router.use("/gallery", galleryRouter)
 
 router.use("/coaching", coachingListRouter)
+
+router.use("/commissions", commissionRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)
