@@ -23,6 +23,7 @@ import { coachingPage } from './pages/coaching/coaching-page'
 import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
 import { commissionRouter } from './pages/commissions/commission-router'
+import { commissionsPage } from './pages/commissions/commissions-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -51,6 +52,8 @@ router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
  * Coaching page
  */
 router.get('/coaching', coachingPage.render)
+
+router.get("/commissions", commissionsPage.render)
 
 /**
  * Events page
