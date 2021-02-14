@@ -2,16 +2,81 @@
     {
         "name": "IC Travel",
         "slug": "ic-travel",
-        "imageURL": "ictravel.png",
+        "imageURL": "ICTravel.png",
         "description": "Description de la commission",
+        "catchPhrase": "Pour vous accompagner dans le voyage"
         "members": [
             {
-                "name": "Jean Albert",
+                "name": "Tom Demont",
                 "imageURL": "",
                 "websiteURL": ""
             },
             {
-                "name": "Jean Alphonse",
+                "name": "Maëlys Billon",
+                "imageURL": "",
+                "websiteURL": ""
+            }
+        ],
+        "social": {
+            "Facebook": "url facebook",
+            "Twitter": "url twitter"
+        }
+    },
+    {
+        "name": "Game*",
+        "slug": "game-star",
+        "imageURL": "gameStar.png",
+        "description": "Description de la commission",
+        "catchPhrase": "yes c nou"
+        "members": [
+            {
+                "name": "Hugo Hueber (Stache)",
+                "imageURL": "",
+                "websiteURL": ""
+            },
+            {
+                "name": "Camille Montemagni",
+                "imageURL": "",
+                "websiteURL": ""
+            }
+        ],
+        "social": {
+            "Facebook": "url facebook",
+            "Twitter": "url twitter"
+        }
+    },
+    {
+        "name": "Orbital Game Jam",
+        "slug": "orbital-game-jam",
+        "imageURL": "orbital-game-jam.png",
+        "description": "Description de la commission",
+        "catchPhrase": "qniowgnqoweg"
+        "members": [
+            {
+                "name": "Hugo Hueber (Stache)",
+                "imageURL": "",
+                "websiteURL": ""
+            },
+            {
+                "name": "Lucas Trognon",
+                "imageURL": "",
+                "websiteURL": ""
+            }
+        ],
+        "social": {
+            "Facebook": "url facebook",
+            "Twitter": "url twitter"
+        }
+    },
+    {
+        "name": "CEVE",
+        "slug": "ceve",
+        "imageURL": "ceve.png",
+        "description": "Description de la commission",
+        "catchPhrase": "qwniuepnéqovef"
+        "members": [
+            {
+                "name": "Kilian Deternod",
                 "imageURL": "",
                 "websiteURL": ""
             }

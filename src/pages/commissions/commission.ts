@@ -54,14 +54,16 @@ class Commission {
     slug: string
     imageURL: string
     description: string
+    catchPhrase: string
     members: CommissionMember[]
     social: { string: string }
 
-    constructor(name: string, slug: string, imageURL: string, description: string, members: CommissionMember[], social: { string: string }) {
+    constructor(name: string, slug: string, imageURL: string, description: string, catchPhrase: string, members: CommissionMember[], social: { string: string }) {
         this.name = name
         this.slug = slug
         this.imageURL = imageURL
         this.description = description
+        this.catchPhrase = catchPhrase
         this.members = members
         this.social = social
     }
@@ -72,7 +74,7 @@ class Commission {
             logger.log(message)
             throw new Error(message)
         } else {
-            return new Commission(data.name, data.slug, data.imageURL, data.description, data.members, data.social)
+            return new Commission(data.name, data.slug, data.imageURL, data.description, data.catchPhrase, data.members, data.social)
         }
     }
 
@@ -83,6 +85,7 @@ class Commission {
             data.slug !== undefined && typeof data.slug === "string" &&
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
             data.description !== undefined && typeof data.description === "string" &&
+            data.catchPhrase !== undefined && typeof data.catchPhrase === "string" &&
             data.members !== undefined && Array.isArray(data.members) && data.members.every((e: any) => CommissionMember.is(e)) &&
             data.social !== undefined && data.social != null && Object.entries(data.social).every(pair => {
                 const [key, value] = pair
