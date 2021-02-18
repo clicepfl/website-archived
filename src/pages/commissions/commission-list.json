@@ -2,7 +2,7 @@
     {
         "name": "IC Travel",
         "slug": "ic-travel",
-        "imageURL": "ICTravel.png",
+        "imageURL": "ictravel.png",
         "description": "Description de la commission",
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [

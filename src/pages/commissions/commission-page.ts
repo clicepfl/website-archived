@@ -3,7 +3,7 @@ import { Request, Response } from 'express'
 import { Commission } from './commission'
 
 class CommissionPageViewModel {
-    commission:  Commission
+    commission: Commission
 
     constructor(commission: Commission) {
         this.commission = commission

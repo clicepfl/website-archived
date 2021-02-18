@@ -7,7 +7,7 @@ const commissionRouter = express.Router()
 commissionRouter.use("/", express.static("src/pages/commissions/assets/"))
 
 commissionComponent.list().forEach(commission => {
-    commissionRouter.get(commission.slug, new CommissionPage(commission).render)
+    commissionRouter.get("/" + commission.slug, new CommissionPage(commission).render)
 })
 
 export { commissionRouter }
