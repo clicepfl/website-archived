@@ -4,7 +4,7 @@
         "slug": "ic-travel",
         "imageURL": "ICTravel.png",
         "description": "Description de la commission",
-        "catchPhrase": "Pour vous accompagner dans le voyage"
+        "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
                 "name": "Tom Demont",
@@ -27,7 +27,7 @@
         "slug": "game-star",
         "imageURL": "gameStar.png",
         "description": "Description de la commission",
-        "catchPhrase": "yes c nou"
+        "catchPhrase": "yes c nou",
         "members": [
             {
                 "name": "Hugo Hueber (Stache)",
@@ -50,7 +50,7 @@
         "slug": "orbital-game-jam",
         "imageURL": "orbital-game-jam.png",
         "description": "Description de la commission",
-        "catchPhrase": "qniowgnqoweg"
+        "catchPhrase": "qniowgnqoweg",
         "members": [
             {
                 "name": "Hugo Hueber (Stache)",
@@ -73,7 +73,7 @@
         "slug": "ceve",
         "imageURL": "ceve.png",
         "description": "Description de la commission",
-        "catchPhrase": "qwniuepnéqovef"
+        "catchPhrase": "qwniuepnéqovef",
         "members": [
             {
                 "name": "Kilian Deternod",

@@ -1,5 +1,6 @@
 import express from 'express'
 import { commissionComponent } from './commission'
+import  { CommissionPage } from './commission-page'
 
 const commissionRouter = express.Router()
 
