@@ -5,11 +5,13 @@ class CommissionMember {
     name: string
     imageURL: string
     websiteURL?: string
+    role: string
 
-    constructor(name: string, imageURL: string, websiteURL: string) {
+    constructor(name: string, imageURL: string, websiteURL: string, role: string) {
         this.name = name
         this.imageURL = imageURL
         this.websiteURL = websiteURL
+        this.role = role
     }
 
     /**
@@ -25,7 +27,7 @@ class CommissionMember {
             logger.log(message)
             throw new Error(message)
         } else {
-            return new CommissionMember(data.name, data.imageURL, data.websiteURL)
+            return new CommissionMember(data.name, data.imageURL, data.websiteURL, data.role)
         }
     }
 
@@ -44,7 +46,9 @@ class CommissionMember {
             // check has property imageURL of type string
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
             // check has property website URL either null or of type string
-            data.websiteURL !== undefined && (data.websiteURL === null || typeof data.websiteURL === "string")
+            data.websiteURL !== undefined && (data.websiteURL === null || typeof data.websiteURL === "string") &&
+            // check has property role of type string
+            data.role !== undefined && typeof data.role === "string"
         )
     }
 }

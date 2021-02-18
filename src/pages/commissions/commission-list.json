@@ -8,18 +8,20 @@
         "members": [
             {
                 "name": "Tom Demont",
-                "imageURL": "",
-                "websiteURL": ""
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/tom.demont",
+                "role": "Président"
             },
             {
                 "name": "Maëlys Billon",
-                "imageURL": "",
-                "websiteURL": ""
+                "imageURL": "maelysbillon.jpg",
+                "websiteURL": "https://people.epfl.ch/maelys.billon",
+                "role": "Vice-présidente"
             }
         ],
         "social": {
-            "Facebook": "url facebook",
-            "Twitter": "url twitter"
+            "Facebook": "https://www.facebook.com/pg/epflictravel/about/",
+            "Instagram":  "https://www.instagram.com/ictravel.epfl/"
         }
     },
     {
@@ -32,12 +34,14 @@
             {
                 "name": "Hugo Hueber (Stache)",
                 "imageURL": "",
-                "websiteURL": ""
+                "websiteURL": "",
+                "role": ""
             },
             {
                 "name": "Camille Montemagni",
                 "imageURL": "",
-                "websiteURL": ""
+                "websiteURL": "",
+                "role": ""
             }
         ],
         "social": {
@@ -55,12 +59,14 @@
             {
                 "name": "Hugo Hueber (Stache)",
                 "imageURL": "",
-                "websiteURL": ""
+                "websiteURL": "",
+                "role": ""
             },
             {
                 "name": "Lucas Trognon",
                 "imageURL": "",
-                "websiteURL": ""
+                "websiteURL": "",
+                "role": ""
             }
         ],
         "social": {
@@ -78,7 +84,8 @@
             {
                 "name": "Kilian Deternod",
                 "imageURL": "",
-                "websiteURL": ""
+                "websiteURL": "",
+                "role": ""
             }
         ],
         "social": {
