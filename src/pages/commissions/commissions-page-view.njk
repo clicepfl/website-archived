@@ -29,15 +29,19 @@
                     <h1>Commissions</h1>
 
                     <div class="commissions padded-40">
-                        {% for item in commissionsList %}
-                            <div class="commissions-item">
-                                <a href="/commissions/{{item.slug}}">
-                                    <img src="/commissions/{{item.imageURL}}" alt="{{item.name}}">
-                                    <p class="title">{{item.name}}</p>
-                                    <p class="catchPhrase">{{item.catchPhrase}}</p>
-                                </a>
-                                <p class="desc">{{item.description}}</p>
-                                <a href="/commissions/{{item.slug}}" class="more">Lire plus &raquo;</a>
+                        {% for row in commissionsList | batch(4) %}
+                            <div class="commissions-row">
+                            {% for item in row %}
+                                <div class="commissions-item">
+                                    <a href="/commissions/{{item.slug}}">
+                                        <img src="/commissions/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                        <p class="catchPhrase">{{item.catchPhrase}}</p>
+                                    </a>
+                                    <p class="desc">{{item.description}}</p>
+                                    <a href="/commissions/{{item.slug}}" class="more">Lire plus &raquo;</a>
+                                </div>
+                            {% endfor %}
                             </div>
                         {% endfor %}
                     </div>

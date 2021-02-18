@@ -25,7 +25,7 @@
     {
         "name": "Game*",
         "slug": "game-star",
-        "imageURL": "gameStar.png",
+        "imageURL": "game-star.png",
         "description": "Description de la commission",
         "catchPhrase": "yes c nou",
         "members": [
@@ -48,7 +48,7 @@
     {
         "name": "Orbital Game Jam",
         "slug": "orbital-game-jam",
-        "imageURL": "orbital-game-jam.png",
+        "imageURL": "orbital.png",
         "description": "Description de la commission",
         "catchPhrase": "qniowgnqoweg",
         "members": [
