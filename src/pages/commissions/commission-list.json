@@ -3,7 +3,8 @@
         "name": "IC Travel",
         "slug": "ic-travel",
         "imageURL": "ictravel.png",
-        "description": "Description de la commission",
+        "shortDescription": "Courte description de la commission",
+        "longDescription": "Longue description de la commission",
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
@@ -16,7 +17,7 @@
                 "name": "Maëlys Billon",
                 "imageURL": "maelysbillon.jpg",
                 "websiteURL": "https://people.epfl.ch/maelys.billon",
-                "role": "Vice-présidente"
+                "role": "Vice-Présidente"
             }
         ],
         "social": {
@@ -28,7 +29,8 @@
         "name": "Game*",
         "slug": "game-star",
         "imageURL": "game-star.png",
-        "description": "Description de la commission",
+        "shortDescription": "Courte description de la commission",
+        "longDescription": "Longue description de la commission",
         "catchPhrase": "yes c nou",
         "members": [
             {
@@ -53,7 +55,8 @@
         "name": "Orbital Game Jam",
         "slug": "orbital-game-jam",
         "imageURL": "orbital.png",
-        "description": "Description de la commission",
+        "shortDescription": "Courte description de la commission",
+        "longDescription": "Longue description de la commission",
         "catchPhrase": "qniowgnqoweg",
         "members": [
             {
@@ -78,7 +81,8 @@
         "name": "CEVE",
         "slug": "ceve",
         "imageURL": "ceve.png",
-        "description": "Description de la commission",
+        "shortDescription": "Courte description de la commission",
+        "longDescription": "Longue description de la commission",
         "catchPhrase": "qwniuepnéqovef",
         "members": [
             {

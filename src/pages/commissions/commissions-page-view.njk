@@ -26,7 +26,7 @@
                         &gt; Commissions
                     </p>
 
-                    <h1>Commissions</h1>
+                    <h1>Nos Commissions</h1>
 
                     <div class="commissions padded-40">
                         {% for row in commissionsList | batch(4) %}
@@ -36,9 +36,8 @@
                                     <a href="/commissions/{{item.slug}}">
                                         <img src="/commissions/{{item.imageURL}}" alt="{{item.name}}">
                                         <p class="title">{{item.name}}</p>
-                                        <p class="catchPhrase">{{item.catchPhrase}}</p>
                                     </a>
-                                    <p class="desc">{{item.description}}</p>
+                                    <p class="desc">{{item.shortDescription}}</p>
                                     <a href="/commissions/{{item.slug}}" class="more">Lire plus &raquo;</a>
                                 </div>
                             {% endfor %}

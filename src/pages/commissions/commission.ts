@@ -57,16 +57,18 @@ class Commission {
     name: string
     slug: string
     imageURL: string
-    description: string
+    shortDescription: string
+    longDescription: string
     catchPhrase: string
     members: CommissionMember[]
     social: { string: string }
 
-    constructor(name: string, slug: string, imageURL: string, description: string, catchPhrase: string, members: CommissionMember[], social: { string: string }) {
+    constructor(name: string, slug: string, imageURL: string, shortDescription: string, longDescription: string, catchPhrase: string, members: CommissionMember[], social: { string: string }) {
         this.name = name
         this.slug = slug
         this.imageURL = imageURL
-        this.description = description
+        this.shortDescription = shortDescription
+        this.longDescription = longDescription
         this.catchPhrase = catchPhrase
         this.members = members
         this.social = social
@@ -78,7 +80,7 @@ class Commission {
             logger.log(message)
             throw new Error(message)
         } else {
-            return new Commission(data.name, data.slug, data.imageURL, data.description, data.catchPhrase, data.members, data.social)
+            return new Commission(data.name, data.slug, data.imageURL, data.shortDescription, data.longDescription, data.catchPhrase, data.members, data.social)
         }
     }
 
@@ -88,7 +90,8 @@ class Commission {
             data.name !== undefined && typeof data.name === "string" &&
             data.slug !== undefined && typeof data.slug === "string" &&
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
-            data.description !== undefined && typeof data.description === "string" &&
+            data.shortDescription !== undefined && typeof data.shortDescription === "string" &&
+            data.longDescription !== undefined && typeof data.longDescription === "string" &&
             data.catchPhrase !== undefined && typeof data.catchPhrase === "string" &&
             data.members !== undefined && Array.isArray(data.members) && data.members.every((e: any) => CommissionMember.is(e)) &&
             data.social !== undefined && data.social != null && Object.entries(data.social).every(pair => {
