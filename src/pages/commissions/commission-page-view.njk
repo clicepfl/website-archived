@@ -30,9 +30,9 @@
                     <h1>{{ commission.name }}</h1>
 
                     <img src="/commissions/{{ commission.imageURL }}" alt="logo" class="center-image">
-                    <p class="center-text">
-                        {{ commission.longDescription }}
-                    </p>
+                    <div class="commission-page">
+                        {{ commission.pageBody | safe }}
+                    </div>
 
                     <div class="social">
                         {% for socialNetwork, socialLink in commission.social %}

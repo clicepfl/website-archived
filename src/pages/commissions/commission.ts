@@ -1,5 +1,15 @@
+import fs from 'fs'
+import path from 'path'
+import showdown from 'showdown'
 import data from './commission-list.json'
 import { logger } from '../../logger'
+import { fstat } from 'fs'
+
+/**
+ * Commission content path
+ * Must correct to src/ folder since this will be compiled in dist
+ */
+const CONTENT_PATH = path.resolve(__dirname, "../../../src/pages/commissions/assets/")
 
 class CommissionMember {
     name: string
@@ -58,17 +68,17 @@ class Commission {
     slug: string
     imageURL: string
     shortDescription: string
-    longDescription: string
+    pageBody: string
     catchPhrase: string
     members: CommissionMember[]
     social: { string: string }
 
-    constructor(name: string, slug: string, imageURL: string, shortDescription: string, longDescription: string, catchPhrase: string, members: CommissionMember[], social: { string: string }) {
+    constructor(name: string, slug: string, imageURL: string, shortDescription: string, pageBody: string, catchPhrase: string, members: CommissionMember[], social: { string: string }) {
         this.name = name
         this.slug = slug
         this.imageURL = imageURL
         this.shortDescription = shortDescription
-        this.longDescription = longDescription
+        this.pageBody = pageBody
         this.catchPhrase = catchPhrase
         this.members = members
         this.social = social
@@ -80,7 +90,7 @@ class Commission {
             logger.log(message)
             throw new Error(message)
         } else {
-            return new Commission(data.name, data.slug, data.imageURL, data.shortDescription, data.longDescription, data.catchPhrase, data.members, data.social)
+            return new Commission(data.name, data.slug, data.imageURL, data.shortDescription, data.pageBody, data.catchPhrase, data.members, data.social)
         }
     }
 
@@ -91,7 +101,7 @@ class Commission {
             data.slug !== undefined && typeof data.slug === "string" &&
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
             data.shortDescription !== undefined && typeof data.shortDescription === "string" &&
-            data.longDescription !== undefined && typeof data.longDescription === "string" &&
+            data.pageBody !== undefined && typeof data.pageBody === "string" &&
             data.catchPhrase !== undefined && typeof data.catchPhrase === "string" &&
             data.members !== undefined && Array.isArray(data.members) && data.members.every((e: any) => CommissionMember.is(e)) &&
             data.social !== undefined && data.social != null && Object.entries(data.social).every(pair => {
@@ -104,7 +114,23 @@ class Commission {
 
 
 class CommissionComponent {
-    private readonly commissionList: Commission[] = data.map(Commission.fromAny)
+    private readonly commissionList: Commission[] = data.map(jsonData => {
+        const builder: any = jsonData
+
+        const pageBodyMdPath = path.resolve(CONTENT_PATH, builder.pageBodyPath)
+        if (!fs.existsSync(pageBodyMdPath)) {
+            const msg = `Markdown body file missing for commission ${builder.name} at ${pageBodyMdPath}`
+            logger.log(msg)
+            throw new Error(msg)
+        }
+        const pageBodyMd = fs.readFileSync(pageBodyMdPath, { encoding: 'utf8' })
+
+        // convert markdown
+        const converter = new showdown.Converter()
+        builder.pageBody = converter.makeHtml(pageBodyMd)
+
+        return Commission.fromAny(builder)
+    })
 
     list(): Commission[] {
         return Object.assign([], this.commissionList)

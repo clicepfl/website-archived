@@ -4,7 +4,7 @@
         "slug": "ic-travel",
         "imageURL": "ictravel.png",
         "shortDescription": "Courte description de la commission",
-        "longDescription": "Longue description de la commission",
+        "pageBodyPath": "ictravel.md",
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
@@ -17,12 +17,61 @@
                 "name": "Maëlys Billon",
                 "imageURL": "maelysbillon.jpg",
                 "websiteURL": "https://people.epfl.ch/maelys.billon",
-                "role": "Vice-Présidente"
+                "role": "Vice-présidente"
+            },
+            {
+                "name": "Alessio Verardo",
+                "imageURL": "alessioverardo.jpg",
+                "websiteURL": "https://people.epfl.ch/alessio.verardo",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Eloi Garandel",
+                "imageURL": "eloigarandel.jpg",
+                "websiteURL": "https://people.epfl.ch/eloi.garandel",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Louise Rieupouilh",
+                "imageURL": "louiserieupouilh.jpg",
+                "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
+                "role": "Responsable Communication"
+            },
+            {
+                "name": "Kilian D'Eternod",
+                "imageURL": "kiliandeternod.jpg",
+                "websiteURL": "https://people.epfl.ch/kilian.deternod",
+                "role": "Responsable Sponsoring"
+            },
+            {
+                "name": "Elisa Bianchi",
+                "imageURL": "elisabianchi.jpg",
+                "websiteURL": "https://people.epfl.ch/elisa.bianchi",
+                "role": "Responsable Animations"
+            },
+            {
+                "name": "Elior Papiernik",
+                "imageURL": "eliorpapiernik.jpg",
+                "websiteURL": "https://people.epfl.ch/elior.papiernik",
+                "role": "Responsable Logistique"
+            },
+            {
+                "name": "Emmanuelle Denove",
+                "imageURL": "emmanuelledenove.jpg",
+                "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
+                "role": "Responsable Logement"
+            },
+            {
+                "name": "Florian Constantin",
+                "imageURL": "florianconstantin.jpg",
+                "websiteURL": "https://people.epfl.ch/florian.constantin",
+                "role": "Responsable Transport"
             }
         ],
         "social": {
-            "Facebook": "https://www.facebook.com/pg/epflictravel/about/",
-            "Instagram":  "https://www.instagram.com/ictravel.epfl/"
+            "Instagram": "https://www.instagram.com/ictravel.epfl/",
+            "Email": "mailto:ictravel.clic@epfl.ch",
+            "Formulaire": "https://go.epfl.ch/LetsICTravel"
         }
     },
     {
@@ -30,7 +79,7 @@
         "slug": "game-star",
         "imageURL": "game-star.png",
         "shortDescription": "Courte description de la commission",
-        "longDescription": "Longue description de la commission",
+        "pageBodyPath": "game-star.md",
         "catchPhrase": "yes c nou",
         "members": [
             {
@@ -56,7 +105,7 @@
         "slug": "orbital-game-jam",
         "imageURL": "orbital.png",
         "shortDescription": "Courte description de la commission",
-        "longDescription": "Longue description de la commission",
+        "pageBodyPath": "orbital.md",
         "catchPhrase": "qniowgnqoweg",
         "members": [
             {
@@ -82,7 +131,7 @@
         "slug": "ceve",
         "imageURL": "ceve.png",
         "shortDescription": "Courte description de la commission",
-        "longDescription": "Longue description de la commission",
+        "pageBodyPath": "ceve.md",
         "catchPhrase": "qwniuepnéqovef",
         "members": [
             {
