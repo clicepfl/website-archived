@@ -34,7 +34,7 @@ Et c’est bien normal, voici notre petite FAQ :
 
 - Si le COVID empire d’ici cet été ? Eh oui ça peut arriver, nul ne sait ce qui peut se passer. Nous ferons tout notre possible pour adapter le voyage et éviter tout risque et serons prêt.e.s à l’annuler si ça s'avérait nécessaire.
 
-- Paiement et remboursement ? Vous n’avez rien à payer pour l’instant, vous serez tenu informé.e.s tout au long de l’avancée du projet. Nous récoltons de l’argent pour diminuer le prix individuel du voyage, des remboursements sont à prévoir une fois le voyage terminé !
+- Paiement et subventions ? Vous n’avez rien à payer pour l’instant, vous serez tenu informé.e.s tout au long de l’avancée du projet. Nous récoltons de l’argent pour diminuer le prix individuel du voyage, des subventions sont à prévoir une fois le voyage terminé !
 
 Si j’ai encore des questions ou remarques ? N’hésite pas à nous en faire part dans le formulaire, sinon tu peux toujours nous contacter sur nos réseaux !
 
