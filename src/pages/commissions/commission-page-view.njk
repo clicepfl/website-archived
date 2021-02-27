@@ -47,6 +47,12 @@
                                     {% set icon = "fab fa-telegram-plane" %}
                                 {% case "Email" %}
                                     {% set icon = "fas fa-envelope" %}
+                                {% case "Discord" %}
+                                    {% set icon = "fab fa-discord" %}
+                                {% case "Twitch" %}
+                                    {% set icon = "fab fa-twitch" %}
+                                {% case "Youtube" %}
+                                    {% set icon = "fab fa-youtube" %}
                                 {% default %}
                                     {% set icon = "fas fa-link" %}
                             {% endswitch %}
