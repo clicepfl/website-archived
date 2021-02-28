@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# h1 Heading
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-Longue description ouais
-=======
 Salut cher.ère étudiant.e !
 
 ### Qui sommes-nous ?
@@ -49,4 +39,3 @@ Et c’est bien normal, voici notre petite FAQ :
 Si j’ai encore des questions ou remarques ? N’hésite pas à nous en faire part dans le formulaire, sinon tu peux toujours nous contacter sur nos réseaux !
 
 On espère que c’est plus clair pour vous et que vous êtes aussi enthousiastes que nous à l’idée de ce voyage !
->>>>>>> db0dffa93036b52baca112da5d203626888a5d9c
