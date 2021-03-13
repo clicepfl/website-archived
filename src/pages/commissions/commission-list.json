@@ -51,7 +51,7 @@
             },
             {
                 "name": "Elior Papiernik",
-                "imageURL": "../ictravel.png",
+                "imageURL": "eliorpapiernik.jpg",
                 "websiteURL": "https://people.epfl.ch/elior.papiernik",
                 "role": "Responsable Logistique"
             },
@@ -63,7 +63,7 @@
             },
             {
                 "name": "Florian Constantin",
-                "imageURL": "../ictravel.png",
+                "imageURL": "florianconstantin.jpg",
                 "websiteURL": "https://people.epfl.ch/florian.constantin",
                 "role": "Responsable Transport"
             }
@@ -90,7 +90,7 @@
             },
             {
                 "name": "Lucas Strauss",
-                "imageURL": "../game-star.png",
+                "imageURL": "lucasstrauss.png",
                 "websiteURL": "https://people.epfl.ch/lucas.strauss",
                 "role": "Coordinateur"
             },
@@ -98,6 +98,12 @@
                 "name": "Camille Montemagni",
                 "imageURL": "camillemontemagni.png",
                 "websiteURL": "https://people.epfl.ch/camille.montemagni",
+                "role": "Coordinatrice"
+            },
+            {
+                "name": "Loeva La Ragione",
+                "imageURL": "loevalaragione.png",
+                "websiteURL": "",
                 "role": "Coordinatrice"
             }
         ],
