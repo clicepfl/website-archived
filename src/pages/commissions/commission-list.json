@@ -78,7 +78,7 @@
         "name": "Game*",
         "slug": "game-star",
         "imageURL": "game-star.png",
-        "shortDescription": "Lire [Game Star]. Nous visons à faire découvrir les nombreux aspects du jeu vidéo sur le campus UNIL-EPFL, notamment académiques et transversaux.",
+        "shortDescription": "Lire « Game Star ». Nous visons à faire découvrir les nombreux aspects du jeu vidéo sur le campus UNIL-EPFL, notamment académiques et transversaux.",
         "pageBodyPath": "game-star.md",
         "catchPhrase": "Informer ; Organiser ; Rassembler. Faire vivre les actrices et acteurs du jeu vidéo sur le campus UNIL-EPFL",
         "members": [
@@ -96,7 +96,7 @@
             },
             {
                 "name": "Camille Montemagni",
-                "imageURL": "camillemontemagni.jpg",
+                "imageURL": "camillemontemagni.png",
                 "websiteURL": "https://people.epfl.ch/camille.montemagni",
                 "role": "Coordinatrice"
             }
@@ -156,7 +156,7 @@
         "name": "CEVE",
         "slug": "ceve",
         "imageURL": "ceve.png",
-        "shortDescription": "Destinée à la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s.",
+        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s.",
         "pageBodyPath": "ceve.md",
         "catchPhrase": "Une petite pause ?",
         "members": [
