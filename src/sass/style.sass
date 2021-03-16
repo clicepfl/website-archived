@@ -2,6 +2,8 @@ $navy-blue: #204561
 $text-color: #778b93
 $light-gray: #bbb
 
+$menu-mobile-threshold: 900px
+
 html, body
     padding: 0
     margin: 0
@@ -182,7 +184,7 @@ h4
         img
             height: 60px
 
-        @media screen and (max-width: 800px)
+        @media screen and (max-width: $menu-mobile-threshold)
             float: none
             text-align: center
 
@@ -209,7 +211,7 @@ h4
         ul li.current a, ul li a:hover
             border-bottom: 3px solid #fff
 
-        @media screen and (max-width: 800px)
+        @media screen and (max-width: $menu-mobile-threshold)
             display: none
 
     .mobile-menu-toggle
@@ -221,7 +223,7 @@ h4
         position: relative
         top: 50px
         left: 20px
-        @media screen and (max-width: 800px)
+        @media screen and (max-width: $menu-mobile-threshold)
             display: block
 
 .caption
@@ -400,21 +402,22 @@ h4
         width: 90%
         margin: 10px 5%
 
-.news
+.news, .commissions
     float: left
     text-align: left
 
     p, a
         font-size: 16px
+        text-align: left
 
-    .news-row
+    .news-row, .commissions-row
         display: flex
         margin-bottom: 20px
 
         @media screen and (max-width: 1100px)
             display: block
 
-    .news-item
+    .news-item, .commissions-item
         background: #fff
         float: left
         flex: 1
@@ -484,6 +487,10 @@ h4
             color: #fff
             background: $navy-blue
             padding: 15px
+
+    .commissions-item
+        img
+            object-fit: contain
 
 .more-news
     border: 2px solid #0099ff
@@ -598,7 +605,7 @@ h4
 .force-pointer-events
     pointer-events: auto
 
-.news-article
+.news-article, .commission-page
     width: 80%
     margin: 0 10%
     text-align: left
