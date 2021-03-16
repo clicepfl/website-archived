@@ -42,7 +42,7 @@
 
                         <div class="event-info">
                             <h1>Thursday
-                                <span>March 12th 2020</span></h1>
+                                <span>March 25th 2021</span></h1>
                             <h3>9 AM to 5 PM, BC Building, EPFL</h3>
                         </div>
                     </div>
@@ -99,6 +99,7 @@
                             </div>
                         </div>
 
+                        <!-- NOT RELEVANT FOR 2021 EDITION
                         <div id="cv-corr" class="event">
                             <div class="front">
                                 <h3>
@@ -114,7 +115,9 @@
                                 </p>
                             </div>
                         </div>
+                        NOT RELEVANT FOR 2021 EDITION -->
 
+                        <!-- NOT RELEVANT FOR 2021 EDITION
                         <div id="lunch" class="event">
                             <div class="front">
                                 <h3>
@@ -131,6 +134,7 @@
                                 </p>
                             </div>
                         </div>
+                        NOT RELEVANT FOR 2021 EDITION -->
 
                         <div id="10years-talk" class="event">
                             <div class="front">
@@ -158,7 +162,7 @@
                             <div class="details">
                                 <h4>The keys to accomplish a good internship</h4>
                                 <p>
-                                    During your Master studies, you are required to take an internship in the industry. Many IC students also chose to do their Master thesis during this internship. Guillermo Barrenetxea Kobas, recruiter at Swisscom, will explain what behaviour to adopt during your internship, how to expand your network and how to make the most out of your experience.
+                                    During your Master studies, you are required to take an internship in the industry. Many IC students also choose to do their Master thesis during this internship. The panelist will explain what behaviour to adopt during your internship, how to expand your network and how to make the most out of your experience.
                                 </p>
                             </div>
                         </div>
@@ -174,7 +178,7 @@
                                 <h4>How to get familiar with a large codebase in an enterprise</h4>
                                 <p>
                                     When entering an company, you will often face large codebases, written by many other programmers. Where does one start? Should you read and understand everything?
-                                    A must for students who will join a big company!
+                                    Let Christopher Chiche experienced alumnus working at Sqooba, guide you!
                                 </p>
                             </div>
                         </div>
@@ -190,9 +194,7 @@
                             <div class="details">
                                 <h4>Various fields</h4>
                                 <p>
-                                    Meet alumni working in IT, and understand their daily life. What we learn in class and what life looks like as an engineer is often
-                                    very different. During these shorter talks, alumni will explain their daily routine, and give you a sneak peek of what your life may look like.
-                                    We will host alumni in the fields of Cybersecurity, Data Science, Networks, Software Engineer, Consulting and Computer vision/graphics.
+                                    Meet alumni working in IT, and understand their daily life. What we learn in class and what life looks like as an engineer is often very different. During these shorter talks, alumni will explain their daily routine, and give you a sneak peek of what your life may look like. We will host alumni in the fields of Cybersecurity, Data Science, Networks, Software Engineer, Consulting, Computer vision/graphics and Video Games!
                                 </p>
                             </div>
                         </div>
@@ -231,9 +233,9 @@
         <script>
             /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
 
-            const YEAR = 2020;
+            const YEAR = 2021;
             const MONTH = 3;
-            const DAY = 12;
+            const DAY = 25;
 
             function date(hour, minute) {
                 return new Date(YEAR, MONTH, DAY, hour, minute);
@@ -263,44 +265,42 @@
             timetable.setScope(9, 17);
 
             timetable.addLocations([
-                'BC HALL',
-                'BC 410',
-                'BC 420',
-                'BC 129',
-                'BC 229',
-                'BC 329'
+                'WEBINAR #1',
+                'WEBINAR #2',
+                'ZOOM #1',
+                'ZOOM #2'
             ]);
 
-            // BC HALL events
-            timetable.addEvent('MIDDAY LUNCH', 'BC HALL', date(12, 0), date(13, 30), LUNCH_OPTIONS);
 
             // BC 420 events
-            let room = 'BC 420';
-            timetable.addEvent("TALK Throwback ten years after leaving EPFL", room, date(10, 15), date(11, 0), {
+            let room = 'WEBINAR #2';
+
+            timetable.addEvent("TALK Throwback 10 years later", room, date(10, 15), date(11, 0), {
                 class: 'talk-entry',
                 url: '#10years-talk'
             });
-            timetable.addEvent('TALK The keys to a good internship', room, date(14, 15), date(15, 0), {
+            timetable.addEvent('TALK The keys to a good internship', room, date(13, 15), date(14, 0), {
                 class: 'talk-entry',
                 url: '#internship-talk'
             });
-            timetable.addEvent('TALK How to get familiar with a large codebase', room, date(16, 15), date(17, 0), {
+            timetable.addEvent('TALK How to get familiar with a large codebase', room, date(15, 15), date(16, 0), {
                 class: 'talk-entry',
                 url: '#codebase-talk'
             });
 
-            // BC 410 events
-            room = 'BC 410';
+            // Webinar 1 events
+            room = 'WEBINAR #1';
             timetable.addEvent('MT Consul.', room, date(9, 10), date(9, 30), MT_OPTIONS);
-            timetable.addEvent('MT Data Science', room, date(9, 40), date(10, 0), MT_OPTIONS);
-            timetable.addEvent('MT Net.', room, date(11, 10), date(11, 30), MT_OPTIONS);
-            timetable.addEvent('MT Soft. Eng.', room, date(11, 40), date(12, 0), MT_OPTIONS);
-            timetable.addEvent('MT Cyber Sec.', room, date(15, 10), date(15, 30), MT_OPTIONS);
-            timetable.addEvent('MT Comp. Vis.', room, date(15, 40), date(16, 0), MT_OPTIONS);
+            timetable.addEvent('MT Cyber Sec.', room, date(9, 40), date(10, 0), MT_OPTIONS);
+            timetable.addEvent('MT Data Science', room, date(11, 10), date(11, 30), MT_OPTIONS);
+            timetable.addEvent('MT Net.', room, date(11, 40), date(12, 0), MT_OPTIONS);
+            timetable.addEvent('MT Comp. Vis.', room, date(12, 10), date(12, 30), MT_OPTIONS);
+            timetable.addEvent('MT Soft. Eng.', room, date(14, 10), date(14, 30), MT_OPTIONS);
+            timetable.addEvent('MT Video Games', room, date(16, 10), date(16, 30), MT_OPTIONS);
 
             // BC 229 events
             let eventName = "MOCK INTERVIEWS SESSION";
-            room = 'BC 229';
+            room = 'ZOOM #1';
             timetable.addEvent(eventName, room, date(9, 0), date(10, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(10, 0), date(11, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(11, 0), date(12, 0), MOCK_OPTIONS);
@@ -308,18 +308,12 @@
             timetable.addEvent(eventName, room, date(15, 0), date(16, 0), MOCK_OPTIONS);
 
             // BC 329 events
-            room = 'BC 329';
+            room = 'ZOOM #2';
             timetable.addEvent(eventName, room, date(9, 0), date(10, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(10, 0), date(11, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(11, 0), date(12, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(14, 0), date(15, 0), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(15, 0), date(16, 0), MOCK_OPTIONS);
-
-            // BC 129 events
-            room = "BC 129"
-            eventName = "CV Checks with Together AG"
-            timetable.addEvent(eventName, room, date(9, 0), date(12, 0), CV_OPTIONS);
-            timetable.addEvent(eventName, room, date(14, 0), date(16, 0), CV_OPTIONS);
 
             // Render timetable
             let renderer = new Timetable.Renderer(timetable);
