@@ -1,0 +1,178 @@
+[
+    {
+        "name": "IC Travel",
+        "slug": "ic-travel",
+        "imageURL": "ictravel.png",
+        "shortDescription": "Nous nous occupons chaque année d’organiser le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
+        "pageBodyPath": "ictravel.md",
+        "catchPhrase": "Pour vous accompagner dans le voyage",
+        "members": [
+            {
+                "name": "Tom Demont",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/tom.demont",
+                "role": "Président"
+            },
+            {
+                "name": "Maëlys Billon",
+                "imageURL": "maelysbillon.jpg",
+                "websiteURL": "https://people.epfl.ch/maelys.billon",
+                "role": "Vice-présidente"
+            },
+            {
+                "name": "Alessio Verardo",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/alessio.verardo",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Eloi Garandel",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/eloi.garandel",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Louise Rieupouilh",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
+                "role": "Responsable Communication"
+            },
+            {
+                "name": "Kilian D'Eternod",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/kilian.deternod",
+                "role": "Responsable Sponsoring"
+            },
+            {
+                "name": "Elisa Bianchi",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/elisa.bianchi",
+                "role": "Responsable Animations"
+            },
+            {
+                "name": "Elior Papiernik",
+                "imageURL": "eliorpapiernik.jpg",
+                "websiteURL": "https://people.epfl.ch/elior.papiernik",
+                "role": "Responsable Logistique"
+            },
+            {
+                "name": "Emmanuelle Denove",
+                "imageURL": "../ictravel.png",
+                "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
+                "role": "Responsable Logement"
+            },
+            {
+                "name": "Florian Constantin",
+                "imageURL": "florianconstantin.jpg",
+                "websiteURL": "https://people.epfl.ch/florian.constantin",
+                "role": "Responsable Transport"
+            }
+        ],
+        "social": {
+            "Instagram": "https://www.instagram.com/ictravel.epfl/",
+            "Email": "mailto:ictravel.clic@epfl.ch",
+            "Formulaire": "https://go.epfl.ch/LetsICTravel"
+        }
+    },
+    {
+        "name": "Game*",
+        "slug": "game-star",
+        "imageURL": "game-star.png",
+        "shortDescription": "Lire « Game Star ». Nous visons à faire découvrir les nombreux aspects du jeu vidéo sur le campus UNIL-EPFL, notamment académiques et transversaux.",
+        "pageBodyPath": "game-star.md",
+        "catchPhrase": "Informer ; Organiser ; Rassembler. Faire vivre les actrices et acteurs du jeu vidéo sur le campus UNIL-EPFL",
+        "members": [
+            {
+                "name": "Hugo \"Stache\" Hueber",
+                "imageURL": "hugohueber.png",
+                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Lucas Strauss",
+                "imageURL": "lucasstrauss.png",
+                "websiteURL": "https://people.epfl.ch/lucas.strauss",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Camille Montemagni",
+                "imageURL": "camillemontemagni.png",
+                "websiteURL": "https://people.epfl.ch/camille.montemagni",
+                "role": "Coordinatrice"
+            },
+            {
+                "name": "Loeva La Ragione",
+                "imageURL": "loevalaragione.png",
+                "websiteURL": "",
+                "role": "Coordinatrice"
+            }
+        ],
+        "social": {
+            "Site Web": "http://sibyll.in/clicgamestar",
+            "Discord": "http://discord.gg/8tVCZJG",
+            "Telegram": "http://t.me/clicgamestar",
+            "Twitter": "http://twitter.com/clicgamestar",
+            "Instagram": "http://instagram.com/clicgamestar",
+            "Twitch": "http://twitch.tv/clicgamestar",
+            "Youtube": "http://youtube.com/channel/UCXFwVqbBNf4wO3d5CmW3uBg",
+            "Facebook": "http://fb.com/clicgamestar",
+            "Email": "mailto:videogames@groupes.epfl.ch"
+        }
+    },
+    {
+        "name": "Orbital Game Jam",
+        "slug": "orbital-game-jam",
+        "imageURL": "orbital.png",
+        "shortDescription": "Un weekend sympa au bar Satellite de l’EPFL durant lequel on se met en petites équipes pour créer un jeu en entier - jeu vidéo, jeu de plateau, tout est possible.",
+        "pageBodyPath": "orbital.md",
+        "catchPhrase": "Venez créer avec nous !",
+        "members": [
+            {
+                "name": "Hugo \"Stache\" Hueber",
+                "imageURL": "hugohueber2.png",
+                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Lucas Trognon",
+                "imageURL": "lucastrognon.png",
+                "websiteURL": "https://people.epfl.ch/lucas.trognon",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Guillaume Parchet",
+                "imageURL": "guillaumeparchet.png",
+                "websiteURL": "https://people.epfl.ch/guillaume.parchet",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Thibault Viglino",
+                "imageURL": "thibaultviglino.png",
+                "websiteURL": "https://people.epfl.ch/thibault.viglino",
+                "role": "Coordinateur"
+            }
+        ],
+        "social": {
+            "Discord": "discord.gg/mCUYyCQ",
+            "Site web": "http://orbital-game-jam.ch/",
+            "Email": "mailto:orbitalgamejam@groupes.epfl.ch"
+        }
+    },
+    {
+        "name": "CEVE",
+        "slug": "ceve",
+        "imageURL": "ceve.png",
+        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s.",
+        "pageBodyPath": "ceve.md",
+        "catchPhrase": "Une petite pause ?",
+        "members": [
+            {
+                "name": "Kilian D'Eternod",
+                "imageURL": "../ceve.png",
+                "websiteURL": "https://people.epfl.ch/kilian.deternod",
+                "role": "Coordinateur"
+            }
+        ],
+        "social": {}
+    }
+]

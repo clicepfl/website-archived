@@ -6,7 +6,6 @@
  */
 import { Page } from '../page'
 import { Request, Response } from 'express'
-import { galleryComponent } from '../../components/gallery/gallery'
 import { Coach, coachingComponent } from './coaching'
 
 /**

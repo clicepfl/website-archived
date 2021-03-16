@@ -1,0 +1,95 @@
+{#
+    This file contains the template to render the commission details page
+    CLIC website software
+
+    Template strings are bound to the CommissionPageViewModel defined in {@link
+    commissions-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | " + commission.name) }}
+    </head>
+
+    <body>
+        {{ base.header(tab = "commissions") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; <a  href="/commissions">Commissions</a>
+                        &gt; {{ commission.name }}
+                    </p>
+
+                    <h1>{{ commission.name }}</h1>
+
+                    <img src="/commissions/{{ commission.imageURL }}" alt="logo" class="center-image">
+                    <div class="commission-page">
+                        {{ commission.pageBody | safe }}
+                    </div>
+
+                    <div class="social">
+                        {% for socialNetwork, socialLink in commission.social %}
+                            {% switch socialNetwork %}
+                                {% case "Facebook" %}
+                                    {% set icon = "fab fa-facebook-f"%}
+                                {% case "Twitter" %}
+                                    {% set icon = "fab fa-twitter" %}
+                                {% case "Instagram" %}
+                                    {% set icon = "fab fa-instagram" %}
+                                {% case "Telegram" %}
+                                    {% set icon = "fab fa-telegram-plane" %}
+                                {% case "Email" %}
+                                    {% set icon = "fas fa-envelope" %}
+                                {% case "Discord" %}
+                                    {% set icon = "fab fa-discord" %}
+                                {% case "Twitch" %}
+                                    {% set icon = "fab fa-twitch" %}
+                                {% case "Youtube" %}
+                                    {% set icon = "fab fa-youtube" %}
+                                {% default %}
+                                    {% set icon = "fas fa-link" %}
+                            {% endswitch %}
+
+                            <a href="{{ socialLink }}" target="_blank">
+                                <span class="fa-stack">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="{{ icon }} fa-stack-1x fa-inverse fa-fw"></i>
+                                </span>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Comité</h1>
+                    <h3>{{ commission.catchPhrase }}</h3>
+
+                    {% for member in commission.members %}
+                        <a href="{{member.websiteURL}}" target="_blank">
+                            <div class="member">
+                                <img src="/commissions/portraits/{{member.imageURL}}" alt="{{member.name}}"/>
+                                <div class="desc">
+                                    <p class="name">{{member.name}}</p>
+                                    <p class="role">{{member.role}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>
