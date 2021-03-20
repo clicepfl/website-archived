@@ -4,6 +4,7 @@
         "websiteURL": "https://en.swissquote.com/company/jobs",
         "imageURL": "/sponsors/swissquote.png",
         "imageStyles": null,
+        "tier": "platinum",
         "expiration": {
             "year": 2021,
             "month": 12,
@@ -15,6 +16,7 @@
         "websiteURL": "https://www.logitech.com/en-ch",
         "imageURL": "/sponsors/logitech_black.png",
         "imageStyles": null,
+        "tier": "platinum",
         "expiration": {
             "year": 2021,
             "month": 8,
@@ -26,6 +28,7 @@
         "websiteURL": "https://www.oracle.com/ch-fr/index.html",
         "imageURL": "/sponsors/O-Labs-rgb.png",
         "imageStyles": null,
+        "tier": "bronze",
         "expiration": {
             "year": 2021,
             "month": 10,
@@ -37,6 +40,7 @@
         "websiteURL": "https://www.sicpa.com/",
         "imageURL": "/sponsors/SICPA.png",
         "imageStyles": null,
+        "tier": "bronze",
         "expiration": {
             "year": 2021,
             "month": 12,
@@ -48,6 +52,7 @@
         "websiteURL": "https://fairtiq.com/",
         "imageURL": "/sponsors/fairtiq.png",
         "imageStyles": null,
+        "tier": null,
         "expiration": {
             "year": 2020,
             "month": 2,
@@ -59,6 +64,7 @@
         "websiteURL": "https://je.epfl.ch/",
         "imageURL": "/sponsors/je.png",
         "imageStyles": "height: 100px;",
+        "tier": null,
         "expiration": {
             "year": 2020,
             "month": 11,
@@ -70,6 +76,7 @@
         "websiteURL": "https://agepoly.ch/",
         "imageURL": "/sponsors/agepoly.png",
         "imageStyles": null,
+        "tier": null,
         "expiration": null
     },
     {
@@ -77,6 +84,7 @@
         "websiteURL": "https://together.ch/",
         "imageURL": "/sponsors/together.png",
         "imageStyles": null,
+        "tier": null,
         "expiration": {
             "year": 2020,
             "month": 11,
@@ -88,6 +96,7 @@
         "websiteURL": "https://huawei.ch/",
         "imageURL": "/sponsors/huawei.png",
         "imageStyles": "height:65px;",
+        "tier": null,
         "expiration": {
             "year": 2020,
             "month": 10,
@@ -99,6 +108,7 @@
         "websiteURL": "https://skwoll.ch/",
         "imageURL": "/sponsors/skwoll.png",
         "imageStyles": null,
+        "tier": null,
         "expiration": {
             "year": 2020,
             "month": 10,
