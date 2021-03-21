@@ -76,7 +76,7 @@
         "websiteURL": "https://agepoly.ch/",
         "imageURL": "/sponsors/agepoly.png",
         "imageStyles": null,
-        "tier": null,
+        "tier": "subventions",
         "expiration": null
     },
     {

@@ -117,9 +117,20 @@ class SponsorsComponent {
      *
      * @param tier Tier to get the sponsors from
      */
-    listValidFromTier(tier: string) {
+    listValidFromTier(tier: string): Sponsor[] {
         return Object.assign([], this.listValid().filter((sponsor) =>
             sponsor.tier === tier))
+    }
+
+    listValidByTier(): Map<string, Sponsor[]> {
+        var groupedBy: Map<string, Sponsor[]> = new Map()
+        for (let tier of ["platinum", "gold", "silver", "bronze", "subventions"]) {
+            var fromTier: Sponsor[] = this.listValidFromTier(tier)
+            if (fromTier.length  > 0) {
+                groupedBy.set(tier, fromTier)
+            }
+        }
+        return groupedBy
     }
 
     /**

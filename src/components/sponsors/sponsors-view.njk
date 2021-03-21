@@ -22,6 +22,7 @@
         {% import "components/sponsors/sponsors-view.njk" as sponsors %}
         {{ sponsors.logoImages(sponsorsList = data) }}
 #}
+
 {% macro logoImages(sponsorsList) %}
     <div class="sponsors">
         {% for sponsor in sponsorsList %}
@@ -30,4 +31,15 @@
             </a>
         {% endfor %}
     </div>
+{% endmacro %}
+
+{#
+    TODO: documentation
+#}
+
+{% macro logoImagesByTier(sponsorsByTier) %}
+    {% for sponsorsTier, sponsorsList in sponsorsByTier %}
+        <h3>{{ sponsorsTier }}</h3>
+        {{ logoImages(sponsorsList = sponsorsList) }}
+    {% endfor %}
 {% endmacro %}
