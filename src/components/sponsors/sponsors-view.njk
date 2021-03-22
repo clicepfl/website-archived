@@ -39,7 +39,7 @@
 
 {% macro logoImagesByTier(sponsorsByTier) %}
     {% for sponsorsTier, sponsorsList in sponsorsByTier %}
-        <h3>{{ sponsorsTier }}</h3>
+        <h2>{{ sponsorsTier }}</h2>
         {{ logoImages(sponsorsList = sponsorsList) }}
     {% endfor %}
 {% endmacro %}
