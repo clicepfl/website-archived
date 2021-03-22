@@ -122,6 +122,9 @@ class SponsorsComponent {
             sponsor.tier === tier))
     }
 
+    /**
+     * Returns all sponsors (not expired) grouped by tiers
+     */
     listValidByTier(): Map<string, Sponsor[]> {
         var groupedBy: Map<string, Sponsor[]> = new Map()
         for (let tier of ["platinum", "gold", "silver", "bronze", "subventions"]) {

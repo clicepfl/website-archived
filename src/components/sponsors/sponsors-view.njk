@@ -34,8 +34,13 @@
 {% endmacro %}
 
 {#
-    TODO: documentation
-    TODO: style linked to tier
+    Sponsors logo images grouped by tier
+    This macro displays a list of logos from all the sponsors, grouped by a
+    tier title
+
+    @param sponsorsByTier The map of sponsors defined as tier-sponsors pairs
+                          (type Map<string, Sponsor[]>) as defined in
+                          {@link sponsors.ts}
 #}
 
 {% macro logoImagesByTier(sponsorsByTier) %}
