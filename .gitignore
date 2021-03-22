@@ -15,3 +15,6 @@ Desktop.ini
 
 # Large assets such as long videos
 assets/untracked/
+
+# Test coverage
+coverage/
