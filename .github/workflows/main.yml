@@ -19,8 +19,14 @@ jobs:
         node-version: '12'
         check-latest: true
 
-    - name: Install modules and run gulp
+    - name: Install modules and run gulp build
       run: npm ci
 
     - name: Test
       run: npm run test
+
+    - name: Report results
+      uses: IgnusG/jest-report-action@v2.3.3
+      if: always()
+      with:
+        access-token: ${{ secrets.GITHUB_TOKEN }}
