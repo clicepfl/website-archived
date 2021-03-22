@@ -35,11 +35,18 @@
 
 {#
     TODO: documentation
+    TODO: style linked to tier
 #}
 
 {% macro logoImagesByTier(sponsorsByTier) %}
     {% for sponsorsTier, sponsorsList in sponsorsByTier %}
-        <h2>{{ sponsorsTier }}</h2>
-        {{ logoImages(sponsorsList = sponsorsList) }}
+        <div class="sponsors">
+            <h3 class="tier">{{ sponsorsTier }}</h3>
+            {% for sponsor in sponsorsList %}
+                <a href="{{sponsor.websiteURL}}" target="_blank">
+                    <img src="{{sponsor.imageURL}}" alt="{{sponsor.name}}" style="{{sponsor.imageStyles}}">
+                </a>
+            {% endfor %}
+        </div>
     {% endfor %}
 {% endmacro %}
