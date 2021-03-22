@@ -23,7 +23,7 @@ jobs:
       run: npm ci
 
     - name: Test
-      run: npm run test
+      run: npm run test:ci
 
     - name: Report results
       uses: IgnusG/jest-report-action@v2.3.3

@@ -7,7 +7,14 @@
     "start": "node dist/server.js",
     "stop": "pkill --signal SIGINT nodeWebServer",
     "postinstall": "npx gulp",
-    "test": "npx gulp && npx jest"
+    "build": "npx gulp",
+    "test": "npx gulp && npx jest",
+    "test:ci": "npx gulp && npx jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "jest-junit": {
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}"
   },
   "repository": {
     "type": "git",
@@ -38,6 +45,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-typescript": "^5.0.1",
     "jest": "^26.6.3",
+    "jest-junit": "^12.0.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.13.1",
     "ts-jest": "^26.5.4",
