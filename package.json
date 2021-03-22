@@ -7,7 +7,7 @@
     "start": "node dist/server.js",
     "stop": "pkill --signal SIGINT nodeWebServer",
     "postinstall": "npx gulp",
-    "test": "npx gulp && npx jest"
+    "test": "npx gulp && npx jest --colors"
   },
   "repository": {
     "type": "git",
