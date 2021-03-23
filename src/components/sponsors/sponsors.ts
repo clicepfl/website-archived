@@ -21,14 +21,16 @@ class Sponsor {
     websiteURL: string
     imageURL: string
     imageStyles?: string
+    tier?: string
     expiration?: Date
 
     constructor(name: string, websiteURL: string, imageURL: string,
-        imageStyles: string, expiration?: Date) {
+        imageStyles: string, tier?: string, expiration?: Date) {
         this.name = name
         this.websiteURL = websiteURL
         this.imageURL = imageURL
         this.imageStyles = imageStyles
+        this.tier = tier
         this.expiration = expiration
     }
 
@@ -45,7 +47,7 @@ class Sponsor {
             logger.log(message)
             throw new Error(message)
         } else {
-            return new Sponsor(data.name, data.websiteURL, data.imageURL, data.imageStyles, data.expiration === null ?
+            return new Sponsor(data.name, data.websiteURL, data.imageURL, data.imageStyles, data.tier, data.expiration === null ?
                 null : new Date(
                     data.expiration.year,
                     data.expiration.month - 1, // JS's annoying month format
@@ -73,6 +75,8 @@ class Sponsor {
             data.imageURL !== undefined && typeof data.imageURL === "string" &&
             // check has property imageStyles, either null or of type string
             data.imageStyles !== undefined && (data.imageStyles === null || typeof data.imageStyles === "string") &&
+            // check has property tier, either null or of type string
+            data.tier !== undefined && (data.tier === null || typeof data.tier === "string") &&
             // check has property expiration
             data.expiration !== undefined && (
                 // check expiration can be null
@@ -106,6 +110,30 @@ class SponsorsComponent {
      */
     list(): Sponsor[] {
         return Object.assign([], this.sponsorsList)
+    }
+
+    /**
+     * Returns all sponsors (not expired) with the given tier
+     *
+     * @param tier Tier to get the sponsors from
+     */
+    listValidFromTier(tier: string): Sponsor[] {
+        return Object.assign([], this.listValid().filter((sponsor) =>
+            sponsor.tier === tier))
+    }
+
+    /**
+     * Returns all sponsors (not expired) grouped by tiers
+     */
+    listValidByTier(): Map<string, Sponsor[]> {
+        var groupedBy: Map<string, Sponsor[]> = new Map()
+        for (let tier of ["platinum", "gold", "silver", "bronze", "subventions"]) {
+            var fromTier: Sponsor[] = this.listValidFromTier(tier)
+            if (fromTier.length > 0) {
+                groupedBy.set(tier, fromTier)
+            }
+        }
+        return groupedBy
     }
 
     /**

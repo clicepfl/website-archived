@@ -22,6 +22,7 @@
         {% import "components/sponsors/sponsors-view.njk" as sponsors %}
         {{ sponsors.logoImages(sponsorsList = data) }}
 #}
+
 {% macro logoImages(sponsorsList) %}
     <div class="sponsors">
         {% for sponsor in sponsorsList %}
@@ -30,4 +31,27 @@
             </a>
         {% endfor %}
     </div>
+{% endmacro %}
+
+{#
+    Sponsors logo images grouped by tier
+    This macro displays a list of logos from all the sponsors, grouped by a
+    tier title
+
+    @param sponsorsByTier The map of sponsors defined as tier-sponsors pairs
+                          (type Map<string, Sponsor[]>) as defined in
+                          {@link sponsors.ts}
+#}
+
+{% macro logoImagesByTier(sponsorsByTier) %}
+    {% for sponsorsTier, sponsorsList in sponsorsByTier %}
+        <div class="sponsors">
+            <h3 class="tier">{{ sponsorsTier }}</h3>
+            {% for sponsor in sponsorsList %}
+                <a href="{{sponsor.websiteURL}}" target="_blank">
+                    <img src="{{sponsor.imageURL}}" alt="{{sponsor.name}}" style="{{sponsor.imageStyles}}">
+                </a>
+            {% endfor %}
+        </div>
+    {% endfor %}
 {% endmacro %}
