@@ -1,5 +1,6 @@
 La CLIC a présenté sa nouvelle édition de IC Boost Day, qui s'est tenue en ligne le 25 mars 2021, de 9h00 à 17h00!
-Cet événement était l'occasion unique pour les étudiant.e.s de notre Faculté de rencontrer des alumni IC et d'écouter leur expérience concrète après leurs études à l'EPFL. Deux conférences de 45 minutes ont été proposé sur les thèmes [*"Comment se familiariser avec une base de code volumineuse dans une entreprise"*](https://clic.epfl.ch/nextcloud/s/aWLiHP8K8eQDizi) et [*"Retour en arrière dix ans après avoir quitté l'EPFL: qu'est-ce que je regrette et quelles leçons utiles ai-je retenues"*](https://clic.epfl.ch/nextcloud/s/CXy2wfkCSnDgyJE)
+
+Cet événement était l'occasion unique pour les étudiant.e.s de notre Faculté de rencontrer des alumni IC et d'écouter leur expérience concrète après leurs études à l'EPFL. Trois conférences de 45 minutes ont été proposé sur les thèmes [*"Comment se familiariser avec une base de code volumineuse dans une entreprise"*](https://clic.epfl.ch/nextcloud/s/aWLiHP8K8eQDizi) et *"Retour en arrière dix ans après avoir quitté l'EPFL: qu'est-ce que je regrette et quelles leçons utiles ai-je retenues"* et [*"Les clés pour réussir un stage"*](https://clic.epfl.ch/nextcloud/s/CXy2wfkCSnDgyJE)
 
 Nous avons également proposé 7 autres mini-talks de 20 minutes qui ont permis de donner un aperçu de ce à quoi les étudiant.e.s en IC doivent s'attendre après leur master à l'EPFL. Ces mini-talks concernaient les domaines/industries suivants:
 
