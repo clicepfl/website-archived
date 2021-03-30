@@ -39,7 +39,7 @@
         "name": "SICPA",
         "websiteURL": "https://www.sicpa.com/",
         "imageURL": "/sponsors/SICPA.png",
-        "imageStyles": null,
+        "imageStyles": "max-width: 100px",
         "tier": "bronze",
         "expiration": {
             "year": 2021,
