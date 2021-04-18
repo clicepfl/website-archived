@@ -168,7 +168,7 @@ router.get('/robots.txt', (req, res) => {
 
 // Don't ask
 router.get('/demission', (req, res) => {
-    res.redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    res.redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1')
 })
 
 /**
