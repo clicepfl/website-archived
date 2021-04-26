@@ -75,6 +75,7 @@
                     <h1>Équipe</h1>
                     <h3>{{ pole.catchPhrase }}</h3>
 
+                    <div class="content">
                     {% for member in pole.members %}
                         <a href="{{member.websiteURL}}" target="_blank">
                             <div class="member">
@@ -86,6 +87,8 @@
                             </div>
                         </a>
                     {% endfor %}
+                    </div>
+                    <div class="content">
                     {% for teammate in pole.teammates %}
                         <a href="{{member.websiteURL}}" target="_blank">
                             <div class="member">
@@ -96,6 +99,7 @@
                             </div>
                         </a>
                     {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
