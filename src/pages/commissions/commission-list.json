@@ -45,7 +45,7 @@
             },
             {
                 "name": "Elisa Bianchi",
-                "imageURL": "../ictravel.png",
+                "imageURL": "elisabianchi.jpeg",
                 "websiteURL": "https://people.epfl.ch/elisa.bianchi",
                 "role": "Responsable Animations"
             },
@@ -69,7 +69,7 @@
             }
         ],
         "social": {
-            "Instagram": "https://www.instagram.com/ictravel.epfl/",
+            "Instagram": "https://www.instagram.com/ictravel.clic/",
             "Email": "mailto:ictravel.clic@epfl.ch",
             "Formulaire": "https://go.epfl.ch/LetsICTravel"
         }
