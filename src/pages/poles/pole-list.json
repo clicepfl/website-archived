@@ -1,0 +1,237 @@
+[
+    {
+        "name": "Administration",
+        "slug": "admin",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "admin.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Maëlys Billon",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/maelys.billon",
+                "role": "Administratrice"
+            },
+            {
+                "name": "Éloïse Doyard",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/eloise.doyard",
+                "role": "Vice-administratrice"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "IT",
+        "slug": "it",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "it.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Hugo El Guedj",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.elguedj",
+                "role": "Responsable IT"
+            }
+        ],
+        "teammates": [
+            {
+                "name": "Hugo Lepeytre",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.lepeytre",
+                "role": null
+            }
+        ],
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "Logistique",
+        "slug": "log",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "log.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Tom Demont",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/tom.demont",
+                "role": "Responsable Logistique"
+            }
+        ],
+        "teammates": [
+            {
+                "name": "Jean-Étienne Charbonnet",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://jean-etienne.charbonnet",
+                "role": null
+            },
+            {
+                "name": "Jennyfer Stein",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/jennyfer.stein",
+                "role": null
+            },
+            {
+                "name": "Elior Papiernik",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/elior.papiernik",
+                "role": null
+            }
+        ],
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "Présidence",
+        "slug": "pres",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "pres.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Rayan Daod",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/rayan.daodnathoo",
+                "role": "Président"
+            },
+            {
+                "name": "Camille Montemagni",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/camille.montemagni",
+                "role": "Vice-présidente"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "Sponsoring",
+        "slug": "sponso",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "sponso.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Arthur Vignon",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/arthur.vignon",
+                "role": "Responsable Sponsoring"
+            }
+        ],
+        "teammates": [
+            {
+                "name": "Harold Benoit",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/harold.benoit",
+                "role": null
+            },
+            {
+                "name": "Nicolas d'Argenlieu",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/nicolas.thierrydargenlieu",
+                "role": null
+            }
+        ],
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "Évènementiel",
+        "slug": "event",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "event.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Manon Michel",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/manon.michel",
+                "role": "Responsable Évènementiel"
+            },
+            {
+                "name": "Kévin Faustini",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/kevin.faustini",
+                "role": "Responsable Évènementiel"
+            }
+        ],
+        "teammates": [
+            {
+                "name": "Adrien Laydu",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/adrien.laydu",
+                "role": null
+            },
+            {
+                "name": "Vincent Cabrini",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/vincent.cabrini",
+                "role": null
+            },
+            {
+                "name": "Mateo Chapatte",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/mateo.chapatte",
+                "role": null
+            },
+            {
+                "name": "Lucas Trognon",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/lucas.trognon",
+                "role": null
+            },
+            {
+                "name": "Nicolas Vannay",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/nicolas.vannay",
+                "role": null
+            }
+        ],
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    },
+    {
+        "name": "Communication",
+        "slug": "com",
+        "imageURL": "tomdemont.jpg",
+        "shortDescription": "tomdemont.jpg",
+        "pageBodyPath": "com.md",
+        "catchPhrase": "tomdemont.jpg",
+        "members": [
+            {
+                "name": "Mallory Henriet",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/mallory.henriet",
+                "role": "Responsable Communication",
+            },
+            {
+                "name": "Gonxhe Idrizi",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/gonxhe.idrizi",
+                "role": "Responsable Communication"
+            }
+
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "tomdemont.jpg"
+        }
+    }
+]

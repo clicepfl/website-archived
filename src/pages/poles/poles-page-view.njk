@@ -1,0 +1,53 @@
+{#
+    This file contains the template to render the commissions list page
+    CLIC website software
+
+    Template strings are bound to the CommissionsPageViewModel defined in {@link
+    commissions-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | Pôles") }}
+    </head>
+
+    <body>
+        {{ base.header(tab = "poles") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; Pôles
+                    </p>
+
+                    <h1>Nos Pôles</h1>
+
+                    <div class="poles padded-40">
+                        {% for row in polesList | batch(4) %}
+                            <div class="poles-row">
+                            {% for item in row %}
+                                <div class="poles-item">
+                                    <a href="/poles/{{item.slug}}">
+                                        <img src="/poles/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                    </a>
+                                    <p class="desc">{{item.shortDescription}}</p>
+                                    <a href="/poles/{{item.slug}}" class="more">Lire plus &raquo;</a>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>
