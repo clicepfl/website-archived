@@ -22,7 +22,8 @@
         ],
         "teammates": null,
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:administration.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -49,7 +50,8 @@
             }
         ],
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:it.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -88,7 +90,8 @@
             }
         ],
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:logistique.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -114,7 +117,8 @@
         ],
         "teammates": null,
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "Email": "mailto:president.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -147,7 +151,8 @@
             }
         ],
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:sponsoring.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -204,7 +209,8 @@
             }
         ],
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:evenementiel.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
     {
@@ -231,7 +237,8 @@
         ],
         "teammates": null,
         "social": {
-            "Email": "tomdemont.jpg"
+            "Email": "mailto:communication.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
         }
     }
 ]
