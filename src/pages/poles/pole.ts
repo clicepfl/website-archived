@@ -22,6 +22,7 @@ class PoleMember {
         this.imageURL = imageURL
         this.websiteURL = websiteURL
         this.role = role
+
     }
 
     /**
@@ -58,7 +59,7 @@ class PoleMember {
             // check has property website URL either null or of type string
             data.websiteURL !== undefined && (data.websiteURL === null || typeof data.websiteURL === "string") &&
             // check has property role of type string
-            data.role !== undefined && (data.role === null || typeof data.role === "string")
+            data.role === undefined || typeof data.role === "string"
         )
     }
 }
