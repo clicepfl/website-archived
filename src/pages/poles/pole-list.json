@@ -1,7 +1,7 @@
 [
     {
         "name": "Administration",
-        "slug": "admin",
+        "slug": "administration",
         "imageURL": "tomdemont.jpg",
         "shortDescription": "tomdemont.jpg",
         "pageBodyPath": "admin.md",
@@ -54,7 +54,7 @@
     },
     {
         "name": "Logistique",
-        "slug": "log",
+        "slug": "logistique",
         "imageURL": "tomdemont.jpg",
         "shortDescription": "tomdemont.jpg",
         "pageBodyPath": "log.md",
@@ -93,7 +93,7 @@
     },
     {
         "name": "Présidence",
-        "slug": "pres",
+        "slug": "presidency",
         "imageURL": "tomdemont.jpg",
         "shortDescription": "tomdemont.jpg",
         "pageBodyPath": "pres.md",
@@ -119,7 +119,7 @@
     },
     {
         "name": "Sponsoring",
-        "slug": "sponso",
+        "slug": "sponsoring",
         "imageURL": "tomdemont.jpg",
         "shortDescription": "tomdemont.jpg",
         "pageBodyPath": "sponso.md",
@@ -209,7 +209,7 @@
     },
     {
         "name": "Communication",
-        "slug": "com",
+        "slug": "communication",
         "imageURL": "tomdemont.jpg",
         "shortDescription": "tomdemont.jpg",
         "pageBodyPath": "com.md",
