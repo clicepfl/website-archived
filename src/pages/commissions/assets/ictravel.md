@@ -38,7 +38,7 @@ Pas encore convaincu.e mais presque ? Passe voir le formulaire quand même, on a
 #### Paiement et aide de la Faculté
 
 Maintenant, pour ce qui est du paiement, il va falloir prendre en compte plusieurs choses :
-* Nous avons estimé un prix global pour le voyage prenant en compte le coût des **activités**, des **logements** ainsi que des **trajets**. On ne pourra **pas vous payer tous les repas**, mais dans toutes les villes où l’on va, il y aura des **supermarchés** à proximité et les hôtels dans lesquels on va dormir sont équipés de **cuisines** pour la plupart. Ce coût total est estimé à CHF 700.- par personne.
+* Nous avons estimé un prix global pour le voyage prenant en compte le coût des **activités**, des **hôtels** ainsi que des **trajets**. On ne pourra **pas vous payer tous les repas**, mais dans toutes les villes où l’on va, il y aura des **supermarchés** à proximité et les hôtels dans lesquels on va dormir sont équipés de **cuisines** pour la plupart. Ce coût total est estimé à CHF 700.- par personne.
 * Ce prix est une **borne supérieure**, on va négocier des prix de groupes, dégoter de nouveaux sponsors, et faire tout un tas de trucs qui feront que **ce prix sera réduit**.
 * Le premier virement que nous vous demandons est lui de seulement **CHF 400.-** par personne (du coup, comme j’ai fait Analyse IV, je peux vous dire qu’il reste 300.-).
 * Le second versement sera à faire plus tard et sa valeur sera adaptée en fonction de ce qu’on arrive à faire pour réduire le prix du voyage !
@@ -64,7 +64,9 @@ Quand tout ça sera fait, tu seras prêt.e à embarquer ! _Tchou tchou_ !
 
 #### Planning prévisionnel du voyage
 
-Comme beaucoup l'ont demandé, on vous montre le **planning prévionnel actuel du voyage**. Pourquoi prévisionnel ? Parce qu'on ne peut commencer les réservations et inscriptions que lorsque l'on aura toutes vos inscriptions. Donc en gros on va tout faire pour que tout ça existe, mais on est sous réserve des circonstances sanitaires et tout ça vous voyez bien (dans tous les cas vous ne paierez pas pour des activités que vous ne ferez pas donc pas de panique).
+Comme beaucoup l'ont demandé, on vous montre le **planning prévisionnel actuel du voyage**. Pourquoi prévisionnel ? Parce qu'on ne peut commencer les réservations et inscriptions que lorsque l'on aura toutes vos inscriptions. Donc en gros on va tout faire pour que tout ça existe, mais on est sous réserve des circonstances sanitaires et tout ça vous voyez bien (dans tous les cas vous ne paierez pas pour des activités que vous ne ferez pas donc pas de panique).
+
+Pour rappel, on prévoit de loger dans des **hôtels** chaque nuit (sauf entre le 1 et le 2, on rentre chez nous pour celle là, enfin on peut faire une boum à la maison si vous voulez après). Ce sera pas le 5 étoiles eh oh ça va, mais c'est normalement plus sympa qu'une auberge de jeunesse ! 🏠
 
 ***
 
@@ -107,4 +109,5 @@ Comme beaucoup l'ont demandé, on vous montre le **planning prévionnel actuel d
   * **Matin**         : **Retour à Lausanne** {Lausanne-Berne ~ 1h00/30mn} 
 
 ***
+
 Voilà le projet ! Bon normalement après ça vous n'avez plus de doutes, alors on a hâte de vous retrouver tout.e.s ! 😊
