@@ -66,7 +66,7 @@ Quand tout ça sera fait, tu seras prêt.e à embarquer ! _Tchou tchou_ !
 
 Comme beaucoup l'ont demandé, on vous montre le **planning prévisionnel actuel du voyage**. Pourquoi prévisionnel ? Parce qu'on ne peut commencer les réservations et inscriptions que lorsque l'on aura toutes vos inscriptions. Donc en gros on va tout faire pour que tout ça existe, mais on est sous réserve des circonstances sanitaires et tout ça vous voyez bien (dans tous les cas vous ne paierez pas pour des activités que vous ne ferez pas donc pas de panique).
 
-Pour rappel, on prévoit de loger dans des **hôtels** chaque nuit (sauf entre le 1 et le 2, on rentre chez nous pour celle là, enfin on peut faire une boum à la maison si vous voulez après). Ce sera pas le 5 étoiles eh oh ça va, mais c'est normalement plus sympa qu'une auberge de jeunesse ! 🏠
+Pour rappel, on prévoit de loger dans des **hôtels/auberges** chaque nuit (sauf entre le 1 et le 2, on rentre chez nous pour celle là, enfin on peut faire une boum à la maison si vous voulez après). Ce sera pas le 5 étoiles eh oh ça va, mais c'est normalement plus confort que le camping ! 🏠
 
 ***
 
