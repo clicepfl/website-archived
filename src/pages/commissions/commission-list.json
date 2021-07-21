@@ -2,7 +2,7 @@
     {
         "name": "IC Travel",
         "slug": "ic-travel",
-        "imageURL": "ictravel.png",
+        "imageURL": "ictravel.svg",
         "shortDescription": "Nous nous occupons chaque année d’organiser le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
         "pageBodyPath": "ictravel.md",
         "catchPhrase": "Pour vous accompagner dans le voyage",
@@ -21,25 +21,25 @@
             },
             {
                 "name": "Alessio Verardo",
-                "imageURL": "../ictravel.png",
+                "imageURL": "../ictravel.svg",
                 "websiteURL": "https://people.epfl.ch/alessio.verardo",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Eloi Garandel",
-                "imageURL": "../ictravel.png",
+                "imageURL": "../ictravel.svg",
                 "websiteURL": "https://people.epfl.ch/eloi.garandel",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Louise Rieupouilh",
-                "imageURL": "../ictravel.png",
+                "imageURL": "../ictravel.svg",
                 "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
                 "role": "Responsable Communication"
             },
             {
                 "name": "Kilian D'Eternod",
-                "imageURL": "../ictravel.png",
+                "imageURL": "../ictravel.svg",
                 "websiteURL": "https://people.epfl.ch/kilian.deternod",
                 "role": "Responsable Sponsoring"
             },
@@ -57,7 +57,7 @@
             },
             {
                 "name": "Emmanuelle Denove",
-                "imageURL": "../ictravel.png",
+                "imageURL": "../ictravel.svg",
                 "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
                 "role": "Responsable Logement"
             },
@@ -71,7 +71,7 @@
         "social": {
             "Instagram": "https://www.instagram.com/ictravel.clic/",
             "Email": "mailto:ictravel.clic@epfl.ch",
-            "Formulaire": "https://go.epfl.ch/LetsICTravel"
+            "Formulaire": "https://go.epfl.ch/ICTravel2021Inscriptions"
         }
     },
     {
