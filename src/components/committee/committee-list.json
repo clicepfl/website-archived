@@ -1,15 +1,15 @@
 [
     {
-        "name": "Rayan Daod",
-        "role": "Président",
-        "imageURL": "/committee/rayandaod.jpg",
-        "websiteURL": "https://people.epfl.ch/rayan.daodnathoo"
+        "name": "Manon Michel",
+        "role": "Présidente",
+        "imageURL": "/committee/manonmichel.jpg",
+        "websiteURL": "https://people.epfl.ch/manon.michel"
     },
     {
-        "name": "Camille Montemagni",
-        "role": "Vice-Présidente",
-        "imageURL": "/committee/camillemontemagni.jpg",
-        "websiteURL": "https://people.epfl.ch/camille.montemagni"
+        "name": "Tom Demont",
+        "role": "Vice-Président",
+        "imageURL": "/committee/tomdemont.jpg",
+        "websiteURL": "https://people.epfl.ch/tom.demont"
     },
     {
         "name": "Maëlys Billon",
@@ -18,10 +18,10 @@
         "websiteURL": "https://people.epfl.ch/maelys.billon"
     },
     {
-        "name": "Éloïse Doyard",
+        "name": "Eugénie Kwak",
         "role": "Vice-Administratrice",
-        "imageURL": "/committee/eloisedoyard.jpg",
-        "websiteURL": "https://people.epfl.ch/eloise.doyard"
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/eugenie.kwak"
     },
     {
         "name": "Hugo El Guedj",
@@ -30,10 +30,10 @@
         "websiteURL": "https://people.epfl.ch/hugo.elguedj"
     },
     {
-        "name": "Manon Michel",
+        "name": "Lucas Trognon",
         "role": "Événements",
-        "imageURL": "/committee/manonmichel.jpg",
-        "websiteURL": "https://people.epfl.ch/manon.michel"
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/lucas.trognon"
     },
     {
         "name": "Kévin Faustini",
@@ -42,16 +42,16 @@
         "websiteURL": "https://people.epfl.ch/kevin.faustini"
     },
     {
-        "name": "Arthur Vignon",
+        "name": "Marine Bossanne",
         "role": "Sponsoring",
-        "imageURL": "/committee/arthurvignon.jpg",
-        "websiteURL": "https://people.epfl.ch/arthur.vignon"
+        "imageURL": "/committee/marinebossanne.jpg",
+        "websiteURL": "https://people.epfl.ch/marine.bossanne"
     },
     {
-        "name": "Gonxhe Idrizi",
+        "name": "Noé Terrier",
         "role": "Communication",
-        "imageURL": "/committee/gonxheidrizi.jpg",
-        "websiteURL": "https://people.epfl.ch/gonxhe.idrizi"
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/noe.terrier"
     },
     {
         "name": "Mallory Henriet",
@@ -60,15 +60,15 @@
         "websiteURL": "https://people.epfl.ch/mallory.henriet"
     },
     {
-        "name": "Tom Demont",
+        "name": "Eloïse Doyard",
         "role": "Logistique",
-        "imageURL": "/committee/tomdemont.jpg",
-        "websiteURL": "https://people.epfl.ch/tom.demont"
+        "imageURL": "/committee/eloisedoyard.jpg",
+        "websiteURL": "https://people.epfl.ch/eloise.doyard"
     },
     {
-        "name": "Marine Bossanne",
+        "name": "Hugues Devimeux/Paul Madelénat",
         "role": "Relations Coaching",
-        "imageURL": "/committee/marinebossanne.jpg",
-        "websiteURL": "https://people.epfl.ch/marine.bossanne"
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://coaching.epfl.ch/coaching-ic/"
     }
 ]
