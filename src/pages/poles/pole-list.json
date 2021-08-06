@@ -184,6 +184,12 @@
                 "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/hugues.devimeux",
                 "role": "Supercoach IC"
+            },
+            {
+                "name": "Paul Madelénat",
+                "imageURL": "default.png",
+                "websiteURL": "https://people.epfl.ch/paul.madelenat",
+                "role": "Supercoach IC"
             }
         ],
         "teammates": null,
