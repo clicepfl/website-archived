@@ -70,7 +70,7 @@
     },
     {
         "name": "Présidence",
-        "slug": "presidency",
+        "slug": "president",
         "imageURL": "thumbnails/pres.PNG",
         "shortDescription": "",
         "pageBodyPath": "pres.md",
