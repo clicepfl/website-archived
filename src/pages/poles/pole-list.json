@@ -1,0 +1,195 @@
+[
+    {
+        "name": "Administration",
+        "slug": "administration",
+        "imageURL": "thumbnails/admin.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "admin.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Maëlys Billon",
+                "imageURL": "maelysbillon.jpg",
+                "websiteURL": "https://people.epfl.ch/maelys.billon",
+                "role": "Administratrice"
+            },
+            {
+                "name": "Eugénie Kwak",
+                "imageURL": "default.png",
+                "websiteURL": "https://people.epfl.ch/eugenie.kwak",
+                "role": "Vice-administratrice"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:administration.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "IT",
+        "slug": "it",
+        "imageURL": "thumbnails/it.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "it.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Hugo El Guedj",
+                "imageURL": "hugoelguedj.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.elguedj",
+                "role": "Responsable IT"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:it.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Logistique",
+        "slug": "logistique",
+        "imageURL": "thumbnails/log.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "log.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Éloise Doyard",
+                "imageURL": "eloisedoyard.jpg",
+                "websiteURL": "https://people.epfl.ch/eloise.doyard",
+                "role": "Responsable Logistique"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:logistique.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Présidence",
+        "slug": "president",
+        "imageURL": "thumbnails/pres.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "pres.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Manon Michel",
+                "imageURL": "manonmichel.jpg",
+                "websiteURL": "https://people.epfl.ch/manon.michel",
+                "role": "Présidente"
+            },
+            {
+                "name": "Tom Demont",
+                "imageURL": "tomdemont.jpg",
+                "websiteURL": "https://people.epfl.ch/tom.demont",
+                "role": "Vice-président"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:president.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Sponsoring",
+        "slug": "sponsoring",
+        "imageURL": "thumbnails/sponso.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "sponso.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Marine Bossanne",
+                "imageURL": "marinebossanne.jpg",
+                "websiteURL": "https://people.epfl.ch/marine.bossanne",
+                "role": "Responsable Sponsoring"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:sponsoring.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Évènementiel",
+        "slug": "event",
+        "imageURL": "thumbnails/event.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "event.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Lucas Trognon",
+                "imageURL": "default.PNG",
+                "websiteURL": "https://people.epfl.ch/lucas.trognon",
+                "role": "Responsable Évènementiel"
+            },
+            {
+                "name": "Kévin Faustini",
+                "imageURL": "kevinfaustini.jpg",
+                "websiteURL": "https://people.epfl.ch/kevin.faustini",
+                "role": "Responsable Évènementiel"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:evenementiel.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Communication",
+        "slug": "communication",
+        "imageURL": "thumbnails/com.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "com.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Mallory Henriet",
+                "imageURL": "malloryhenriet.jpg",
+                "websiteURL": "https://people.epfl.ch/mallory.henriet",
+                "role": "Responsable Communication"
+            },
+            {
+                "name": "Noé Terrier",
+                "imageURL": "default.png",
+                "websiteURL": "https://people.epfl.ch/noe.terrier",
+                "role": "Responsable Communication"
+            }
+
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:communication.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Relations Coaching",
+        "slug": "coaching",
+        "imageURL": "thumbnails/coaching.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "com.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Hugues Devimeux",
+                "imageURL": "default.png",
+                "websiteURL": "https://people.epfl.ch/hugues.devimeux",
+                "role": "Supercoach IC"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:coaching.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl"
+        }
+    }
+]
