@@ -1,4 +1,4 @@
-## Le pôle Relations Coaching, __ kesako?__ 
+## Le pôle Relations Coaching, kesako? 
 
 Le pôle Relations Coaching fait le lien entre deux associations différentes : la CLIC et le Coaching IC !
 
