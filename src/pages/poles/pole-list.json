@@ -126,7 +126,7 @@
         "members": [
             {
                 "name": "Lucas Trognon",
-                "imageURL": "default.PNG",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/lucas.trognon",
                 "role": "Responsable Évènementiel"
             },
@@ -176,13 +176,19 @@
         "slug": "coaching",
         "imageURL": "thumbnails/coaching.PNG",
         "shortDescription": "",
-        "pageBodyPath": "com.md",
+        "pageBodyPath": "coaching.md",
         "catchPhrase": "",
         "members": [
             {
                 "name": "Hugues Devimeux",
                 "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/hugues.devimeux",
+                "role": "Supercoach IC"
+            },
+            {
+                "name": "Paul Madelénat",
+                "imageURL": "default.png",
+                "websiteURL": "https://people.epfl.ch/paul.madelenat",
                 "role": "Supercoach IC"
             }
         ],
