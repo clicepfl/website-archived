@@ -1,0 +1,216 @@
+{#
+    This file contains the template to render the Coaching page
+    CLIC website software
+
+    Template strings are bound to the EventsPageViewModel defined in {@link
+    events-page.ts}
+
+    @author Hugo El Guedj
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | Events") }}
+        <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
+        <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
+    </head>
+    <body id="events">
+        {{ base.header(page = "events") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Événements</h1>
+                        <p class="center-text">
+
+                            Ci-dessous tu trouveras un calendrier de nos futurs événements, et juste en-dessous des descriptions de nos événements phares
+                        </p>
+                        <br><br><br>
+
+                        <iframe width="1100" height="1100" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/5MpK7kKgLRSJ9yed"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40 planning">
+                    <h1>test</h1>
+                    <div class="events-container">
+
+                        <div id="dinner" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Souper de Faculté
+                                    </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>
+                                    Le fameux
+                                </h4>
+                                <p>
+                                    Le souper de faculté est un événement phare de la CLIC. Il se déroule dans l'atrium BC, et réunit environ 350 personnes, aussi bien des étudiant.e.s que des secrétaires ou des enseignant.e.s., le tout autour d'un grand repas chaud. Nous organisons aussi pendant la soirée le fameux Grand Quiz IC.
+                                </p>
+                            </div>
+                        </div>
+
+                        <a id="icbd" href="/icbd" class="event">
+                            <div class="front">
+                                <h3>
+                                      <i class="fas fa-user-tie"></i>
+                                      IC Boost Day
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Rencontre d'alumni</h4>
+                                <p>
+                                    ICBD est un événement créé en 2019 ayant pour but de procurer aux étudiant.e.s en master ou fin de bachelor un événement pour se familiariser avec le monde de l'industrie. En particulier, nous y proposons des mock coding interviews pour permettre aux participant.e.s de se familiariser avec ce concept (alors qu'aucun autre service de l'EPFL le propose) ainsi que divers talks ou encore des ateliers de correction de CV.
+                                </p>
+                            </div>
+                        </a>
+
+                        <div id="breakfast" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-coffee"></i>
+                                    Petits-déjeuners
+                                    </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>
+                                    Tout frais payé
+                                </h4>
+                                <p>
+                                    Le petit déjeuner est un autre évènement incontournable de la CLIC, organisé dans le Hall INM entre 9h et 11h et qui consiste en une distribution de petit-déjeuners pour les étudiant.e.s de la section et autres chanceux.ses qui passeraient par là au bon moment. Nous servons des tartines préparées par votre comité préféré avec amour, des viennoiseries ainsi que diverses boissons.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="clicoaching" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-beer"></i>
+                                    CLICoaching
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Apéro CLIC & Coaching</h4>
+                                <p>
+                                    CLICoaching est un événement co-organisé par la CLIC et le Coaching IC. Il s'agit d'une folle soirée avec plusieurs activités (comme le karaoké ou just dance), où bière et sangria coulent à flot. C'est, avec le souper de faculté, un des plus gros événement organisé durant l'année.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="apero-master" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-cocktail"></i>
+                                    Apéro master
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Accueil des masters</h4>
+                                <p>
+                                    L'Apéro Master est un apéritif originalement réservé aux étudiant.e.s en Master IC puis étendu aussi aux Bachelors IC. Celui a pour but de rassembler les étudiant.e.s afin de passer un bon moment au début du semestre, de célébrer l'entrée en Master de certain.e.s ainsi que pour faire de nouvelles connaissances.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="hashcode" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-hashtag"></i>
+                                    Google<br>Hash Code
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Compétition de code</h4>
+                                <p>
+                                    Le Google Hash Code (GHC) est un concours de programmation et d'algorithmique. L'événement est organisé par Google au même moment tout autour du monde. Chacun est libre de s'y inscrire et d'y prendre part, de préférence en équipe et pour l’occasion, la CLIC offre de la place, une connexion internet, du courant et quelques boissons/snacks.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="talks" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-comment"></i>
+                                    Talks
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                              <h4>Conférences académiques</h4>
+                                <p>
+                                    Les talks sont des événements ayant une visée plus académique. En effet, chaque année nous accueillons des personnalités en lien avec le domaine IC (tel que par exemple Richard Stallman) lors d'une conférence ouverte à tous.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="bar-ic" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-music"></i>
+                                    Bar   IC</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Pendant Balélec</h4>
+                                <p>
+                                  BarIC est le bar tenu par la CLIC durant Balélec depuis plusieurs années. Situé juste en face de la grande scène, c'est un incontournable de la CLIC avec une très grande affluence pendant la soirée.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="wine" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-wine-glass-alt"></i>
+                                    Vin chaud
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Vin et chaleur</h4>
+                                <p>
+                                    La distribution de vin chaud est un évènement qui prend place habituellement dans les deux dernières semaines du semestre, à l'approche de Noël, quand les étudiant.e.s ne demandent qu'à être réchauffé.e.s par un peu d'amour et de vin.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="sangria" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-glass-cheers"></i>
+                                    Sangria</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Vin et fraîcheur</h4>
+                                <p>
+                                    Sangristribution est un projet d'événement visant à faire découvrir ce doux nectar qu'est la Sangria à qui veut bien essayer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- events-container -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        {{ base.footer() }}
+    </body>
+</html>

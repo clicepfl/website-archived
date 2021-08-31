@@ -26,6 +26,8 @@ import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
 import { poleRouter } from './pages/poles/pole-router'
 import { polesPage } from './pages/poles/poles-page'
+import { eventRouter } from './pages/events/event-router'
+import { eventsPage } from './pages/events/events-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -48,7 +50,7 @@ router.get('/news', newsPage.render)
 /**
  * IC Boost day
  */
-router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
+router.get('/events', eventsPage.render)
 
 /**
  * Coaching page
@@ -119,6 +121,8 @@ router.use("/coaching", coachingListRouter)
 router.use("/commissions", commissionRouter)
 
 router.use("/poles", poleRouter)
+
+router.use("/events", eventRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)

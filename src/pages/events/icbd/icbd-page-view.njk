@@ -1,0 +1,323 @@
+{#
+    This file contains the template to render the ICBD page
+    CLIC website software
+
+    Template strings are bound to the IcbdPageViewModel defined in {@link
+    icbd-page.ts}
+
+    @author Alexandre CHAU
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = 'IC Boost Day | CLIC') }}
+    </head>
+
+    <body id="icbd">
+        <div class="wrapper bg-animation">
+            <div class="absolute" id="particles-js"></div>
+            <div class="absolute ignore-pointer-events">
+                <div class="header">
+                    <div class="center">
+                        <div class="logo">
+                            <img src="/img/logo_black.png" alt="logo"/>
+                        </div>
+
+                        <div class="menu">
+                            <ul>
+                                <li class="current">
+                                    <a href="/">&laquo; Back to homepage</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- header-->
+
+                <div class="center">
+                    <div class="content">
+                        <img src="/img/icbd/icbd_logo.png" class="event-logo" alt="IC Boost Day">
+
+                        <div class="event-info">
+                            <h1>Thursday
+                                <span>March 25th 2021</span></h1>
+                            <h3>9 AM to 5 PM, ONLINE EDITION</h3>
+                        </div>
+                    </div>
+                    <!-- content-->
+                </div>
+                <!-- center -->
+            </div>
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="center-text padded-40">
+                        The CLIC is proud to present the 2nd edition of IC Boost Day, a day dedicated to your career in Computer Science! Take part in mock interviews, meet EPFL alumni and join various talks and panels! A unique opportunity to prepare your professional future in the world of computer science and engineering.
+                    </p>
+
+                    <p class="center-text registration">
+                        <a href="https://go.epfl.ch/ICBD_Registration" target="_blank">
+                            Register Here!
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </p>
+
+                    <div class="sponsors">
+                        <img src="/img/logo.png" alt="clic">
+                        <img src="/img/epfl.png" alt="epfl">
+                    </div>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-orange">
+            <div class="center">
+                <div class="content padded-40 planning">
+                    <h1>Activities</h1>
+                    <div class="events-container">
+                        <div id="mock" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-handshake"></i>
+                                    Mock Interviews</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    One of our key highlights: throughout the day, you will have the opportunity to take part in mock interviews, tailored for IC students.
+                                    Recruiters from big tech companies such as Google will run simulated interviews in groups. This unique experience will allow
+                                    you to build confidence for your next real world interview.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- NOT RELEVANT FOR 2021 EDITION
+                        <div id="cv-corr" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-check"></i>
+                                    CV correction</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    The CV is a key element in the recruitement process. Is yours good enough? Register for sessions with our partner
+                                    Together to have your CV checked and corrected in a personnal session. Note: to be eligible for this event, you must register for
+                                    and attend the talk on CVs on March 3rd. More info on the registration form.
+                                </p>
+                            </div>
+                        </div>
+                        NOT RELEVANT FOR 2021 EDITION -->
+
+                        <!-- NOT RELEVANT FOR 2021 EDITION
+                        <div id="lunch" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Midday Lunch</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    From 12:00 to 13:30, take part in an informal lunch with 25 alumni for free.
+                                    You will have the opportunity to ask any question to former students now working in the industry.
+                                    This will be a standing lunch so that you can walk around and meet as many people as you wish.
+                                    Note: to take part in this event, you must leave a 10CHF deposit that you will get back at the beginning of the lunch.
+                                </p>
+                            </div>
+                        </div>
+                        NOT RELEVANT FOR 2021 EDITION -->
+
+                        <div id="10years-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
+                                <p>
+                                    Meet Marc Berger, an alumnus that finished his master 10 years ago. During his time in industry, what did he learn? What does he wish he would have learned while at EPFL?
+                                    Come listen to his experience in this nostalgic talk.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="internship-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>The keys to accomplish a successful internship</h4>
+                                <p>
+                                    During your Master studies, you are required to take an internship in the industry. Many IC students also choose to do their Master thesis during this internship. The panelist will explain what behaviour to adopt during your internship, how to expand your network and how to make the most out of your experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="codebase-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>How to get familiar with a large codebase in an enterprise</h4>
+                                <p>
+                                    When entering an company, you will often face large codebases, written by many other programmers. Where does one start? Should you read and understand everything?
+                                    Let Christopher Chiche experienced alumnus working at Sqooba, guide you!
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div id="mini-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Mini-talks</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Various fields</h4>
+                                <p>
+                                    Meet alumni working in IT, and understand their daily life. What we learn in class and what life looks like as an engineer is often very different. During these shorter talks, alumni will explain their daily routine, and give you a sneak peek of what your life may look like. We will host alumni in the fields of Cybersecurity, Data Science, Networks, Software Engineering, Consulting, Computer vision and Video Games!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- events-container -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40 timetable-container">
+                    <h1>Timetable</h1>
+                    <div class="timetable"></div>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        {{ base.footer() }}
+
+        <script src="/vendor/particles.min.js"></script>
+        <script src="/vendor/timetable.js"></script>
+
+        <script>
+            // activate particles rendering
+            particlesJS.load('particles-js', '/config/config.particles.json', () => {
+                console.log('Initialized particles.js')
+            })
+        </script>
+        <script>
+            /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
+
+            const YEAR = 2021;
+            const MONTH = 3;
+            const DAY = 25;
+
+            function date(hour, minute) {
+                return new Date(YEAR, MONTH, DAY, hour, minute);
+            }
+
+            const MOCK_OPTIONS = {
+                url: '#mock',
+                class: 'mock-entry'
+            };
+
+            const LUNCH_OPTIONS = {
+                url: '#lunch',
+                class: 'lunch-entry'
+            };
+            const MT_OPTIONS = {
+                url: '#mini-talk',
+                class: 'talk-entry'
+            };
+            const CV_OPTIONS = {
+                class: 'cvcheck-entry',
+                url: '#cv-corr'
+            };
+
+            let timetable = new Timetable();
+
+            // Only display hours between 8 and 17
+            timetable.setScope(9, 17);
+
+            timetable.addLocations([
+                'WEBINAR #1',
+                'WEBINAR #2',
+                'ZOOM #1',
+                'ZOOM #2'
+            ]);
+
+
+            // BC 420 events
+            let room = 'WEBINAR #2';
+
+            timetable.addEvent("TALK Throwback 10 years later", room, date(10, 15), date(11, 0), {
+                class: 'talk-entry',
+                url: '#10years-talk'
+            });
+            timetable.addEvent('TALK How to get familiar with a large codebase', room, date(13, 15), date(14, 0), {
+                class: 'talk-entry',
+                url: '#codebase-talk'
+            });
+            timetable.addEvent('TALK The keys to a good internship', room, date(15, 15), date(16, 0), {
+                class: 'talk-entry',
+                url: '#internship-talk'
+            });
+
+            // Webinar 1 events
+            room = 'WEBINAR #1';
+            timetable.addEvent('MT Consul.', room, date(9, 10), date(9, 30), MT_OPTIONS);
+            timetable.addEvent('MT Cyber Sec.', room, date(9, 40), date(10, 0), MT_OPTIONS);
+            timetable.addEvent('MT Data Science', room, date(11, 10), date(11, 30), MT_OPTIONS);
+            timetable.addEvent('MT Net.', room, date(11, 40), date(12, 0), MT_OPTIONS);
+            timetable.addEvent('MT Comp. Vis.', room, date(12, 10), date(12, 30), MT_OPTIONS);
+            timetable.addEvent('MT Soft. Eng.', room, date(14, 10), date(14, 30), MT_OPTIONS);
+            timetable.addEvent('MT Video Games', room, date(16, 10), date(16, 30), MT_OPTIONS);
+
+            // BC 229 events
+            let eventName = "MOCK INTERVIEWS SESSION";
+            room = 'ZOOM #1';
+            timetable.addEvent(eventName, room, date(9, 0), date(10, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 0), date(11, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 0), date(12, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(14, 0), date(15, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(15, 0), date(16, 0), MOCK_OPTIONS);
+
+            // BC 329 events
+            room = 'ZOOM #2';
+            timetable.addEvent(eventName, room, date(9, 0), date(10, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 0), date(11, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 0), date(12, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(14, 0), date(15, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(15, 0), date(16, 0), MOCK_OPTIONS);
+
+            // Render timetable
+            let renderer = new Timetable.Renderer(timetable);
+            renderer.draw('.timetable');
+        </script>
+    </body>
+</html>
