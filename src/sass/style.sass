@@ -2,7 +2,7 @@ $navy-blue: #204561
 $text-color: #778b93
 $light-gray: #bbb
 
-$menu-mobile-threshold: 900px
+$menu-mobile-threshold: 950px
 
 html, body
     padding: 0
@@ -405,7 +405,7 @@ h4
         width: 90%
         margin: 10px 5%
 
-.news, .commissions
+.news, .commissions, .poles
     float: left
     text-align: left
 
@@ -413,14 +413,14 @@ h4
         font-size: 16px
         text-align: left
 
-    .news-row, .commissions-row
+    .news-row, .commissions-row, .poles-row
         display: flex
         margin-bottom: 20px
 
         @media screen and (max-width: 1100px)
             display: block
 
-    .news-item, .commissions-item
+    .news-item, .commissions-item, .poles-item
         background: #fff
         float: left
         flex: 1
@@ -491,9 +491,23 @@ h4
             background: $navy-blue
             padding: 15px
 
-    .commissions-item
+    .commissions-item, .poles-item
         img
             object-fit: contain
+
+
+.poles
+    float: none
+
+    .poles-item
+        padding-bottom: 20px
+
+    p
+        text-align: center
+
+.pole .member
+        float: none
+        display: inline-block
 
 .more-news
     border: 2px solid #0099ff
@@ -608,7 +622,7 @@ h4
 .force-pointer-events
     pointer-events: auto
 
-.news-article, .commission-page
+.news-article, .commission-page, .pole-page
     width: 80%
     margin: 0 10%
     text-align: left
