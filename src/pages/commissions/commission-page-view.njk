@@ -34,6 +34,12 @@
                         {{ commission.pageBody | safe }}
                     </div>
 
+                    {% if commission.slug == "ic-travel" %}
+                    <div class='center'>
+                    <iframe width="100%" height="500" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/2Grt28MATKCj6QBP"></iframe>
+                    </div>
+                    {% endif %}
+
                     <div class="social">
                         {% for socialNetwork, socialLink in commission.social %}
                             {% switch socialNetwork %}
