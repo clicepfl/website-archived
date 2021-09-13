@@ -63,3 +63,6 @@ Normalement si t’as tout lu au-dessus tu sais déjà ce qu’on va te dire, ma
 Quand tout ça sera fait, tu seras prêt.e à embarquer ! _Tchou tchou_ !
 
 #### Calendrier du voyage
+<div class='center'>
+    <iframe width="100%" height="500" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/2Grt28MATKCj6QBP"></iframe>
+</div>
