@@ -24,6 +24,8 @@ import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
 import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
+import { poleRouter } from './pages/poles/pole-router'
+import { polesPage } from './pages/poles/poles-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -53,7 +55,15 @@ router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
  */
 router.get('/coaching', coachingPage.render)
 
-router.get("/commissions", commissionsPage.render)
+/**
+ * Commissions page
+ */
+router.get('/commissions', commissionsPage.render)
+
+/**
+ * Poles page
+ */
+router.get('/poles', polesPage.render)
 
 /**
  * Events page
@@ -107,6 +117,8 @@ router.use("/gallery", galleryRouter)
 router.use("/coaching", coachingListRouter)
 
 router.use("/commissions", commissionRouter)
+
+router.use("/poles", poleRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)
