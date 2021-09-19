@@ -25,3 +25,5 @@ Some information:
 - The vision of the sweater is as follows: a logo will be placed on the front of the sweater in small on the left side as shown on the image below. A design will be placed on the back of the sweater in large. Finally, regardless of the winning design or combination, the EPFL logo will be placed on the top of the right sleeve.
 
 See you at the end of the voting on **October 17th** for the results of the contest!
+
+![Image emplacements pull](/news/26/pull_emplacements.png)
