@@ -70,16 +70,32 @@
                 <div class="content padded-40">
                     <h1>Team</h1>
                     <h3>Vos coachs dévoués</h3>
-                    {% for coach in coachingList %}
-                        <a href="{{coach.websiteURL}}" target="_blank">
-                            <div class="coaching">
-                                <img src="{{coach.imageURL}}" alt="{{coach.name}}"/>
-                                <div class="desc">
-                                    <p class="name">{{coach.name}}</p>
+
+                        <div class="pole">
+                            {% for supercoach in supercoachingList %}
+                                <a href="{{supercoach.websiteURL}}" target="_blank">
+                                    <div class="member">
+                                        <img src="{{supercoach.imageURL}}" alt="{{supercoach.name}}"/>
+                                        <div class="desc">
+                                            <p class="name">{{supercoach.name}}</p>
+                                            <p class="role">Supercoach</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </div>
+
+                        {% for coach in coachingList %}
+                            <a href="{{coach.websiteURL}}" target="_blank">
+                                <div class="coaching">
+                                    <img src="{{coach.imageURL}}" alt="{{coach.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{coach.name}}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    {% endfor %}
+                            </a>
+                        {% endfor %}
+
                 </div>
             </div>
         </div>

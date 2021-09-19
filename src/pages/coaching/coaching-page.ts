@@ -14,7 +14,8 @@ import { Coach, coachingComponent } from './coaching'
  * coaching-page-view.njk}
  */
 class CoachingPageViewModel {
-    coachingList: Coach[] = coachingComponent.list()
+    coachingList: Coach[] = coachingComponent.getCoachingList()
+    supercoachingList: Coach[] = coachingComponent.getSupercoachingList()
 }
 
 /**
