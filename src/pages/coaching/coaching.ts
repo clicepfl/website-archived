@@ -69,13 +69,18 @@ class Coach {
  * @member coachingList The list of all coaches defined in {@link coaching-list.json}
  */
 class CoachingComponent {
-    private readonly coachingList: Coach[] = data.map(Coach.fromAny)
+    private readonly coachingList: Coach[] = data.coaches.map(Coach.fromAny)
+    private readonly supercoachingList: Coach[] = data.supercoaches.map(Coach.fromAny)
 
     /**
      * Returns all coaches in a fresh array
      */
-    list(): Coach[] {
+    getCoachingList(): Coach[] {
         return Object.assign([], this.coachingList)
+    }
+
+    getSupercoachingList(): Coach[] {
+        return Object.assign([], this.supercoachingList)
     }
 }
 
