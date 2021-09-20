@@ -4,7 +4,7 @@
  *
  * @author Alexandre CHAU
  */
-import { Page } from '../page'
+import { Page } from '../../page'
 import { Request, Response } from 'express'
 
 /**
@@ -12,8 +12,7 @@ import { Request, Response } from 'express'
  * Properties of this class are directly used in template {@link
  * icbd-page-view.njk}
  */
-class IcbdPageViewModel {
-}
+class IcbdPageViewModel { }
 
 /**
  * ICBD page class, defines actions for the ICBD page
@@ -24,7 +23,7 @@ class IcbdPage extends Page {
     /** @inheritdoc */
     render = (req: Request, res: Response) => {
         // template path is relative to src/ as defined in web.ts
-        const template = "pages/icbd/icbd-page-view.njk"
+        const template = "pages/events/icbd/icbd-page-view.njk"
 
         res.render(template, this.viewModel)
     }
