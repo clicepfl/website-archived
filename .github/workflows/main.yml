@@ -4,10 +4,10 @@ name: nodejs-ci
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
