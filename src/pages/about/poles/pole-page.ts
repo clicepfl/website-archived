@@ -1,4 +1,4 @@
-import { Page } from '../page'
+import { Page } from '../../page'
 import { Request, Response } from 'express'
 import { Pole } from './pole'
 
@@ -20,7 +20,7 @@ class PolePage extends Page {
 
     /** @inheritDoc */
     render = (req: Request, res: Response) => {
-        const template = "pages/poles/pole-page-view.njk"
+        const template = "pages/about/poles/pole-page-view.njk"
 
         res.render(template, this.viewModel)
     }

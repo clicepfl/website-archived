@@ -7,6 +7,7 @@
 import { Page } from '../page'
 import { Request, Response } from 'express'
 import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
+import { Pole, poleComponent } from './poles/pole'
 
 /**
  * View model that binds the data to the template for the about page
@@ -15,6 +16,7 @@ import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
  */
 class AboutPageViewModel {
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
+    polesList: Pole[] = poleComponent.list()
 }
 
 /**
