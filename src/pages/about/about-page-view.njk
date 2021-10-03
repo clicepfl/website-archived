@@ -69,6 +69,28 @@
             </div>
         </div>
 
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Nos Pôles</h1>
+                    <div class="poles padded-40">
+                        {% for row in polesList | batch(4) %}
+                            <div class="poles-row">
+                            {% for item in row %}
+                                <div class="poles-item">
+                                    <a href="/about/{{item.slug}}">
+                                        <img src="/about/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
         {{ base.footer() }}
 
         <script type="text/javascript" src="/vendor/jquery.min.js"></script>
