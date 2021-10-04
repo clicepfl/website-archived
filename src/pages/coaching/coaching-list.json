@@ -1,13 +1,13 @@
 {
   "supercoaches": [
     {
-      "name": "Hugues",
+      "name": "Hugues Devimeux",
       "imageURL": "/coaching/hugues_devimeux.jpg",
       "websiteURL": "https://people.epfl.ch/hugues.devimeux"
     },
     {
-      "name": "Paul",
-      "imageURL": "/committee/default.png",
+      "name": "Paul Madelénat",
+      "imageURL": "/coaching/paul_madelenat.jpg",
       "websiteURL": "https://people.epfl.ch/paul.madelenat"
     }
   ],

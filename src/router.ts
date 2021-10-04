@@ -23,8 +23,7 @@ import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
 import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
-import { poleRouter } from './pages/poles/pole-router'
-import { polesPage } from './pages/poles/poles-page'
+import { poleRouter } from './pages/about/poles/pole-router'
 import { eventRouter } from './pages/events/event-router'
 import { eventsPage } from './pages/events/events-page'
 
@@ -60,16 +59,6 @@ router.get('/coaching', coachingPage.render)
  * Commissions page
  */
 router.get('/commissions', commissionsPage.render)
-
-/**
- * Poles page
- */
-router.get('/poles', polesPage.render)
-
-/**
- * Events page
- */
-//router.get('/events', eventsPage.render)
 
 /**
  * Sponsors router
@@ -119,7 +108,7 @@ router.use("/coaching", coachingListRouter)
 
 router.use("/commissions", commissionRouter)
 
-router.use("/poles", poleRouter)
+router.use("/about", poleRouter)
 
 router.use("/events", eventRouter)
 
