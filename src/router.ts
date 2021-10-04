@@ -18,7 +18,6 @@ import { newsRouter } from './components/news/news-router'
 import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
 import { aboutPage } from './pages/about/about-page'
-import { icbdPage } from './pages/icbd/icbd-page'
 import { coachingPage } from './pages/coaching/coaching-page'
 import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
@@ -26,6 +25,8 @@ import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
 import { poleRouter } from './pages/poles/pole-router'
 import { polesPage } from './pages/poles/poles-page'
+import { eventRouter } from './pages/events/event-router'
+import { eventsPage } from './pages/events/events-page'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -48,7 +49,7 @@ router.get('/news', newsPage.render)
 /**
  * IC Boost day
  */
-router.get(['/icbd', '/icboostday', '/events/icbd'], icbdPage.render)
+router.get('/events', eventsPage.render)
 
 /**
  * Coaching page
@@ -119,6 +120,8 @@ router.use("/coaching", coachingListRouter)
 router.use("/commissions", commissionRouter)
 
 router.use("/poles", poleRouter)
+
+router.use("/events", eventRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)
