@@ -8,6 +8,7 @@
 #}
 {% import "components/base-view.njk" as base %}
 {% import "components/social-view.njk" as social %}
+{% import "components/events/events-view.njk" as events %}
 {% import "components/news/news-view.njk" as news %}
 {% import "components/sponsors/sponsors-view.njk" as sponsors %}
 {% import "components/committee/committee-view.njk" as committee %}
@@ -35,14 +36,29 @@
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
+                    <h1>Prochains Événements</h1>
+                    <h3>CLIC, comissions, associations, faculté...</h3>
+                    <div class="news padded-40">
+                        {{ events.eventsGrid(events = nextEventsList) }}
+                    </div>
+                    <a href="/events" class="more-news">
+                        Plus d'événements
+                    </a>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
                     <h1>À propos</h1>
                     <h3>Qu'est-ce que la CLIC ?</h3>
                     <p class="center-text padded-40">
-                      La CLIC est l’Association des étudiant.e.s en Informatique et Communications (incluant donc les programmes de Master en Data Science et Cybersécurité) de l’École Polytechnique Fédérale de Lausanne (<a href="https://www.epfl.ch">EPFL</a>). <br><br>
-                      Chaque année nous organisons plusieurs événements, la plupart gratuits, dans le but d’animer la Faculté IC : des petits-déjeuners, des conférences, de multiples apéros, une journée dédiée à la carrière future de nos étudiant.e.s, une distribution de vin chaud, le traditionnel Souper de Faculté, et bien plus !<br><br>
-                      La CLIC se donne également pour mission de soutenir les projets individuels de ses étudiant.e.s en fournissant un soutien logistique, financier, ou même organisationnel dans certains cas. Par exemple, <a href="https://lauzhack.com/">LauzHack</a> a été créé en 2016 comme un événement de l’association. Contacte-nous si tu as une idée derrière la tête !<br><br>
-                      Enfin, n’hésite pas à passer nous faire un coucou dans notre bureau en <a href="https://plan.epfl.ch/?room==INN%20132">INN132</a> ou sur nos réseaux-sociaux ! Nous serons ravi.e.s de faire ta connaissance 😁
-
+                        La CLIC est l’Association des étudiant.e.s en Informatique et Communications (incluant donc les programmes de Master en Data Science et Cybersécurité) de l’École Polytechnique Fédérale de Lausanne (<a href="https://www.epfl.ch">EPFL</a>). <br><br>
+                        Chaque année nous organisons plusieurs événements, la plupart gratuits, dans le but d’animer la Faculté IC : des petits-déjeuners, des conférences, de multiples apéros, une journée dédiée à la carrière future de nos étudiant.e.s, une distribution de vin chaud, le traditionnel Souper de Faculté, et bien plus !<br><br>
+                        La CLIC se donne également pour mission de soutenir les projets individuels de ses étudiant.e.s en fournissant un soutien logistique, financier, ou même organisationnel dans certains cas. Par exemple, <a href="https://lauzhack.com/">LauzHack</a> a été créé en 2016 comme un événement de l’association. Contacte-nous si tu as une idée derrière la tête !<br><br>
+                        Enfin, n’hésite pas à passer nous faire un coucou dans notre bureau en <a href="https://plan.epfl.ch/?room==INN%20132">INN132</a> ou sur nos réseaux-sociaux ! Nous serons ravi.e.s de faire ta connaissance 😁
                         {{ social.stackedRoundIcons() }}
                     </p>
                 </div>
@@ -57,7 +73,6 @@
                 <div class="content padded-40">
                     <h1>Team</h1>
                     <h3>Notre équipe de bénévoles</h3>
-
                     {{ committee.staffGrid(members = committeeList) }}
                 </div>
                 <!-- content -->
@@ -70,15 +85,12 @@
             <div class="center">
                 <div class="content padded-40">
                     <h1>News</h1>
-
                     <div class="news padded-40">
                         {{ news.newsCards(news = lastNewsList) }}
                     </div>
-
                     <a href="/news" class="more-news">
                         Plus de news &raquo
                     </a>
-
                     <p>&nbsp;</p>
                 </div>
                 <!-- content -->
@@ -92,9 +104,7 @@
                 <div class="content padded-40">
                     <h1>Sponsors</h1>
                     <h3>Merci à nos soutiens</h3>
-
                     {{ sponsors.logoImagesByTier(sponsorsByTier = sponsorsByTier) }}
-                    
                     <p class="center-text padded-40">
                         La CLIC est une association à but non-lucratif. Grâce à nos sponsors, nous pouvons continuer à vous proposer des événements gratuits tout au long de l’année. De plus, chacun d’entre eux peut vous apporter quelque chose, alors pourquoi ne pas leur rendre visite ?
                         <br><br>Vous souhaitez nous soutenir ? Contactez-nous à <a href="mailto:sponsoring.clic@epfl.ch">sponsoring.clic@epfl.ch</a>
@@ -110,7 +120,6 @@
             <div class="center">
                 <div class="content padded-40">
                     <h1>Galerie</h1>
-
                     {{ gallery.grid(images = galleryPhotos) }}
                 </div>
                 <!-- content -->

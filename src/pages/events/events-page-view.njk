@@ -8,7 +8,7 @@
     @author Hugo El Guedj
 #}
 {% import "components/base-view.njk" as base %}
-{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/events/events-view.njk" as events %}
 
 <!DOCTYPE html>
 <html>
@@ -23,13 +23,10 @@
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>Calendrier des Événements</h1>
+                    <h1>Événements des Associations et Commissions IC</h1>
                         <p class="center-text">
+                            {{ events.eventsGrid(events = eventsList)}}
                         </p>
-                        <br><br><br>
-
-                        <iframe width="1100" height="1100" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/3MKWddjboFNdRT4S"></iframe>
-
             </div>
         </div>
 

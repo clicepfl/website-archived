@@ -1,0 +1,19 @@
+{% macro eventsGrid(events) %}
+    {% for batch in events | batch(2) %}
+        <div class="events-row">
+            {% for item in batch %}
+                <div class="events-item">
+                    <img src="{{item.image}}" alt="{{item.title}}">
+                    <p class="title">{{item.title}}</p>
+                    <p class="date">
+                        {{item.date}} par {{item.organizer}}
+                    </p>
+                    <p class="desc">{{item.shortText}}</p>
+                    {% if item.newsId %}
+                    <a href="/news/{{item.newsId}}" class="more">Lire plus &raquo;</a>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% macro %}

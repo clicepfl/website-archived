@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Assemblée Générale Ordinaire de la CLIC",
+    "shortName": "ago",
+    "organizer": "CLIC",
+    "date": {
+      "day": 28,
+      "month": 10,
+      "year": 2021
+    },
+    "image": null,
+    "shortText": "blablabla",
+    "newsId": 29
+  },
+  {
+    "title": "Assemblée Générale Ordinaire de la CLIC",
+    "shortName": "ago",
+    "organizer": "CLIC",
+    "date": {
+      "day": 28,
+      "month": 10,
+      "year": 2021
+    },
+    "image": null,
+    "shortText": "blablabla",
+    "newsId": 29
+  }
+]
