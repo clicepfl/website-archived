@@ -13,11 +13,11 @@
     "newsId": 29
   },
   {
-    "title": "Assemblée Générale Ordinaire de la CLIC",
-    "shortName": "ago",
+    "title": "Dissolution de la CLIC",
+    "shortName": "disso",
     "organizer": "CLIC",
     "date": {
-      "day": 28,
+      "day": 29,
       "month": 10,
       "year": 2021
     },

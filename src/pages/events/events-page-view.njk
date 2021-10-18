@@ -17,20 +17,20 @@
         <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
         <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
     </head>
-    <body id="events">
+    <body>
         {{ base.header(tab = "events") }}
 
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>Événements des Associations et Commissions IC</h1>
-                        <p class="center-text">
+                    <h1>Événements des Associations et Commissions IC (en mode titre sur fond)</h1>
+                        <div class="news padded-40 center-text">
                             {{ events.eventsGrid(events = eventsList)}}
-                        </p>
+                        </div>
             </div>
         </div>
 
-        <div class="wrapper bg-light-blue-gray">
+        <div id="events" class="wrapper bg-light-blue-gray">
             <div class="center">
                 <div class="content padded-40">
                 <h1>Nos Événements</h1>

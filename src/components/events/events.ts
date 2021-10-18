@@ -114,7 +114,6 @@ class EventsComponent {
      * @param n Integer number of events
      */
     getNextValid(n: number): Array<Event> {
-        const length = this.eventsList.length
         return Object.assign([], this.listValid().slice(0, n))
     }
 

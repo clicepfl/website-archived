@@ -8,11 +8,11 @@
 #}
 {% import "components/base-view.njk" as base %}
 {% import "components/social-view.njk" as social %}
-{% import "components/events/events-view.njk" as events %}
 {% import "components/news/news-view.njk" as news %}
 {% import "components/sponsors/sponsors-view.njk" as sponsors %}
 {% import "components/committee/committee-view.njk" as committee %}
 {% import "components/gallery/gallery-view.njk" as gallery %}
+{% import "components/events/events-view.njk" as events %}
 
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@
                         {{ events.eventsGrid(events = nextEventsList) }}
                     </div>
                     <a href="/events" class="more-news">
-                        Plus d'événements
+                        Plus d'événements &raquo;
                     </a>
                     <p>&nbsp;</p>
                 </div>
