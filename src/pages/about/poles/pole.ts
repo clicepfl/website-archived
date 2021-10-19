@@ -2,14 +2,14 @@ import fs from 'fs'
 import path from 'path'
 import showdown from 'showdown'
 import data from './pole-list.json'
-import { logger } from '../../logger'
+import { logger } from '../../../logger'
 import { fstat } from 'fs'
 
 /**
  * Commission content path
  * Must correct to src/ folder since this will be compiled in dist
  */
-const CONTENT_PATH = path.resolve(__dirname, "../../../src/pages/poles/assets/")
+const CONTENT_PATH = path.resolve(__dirname, "../../../../src/pages/about/poles/assets/")
 
 class PoleMember {
     name: string

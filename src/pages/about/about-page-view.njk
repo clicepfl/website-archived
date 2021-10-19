@@ -44,7 +44,7 @@
                     {{ social.stackedRoundIcons() }}
 
                     <div class="padded-25">
-                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/index.php/s/HbRZGsYWNmFGLrd" target="_blank">
+                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/s/d4kNNTqYHgTeykr" target="_blank">
                             <i class="fas fa-gavel fa-lg" style="padding-right: 5px"></i>
                             Statuts et règlements de l'association
                         </a>
@@ -64,6 +64,28 @@
                 <div class="content padded-40">
                     <div class="overflow-x">
                         {{sponsors.logoImages(sponsorsList = sponsorsList)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Nos Pôles</h1>
+                    <div class="poles padded-40">
+                        {% for row in polesList | batch(4) %}
+                            <div class="poles-row">
+                            {% for item in row %}
+                                <div class="poles-item">
+                                    <a href="/about/{{item.slug}}">
+                                        <img src="/about/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

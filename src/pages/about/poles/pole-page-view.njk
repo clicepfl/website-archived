@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        {{ base.header(tab = "poles") }}
+        {{ base.header(tab = "about") }}
 
         <div class="wrapper bg-white">
             <div class="center">
@@ -27,7 +27,7 @@
                         &gt; {{ pole.name }}
                     </p>
 
-                    <img src="/poles/{{ pole.imageURL }}" alt="logo" class="center-image">
+                    <img src="/about/{{ pole.imageURL }}" alt="logo" class="center-image">
                     <div class="pole-page">
                         {{ pole.pageBody | safe }}
                     </div>
@@ -79,7 +79,7 @@
                             <a href="{{member.websiteURL}}" target="_blank">
 
                                 <div class="member">
-                                    <img src="/poles/portraits/{{member.imageURL}}" alt="{{member.name}}"/>
+                                    <img src="/about/portraits/{{member.imageURL}}" alt="{{member.name}}"/>
                                     <div class="desc">
                                         <p class="name">{{member.name}}</p>
                                         <p class="role">{{member.role}}</p>
@@ -92,12 +92,12 @@
                     <div class="content">
                         <div class="pole">
                         {% for teammate in pole.teammates %}
-                            <a href="{{member.websiteURL}}" target="_blank">
+                            <a href="{{teammate.websiteURL}}" target="_blank">
                                 <div class="member">
-                                    <img src="/poles/portraits/{{teammate.imageURL}}" alt="{{teammate.name}}">
+                                    <img src="/about/portraits/{{teammate.imageURL}}" alt="{{teammate.name}}">
                                     <div class="desc">
                                         <p class="name">{{teammate.name}}</p>
-                                        <p class="role">Équipier</p>
+                                        <p class="role">Équipier.ère</p>
                                     </div>
                                 </div>
                             </a>
