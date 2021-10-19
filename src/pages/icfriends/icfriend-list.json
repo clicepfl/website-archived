@@ -1,0 +1,113 @@
+[
+    {
+        "name": "LauzHack",
+        "slug": "lauzhack",
+        "imageURL": ".svg",
+        "shortDescription": "LauzHack is a student-run hackathon at EPFL in Lausanne!",
+        "pageBodyPath": "lauzhack.md",
+        "catchPhrase": "Best Hackathon",
+        "members": [
+            {
+                "name": "Audrey Loeffel",
+                "imageURL": "",
+                "websiteURL": "https://www.linkedin.com/in/audreyloeffel/",
+                "role": "Président"
+            },
+            {
+                "name": "Betty Pirelli",
+                "imageURL": "jpg",
+                "websiteURL": "https://www.linkedin.com/in/blagovestakostova/",
+                "role": "Vice-présidente"
+            },
+            {
+                "name": "Boubacar Camara",
+                "imageURL": "",
+                "websiteURL": "https://www.linkedin.com/in/boubacar-camara/",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Kopiga Rasiah",
+                "imageURL": ".svg",
+                "websiteURL": "https://www.linkedin.com/in/kopiga-rasiah-47a42b170/",
+                "role": "Administrateur-Trésorier"
+            },
+            {
+                "name": "Natalia Nessler",
+                "imageURL": ".svg",
+                "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/",
+                "role": "Responsable Communication"
+            },
+            {
+                "name": "Romain Gehrig",
+                "imageURL": "".svg",
+                "websiteURL": "https://www.linkedin.com/in/romain-gehrig-96b2aab7/",
+                "role": "Responsable Sponsoring"
+            },
+            {
+                "name": "Solal Pirelli",
+                "imageURL": ".jpg",
+                "websiteURL": "https://www.linkedin.com/in/solalpirelli/",
+                "role": "Responsable Animations"
+            },
+            {
+                "name": "Tatiana Porté",
+                "imageURL": ".jpg",
+                "websiteURL": "https://www.linkedin.com/in/tatiana-porte/",
+                "role": "Responsable Logistique"
+            },
+
+
+        ],
+        "social": {
+            "Facebook": "https://www.facebook.com/lauzhack",
+            "Email": "mailto:lauzhack@com",
+
+        }
+    },
+    {
+        "name": "PolyLAN",
+        "slug": "polylan",
+        "imageURL": "polylan.png",
+        "shortDescription": "Depuis 2002 PolyLAN organise des LAN Party en Suisse deux fois par an. Ces rassemblements voient s'affronter jusqu'à 1250 participants sur diverses animations et tournois Esports.",
+        "pageBodyPath": "polylan.md",
+        "catchPhrase": "La plus grande LAN de Suisse"
+        "members": [
+            {
+                "name": "Hugo \"Stache\" Hueber",
+                "imageURL": "hugohueber.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Lucas Strauss",
+                "imageURL": "lucasstrauss.jpg",
+                "websiteURL": "https://people.epfl.ch/lucas.strauss",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Camille Montemagni",
+                "imageURL": "camillemontemagni.jpg",
+                "websiteURL": "https://people.epfl.ch/camille.montemagni",
+                "role": "Coordinatrice"
+            },
+            {
+                "name": "Loeva La Ragione",
+                "imageURL": "loevalaragione.jpg",
+                "websiteURL": "",
+                "role": "Coordinatrice"
+            }
+        ],
+        "social": {
+            "Site Web": "http://sibyll.in/clicgamestar",
+            "Discord": "http://discord.gg/8tVCZJG",
+            "Telegram": "http://t.me/clicgamestar",
+            "Twitter": "http://twitter.com/clicgamestar",
+            "Instagram": "http://instagram.com/clicgamestar",
+            "Twitch": "http://twitch.tv/clicgamestar",
+            "Youtube": "http://youtube.com/channel/UCXFwVqbBNf4wO3d5CmW3uBg",
+            "Facebook": "http://fb.com/clicgamestar",
+            "Email": "mailto:videogames@groupes.epfl.ch"
+        }
+    }
+
+]

@@ -1,0 +1,53 @@
+{#
+    This file contains the template to render the icfriends list page
+    CLIC website software
+
+    Template strings are bound to the IcfriendsPageViewModel defined in {@link
+    icfriends-page.ts}
+
+    @author Julia Renard
+#}
+{% import "components/base-view.njk" as base %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = "CLIC EPFL | Ic Friends") }}
+    </head>
+
+    <body>
+        {{ base.header(tab = "Icfriends") }}
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; Icfriends
+                    </p>
+
+                    <h1>Nos Icfriends</h1>
+
+                    <div class="icfriends padded-40">
+                        {% for row in icfriendsList | batch(4) %}
+                            <div class="icfriends-row">
+                            {% for item in row %}
+                                <div class="icfriends-item">
+                                    <a href="/icfriends/{{item.slug}}">
+                                        <img src="/icfriends/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                    </a>
+                                    <p class="desc">{{item.shortDescription}}</p>
+                                    <a href="/icfriends/{{item.slug}}" class="more">Lire plus &raquo;</a>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{ base.footer() }}
+    </body>
+</html>
