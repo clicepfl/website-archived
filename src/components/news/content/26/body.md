@@ -20,7 +20,7 @@ To vote just fill out the form available [here](https://go.epfl.ch/votes-designs
 
 Some information:
 
-- You can vote for 1 to 4 designs or design combinations.
+- You can vote from 1 to 4 designs or design combinations.
 - The combinations where the back/front image is missing are voluntary.
 - The vision of the sweater is as follows: a logo will be placed on the front of the sweater in small on the left side as shown on the image below. A design will be placed on the back of the sweater in large. Finally, regardless of the winning design or combination, the EPFL logo will be placed on the top of the right sleeve.
 

@@ -18,3 +18,7 @@ assets/untracked/
 
 # Test coverage
 coverage/
+
+# VSCode + plugins that may generate local configs
+.vscode/
+.metals/
