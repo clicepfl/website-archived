@@ -28,7 +28,11 @@
         <div class="events-row">
             {% for item in batch %}
                 <div class="events-item">
-                    <img src="{{item.image}}" alt="{{item.title}}">
+                    {% if item.image %}
+                        <img src="{{item.image}}">
+                    {% else %}
+                        <img src="/events/default_event.png">
+                    {% endif %}
                     <p class="title">{{item.title}}</p>
                     <p class="date">
                         {{item.date}} par

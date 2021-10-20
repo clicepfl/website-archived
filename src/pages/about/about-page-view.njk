@@ -15,11 +15,23 @@
 <html>
     <head>
         {{ base.head(title = "CLIC EPFL | À propos") }}
+        <link rel="stylesheet" type="text/css" href="/vendor/animate.css">
         <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
         <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
     </head>
     <body>
-        {{ base.header(tab = "about") }}
+
+        {% set caption %}
+        <div class="center">
+            <div class="content">
+                <div class="caption wow bounceInDown">
+                    <h1>Association des étudiants<br>EPFL en informatique &<br>systèmes de communication</h1>
+                </div>
+            </div>
+        </div>
+        {% endset %}
+
+        {{ base.header(tab = "about", classes = "slider", append = caption | safe) }}
 
         <div class="wrapper bg-white">
             <div class="center">
@@ -120,4 +132,10 @@
             })
         </script>
     </body>
+
+    <script src="/vendor/wow.min.js"></script>
+    <script>
+        // on-scroll reveal animation
+        new WOW().init()
+    </script>
 </html>
