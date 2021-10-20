@@ -4,7 +4,7 @@ import { Request, Response } from 'express'
 
 
 class IcfriendsPageViewModel {
-    icfriendsList: Commission[] = icfriendComponent.list()
+    icfriendsList: Icfriend[] = icfriendComponent.list()
 }
 
 class IcfriendsPage extends Page {

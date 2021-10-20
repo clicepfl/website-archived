@@ -5,7 +5,7 @@
  * @author  Alexandre CHAU
  */
 import data from './coaching-list.json'
-import { logger } from '../../logger'
+import { logger } from '../../../logger'
 
 /**
  * This class represents a coach

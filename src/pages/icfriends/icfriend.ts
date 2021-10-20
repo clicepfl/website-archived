@@ -84,8 +84,8 @@ class Icfriend {
         this.social = social
     }
 
-    static fromAny(data: any): Commission {
-        if (!Commission.is(data)) {
+    static fromAny(data: any): Icfriend {
+        if (!Icfriend.is(data)) {
             const message = `Cannot cast data to type Icfriend : wrong shape ${JSON.stringify(data)}`
             logger.log(message)
             throw new Error(message)

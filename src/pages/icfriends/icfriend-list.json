@@ -2,7 +2,7 @@
     {
         "name": "LauzHack",
         "slug": "lauzhack",
-        "imageURL": ".svg",
+        "imageURL": "",
         "shortDescription": "LauzHack is a student-run hackathon at EPFL in Lausanne!",
         "pageBodyPath": "lauzhack.md",
         "catchPhrase": "Best Hackathon",
@@ -15,7 +15,7 @@
             },
             {
                 "name": "Betty Pirelli",
-                "imageURL": "jpg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/blagovestakostova/",
                 "role": "Vice-présidente"
             },
@@ -27,87 +27,88 @@
             },
             {
                 "name": "Kopiga Rasiah",
-                "imageURL": ".svg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/kopiga-rasiah-47a42b170/",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Natalia Nessler",
-                "imageURL": ".svg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/",
                 "role": "Responsable Communication"
             },
             {
                 "name": "Romain Gehrig",
-                "imageURL": "".svg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/romain-gehrig-96b2aab7/",
                 "role": "Responsable Sponsoring"
             },
             {
                 "name": "Solal Pirelli",
-                "imageURL": ".jpg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/solalpirelli/",
                 "role": "Responsable Animations"
             },
             {
                 "name": "Tatiana Porté",
-                "imageURL": ".jpg",
+                "imageURL": "",
                 "websiteURL": "https://www.linkedin.com/in/tatiana-porte/",
                 "role": "Responsable Logistique"
-            },
-
-
+            }
         ],
         "social": {
             "Facebook": "https://www.facebook.com/lauzhack",
-            "Email": "mailto:lauzhack@com",
-
+            "Email": "mailto:lauzhack@com"
         }
     },
     {
         "name": "PolyLAN",
         "slug": "polylan",
-        "imageURL": "polylan.png",
+        "imageURL": "",
         "shortDescription": "Depuis 2002 PolyLAN organise des LAN Party en Suisse deux fois par an. Ces rassemblements voient s'affronter jusqu'à 1250 participants sur diverses animations et tournois Esports.",
         "pageBodyPath": "polylan.md",
-        "catchPhrase": "La plus grande LAN de Suisse"
+        "catchPhrase": "La plus grande LAN de Suisse",
         "members": [
             {
-                "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.hueber",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Lucas Strauss",
-                "imageURL": "lucasstrauss.jpg",
-                "websiteURL": "https://people.epfl.ch/lucas.strauss",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Camille Montemagni",
-                "imageURL": "camillemontemagni.jpg",
-                "websiteURL": "https://people.epfl.ch/camille.montemagni",
-                "role": "Coordinatrice"
-            },
-            {
-                "name": "Loeva La Ragione",
-                "imageURL": "loevalaragione.jpg",
+                "name": "Nadia Cattin",
+                "imageURL": "",
                 "websiteURL": "",
-                "role": "Coordinatrice"
+                "role": "Présidente"
+            },
+            {
+                "name": "Rémi Poulard",
+                "imageURL": "",
+                "websiteURL": "",
+                "role": "Vice-président"
+            },
+            {
+                "name": "Mathieu Gester",
+                "imageURL": "",
+                "websiteURL": "",
+                "role": "Vice-président"
+            },
+            {
+                "name": "Hugo El Guedj",
+                "imageURL": "",
+                "websiteURL": "",
+                "role": "Vice-président"
+            },
+            {
+                "name": "Simon Gilgien",
+                "imageURL": "",
+                "websiteURL": "",
+                "role": "Trésorier"
             }
         ],
         "social": {
-            "Site Web": "http://sibyll.in/clicgamestar",
+            "Site Web": "http://polylan.ch",
             "Discord": "http://discord.gg/8tVCZJG",
             "Telegram": "http://t.me/clicgamestar",
-            "Twitter": "http://twitter.com/clicgamestar",
-            "Instagram": "http://instagram.com/clicgamestar",
-            "Twitch": "http://twitch.tv/clicgamestar",
-            "Youtube": "http://youtube.com/channel/UCXFwVqbBNf4wO3d5CmW3uBg",
-            "Facebook": "http://fb.com/clicgamestar",
-            "Email": "mailto:videogames@groupes.epfl.ch"
+            "Twitter": "http://twitter.com/polylan",
+            "Instagram": "http://instagram.com/polylan",
+            "Twitch": "http://twitch.tv/polylan",
+            "Facebook": "http://fb.com/polylan",
+            "Email": "mailto:comite@polylan.ch"
         }
     }
-
 ]

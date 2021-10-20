@@ -4,7 +4,7 @@
  *
  * @author Hugo El Guedj
  */
-import { Page } from '../page'
+import { Page } from '../../page'
 import { Request, Response } from 'express'
 import { Coach, coachingComponent } from './coaching'
 

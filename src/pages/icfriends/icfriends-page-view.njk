@@ -26,13 +26,14 @@
                         &gt; Icfriends
                     </p>
 
-                    <h1>Nos Icfriends</h1>
+                    <h1>IC Friends</h1>
+                    <h3>Associations de la Faculté IC</h3>
 
-                    <div class="icfriends padded-40">
+                    <div class="commissions padded-40">
                         {% for row in icfriendsList | batch(4) %}
-                            <div class="icfriends-row">
+                            <div class="commissions-row">
                             {% for item in row %}
-                                <div class="icfriends-item">
+                                <div class="commissions-item">
                                     <a href="/icfriends/{{item.slug}}">
                                         <img src="/icfriends/{{item.imageURL}}" alt="{{item.name}}">
                                         <p class="title">{{item.name}}</p>

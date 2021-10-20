@@ -18,16 +18,15 @@ import { newsRouter } from './components/news/news-router'
 import { galleryRouter } from './components/gallery/gallery-router'
 import { newsPage } from './pages/news/news-page'
 import { aboutPage } from './pages/about/about-page'
-import { coachingPage } from './pages/coaching/coaching-page'
-import { coachingListRouter } from './pages/coaching/coaching-router'
 import { notFoundPage } from './pages/404/404-page'
 import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
 import { poleRouter } from './pages/about/poles/pole-router'
 import { eventRouter } from './pages/events/event-router'
 import { eventsPage } from './pages/events/events-page'
-import { icfriends } from './pages/icfriends/icfriend-router'
-import { icfriends } from './pages/icfriends/icfriends-page'
+import { icfriendRouter } from './pages/icfriends/icfriend-router'
+import { icfriendsPage } from './pages/icfriends/icfriends-page'
+import { coachingListRouter } from './pages/icfriends/coaching/coaching-router'
 
 /** Fresh router instance */
 const router = express.Router()
@@ -52,12 +51,12 @@ router.get('/news', newsPage.render)
  */
 router.get('/events', eventsPage.render)
 
-
-
 /**
  * Commissions page
  */
 router.get('/commissions', commissionsPage.render)
+
+router.get('/icfriends', icfriendsPage.render)
 
 /**
  * Sponsors router
@@ -103,13 +102,13 @@ router.use("/news", newsRouter)
  */
 router.use("/gallery", galleryRouter)
 
-router.use("/coaching", coachingListRouter)
-
 router.use("/commissions", commissionRouter)
 
 router.use("/about", poleRouter)
 
 router.use("/events", eventRouter)
+
+router.use("/icfriends", icfriendRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)
