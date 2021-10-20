@@ -1,0 +1,61 @@
+{#
+    This file contains component definitions for news related displays
+    CLIC website software
+
+    Please read {@link README.md} in the components folder for guidlines and
+    documentation about templating and view definitions.
+
+    These news components are meant to be re-used and composed in templates
+    describing website pages and other components
+
+    @author Hugo El Guedj
+#}
+
+{#
+    News cards
+    This macro displays a list of news each inside a card
+
+    @param news The list of news to display as an array of News
+                    (type News[] as defined in {@link news.ts})
+
+    @example Inserts the cards of the news, data in the view model
+             is of type News[]
+        {% import "components/news/news-view.njk" as news %}
+        {{ news.newsCards(news = data) }}
+#}
+{% macro eventsGrid(events) %}
+    {% for batch in events | batch(3) %}
+        <div class="events-row">
+            {% for item in batch %}
+                <div class="events-item">
+                    {% if item.image %}
+                        <img src="{{item.image}}">
+                    {% else %}
+                        <img src="/events/default_event.png">
+                    {% endif %}
+                    <p class="title">{{item.title}}</p>
+                    <p class="date">
+                        {{item.date}} par
+                        {% if item.organizer.url %}
+                            <a href="{{item.organizer.url}}" target="_blank">{{item.organizer.name}}</a>
+                        {% else %}
+                            {{item.organizer.name}}
+                        {% endif %}
+                    </p>
+                    <p class="info">
+                        {% if item.place.url %}
+                            <a href="{{item.place.url}}" target="_blank">{{item.place.name}}</a>,
+                        {% else %}
+                            {{item.place.name}},
+                        {% endif %}
+                        {{item.time}}
+                    </p>
+                    <p class="desc">{{item.shortText}}</p>
+                    {% if item.moreInfoUrl %}
+                        <a href="{{item.moreInfoUrl}}" class="more">Lire plus &raquo;</a>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endmacro %}
