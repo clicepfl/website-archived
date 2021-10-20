@@ -30,20 +30,29 @@
                     <h3>Associations de la Faculté IC</h3>
 
                     <div class="commissions padded-40">
-                        {% for row in icfriendsList | batch(4) %}
-                            <div class="commissions-row">
-                            {% for item in row %}
-                                <div class="commissions-item">
-                                    <a href="/icfriends/{{item.slug}}">
-                                        <img src="/icfriends/{{item.imageURL}}" alt="{{item.name}}">
-                                        <p class="title">{{item.name}}</p>
-                                    </a>
-                                    <p class="desc">{{item.shortDescription}}</p>
-                                    <a href="/icfriends/{{item.slug}}" class="more">Lire plus &raquo;</a>
-                                </div>
+                        <div class="commissions-row">
+                            {% for row in icfriendsList | batch(3) %}
+                                {% for item in row %}
+                                    <div class="commissions-item">
+                                        <a href="/icfriends/{{item.slug}}">
+                                            <img src="/icfriends/{{item.imageURL}}" alt="{{item.name}}">
+                                            <p class="title">{{item.name}}</p>
+                                        </a>
+                                        <p class="desc">{{item.shortDescription}}</p>
+                                        <a href="/icfriends/{{item.slug}}" class="more">Lire plus &raquo;</a>
+                                    </div>
+                                {% endfor %}
                             {% endfor %}
+                            <!-- Hideous workaround for the coaching page -->
+                            <div class="commissions-item">
+                                <a href="/icfriends/coaching">
+                                    <img src="img/coaching_logo.svg" alt="coaching">
+                                    <p class="title">Coaching IC</p>
+                                </a>
+                                <p class="desc">Le Coaching wallah</p>
+                                <a href="/icfriends/coaching" class="more">Lire plus &raquo;</a>
                             </div>
-                        {% endfor %}
+                          </div>
                     </div>
                 </div>
             </div>
