@@ -31,17 +31,18 @@
             </div>
         </div>
         {% endset %}
+
         {{ base.header(tab = "home", classes = "slider", append = caption | safe) }}
 
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>Prochains Événements</h1>
-                    <h3>CLIC, comissions, associations, faculté...</h3>
-                    <div class="news padded-40">
+                    <h1>Événements</h1>
+                    
+                    <div class="events padded-40">
                         {{ events.eventsGrid(events = nextEventsList) }}
                     </div>
-                    <a href="/events" class="more-news">
+                    <a href="/events" class="more-events">
                         Plus d'événements &raquo;
                     </a>
                     <p>&nbsp;</p>
@@ -49,7 +50,7 @@
             </div>
         </div>
 
-        <div class="wrapper bg-white">
+        <div class="wrapper bg-light-blue-gray">
             <div class="center">
                 <div class="content padded-40">
                     <h1>À propos</h1>
@@ -68,7 +69,7 @@
         </div>
         <!-- wrapper -->
 
-        <div class="wrapper bg-light-blue-gray">
+        <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
                     <h1>Team</h1>
@@ -81,7 +82,7 @@
         </div>
         <!-- wrapper -->
 
-        <div class="wrapper bg-white">
+        <div class="wrapper bg-light-blue-gray">
             <div class="center">
                 <div class="content padded-40">
                     <h1>News</h1>
@@ -99,7 +100,7 @@
         </div>
         <!-- wrapper -->
 
-        <div class="wrapper bg-light-blue-gray">
+        <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
                     <h1>Sponsors</h1>

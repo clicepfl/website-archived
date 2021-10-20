@@ -21,21 +21,23 @@ import { logger } from '../../logger'
  */
 class Event {
     title: string
-    shortName: string
+    time?: string
+    place: any
     date: Date | string
-    organizer: string
+    organizer: any
     image?: string
     shortText: string
-    newsId?: number
+    moreInfoUrl?: string
 
-    constructor(title: string, shortName: string, date: Date, organizer: string, image: string, shortText: string, newsId: number) {
+    constructor(title: string, time: string, date: Date, place: any, organizer: any, image: string, shortText: string, moreInfoUrl: string) {
         this.title = title
-        this.shortName = shortName
+        this.time = time
+        this.place = place
         this.date = date
         this.organizer = organizer
         this.image = image
         this.shortText = shortText
-        this.newsId = newsId
+        this.moreInfoUrl = moreInfoUrl
     }
 
     /**
@@ -53,16 +55,17 @@ class Event {
         } else {
             return new Event(
                 data.title,
-                data.shortName,
+                data.time,
                 new Date(
                     data.date.year,
                     data.date.month - 1, // JS annoying month format
                     data.date.day,
                 ),
+                data.place,
                 data.organizer,
                 data.image,
                 data.shortText,
-                data.newsId
+                data.moreInfoUrl
             )
         }
     }
@@ -77,16 +80,23 @@ class Event {
         return (
             data !== undefined && data !== null &&
             data.title !== undefined && typeof data.title === "string" &&
-            data.shortName !== undefined && typeof data.shortName === "string" &&
+            data.time !== undefined && (data.time === null || typeof data.time === "string") &&
+            data.place !== undefined && (
+                data.place.name !== undefined && typeof data.place.name === "string" &&
+                data.place.url !== undefined && (data.place.url === null || typeof data.place.url === "string")
+            ) &&
             data.date !== undefined && (
                 data.date.day !== undefined && typeof data.date.day === "number" &&
                 data.date.month !== undefined && typeof data.date.month === "number" &&
                 data.date.year !== undefined && typeof data.date.year === "number"
             ) &&
-            data.organizer !== undefined && typeof data.organizer === "string" &&
+            data.organizer !== undefined && (
+                data.organizer.name !== undefined && typeof data.organizer.name === "string" &&
+                data.organizer.url !== undefined && (data.organizer.url === null || typeof data.organizer.url === "string")
+            ) &&
             data.image !== undefined && (data.image === null || typeof data.image === "string") &&
             data.shortText !== undefined && typeof data.shortText === "string" &&
-            data.newsId !== undefined && (data.newsId === null || typeof data.newsId === "number")
+            data.moreInfoUrl !== undefined && (data.moreInfoUrl === null || typeof data.moreInfoUrl === "string")
         )
     }
 
@@ -126,9 +136,8 @@ class EventsComponent {
 
     listValid(): Array<Event> {
         const now = new Date()
-        const valid = this.eventsList.filter((event) => {
-            event.date === null || event.date > now
-        })
+        const valid = this.eventsList.filter((event) =>
+            event.date === null || event.date >= now)
         return Object.assign([], valid)
     }
 }

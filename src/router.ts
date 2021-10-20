@@ -25,6 +25,7 @@ import { commissionRouter } from './pages/commissions/commission-router'
 import { commissionsPage } from './pages/commissions/commissions-page'
 import { poleRouter } from './pages/about/poles/pole-router'
 import { eventRouter } from './pages/events/event-router'
+import { eventsRouter } from './components/events/events-router'
 import { eventsPage } from './pages/events/events-page'
 
 /** Fresh router instance */
@@ -110,7 +111,10 @@ router.use("/commissions", commissionRouter)
 
 router.use("/about", poleRouter)
 
+// For individual event pages
 router.use("/events", eventRouter)
+// For the events page assets
+router.use("/events", eventsRouter)
 
 /**
  * Compiled assets (styles, JS scripts, ...)

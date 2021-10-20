@@ -7,6 +7,7 @@
 import { Page } from '../page'
 import { Request, Response } from 'express'
 import { Event, eventsComponent } from '../../components/events/events'
+import { Sponsor, sponsorsComponent } from '../components/sponsors/sponsors'
 
 /**
  * View model that binds the data to the template for the coaching page
@@ -14,7 +15,8 @@ import { Event, eventsComponent } from '../../components/events/events'
  * events-page-view.njk}
  */
 class EventsPageViewModel {
-    eventsList: Event[] = eventsComponent.list().map(e => e.withFormattedDate('fr'))
+    eventsList: Event[] = eventsComponent.listValid().map(e => e.withFormattedDate('fr'))
+    sponsorsList: Sponsor[] = sponsorsComponent.listValid()
 }
 
 /**

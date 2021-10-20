@@ -73,6 +73,18 @@
             <div class="center">
                 <div class="content padded-40">
                     <h1>Nos Pôles</h1>
+                    <h3>Intéressé à nous rejoindre ?</h3>
+                    <p class="center-text">
+                        La CLIC fonctionne par pôles, composés d'un ou plusieurs membres du comité.
+                        Chaque pôle est attribué une mission majeure, indispensable au bon fonctionnement de l'association.
+                        <br><br>
+                        Tu n'as pas envie de devenir comité, mais quand même envie de participer régulièrement à la vie de la CLIC ?
+                        Alors le rôle d'équipier est ce qu'il te faut ! Tu n'auras pas à participer aux réunions, moins de responsabilités
+                        te seront confiées et moins de deadlines te seront données.
+                        <br><br>
+                        Tu trouveras ci-dessous de plus amples informations au sujet de chacun des pôles de l'association,
+                        que ce soit à propos du rôle de comité ou d'équipier.
+                    </p>
                     <div class="poles padded-40">
                         {% for row in polesList | batch(4) %}
                             <div class="poles-row">
@@ -90,6 +102,7 @@
                 </div>
             </div>
         </div>
+
 
         {{ base.footer() }}
 

@@ -18,7 +18,7 @@ import { galleryComponent } from '../../components/gallery/gallery'
  * Properties of this class are directly used in template {@link home-view.njk}
  */
 class HomeViewModel {
-    nextEventsList: Event[] = eventsComponent.getNextValid(4)
+    nextEventsList: Event[] = eventsComponent.getNextValid(3).map(e => e.withFormattedDate('fr'))
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
     sponsorsByTier: Map<string, Sponsor[]> = sponsorsComponent.listValidByTier()
     committeeList: Staff[] = committeeComponent.list()

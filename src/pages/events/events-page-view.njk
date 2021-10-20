@@ -14,23 +14,51 @@
 <html>
     <head>
         {{ base.head(title = "CLIC EPFL | Events") }}
-        <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
-        <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
+        <link rel="stylesheet" href="/vendor/animate.css">
     </head>
+
     <body>
-        {{ base.header(tab = "events") }}
+        {% set caption %}
+        <div class="center">
+            <div class="content">
+                <div class="caption wow bounceInDown">
+                    <h1>Événements des Associations et Commissions IC</h1>
+                </div>
+            </div>
+        </div>
+        {% endset %}
+
+        {{ base.header(tab = "events", classes = "slider", append = caption | safe) }}
 
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>Événements des Associations et Commissions IC (en mode titre sur fond)</h1>
-                        <div class="news padded-40 center-text">
-                            {{ events.eventsGrid(events = eventsList)}}
-                        </div>
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; Évènements
+                    </p>
+
+                    <h1>Calendrier</h1>
+                    <h3>CLIC, commmisions, associations, faculté...</h3>
+
+                    <div class="events padded-40">
+                        {{ events.eventsGrid(events = eventsList) }}
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="events" class="wrapper bg-light-blue-gray">
+        <div class="wrapper bg-light-blue-gray">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="overflow-x">
+                        {{sponsors.logoImages(sponsorsList = sponsorsList)}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="events" class="wrapper bg-navy-blue">
             <div class="center">
                 <div class="content padded-40">
                 <h1>Nos Événements</h1>
@@ -55,12 +83,14 @@
                             </div>
                         </div>
 
-                        <a id="icbd" href="/events/icbd" class="event">
+                        <div id="icbd" class="event">
                             <div class="front">
-                                <h3>
-                                      <i class="fas fa-user-tie"></i>
-                                      IC Boost Day
-                                </h3>
+                                <a href="/events/icbd">
+                                    <h3>
+                                          <i class="fas fa-user-tie"></i>
+                                          IC Boost Day
+                                    </h3>
+                                </a>
                             </div>
 
                             <div class="details">
@@ -69,7 +99,7 @@
                                     ICBD est un événement créé en 2019 ayant pour but de procurer aux étudiant.e.s en master ou fin de bachelor un événement pour se familiariser avec le monde de l'industrie. En particulier, nous y proposons des mock coding interviews pour permettre aux participant.e.s de se familiariser avec ce concept (alors qu'aucun autre service de l'EPFL le propose) ainsi que divers talks ou encore des ateliers de correction de CV.
                                 </p>
                             </div>
-                        </a>
+                        </div>
 
                         <div id="breakfast" class="event">
                             <div class="front">
@@ -210,4 +240,10 @@
 
         {{ base.footer() }}
     </body>
+
+    <script src="/vendor/wow.min.js"></script>
+    <script>
+        // on-scroll reveal animation
+        new WOW().init()
+    </script>
 </html>
