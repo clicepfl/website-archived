@@ -44,11 +44,13 @@
                     </p>
                     <p class="info">
                         {% if item.place.url %}
-                            <a href="{{item.place.url}}" target="_blank">{{item.place.name}}</a>,
+                            <a href="{{item.place.url}}" target="_blank">{{item.place.name}}</a>
                         {% else %}
-                            {{item.place.name}},
+                            {{item.place.name}}
                         {% endif %}
-                        {{item.time}}
+                        {% if item.time %}
+                            à {{item.time}}
+                        {% endif %}
                     </p>
                     <p class="desc">{{item.shortText}}</p>
                     {% if item.moreInfoUrl %}
