@@ -7,6 +7,7 @@
 
 import { Page } from '../page'
 import { Request, Response } from 'express'
+import { Event, eventsComponent } from '../../components/events/events'
 import { Sponsor, sponsorsComponent } from '../../components/sponsors/sponsors'
 import { Staff, committeeComponent } from '../../components/committee/committee'
 import { News, newsComponent } from '../../components/news/news'
@@ -17,6 +18,7 @@ import { galleryComponent } from '../../components/gallery/gallery'
  * Properties of this class are directly used in template {@link home-view.njk}
  */
 class HomeViewModel {
+    nextEventsList: Event[] = eventsComponent.getNextValid(3).map(e => e.withFormattedDate('fr'))
     sponsorsList: Sponsor[] = sponsorsComponent.listValid()
     sponsorsByTier: Map<string, Sponsor[]> = sponsorsComponent.listValidByTier()
     committeeList: Staff[] = committeeComponent.list()
