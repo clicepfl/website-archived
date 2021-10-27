@@ -6,6 +6,7 @@
  */
 import { Page } from '../page'
 import { Request, Response } from 'express'
+import { Event, eventsComponent } from '../../components/events/events'
 
 /**
  * View model that binds the data to the template for the coaching page
@@ -13,6 +14,7 @@ import { Request, Response } from 'express'
  * events-page-view.njk}
  */
 class EventsPageViewModel {
+    eventsList: Event[] = eventsComponent.listValid().map(e => e.withFormattedDate('fr'))
 }
 
 /**
@@ -31,7 +33,7 @@ class EventsPage extends Page {
 }
 
 /**
- * Export a single instance of the ICBD page
+ * Export a single instance of the events page
  */
 const eventsPage = new EventsPage()
 export { eventsPage }

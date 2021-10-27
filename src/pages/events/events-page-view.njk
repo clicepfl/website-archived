@@ -8,32 +8,47 @@
     @author Hugo El Guedj
 #}
 {% import "components/base-view.njk" as base %}
-{% import "components/sponsors/sponsors-view.njk" as sponsors %}
+{% import "components/events/events-view.njk" as events %}
 
 <!DOCTYPE html>
 <html>
     <head>
         {{ base.head(title = "CLIC EPFL | Events") }}
-        <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
-        <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
+        <link rel="stylesheet" href="/vendor/animate.css">
     </head>
-    <body id="events">
-        {{ base.header(tab = "events") }}
+
+    <body>
+        {% set caption %}
+        <div class="center">
+            <div class="content">
+                <div class="caption wow bounceInDown">
+                    <h1>Événements des Associations<br>et Commissions de la faculté IC</h1>
+                </div>
+            </div>
+        </div>
+        {% endset %}
+
+        {{ base.header(tab = "events", classes = "slider", append = caption | safe) }}
 
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40">
-                    <h1>Calendrier des Événements</h1>
-                        <p class="center-text">
-                        </p>
-                        <br><br><br>
+                    <p class="ariane">
+                        <a href="/">Home</a>
+                        &gt; Évènements
+                    </p>
 
-                        <iframe width="1100" height="1100" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/3MKWddjboFNdRT4S"></iframe>
+                    <h1>Calendrier</h1>
+                    <h3>Ne manque aucun des prochains événements IC !</h3>
 
+                    <div class="events padded-40">
+                        {{ events.eventsGrid(events = eventsList) }}
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper bg-light-blue-gray">
+        <div id="events" class="wrapper bg-navy-blue">
             <div class="center">
                 <div class="content padded-40">
                 <h1>Nos Événements</h1>
@@ -58,12 +73,14 @@
                             </div>
                         </div>
 
-                        <a id="icbd" href="/events/icbd" class="event">
+                        <div id="icbd" class="event">
                             <div class="front">
-                                <h3>
-                                      <i class="fas fa-user-tie"></i>
-                                      IC Boost Day
-                                </h3>
+                                <a href="/events/icbd">
+                                    <h3>
+                                          <i class="fas fa-user-tie"></i>
+                                          IC Boost Day
+                                    </h3>
+                                </a>
                             </div>
 
                             <div class="details">
@@ -72,7 +89,7 @@
                                     ICBD est un événement créé en 2019 ayant pour but de procurer aux étudiant.e.s en master ou fin de bachelor un événement pour se familiariser avec le monde de l'industrie. En particulier, nous y proposons des mock coding interviews pour permettre aux participant.e.s de se familiariser avec ce concept (alors qu'aucun autre service de l'EPFL le propose) ainsi que divers talks ou encore des ateliers de correction de CV.
                                 </p>
                             </div>
-                        </a>
+                        </div>
 
                         <div id="breakfast" class="event">
                             <div class="front">
@@ -150,8 +167,44 @@
 
                             <div class="details">
                               <h4>Conférences académiques</h4>
+                              <p>
+                                  Les talks sont des événements ayant une visée plus académique. En effet, chaque année nous accueillons des personnalités en lien avec le domaine IC (tel que par exemple Richard Stallman) lors d'une conférence ouverte à tous.
+                              </p>
+                            </div>
+                        </div>
+
+                        <div id="hello-world" class="event">
+                            <div class="front">
+                                <a href="/events#hello-world">
+                                    <h3>
+                                        <i></i>
+                                        Hello World
+                                    </h3>
+                                </a>
+                            </div>
+
+                            <div class="details">
+                                <h4>
+                                    Coming soon...
+                                </h4>
                                 <p>
-                                    Les talks sont des événements ayant une visée plus académique. En effet, chaque année nous accueillons des personnalités en lien avec le domaine IC (tel que par exemple Richard Stallman) lors d'une conférence ouverte à tous.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="enigmatic" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i></i>
+                                    EnigmatIC
+                                </h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>
+                                    Coming soon...
+                                </h4>
+                                <p>
                                 </p>
                             </div>
                         </div>
@@ -160,7 +213,8 @@
                             <div class="front">
                                 <h3>
                                     <i class="fas fa-music"></i>
-                                    Bar   IC</h3>
+                                    Bar IC
+                                </h3>
                             </div>
 
                             <div class="details">
@@ -213,4 +267,10 @@
 
         {{ base.footer() }}
     </body>
+
+    <script src="/vendor/wow.min.js"></script>
+    <script>
+        // on-scroll reveal animation
+        new WOW().init()
+    </script>
 </html>
