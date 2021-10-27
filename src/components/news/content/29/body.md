@@ -75,8 +75,7 @@ Today we can announce you the agenda of the meeting which will be held by defaul
 11. Miscellaneous and individual proposals
 
 
-For those who would like to participate in future CLIC activities, please feel free to **contact us** at [clic@epfl.ch](clic@epfl.ch)
-We would be very happy to meet you. And if you don't know us, now is the time to **come and find out** who we are and what we do as an IC Faculty Student Association.
+For those who would like to participate in future CLIC activities, please feel free to **contact us** at [clic@epfl.ch](clic@epfl.ch). We would be very happy to meet you. And if you don't know us, now is the time to **come and find out** who we are and what we do as an IC Faculty Student Association.
 
 You are also welcome to simply watch and participate in the discussions, with no obligation to get involved. However, to vote, you **must be a member**. For this, please send us an email to [clic@epfl.ch](clic@epfl.ch) specifying your wish to become a member (just an administrative formality).
 
