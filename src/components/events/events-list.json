@@ -1,25 +1,5 @@
 [
   {
-    "title": "Assemblée Générale Ordinaire de la CLIC",
-    "organizer": {
-      "name": "CLIC",
-      "url": "/about"
-    },
-    "time": "18h00",
-    "place": {
-      "name": "INJ218",
-      "url": "https://map.epfl.ch/?dim_floor=2&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532880&map_y=1152274&map_zoom=14"
-    },
-    "date": {
-      "day": 28,
-      "month": 10,
-      "year": 2021
-    },
-    "image": "/events/banner.png",
-    "shortText": "La CLIC vous invite à son AGO du 28 Octobre !",
-    "moreInfoUrl": "/news/29"
-  },
-  {
     "title": "Hello World",
     "organizer": {
       "name": "CLIC",
@@ -35,9 +15,9 @@
       "month": 11,
       "year": 2021
     },
-    "image": null,
+    "image": "/events/banner.png",
     "shortText": "La CLIC vous invite à son événement du 11 Novembre !",
-    "moreInfoUrl": "/events#hello-world"
+    "moreInfoUrl": "/news/30"
   },
   {
     "title": "PolyLAN 36",
