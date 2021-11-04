@@ -131,12 +131,13 @@ class EventsComponent {
      * Returns all events in fresh array
      */
     list(): Array<Event> {
-        return Object.assign([], this.eventsList)
+        let sortedEventsList = Object.assign([], this.eventsList)
+        return sortedEventsList.sort((e1, e2) => e1.date - e2.date)
     }
 
     listValid(): Array<Event> {
         const now = new Date()
-        const valid = this.eventsList.filter((event) =>
+        const valid = this.list().filter((event) =>
             event.date === null || event.date >= now)
         return Object.assign([], valid)
     }
