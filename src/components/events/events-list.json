@@ -1,82 +1,81 @@
-[
-  {
-    "title": "Hello World",
-    "organizer": {
-      "name": "CLIC",
-      "url": "/about",
-    },
-    "time": null,
-    "place": {
-      "name": "Hall BC",
-      "url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
-    },
-    "date": {
-      "day": 11,
-      "month": 11,
-      "year": 2021
-    },
-    "image": "/events/banner.png",
-    "shortText": "La CLIC vous invite à son événement du 11 Novembre !",
-    "moreInfoUrl": "/news/30"
-  },
-  {
-    "title": "Souper de Faculté",
-    "organizer": {
-      "name": "CLIC",
-      "url": "/about",
-    },
-    "time": null,
-    "place": {
-      "name": "Hall BC",
-      "url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
-    },
-    "date": {
-      "day": 09,
-      "month": 12,
-      "year": 2021
-    },
-    "image": null,
-    "shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
-    "moreInfoUrl": null
-  },
-    {
-    "title": "Secret Santa",
-    "organizer": {
-      "name": "CLIC",
-      "url": "/about",
-    },
-    "time": null,
-    "place": {
-      "name": "Hall BC",
-      "url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
-    },
-    "date": {
-      "day": 17,
-      "month": 12,
-      "year": 2021
-    },
-    "image": null,
-    "shortText": "Venez offrir et recevoir vos cadeaux !",
-    "moreInfoUrl": null
-  },
-  {
-    "title": "PolyLAN 36",
-    "organizer": {
-      "name": "PolyLAN",
-      "url": "https://polylan.ch",
-    },
-    "time": "18h00",
-    "place": {
-      "name": "RLC",
-      "url": null
-    },
-    "date": {
-      "day": 26,
-      "month": 11,
-      "year": 2021
-    },
-    "image": null,
-    "shortText": "LAN de 300 personnes sur 3 jours, organisée par des étudiants EPFL",
-    "moreInfoUrl": "https://polylan.ch"
-  }
+[{
+		"title": "Hello World",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": null,
+		"place": {
+			"name": "Hall BC",
+			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
+		},
+		"date": {
+			"day": 11,
+			"month": 11,
+			"year": 2021
+		},
+		"image": "/events/banner.png",
+		"shortText": "La CLIC vous invite à son événement du 11 Novembre !",
+		"moreInfoUrl": "/news/30"
+	},
+	{
+		"title": "Souper de Faculté",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": null,
+		"place": {
+			"name": "Hall BC",
+			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
+		},
+		"date": {
+			"day": 9,
+			"month": 12,
+			"year": 2021
+		},
+		"image": null,
+		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
+		"moreInfoUrl": null
+	},
+	{
+		"title": "Secret Santa",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": null,
+		"place": {
+			"name": "Hall BC",
+			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
+		},
+		"date": {
+			"day": 17,
+			"month": 12,
+			"year": 2021
+		},
+		"image": null,
+		"shortText": "Venez offrir et recevoir vos cadeaux !",
+		"moreInfoUrl": null
+	},
+	{
+		"title": "PolyLAN 36",
+		"organizer": {
+			"name": "PolyLAN",
+			"url": "https://polylan.ch"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "RLC",
+			"url": null
+		},
+		"date": {
+			"day": 26,
+			"month": 11,
+			"year": 2021
+		},
+		"image": null,
+		"shortText": "LAN de 300 personnes sur 3 jours, organisée par des étudiants EPFL",
+		"moreInfoUrl": "https://polylan.ch"
+	}
 ]
