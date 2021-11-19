@@ -6,6 +6,8 @@ Nous sommes très heureux.ses de vous annoncer que les précommandes pour vos pu
 
 Quoi de mieux comme cadeau de Noël? Ils sont disponibles en **10 coloris différents**, et dans toutes les tailles (même taille enfant pour votre petit frère, petite soeur, cousine, neveu, lutin de noël, etc) de quoi ravir tout le monde ! Si vous avez des problèmes pour choisir votre couleur ou votre taille, envoyez-nous un mail à [clic@epfl.ch](clic@epfl.ch).
 
+**⚠️Les commandes sont ouvertes jusqu'au 23 Novembre à minuit⚠️**
+
 La plateforme pour choisir et commander votre (ou vos) pull(s) est accessible via ce lien: 
 [Commander votre pull](https://one-way.one/blogs/pre-commandes/clic-epfl)
 
@@ -20,6 +22,8 @@ Hello everyone!
 We are very excited to announce that pre-orders for your IC Faculty sweaters are open! 🥳
 
 What better gift to give for Christmas? They are available in **10 different colors**, and in all sizes (even child size for your little brother, little sister, cousin, nephew, Christmas elf, etc) enough to delight everyone! If you have any problems choosing your color or size, send us an email at [clic@epfl.ch](clic@epfl.ch).
+
+**⚠️Orders are open until November 23rd at midnight⚠️**
 
 The platform to choose and order your sweater(s) is accessible via this link: 
 [Order your sweater](https://one-way.one/blogs/pre-commandes/clic-epfl)
