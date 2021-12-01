@@ -14,7 +14,7 @@
 			"month": 11,
 			"year": 2021
 		},
-		"image": "/events/banner.png",
+		"image": "/events/hw2.png",
 		"shortText": "La CLIC vous invite à son événement du 11 Novembre !",
 		"moreInfoUrl": "/news/30"
 	},
@@ -34,9 +34,9 @@
 			"month": 12,
 			"year": 2021
 		},
-		"image": null,
+		"image": "/events/sdf21.png",
 		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
-		"moreInfoUrl": null
+		"moreInfoUrl": "/news/33"
 	},
 	{
 		"title": "Secret Santa",
@@ -54,9 +54,9 @@
 			"month": 12,
 			"year": 2021
 		},
-		"image": null,
+		"image": "/events/santa21.png",
 		"shortText": "Venez offrir et recevoir vos cadeaux !",
-		"moreInfoUrl": null
+		"moreInfoUrl": "/news/32"
 	},
 	{
 		"title": "PolyLAN 36",
