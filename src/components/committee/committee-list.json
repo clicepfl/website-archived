@@ -20,7 +20,7 @@
     {
         "name": "Eugénie Kwak",
         "role": "Vice-Administratrice",
-        "imageURL": "/committee/default.png",
+        "imageURL": "/committee/eugeniekwak.jpg",
         "websiteURL": "https://people.epfl.ch/eugenie.kwak"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "Lucas Trognon",
         "role": "Événements",
-        "imageURL": "/committee/default.png",
+        "imageURL": "/committee/lucastrognon.jpg",
         "websiteURL": "https://people.epfl.ch/lucas.trognon"
     },
     {
@@ -50,7 +50,7 @@
     {
         "name": "Noé Terrier",
         "role": "Communication",
-        "imageURL": "/committee/default.png",
+        "imageURL": "/committee/noeterrier.jpg",
         "websiteURL": "https://people.epfl.ch/noe.terrier"
     },
     {
@@ -64,11 +64,5 @@
         "role": "Logistique",
         "imageURL": "/committee/eloisedoyard.jpg",
         "websiteURL": "https://people.epfl.ch/eloise.doyard"
-    },
-    {
-        "name": "Hugues Devimeux",
-        "role": "Relations Coaching",
-        "imageURL": "/committee/default.png",
-        "websiteURL": "https://coaching.epfl.ch/coaching-ic/"
     }
 ]
