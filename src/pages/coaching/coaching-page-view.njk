@@ -69,33 +69,31 @@
             <div class="center">
                 <div class="content padded-40">
                     <h1>Team</h1>
-                    <h3>Vos coachs dévoués</h3>
-
-                        <div class="pole">
-                            {% for supercoach in supercoachingList %}
-                                <a href="{{supercoach.websiteURL}}" target="_blank">
-                                    <div class="member">
-                                        <img src="{{supercoach.imageURL}}" alt="{{supercoach.name}}"/>
-                                        <div class="desc">
-                                            <p class="name">{{supercoach.name}}</p>
-                                            <p class="role">Supercoach</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            {% endfor %}
-                        </div>
-
-                        {% for coach in coachingList %}
-                            <a href="{{coach.websiteURL}}" target="_blank">
-                                <div class="coaching">
-                                    <img src="{{coach.imageURL}}" alt="{{coach.name}}"/>
+                    <h3>Le comité</h3>
+                    <div class="pole">
+                        {% for specialCoach in specialCoachingList %}
+                            <a href="{{specialCoach.websiteURL}}" target="_blank">
+                                <div class="member">
+                                    <img src="{{specialCoach.imageURL}}" alt="{{specialCoach.name}}"/>
                                     <div class="desc">
-                                        <p class="name">{{coach.name}}</p>
+                                        <p class="name">{{specialCoach.name}}</p>
+                                        <p class="role">{{specialCoach.role}}</p>
                                     </div>
                                 </div>
                             </a>
                         {% endfor %}
-
+                    </div>
+                    <h3 style="padding-top: 40px;">Les coachs IC</h3>
+                    {% for coach in coachingList %}
+                        <a href="{{coach.websiteURL}}" target="_blank">
+                            <div class="coaching">
+                                <img src="{{coach.imageURL}}" alt="{{coach.name}}"/>
+                                <div class="desc">
+                                    <p class="name">{{coach.name}}</p>
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
                 </div>
             </div>
         </div>
