@@ -1,14 +1,52 @@
 {
-  "supercoaches": [
+  "specialCoaches": [
     {
       "name": "Hugues Devimeux",
       "imageURL": "/coaching/hugues_devimeux.jpg",
-      "websiteURL": "https://people.epfl.ch/hugues.devimeux"
+      "websiteURL": "https://people.epfl.ch/hugues.devimeux",
+      "role": "Supercoach"
     },
     {
       "name": "Paul Madelénat",
       "imageURL": "/coaching/paul_madelenat.jpg",
-      "websiteURL": "https://people.epfl.ch/paul.madelenat"
+      "websiteURL": "https://people.epfl.ch/paul.madelenat",
+      "role": "Supercoach"
+    },
+    {
+      "name": "Maxime Lestiboudois",
+      "imageURL": "/coaching/maxime_lestiboudois.jpg",
+      "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
+      "role": "Trésorier"
+    },
+    {
+      "name": "Théo Ducrey",
+      "imageURL": "/coaching/theo_ducrey.jpg",
+      "websiteURL": "https://people.epfl.ch/theo.ducrey",
+      "role": "Logistique"
+    },
+    {
+      "name": "Tancredi Cogne",
+      "imageURL": "/coaching/tancredi_cogne.jpg",
+      "websiteURL": "https://people.epfl.ch/tancredi.cogne",
+      "role": "Intendance"
+    },
+    {
+      "name": "Alexandra Lagutova",
+      "imageURL": "/coaching/alexandra_lagutova.jpg",
+      "websiteURL": "https://people.epfl.ch/alexandra.lagutova",
+      "role": "Sponsoring"
+    },
+    {
+      "name": "Khadija Tagemouati",
+      "imageURL": "/coaching/khadija_tagemouati.jpg",
+      "websiteURL": "https://people.epfl.ch/khadija.tagemouati",
+      "role": "Communication"
+    },
+    {
+      "name": "Sylvain Nérisson",
+      "imageURL": "/coaching/sylvain_nerisson.jpg",
+      "websiteURL": "https://people.epfl.ch/sylvain.nerisson",
+      "role": "IT"
     }
   ],
   "coaches": [
@@ -16,11 +54,6 @@
       "name": "Ahmed",
       "imageURL": "/coaching/ahmed_elalamy.jpg",
       "websiteURL": "https://people.epfl.ch/ahmed.elalamy"
-    },
-    {
-      "name": "Alexandra",
-      "imageURL": "/coaching/alexandra_lagutova.jpg",
-      "websiteURL": "https://people.epfl.ch/alexandra.lagutova"
     },
     {
       "name": "Christelle",
@@ -68,11 +101,6 @@
       "websiteURL": "https://people.epfl.ch/jeremy.barghorn"
     },
     {
-      "name": "Khadija",
-      "imageURL": "/coaching/khadija_tagemouati.jpg",
-      "websiteURL": "https://people.epfl.ch/khadija.tagemouati"
-    },
-    {
       "name": "Leïla",
       "imageURL": "/coaching/leila_hammi.jpg",
       "websiteURL": "https://people.epfl.ch/leila.hammi"
@@ -91,11 +119,6 @@
       "name": "Maxime H.",
       "imageURL": "/coaching/maxime_hilbig.jpg",
       "websiteURL": "https://people.epfl.ch/maxime.hilbig"
-    },
-    {
-      "name": "Maxime L.",
-      "imageURL": "/coaching/maxime_lestiboudois.jpg",
-      "websiteURL": "https://people.epfl.ch/maxime.lestiboudois"
     },
     {
       "name": "Menelik",
@@ -161,11 +184,6 @@
       "name": "Tamara",
       "imageURL": "/coaching/tamara_paris.jpg",
       "websiteURL": "https://people.epfl.ch/tamara.paris"
-    },
-    {
-      "name": "Tancredi",
-      "imageURL": "/coaching/tancredi_cogne.jpg",
-      "websiteURL": "https://people.epfl.ch/theo.ducrey"
     },
     {
       "name": "Timo",
