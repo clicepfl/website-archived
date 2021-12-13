@@ -2,9 +2,9 @@
     {
         "name": "IC Travel",
         "slug": "ic-travel",
-        "imageURL": "ictravel.svg",
+        "imageURL": "ic-travel.svg",
         "shortDescription": "Nous nous occupons chaque année d’organiser le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
-        "pageBodyPath": "ictravel.md",
+        "pageBodyPath": "ic-travel.md",
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
@@ -21,25 +21,25 @@
             },
             {
                 "name": "Alessio Verardo",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/alessio.verardo",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Eloi Garandel",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/eloi.garandel",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Louise Rieupouilh",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
                 "role": "Responsable Communication"
             },
             {
                 "name": "Kilian D'Eternod",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/kilian.deternod",
                 "role": "Responsable Sponsoring"
             },
@@ -57,7 +57,7 @@
             },
             {
                 "name": "Emmanuelle Denove",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
                 "role": "Responsable Logement"
             },
@@ -187,6 +187,25 @@
         ],
         "social": {
             "Instagram": "https://www.instagram.com/clic_ceve/"
+        }
+    },
+    {
+        "name": "Polygl0ts",
+        "slug": "polygl0ts",
+        "imageURL": "polygl0ts.svg",
+        "shortDescription": "Polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité, nous proposons des ateliers et des événements pour introduire les débutants au monde du CTF et nous organisons des sessions d'entraînement hebdomadaires.",
+        "pageBodyPath": "polygl0ts.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "johnny",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://google.com",
+                "role": "Comité"
+            }
+        ],
+        "social": {
+            "Instagram": "https://www.instagram.com/"
         }
     }
 ]
