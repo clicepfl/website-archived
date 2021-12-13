@@ -16,7 +16,8 @@
 		},
 		"image": "/events/hw2.png",
 		"shortText": "La CLIC vous invite à son événement du 11 Novembre !",
-		"moreInfoUrl": "/news/30"
+		"moreInfoUrl": "/news/30",
+		"cancelled": false
 	},
 	{
 		"title": "Souper de Faculté",
@@ -36,7 +37,8 @@
 		},
 		"image": "/events/sdf21.png",
 		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
-		"moreInfoUrl": "/news/33"
+		"moreInfoUrl": "/news/33",
+		"cancelled": true
 	},
 	{
 		"title": "Secret Santa",
@@ -56,7 +58,8 @@
 		},
 		"image": "/events/santa21.png",
 		"shortText": "Venez offrir et recevoir vos cadeaux !",
-		"moreInfoUrl": "/news/32"
+		"moreInfoUrl": "/news/32",
+		"cancelled": false
 	},
 	{
 		"title": "PolyLAN 36",
@@ -74,8 +77,9 @@
 			"month": 11,
 			"year": 2021
 		},
-		"image": null,
+		"image": "events/polylan_logo.png",
 		"shortText": "LAN de 300 personnes sur 3 jours, organisée par des étudiants EPFL",
-		"moreInfoUrl": "https://polylan.ch"
+		"moreInfoUrl": "https://polylan.ch",
+		"cancelled": false
 	}
 ]

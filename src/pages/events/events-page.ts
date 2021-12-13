@@ -14,7 +14,7 @@ import { Event, eventsComponent } from '../../components/events/events'
  * events-page-view.njk}
  */
 class EventsPageViewModel {
-    eventsList: Event[] = eventsComponent.listValid().map(e => e.withFormattedDate('fr'))
+    eventsList: Event[] = eventsComponent.list().map(e => e.withFormattedDate('fr'))
 }
 
 /**
