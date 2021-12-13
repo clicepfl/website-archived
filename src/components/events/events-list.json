@@ -81,5 +81,26 @@
 		"shortText": "LAN de 300 personnes sur 3 jours, organisée par des étudiants EPFL",
 		"moreInfoUrl": "https://polylan.ch",
 		"cancelled": false
+	},
+	{
+		"title": "Weekend Ski",
+		"organizer": {
+			"name": "Coaching IC",
+			"url": "/coaching"
+		},
+		"time": null,
+		"place": {
+			"name": "Torgon Alpine Center",
+			"url": null
+		},
+		"date": {
+			"day": 11,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/weski.png",
+		"shortText": "Le retour du weekend ski ! Organisé par le Coaching IC du 11 au 13 mars",
+		"moreInfoUrl": "https://weskic.agepoly.ch",
+		"cancelled": false
 	}
 ]
