@@ -15,11 +15,23 @@
 <html>
     <head>
         {{ base.head(title = "CLIC EPFL | À propos") }}
+        <link rel="stylesheet" type="text/css" href="/vendor/animate.css">
         <link rel="stylesheet" type="text/css" href="/vendor/slick.css">
         <link rel="stylesheet" type="text/css" href="/vendor/slick-theme.css">
     </head>
     <body>
-        {{ base.header(tab = "about") }}
+
+        {% set caption %}
+        <div class="center">
+            <div class="content">
+                <div class="caption wow bounceInDown">
+                    <h1>Association des étudiants<br>EPFL en informatique &<br>systèmes de communication</h1>
+                </div>
+            </div>
+        </div>
+        {% endset %}
+
+        {{ base.header(tab = "about", classes = "slider", append = caption | safe) }}
 
         <div class="wrapper bg-white">
             <div class="center">
@@ -44,7 +56,7 @@
                     {{ social.stackedRoundIcons() }}
 
                     <div class="padded-25">
-                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/index.php/s/HbRZGsYWNmFGLrd" target="_blank">
+                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/s/d4kNNTqYHgTeykr" target="_blank">
                             <i class="fas fa-gavel fa-lg" style="padding-right: 5px"></i>
                             Statuts et règlements de l'association
                         </a>
@@ -69,6 +81,41 @@
             </div>
         </div>
 
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Nos Pôles</h1>
+                    <h3>Intéressé à nous rejoindre ?</h3>
+                    <p class="center-text">
+                        La CLIC fonctionne par pôles, composés d'un ou plusieurs membres du comité.
+                        Chaque pôle est attribué une mission majeure, indispensable au bon fonctionnement de l'association.
+                        <br><br>
+                        Tu n'as pas envie de devenir comité, mais quand même envie de participer régulièrement à la vie de la CLIC ?
+                        Alors le rôle d'équipier est ce qu'il te faut ! Tu n'auras pas à participer aux réunions, moins de responsabilités
+                        te seront confiées et moins de deadlines te seront données.
+                        <br><br>
+                        Tu trouveras ci-dessous de plus amples informations au sujet de chacun des pôles de l'association,
+                        que ce soit à propos du rôle de comité ou d'équipier.
+                    </p>
+                    <div class="poles padded-40">
+                        {% for row in polesList | batch(4) %}
+                            <div class="poles-row">
+                            {% for item in row %}
+                                <div class="poles-item">
+                                    <a href="/about/{{item.slug}}">
+                                        <img src="/about/{{item.imageURL}}" alt="{{item.name}}">
+                                        <p class="title">{{item.name}}</p>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         {{ base.footer() }}
 
         <script type="text/javascript" src="/vendor/jquery.min.js"></script>
@@ -85,4 +132,10 @@
             })
         </script>
     </body>
+
+    <script src="/vendor/wow.min.js"></script>
+    <script>
+        // on-scroll reveal animation
+        new WOW().init()
+    </script>
 </html>

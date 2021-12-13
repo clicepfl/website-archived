@@ -62,52 +62,6 @@ Normalement si t’as tout lu au-dessus tu sais déjà ce qu’on va te dire, ma
 
 Quand tout ça sera fait, tu seras prêt.e à embarquer ! _Tchou tchou_ !
 
-#### Planning prévisionnel du voyage
+#### Calendrier du voyage
 
-Comme beaucoup l'ont demandé, on vous montre le **planning prévisionnel actuel du voyage**. Pourquoi prévisionnel ? Parce qu'on ne peut commencer les réservations et inscriptions que lorsque l'on aura toutes vos inscriptions. Donc en gros on va tout faire pour que tout ça existe, mais on est sous réserve des circonstances sanitaires et tout ça vous voyez bien (dans tous les cas vous ne paierez pas pour des activités que vous ne ferez pas donc pas de panique).
-
-Pour rappel, on prévoit de loger dans des **hôtels/auberges** chaque nuit (sauf entre le 1 et le 2, on rentre chez nous pour celle là, enfin on peut faire une boum à la maison si vous voulez après). Ce sera pas le 5 étoiles eh oh ça va, mais c'est normalement plus confort que le camping ! 🏠
-
-***
-
-##### 01/09/21
-  * **Matin**       : **Lancer de Hache/Paintball** à Vevey/Lutry {Lausanne-Vevey/Lutry ~ 30mn}
-  * **Après-midi**  : Visite de **vignoble** et dégustation de vin aux Lavaux - retour à Lausanne {-}
-
-##### 02/09/21
-  * **Matin**       : Arrivée à **Sion** {Lausanne-Sion ~ 1h30mn}
-  * **Après-midi**  : Visite du **barrage et zipline** de la Grande Dixence {Sion-Dixence ~ 30mn}
-
-##### 03/09/21
-  * **Matin**         : Visite du **lac souterrain** à St.Léonard {Sion-St.Léonard ~ 05mn}
-  * **Après-midi**    : Départ pour **Interlaken et BBQ** {Sion-Interlaken ~ 1h35mn}
-
-##### 04/09/21
-  * **Matin**         : **Accrobranche/Rafting** à Interlaken {-}
-  * **Après-midi**    : Découverte des **_hide-away_** de Interlaken {-}
-
-##### 05/09/21
-  * **Matin et Après-midi** : **Randonnée** à Lauterbrunnen/Grindelwald. **Pic nique** au point culminant de la randonnée et retour à Interlaken {Interlaken-Grindelwald ~ 30mn}
-
-##### 06/09/21
-  * **Matin**         : Départ pour **Zurich** {Interlaken-Zurich ~ 2h00mn}
-  * **Après-midi**    : **Visite de la ville** de Zurich {-}
-
-##### 07/09/21
-  * **Matin**         : Visite de l'**ETH** {-}
-  * **Après-midi**    : Visite d'**entreprise** {-}
-
-##### 08/09/21
- * **Matin**          : Visite d'**entreprise** {-}
- * **Après-midi**     : Visite des **chutes du Rhin** et départ pour **Berne** {Zurich-Berne ~ 1h00/30mn}
-
-##### 09/09/21
-  * **Matin**         : Visite du **Musée de la Communication** de Berne {-}
-  * **Après-midi**    : **Visite de la ville**, la **fosse aux ours** et baignade dans le **fleuve**. Soirée au **restaurant** offerte {-}
-
-##### 10/09/21
-  * **Matin**         : **Retour à Lausanne** {Lausanne-Berne ~ 1h00/30mn} 
-
-***
-
-Voilà le projet ! Bon normalement après ça vous n'avez plus de doutes, alors on a hâte de vous retrouver tout.e.s ! 😊
+<iframe width="100%" height="500" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/2Grt28MATKCj6QBP"></iframe>

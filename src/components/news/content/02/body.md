@@ -4,6 +4,6 @@ Le jeudi 11 avril 2019, la CLIC invite Richard Stallman (alias RMS) pour une con
 Richard Stallman est co-fondateur du projet GNU et du mouvement des licences libres qui ont donné naissance aux plus grands biens communs numériques : GNU/Linux, Mozilla Firefox, LibreOffice, Wikipédia ou encore les Creative Commons. RMS nous partage les enjeux sociaux, éthiques du numérique et sa philosophie de la liberté à l'ère numérique.
 
 <video controls>
-  <source src="/untracked/rms-conference.webm" type="video/webm">
+  <source src="https://clic.epfl.ch/nextcloud/s/CbjLdyLFkyE243i/download/stallman.webm" type="video/webm">
   Votre navigateur ne supporte pas cette vidéo HTML5 au format libre WebM.
 </video>

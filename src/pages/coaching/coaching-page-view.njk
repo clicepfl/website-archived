@@ -27,13 +27,13 @@
                         &gt; Coaching
                     </p>
 
-                    <img src="img/coaching-logo.png" alt="logo" class="center-image">
+                    <img src="img/coaching_logo.svg" alt="logo" class="center-image">
                     <p class="center-text">
                         Le <a href="https://coaching.epfl.ch/coaching-ic/">Coaching IC</a> est une sous-commission de l’AGEPoly qui a pour but d’accompagner les étudiant.e.s en première année et d'organiser des événements. On est là pour apporter du soutien et surtout donner plein d’amour !
                         On organise des apéros, des soirées jeux, des petits-déj, y’en a pour tout le monde ! Notre objectif, c’est que chaque première se sente bien dans la section et profite à fond de son année 🙂
                         Pour ça, chaque première a un coach, quelqu’un de confiance à qui poser toutes ses questions, qui est là pour lui faire découvrir ses bons plans ou lui apprendre où sont les meilleurs sandwichs sur le campus. On est une quarantaine de coachs, tous chauds et motivés ! Certains sont en deuxième, certains ont fait la mise à niveau, mais tous ont l’expérience de la première et ont envie de partager ce qu’ils ont appris.
                         On collabore aussi avec la CLIC, notamment pour proposer des événements comme l’ICeLAN ou l’apéro CLICoaching.
-                        Pour nous contacter, tu peux nous <a href="mailto:coaching.ic@gmail.com">envoyer un mail</a>, nous <a href="https://t.me/joinchat/C_nNRUkX_WChQbtnlhu_Yw">écrire sur Telegram</a> sur le groupe de section ou encore nous <a href="https://www.instagram.com/coaching_ic/">écrire sur Instagram</a>. Au plaisir de te voir à un de nos événements !
+                        Pour nous contacter, tu peux nous <a href="mailto:coaching.ic@gmail.com">envoyer un mail</a>, nous <a href="https://t.me/joinchat/A99c1RlK17Y2YjI0">écrire sur Telegram</a> sur le groupe de section ou encore nous <a href="https://www.instagram.com/coaching_ic/">écrire sur Instagram</a>. Au plaisir de te voir à un de nos événements !
                     </p>
                     <div class="social">
                         <a href="https://www.facebook.com/coaching.ic.epfl/" target="_blank">
@@ -69,7 +69,21 @@
             <div class="center">
                 <div class="content padded-40">
                     <h1>Team</h1>
-                    <h3>Vos coachs dévoués</h3>
+                    <h3>Le comité</h3>
+                    <div class="pole">
+                        {% for specialCoach in specialCoachingList %}
+                            <a href="{{specialCoach.websiteURL}}" target="_blank">
+                                <div class="member">
+                                    <img src="{{specialCoach.imageURL}}" alt="{{specialCoach.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{specialCoach.name}}</p>
+                                        <p class="role">{{specialCoach.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                    <h3 style="padding-top: 40px;">Les coachs IC</h3>
                     {% for coach in coachingList %}
                         <a href="{{coach.websiteURL}}" target="_blank">
                             <div class="coaching">

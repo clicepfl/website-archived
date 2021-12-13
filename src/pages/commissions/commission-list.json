@@ -45,7 +45,7 @@
             },
             {
                 "name": "Elisa Bianchi",
-                "imageURL": "elisabianchi.jpeg",
+                "imageURL": "elisabianchi.jpg",
                 "websiteURL": "https://people.epfl.ch/elisa.bianchi",
                 "role": "Responsable Animations"
             },
@@ -84,19 +84,19 @@
         "members": [
             {
                 "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber.png",
+                "imageURL": "hugohueber.jpg",
                 "websiteURL": "https://people.epfl.ch/hugo.hueber",
                 "role": "Coordinateur"
             },
             {
                 "name": "Lucas Strauss",
-                "imageURL": "lucasstrauss.png",
+                "imageURL": "lucasstrauss.jpg",
                 "websiteURL": "https://people.epfl.ch/lucas.strauss",
                 "role": "Coordinateur"
             },
             {
                 "name": "Camille Montemagni",
-                "imageURL": "camillemontemagni.png",
+                "imageURL": "camillemontemagni.jpg",
                 "websiteURL": "https://people.epfl.ch/camille.montemagni",
                 "role": "Coordinatrice"
             },
@@ -129,31 +129,31 @@
         "members": [
             {
                 "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber2.png",
+                "imageURL": "hugohueber2.jpg",
                 "websiteURL": "https://people.epfl.ch/hugo.hueber",
                 "role": "Coordinateur"
             },
             {
                 "name": "Lucas Trognon",
-                "imageURL": "lucastrognon.png",
+                "imageURL": "lucastrognon.jpg",
                 "websiteURL": "https://people.epfl.ch/lucas.trognon",
                 "role": "Coordinateur"
             },
             {
                 "name": "Guillaume Parchet",
-                "imageURL": "guillaumeparchet.png",
+                "imageURL": "guillaumeparchet.jpg",
                 "websiteURL": "https://people.epfl.ch/guillaume.parchet",
                 "role": "Coordinateur"
             },
             {
                 "name": "Thibault Viglino",
-                "imageURL": "thibaultviglino.png",
+                "imageURL": "thibaultviglino.jpg",
                 "websiteURL": "https://people.epfl.ch/thibault.viglino",
                 "role": "Coordinateur"
             }
         ],
         "social": {
-            "Discord": "discord.gg/mCUYyCQ",
+            "Discord": "https://discord.gg/mCUYyCQ",
             "Site web": "http://orbital-game-jam.ch/",
             "Email": "mailto:orbitalgamejam@groupes.epfl.ch"
         }
@@ -167,12 +167,26 @@
         "catchPhrase": "Une petite pause ?",
         "members": [
             {
-                "name": "Kilian D'Eternod",
+                "name": "Maxime Lestiboudois",
                 "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/kilian.deternod",
-                "role": "Coordinateur"
+                "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
+                "role": "Comité"
+            },
+            {
+                "name": "Ahmed Elalamy",
+                "imageURL": "../ceve.png",
+                "websiteURL": "https://people.epfl.ch/ahmed.elalamy",
+                "role": "Comité"
+            },
+            {
+                "name": "Claire Lopez",
+                "imageURL": "../ceve.png",
+                "websiteURL": "https://people.epfl.ch/claire.lopez",
+                "role": "Comité"
             }
         ],
-        "social": {}
+        "social": {
+            "Instagram": "https://www.instagram.com/clic_ceve/"
+        }
     }
 ]

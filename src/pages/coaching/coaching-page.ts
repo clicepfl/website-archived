@@ -6,7 +6,7 @@
  */
 import { Page } from '../page'
 import { Request, Response } from 'express'
-import { Coach, coachingComponent } from './coaching'
+import { Coach, SpecialCoach, coachingComponent } from './coaching'
 
 /**
  * View model that binds the data to the template for the coaching page
@@ -14,7 +14,8 @@ import { Coach, coachingComponent } from './coaching'
  * coaching-page-view.njk}
  */
 class CoachingPageViewModel {
-    coachingList: Coach[] = coachingComponent.list()
+    coachingList: Coach[] = coachingComponent.getCoachingList()
+    specialCoachingList: SpecialCoach[] = coachingComponent.getSpecialCoachingList()
 }
 
 /**

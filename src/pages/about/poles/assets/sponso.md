@@ -1,0 +1,7 @@
+Dans le pôle sponsoring, __on aime beaucoup le champagne et le caviar__. Malheureusement, pour en avoir à nos événements, il faut un budget plus grand que celui que nous pourrions avoir avec nos petits revenus et les subventions que nous recevons. C’est là que notre pôle entre en jeu. Notre but est de contacter des entreprises, qui seront intéressées par notre projet, et qui puissent être **intéressantes pour les étudiant.e.s IC** afin de trouver des partenariats. Ces partenariats peuvent prendre différentes formes : un partenariat logistique, matériel ou financier.
+
+En début d’année, nous travaillons sur notre **dossier sponsoring** qui va résumer tout ce que nous pouvons offrir aux entreprises en termes de visibilité et communication pour atteindre les étudiant.e.s IC. Ensuite, et voilà le moment le plus intéressant, nous commençons les négociations avec les entreprises afin de trouver le/la partenariat.e le/la plus adapté.e pour elles, pour nous mais également pour les étudiant.e.s de la faculté.
+
+Les différentes prestations que nous offrons à nos partenaires peuvent être la présence de leur logo sur nos affiches, une présentation de l’entreprise lors d’un événement, des publications sur nos réseaux sociaux mais aussi la possibilité d’offrir des goodies aux étudiant.e.s.
+
+Faire partie de l’équipe sponsoring permet de découvrir le monde de l’entreprise, d’apprendre à prendre contact, négocier, vendre des prestations et gérer des contrats avec de grandes entreprises.
