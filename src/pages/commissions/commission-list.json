@@ -193,19 +193,43 @@
         "name": "Polygl0ts",
         "slug": "polygl0ts",
         "imageURL": "polygl0ts.svg",
-        "shortDescription": "Polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité, nous proposons des ateliers et des événements pour introduire les débutants au monde du CTF et nous organisons des sessions d'entraînement hebdomadaires.",
+        "shortDescription": "Née en 2018, polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité. Avec l'équipe de l'ETHZ nous formons 0rganizers, l'une des meilleures équipes européennes participant à des événements internationaux tels que DEFCON.",
         "pageBodyPath": "polygl0ts.md",
         "catchPhrase": "",
         "members": [
             {
-                "name": "johnny",
+                "name": "Marc Egli",
                 "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://google.com",
-                "role": "Comité"
+                "websiteURL": "https://people.epfl.ch/marc.egli",
+                "role": "Président"
+            },
+            {
+                "name": "Lucio Romerio",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/lucio.romerio",
+                "role": "Vice-Président"
+            },
+            {
+                "name": "Francesco Berla",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/francesco.berla",
+                "role": "Trésorier"
+            },
+            {
+                "name": "Luca Di Bartolomeo",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/luca.dibartolomeo",
+                "role": "Communication"
+            },
+            {
+                "name": "Florian Hofhammer",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/florian.hofhammer",
+                "role": "Évènementiel"
             }
         ],
         "social": {
-            "Instagram": "https://www.instagram.com/"
+            "Site web": "https://polygl0ts.ch"
         }
     }
 ]

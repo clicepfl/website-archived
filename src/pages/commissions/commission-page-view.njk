@@ -99,18 +99,19 @@
                 <div class="content padded-40">
                     <h1>Comité</h1>
                     <h3>{{ commission.catchPhrase }}</h3>
-
-                    {% for member in commission.members %}
-                        <a href="{{member.websiteURL}}" target="_blank">
-                            <div class="member">
-                                <img src="/commissions/portraits/{{member.imageURL}}" alt="{{member.name}}"/>
-                                <div class="desc">
-                                    <p class="name">{{member.name}}</p>
-                                    <p class="role">{{member.role}}</p>
+                    <div class="pole">
+                        {% for member in commission.members %}
+                            <a href="{{member.websiteURL}}" target="_blank">
+                                <div class="member">
+                                    <img src="/commissions/portraits/{{member.imageURL}}" alt="{{member.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{member.name}}</p>
+                                        <p class="role">{{member.role}}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    {% endfor %}
+                            </a>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
