@@ -3,7 +3,7 @@
 ## Qui sommes-nous ?
 Née en 2018, polygl0ts est l'équipe officielle de CTF de l'EPFL.
 Nous sommes une équipe passionnée et en pleine croissance qui est
-toujours à la recherche de nouveaux membres !
+toujours à la recherche de nouveaux.elles membres !
 
 N’hésitez pas à jeter un coup d'œil à notre [profil sur CTFTime](https://ctftime.org/team/53791)
 et à notre [GitHub](https://github.com/polygl0ts).
@@ -44,6 +44,6 @@ rester au courant des événements que nous organisons et de nos exploits :
 consultez notre [site web](https://polygl0ts.ch/), rejoignez notre
 [Discord](https://discord.gg/7Zx4FZyTSP), suivez-nous sur
 [Twitter](https://twitter.com/polygl0ts) et inscrivez-vous à notre
-[mailing list](https://polygl0ts.ch/contact)t !
+[mailing list](https://polygl0ts.ch/contact) !
 
-**Si tu est un étudiant, préféres Discord à la mailing list pour nous contacter.**
+**Si tu es un.e étudiant.e, préfères Discord à la mailing list pour nous contacter.**
