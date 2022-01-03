@@ -45,4 +45,5 @@ consultez notre [site web](https://polygl0ts.ch/), rejoignez notre
 [Twitter](https://twitter.com/polygl0ts) et inscrivez-vous à notre
 [mailing list](https://polygl0ts.ch/contact) !
 
+
 **Si tu es un.e étudiant.e, préfère Discord à la mailing list pour nous contacter.**
