@@ -28,8 +28,9 @@ class Event {
     image?: string
     shortText: string
     moreInfoUrl?: string
+    cancelled: boolean
 
-    constructor(title: string, time: string, date: Date, place: any, organizer: any, image: string, shortText: string, moreInfoUrl: string) {
+    constructor(title: string, time: string, date: Date, place: any, organizer: any, image: string, shortText: string, moreInfoUrl: string, cancelled: boolean) {
         this.title = title
         this.time = time
         this.place = place
@@ -38,6 +39,7 @@ class Event {
         this.image = image
         this.shortText = shortText
         this.moreInfoUrl = moreInfoUrl
+        this.cancelled = cancelled
     }
 
     /**
@@ -65,7 +67,8 @@ class Event {
                 data.organizer,
                 data.image,
                 data.shortText,
-                data.moreInfoUrl
+                data.moreInfoUrl,
+                data.cancelled
             )
         }
     }
@@ -96,7 +99,8 @@ class Event {
             ) &&
             data.image !== undefined && (data.image === null || typeof data.image === "string") &&
             data.shortText !== undefined && typeof data.shortText === "string" &&
-            data.moreInfoUrl !== undefined && (data.moreInfoUrl === null || typeof data.moreInfoUrl === "string")
+            data.moreInfoUrl !== undefined && (data.moreInfoUrl === null || typeof data.moreInfoUrl === "string") &&
+            data.cancelled !== undefined && typeof data.cancelled === "boolean"
         )
     }
 
@@ -124,19 +128,29 @@ class EventsComponent {
      * @param n Integer number of events
      */
     getNextValid(n: number): Array<Event> {
-        return Object.assign([], this.listValid().slice(0, n))
+        // Small hack to avoid breaking the display
+        if (this.listValid().length < n) {
+            return Object.assign([], this.list().slice(-n))
+        } else {
+            return Object.assign([], this.listValid().slice(0, n))
+        }
     }
 
     /**
-     * Returns all events in fresh array
+     * Returns all events in fresh arrayreturn Object.assign([], this.listValid().slice(0, n))
      */
     list(): Array<Event> {
-        return Object.assign([], this.eventsList)
+        let sortedEventsList = Object.assign([], this.eventsList)
+        const now = new Date()
+        return sortedEventsList.sort((e1, e2) => e1.date - e2.date).map((e) => {
+            e.outdated = e.date < now
+            return e
+        });
     }
 
     listValid(): Array<Event> {
         const now = new Date()
-        const valid = this.eventsList.filter((event) =>
+        const valid = this.list().filter((event) =>
             event.date === null || event.date >= now)
         return Object.assign([], valid)
     }

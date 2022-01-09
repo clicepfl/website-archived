@@ -2,9 +2,9 @@
     {
         "name": "IC Travel",
         "slug": "ic-travel",
-        "imageURL": "ictravel.svg",
+        "imageURL": "ic-travel.svg",
         "shortDescription": "Nous nous occupons chaque année d’organiser le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
-        "pageBodyPath": "ictravel.md",
+        "pageBodyPath": "ic-travel.md",
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
@@ -21,25 +21,25 @@
             },
             {
                 "name": "Alessio Verardo",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/alessio.verardo",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Eloi Garandel",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/eloi.garandel",
                 "role": "Administrateur-Trésorier"
             },
             {
                 "name": "Louise Rieupouilh",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
                 "role": "Responsable Communication"
             },
             {
                 "name": "Kilian D'Eternod",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/kilian.deternod",
                 "role": "Responsable Sponsoring"
             },
@@ -57,7 +57,7 @@
             },
             {
                 "name": "Emmanuelle Denove",
-                "imageURL": "../ictravel.svg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
                 "role": "Responsable Logement"
             },
@@ -187,6 +187,52 @@
         ],
         "social": {
             "Instagram": "https://www.instagram.com/clic_ceve/"
+        }
+    },
+    {
+        "name": "Polygl0ts",
+        "slug": "polygl0ts",
+        "imageURL": "polygl0ts.svg",
+        "shortDescription": "Née en 2018, polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité. Avec l'équipe de l'ETHZ nous formons 0rganizers, l'une des meilleures équipes européennes participant à des événements internationaux tels que DEFCON.",
+        "pageBodyPath": "polygl0ts.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Marc Egli",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/marc.egli",
+                "role": "Président"
+            },
+            {
+                "name": "Lucio Romerio",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/lucio.romerio",
+                "role": "Vice-Président"
+            },
+            {
+                "name": "Francesco Berla",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/francesco.berla",
+                "role": "Trésorier"
+            },
+            {
+                "name": "Luca Di Bartolomeo",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/luca.dibartolomeo",
+                "role": "Communication"
+            },
+            {
+                "name": "Florian Hofhammer",
+                "imageURL": "../polygl0ts.svg",
+                "websiteURL": "https://people.epfl.ch/florian.hofhammer",
+                "role": "Évènementiel"
+            }
+        ],
+        "social": {
+            "Site web": "https://polygl0ts.ch",
+            "Discord": "https://discord.gg/7Zx4FZyTSP",
+            "Twitter": "https://twitter.com/polygl0ts",
+            "Mailing List": "https://polygl0ts.ch/contact"
         }
     }
 ]
