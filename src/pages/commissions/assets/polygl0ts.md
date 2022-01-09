@@ -28,8 +28,7 @@ challenges que nous résolvons.
 ## Pourquoi faire ?
 Eh bien, pour commencer, parce que c'est marrant de s’infiltrer dans des
 systèmes non sécurisés. Ensuite, parce que résoudre des challenges permet
-d'apprendre de nouvelles choses et d’acquérir des compétences ~~inutiles~~
-cool.
+d'apprendre de nouvelles choses et d’acquérir des compétences cool.
 
 Enfin, participer aux CTFs est le moyen le plus rapide de gagner en
 crédibilité en tant que hacker. Vous pouvez ensuite utiliser cette
@@ -46,4 +45,5 @@ consultez notre [site web](https://polygl0ts.ch/), rejoignez notre
 [Twitter](https://twitter.com/polygl0ts) et inscrivez-vous à notre
 [mailing list](https://polygl0ts.ch/contact) !
 
-**Si tu es un.e étudiant.e, préfères Discord à la mailing list pour nous contacter.**
+
+**Si tu es un.e étudiant.e, préfère Discord à la mailing list pour nous contacter.**
