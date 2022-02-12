@@ -12,7 +12,7 @@ En effet, chaque année nous organisons un voyage avec toutes les personnes en d
 
 Tu n’as pas pu louper l’info, cette année tout est plus compliqué 🦠. Cependant on a décidé de ne pas se laisser abattre et nous avons eu l’idée d’organiser un voyage en **Suisse** 🇨🇭 pour réduire les risques d’annulation. “Rho la Suisse j’y vis depuis 3-4 ans ça suffit maintenant”, eh, ne t’inquiète pas : on est sûr.e.s que tu n’as pas vu la moitié du Swiss Tour qu’on te propose, crois-moi tu n’auras pas le temps de t’ennuyer ! Le voyage s’étend sur 10 jours et aura lieu début septembre. **Les dates sont fixées du 1er septembre au 10 septembre**. (pour finir ces grandes vacances d’été en beauté !).
 
-![Carte voyage IC Travel](assets_ic-travel/ictravel_carte.png)
+![Carte voyage IC Travel](/commissions/ic-travel/ictravel_carte.png)
 
 #### Activités
 
@@ -22,7 +22,7 @@ Suivez-nous sur Instagram pour être au courant des futures updates [https://ins
 
 (On vous met quelques photos pour que vous compreniez bien où on veut en venir 👀)
 
-![C'est beau la Suisse](assets_ic-travel/images_suisse_form.png)
+![C'est beau la Suisse](/commissions/ic-travel/images_suisse_form.png)
 
 #### Formulaire d’inscription
 

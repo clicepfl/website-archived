@@ -40,7 +40,7 @@
                     <h1>Événements</h1>
                     <h3>Ne manque aucun des prochains événements IC !</h3>
                     <div class="events padded-40">
-                        {{ events.eventsGrid(events = nextEventsList) }}
+                        {{ events.smallEventsGrid(events = nextEventsList) }}
                     </div>
                     <a href="/events" class="more-events">
                         Plus d'événements &raquo;
@@ -74,7 +74,9 @@
                 <div class="content padded-40">
                     <h1>Team</h1>
                     <h3>Notre équipe de bénévoles</h3>
-                    {{ committee.staffGrid(members = committeeList) }}
+                    <div class="pole">
+                        {{ committee.staffGrid(members = committeeList) }}
+                    </div>
                 </div>
                 <!-- content -->
             </div>

@@ -12,18 +12,26 @@
 #}
 
 {#
-    News cards
-    This macro displays a list of news each inside a card
+    For events e_1, e_2, ..., e_n sorted in increasing order by date (older date < recent date,
+    meaning e_n is the most recent event), this macro displays the events in batches of 3 in
+    the following way:
+        e_1, e_2, e_3,
+        ..., ..., ...,
+        e_(n-2), e_(n-1), e_n
+    Ideally, the given list of events should be limited to a few entries only, typically 3
+    s.t. the list is displayed as follows:
+        e_(n-2), e_(n-1), e_n
+    meaning that only the latest events are available to the website user.
 
-    @param news The list of news to display as an array of News
-                    (type News[] as defined in {@link news.ts})
+    @param events The list of events to display as an array of Event
+                    (type Event[] as defined in {@link event.ts})
 
-    @example Inserts the cards of the news, data in the view model
-             is of type News[]
-        {% import "components/news/news-view.njk" as news %}
-        {{ news.newsCards(news = data) }}
+    @example Inserts the cards of the events, data in the view model
+             is of type Event[]
+        {% import "components/events/events-view.njk" as events %}
+        {{ events.smallEventsGrid(events = data) }}
 #}
-{% macro eventsGrid(events) %}
+{% macro smallEventsGrid(events) %}
     {% for batch in events | batch(3) %}
         <div class="events-row">
             {% for item in batch %}
@@ -40,6 +48,63 @@
                             <a href="{{item.organizer.url}}" target="_blank">{{item.organizer.name}}</a>
                         {% else %}
                             {{item.organizer.name}}
+                        {% endif %}
+                        {% if item.cancelled %}
+                            (annulé)
+                        {% elif item.outdated %}
+                            (passé)
+                        {% endif %}
+                    </p>
+                    <p class="info">
+                        {% if item.place.url %}
+                            <a href="{{item.place.url}}" target="_blank">{{item.place.name}}</a>
+                        {% else %}
+                            {{item.place.name}}
+                        {% endif %}
+                        {% if item.time %}
+                            à {{item.time}}
+                        {% endif %}
+                    </p>
+                    <p class="desc">{{item.shortText}}</p>
+                    {% if item.moreInfoUrl %}
+                        <a href="{{item.moreInfoUrl}}" class="more">Lire plus &raquo;</a>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endmacro %}
+
+{#
+    For events e_1, e_2, ..., e_n sorted in increasing order by date (older date < recent date,
+    meaning e_n is the most recent event), displays the events in batches of 3 in the following way:
+        e_n, e_(n-1), e_(n-2),
+        e_(n-3), e_(n-4), e_(n-5),
+        ..., ..., ...,
+        e_3, e_2, e_1
+#}
+{% macro allEventsGrid(events) %}
+{% for batch in events | batch(3) | reverse %}
+        <div class="events-row">
+            {% for item in batch | reverse %}
+                <div class="events-item">
+                    {% if item.image %}
+                        <img src="{{item.image}}">
+                    {% else %}
+                        <img src="/events/default_event.png">
+                    {% endif %}
+                    <p class="title">{{item.title}}</p>
+                    <p class="date">
+                        {{item.date}} par
+                        {% if item.organizer.url %}
+                            <a href="{{item.organizer.url}}" target="_blank">{{item.organizer.name}}</a>
+                        {% else %}
+                            {{item.organizer.name}}
+                        {% endif %}
+                        {% if item.cancelled %}
+                            (annulé)
+                        {% elif item.outdated %}
+                            (passé)
                         {% endif %}
                     </p>
                     <p class="info">

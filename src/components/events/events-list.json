@@ -14,9 +14,10 @@
 			"month": 11,
 			"year": 2021
 		},
-		"image": "/events/banner.png",
+		"image": "/events/hw2.png",
 		"shortText": "La CLIC vous invite à son événement du 11 Novembre !",
-		"moreInfoUrl": "/news/30"
+		"moreInfoUrl": "/news/30",
+		"cancelled": false
 	},
 	{
 		"title": "Souper de Faculté",
@@ -30,13 +31,14 @@
 			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
 		},
 		"date": {
-			"day": 9,
+			"day": 8,
 			"month": 12,
 			"year": 2021
 		},
-		"image": null,
+		"image": "/events/sdf21.png",
 		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
-		"moreInfoUrl": null
+		"moreInfoUrl": "/news/33",
+		"cancelled": true
 	},
 	{
 		"title": "Secret Santa",
@@ -54,9 +56,10 @@
 			"month": 12,
 			"year": 2021
 		},
-		"image": null,
+		"image": "/events/santa21.png",
 		"shortText": "Venez offrir et recevoir vos cadeaux !",
-		"moreInfoUrl": null
+		"moreInfoUrl": "/news/32",
+		"cancelled": false
 	},
 	{
 		"title": "PolyLAN 36",
@@ -74,8 +77,30 @@
 			"month": 11,
 			"year": 2021
 		},
-		"image": null,
+		"image": "events/polylan_logo.png",
 		"shortText": "LAN de 300 personnes sur 3 jours, organisée par des étudiants EPFL",
-		"moreInfoUrl": "https://polylan.ch"
+		"moreInfoUrl": "https://polylan.ch",
+		"cancelled": false
+	},
+	{
+		"title": "Weekend Ski",
+		"organizer": {
+			"name": "Coaching IC",
+			"url": "/coaching"
+		},
+		"time": null,
+		"place": {
+			"name": "Torgon Alpine Center",
+			"url": null
+		},
+		"date": {
+			"day": 11,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/weski.png",
+		"shortText": "Le retour du weekend ski ! Organisé par le Coaching IC du 11 au 13 mars",
+		"moreInfoUrl": "https://weskic.agepoly.ch",
+		"cancelled": false
 	}
 ]
