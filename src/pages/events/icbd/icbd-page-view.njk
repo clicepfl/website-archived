@@ -92,7 +92,7 @@
 
                             <div class="details">
                                 <p>
-                                    You have spent years studying the ins and outs of computer science and coding interviews may very well be one of the first times you will need to put into practice the skills you acquired. As such, we believe it would be beneficial for you to practice and get advice directly from the people who run them! Register for this activity and let IC alumni from [TBD (Swisscom, Google, Oracle)], [TBD] or [TBD] help you sharpen your abilities. Note that there is a limited number of spots for this activity so be sure to sign up for it as soon as possible.
+                                    You have spent years studying the ins and outs of computer science and coding interviews may very well be one of the first times you will need to put into practice the skills you acquired. As such, we believe it would be beneficial for you to practice and get advice directly from the people who run them! Register for this activity and let IC alumni help you sharpen your abilities. Note that there is a limited number of spots for this activity so be sure to sign up for it as soon as possible.
                                 </p>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
 
                             <div class="details">
                                 <p>
-                                    The resume is a key element in the recruitment process, hence the necessity to have an impeccable one. How would yours fare among dozens, if not hundreds, of CVs sent to the company you hope to work for ? Well luckily for you, we teamed up with [TBD] to offer you the opportunity to perfect your resume. During this activity, our partner will first give an in-depth presentation on how to turn your CV into an asset and then they will stay available so that they can provide you with tailored feedback about your resume. Note that there is a limited number of spots for this activity so be sure to sign up for it as soon as possible.
+                                    The resume is a key element in the recruitment process, hence the necessity to have an impeccable one. How would yours fare among dozens, if not hundreds, of CVs sent to the company you hope to work for ? Well luckily for you, we offer you the opportunity to perfect your resume. During this activity, our partner will first give an in-depth presentation on how to turn your CV into an asset and then they will stay available so that they can provide you with tailored feedback about your resume. Note that there is a limited number of spots for this activity so be sure to sign up for it as soon as possible.
 
                                 </p>
                             </div>
@@ -122,7 +122,7 @@
 
                             <div class="details">
                                 <p>
-                                    From 12:00 to 13:30, take part in an informal lunch with 25 alumni for free.
+                                    From 12:00 to 13:30, take part in an informal lunch with alumni for free.
                                     You will have the opportunity to ask any question to former students now working in the industry.
                                     This will be a standing lunch so that you can walk around and meet as many people as you wish.
                                     Note: to take part in this event, you must leave a 10CHF deposit that you will get back at the beginning of the lunch.
@@ -155,7 +155,7 @@
                             <div class="details">
                                 <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
                                 <p>
-                                    Meet Marc Berger, an alumnus that finished his master 10 years ago. During his time in industry, what did he learn? What does he wish he would have learned while at EPFL?
+                                    Meet an alumnus that finished his master 10 years ago. During his time in industry, what did he learn? What does he wish he would have learned while at EPFL?
                                     Come listen to his experience in this nostalgic talk.
                                 </p>
                             </div>
@@ -187,7 +187,7 @@
                                 <h4>How to get familiar with a large codebase in an enterprise</h4>
                                 <p>
                                     When entering an company, you will often face large codebases, written by many other programmers. Where does one start? Should you read and understand everything?
-                                    Let Christopher Chiche experienced alumnus working at Sqooba, guide you!
+                                    Let an experienced alumnus guide you!
                                 </p>
                             </div>
                         </div>
@@ -300,10 +300,31 @@
                 'BC HALL'
             ]);
 
+            // ROOM #1 events
+            let room = 'ROOM #1';
+            let eventName = "CV Correction";
+            timetable.addEvent(eventName, room, date(9, 30), date(10, 0), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 10), date(10, 40), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 50), date(11, 20), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 30), date(12, 0), CV_OPTIONS);
+
+            timetable.addEvent("MEETUP Research or Industry", room, date(13, 40), date(14, 0), MEETUP_OPTIONS);
+            timetable.addEvent("MEETUP Sustaina- bility and Ethics", room, date(14, 20), date(14, 40), MEETUP_OPTIONS);
+            timetable.addEvent("MEETUP Big Tech", room, date(14, 50), date(15, 10), MEETUP_OPTIONS);
+            timetable.addEvent("MEETUP women in IT", room, date(15, 20), date(15, 40), MEETUP_OPTIONS);
+
+            // BC 129 events    
+            room = 'BC 129';
+            eventName = "Mock Coding Interview"
+            timetable.addEvent(eventName, room, date(9, 30), date(10, 10), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 20), date(11, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 20), date(12, 0), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(13, 40), date(14, 20), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(14, 30), date(15, 10), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(15, 20), date(16, 00), MOCK_OPTIONS);
 
             // BC 420 events
-            let room = 'BC 420';
-
+            room = 'BC 420';
             timetable.addEvent("TALK Throwback 10 years later", room, date(10, 20), date(11, 0), {
                 class: 'talk-entry',
                 url: '#10years-talk'
@@ -327,31 +348,6 @@
             timetable.addEvent('MT Distrib. Systems', room, date(11, 00), date(11, 30), MT_OPTIONS);
             timetable.addEvent('MT Data Science', room, date(14, 10), date(14, 40), MT_OPTIONS);
             timetable.addEvent('MT Video Games', room, date(15, 10), date(15, 40), MT_OPTIONS);
-
-            // ROOM #1 events
-            let eventName = "CV Correction";
-            room = 'ROOM #1';
-            timetable.addEvent(eventName, room, date(9, 30), date(10, 0), CV_OPTIONS);
-            timetable.addEvent(eventName, room, date(10, 10), date(10, 40), CV_OPTIONS);
-            timetable.addEvent(eventName, room, date(10, 50), date(11, 20), CV_OPTIONS);
-            timetable.addEvent(eventName, room, date(11, 30), date(12, 0), CV_OPTIONS);
-
-            timetable.addEvent("MEETUP Research or Industry", room, date(13, 40), date(14, 0), MEETUP_OPTIONS);
-            timetable.addEvent("MEETUP Sustaina- bility and Ethics", room, date(14, 20), date(14, 40), MEETUP_OPTIONS);
-            timetable.addEvent("MEETUP Big Tech", room, date(14, 50), date(15, 10), MEETUP_OPTIONS);
-            timetable.addEvent("MEETUP women in IT", room, date(15, 20), date(15, 40), MEETUP_OPTIONS);
-
-
-            // BC 129 events
-            room = 'BC 129';
-            eventName = "Mock Coding Interview"
-            timetable.addEvent(eventName, room, date(9, 30), date(10, 10), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(10, 20), date(11, 0), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(11, 20), date(12, 0), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(13, 40), date(14, 20), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(14, 30), date(15, 10), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(15, 20), date(16, 00), MOCK_OPTIONS);
-
 
             // BC Hall events
             room = 'BC HALL';
