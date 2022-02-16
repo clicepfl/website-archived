@@ -130,7 +130,7 @@
                             </div>
                         </div>
 
-                          <div id="poster-sess" class="event">
+                          <div id="poster" class="event">
                             <div class="front">
                                 <h3>
                                     <i class="fas fa-newspaper"></i>
@@ -286,6 +286,10 @@
                 url: '#meetup',
                 class: 'meetup-entry'
             };
+            const POSTER_OPTIONS = {
+                url: '#poster',
+                class: 'poster-entry'
+            };
 
             let timetable = new Timetable();
 
@@ -297,7 +301,8 @@
                 'BC 129',
                 'BC 410',
                 'BC 420',
-                'BC HALL'
+                'BC HALL #1',
+                'BC HALL #2'
             ]);
 
             // ROOM #1 events
@@ -350,8 +355,11 @@
             timetable.addEvent('MT Video Games', room, date(15, 10), date(15, 40), MT_OPTIONS);
 
             // BC Hall events
-            room = 'BC HALL';
-            timetable.addEvent("Poster Session and Networking Lunch", room, date(11, 0), date(13, 30), LUNCH_OPTIONS);
+            room = 'BC HALL #1';
+            timetable.addEvent("Networking Lunch and Speed Dating", room, date(12, 0), date(13, 30), LUNCH_OPTIONS);
+
+            room = 'BC HALL #2';
+            timetable.addEvent("Poster Session", room, date(11, 0), date(13, 30), POSTER_OPTIONS);
 
             // Render timetable
             let renderer = new Timetable.Renderer(timetable);
