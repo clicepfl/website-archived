@@ -9,7 +9,7 @@ Une game jam est un hackathon avec pour thème principal les jeux vidéos, mais 
 Toute compétence utile à la création d’un jeu est la bienvenue. On peut citer non exhaustivement les gens ayant des compétences en game design, musique, sound design, dessin, 3D, programmation ou encore narration. Pour les moins à l’aise, l’entraide sera de mise et ce sera une excellente opportunité d’apprendre.
 
 **Comment je m’inscris ?** 
-Il suffit de cliquer sur le bouton « Join Jam » sur [notre site web](https://orbital-game-jam.ch). Une inscription ne vous garantit pas une place physique à l’EPFL. Nous enverrons un mail autour de mi-Février aux gens inscrites sur cette page avec les détails d’inscription finaux.
+Il suffit de cliquer sur le bouton « Join Jam » sur [notre site web](https://orbitalgamejam.ch). Une inscription ne vous garantit pas une place physique à l’EPFL. Nous enverrons un mail autour de mi-Février aux gens inscrites sur cette page avec les détails d’inscription finaux.
 
 **J'ai une question !**
-Les réponses aux questions les plus courantes sont sur notre site Internet, [notre site web](https://orbital-game-jam.ch). Sinon, tu peux aussi nous suivre sur les réseaux ci-dessous !
+Les réponses aux questions les plus courantes sont sur notre site Internet, [notre site web](https://orbitalgamejam.ch). Sinon, tu peux aussi nous suivre sur les réseaux ci-dessous !
