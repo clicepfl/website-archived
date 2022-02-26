@@ -7,7 +7,7 @@ On veille également à relayer des informations d’autres associations étudia
 Et enfin, si vous avez des questions ou besoin de quelque chose, c’est bien souvent les responsables communications que vous contactez : notre but est donc de vous aider du mieux que l’on peut !
 
 ## Comment est-ce qu’on communique ?
-Pour communiquer avec les étudiant.e.s de la Faculté IC on se charge de maintenir à jour plusieurs **réseaux sociaux** ! La CLIC compte dorénavant 6 réseaux : un compte Instagram, un channel Telegram, une page Facebook, un compte Twitter, un compte LinkedIn et bien sûr un super site web sur lequel vous êtes en train de lire ce texte ;)
+Pour communiquer avec les étudiant.e.s de la Faculté IC on se charge de maintenir à jour plusieurs **réseaux sociaux** ! La CLIC compte dorénavant 6 réseaux : un compte Instagram, un channel Telegram, un compte Twitter, un compte LinkedIn et bien sûr un super site web sur lequel vous êtes en train de lire ce texte ;)
 On vous envoie aussi des mails pour les plus grosses annonces.
 
 ## Qu’est-ce qu’on doit faire ?

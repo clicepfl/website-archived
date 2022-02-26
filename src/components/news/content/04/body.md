@@ -4,4 +4,4 @@ Il s’agit d’une occasion idéale pour faire des nouvelles connaissances entr
 
 La CLIC a également mis en place son traditionnel quiz avec 10 questions illustrant la faculté IC.
 
-De nombreuses photos ont été prises tout au long de la soirée. L'album photos se trouve sur [notre page Facebook](https://www.facebook.com/pg/clic.epfl/photos/?tab=album&album_id=2745069612203888)
+De nombreuses photos ont été prises tout au long de la soirée. L'album photos se trouvait sur notre page Facebook maintenant supprimée. [Contactez nous](mailto:clic@epfl.ch) si vous souhaitez consulter ces photos.
