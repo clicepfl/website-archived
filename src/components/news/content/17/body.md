@@ -6,4 +6,4 @@ Nous avons de plus présenté nos nouveaux et fameux règlements concernant nos 
 
 Dorénavant, et grâce à notre responsable et nos équipiers IT, vous avez la possibilité de retrouver les procès verbaux de notre Assemblée Générale Ordinaire ainsi que de nos nombreuses réunions hebdomadaires [sur notre site Web](https://clic.epfl.ch/nextcloud/index.php/s/xHQWCrPxAyFNsna).
 
-Grâce à Mallory Henriet, vous avez la possibilité de découvrir nos magnifiques photos prises lors de cette Assemblée Générale qui se trouvent dans [cet album Facebook](https://www.facebook.com/media/set/?set=a.3669929433051230&type=3).
+Grâce à Mallory Henriet, vous avez la possibilité de découvrir nos magnifiques photos prises lors de cette Assemblée Générale. L'album photos se trouvait sur notre page Facebook maintenant supprimée. [Contactez nous](mailto:clic@epfl.ch) si vous souhaitez consulter ces photos.
