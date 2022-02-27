@@ -129,10 +129,12 @@
 
                             <div class="details">
                                 <p>
-                                    From 12:00 to 13:30, take part in an informal lunch with alumni for free.
+                                    The event starts with a convivial Welcome coffee so you can start getting to know each other.
+                                    Then from 12:00 to 13:30, take part in an informal lunch with alumni for free.
                                     You will have the opportunity to ask any question to former students now working in the industry.
                                     This will be a standing lunch so that you can walk around and meet as many people as you wish.
                                     Note: to take part in this event, you must leave a 10CHF deposit that you will get back at the beginning of the lunch.
+                                    After the last talk, you are invited to our Aperitif which we believe will end the event on a pleasant note!
                                 </p>
                             </div>
                         </div>
@@ -276,10 +278,9 @@
                 url: '#mock',
                 class: 'mock-entry'
             };
-
-            const LUNCH_OPTIONS = {
+            const MEAL_OPTIONS = {
                 url: '#lunch',
-                class: 'lunch-entry'
+                class: 'meal-entry'
             };
             const MT_OPTIONS = {
                 url: '#mini-talk',
@@ -363,7 +364,9 @@
 
             // BC Hall events
             room = 'BC HALL #1';
-            timetable.addEvent("Networking Lunch and Speed Dating", room, date(12, 0), date(13, 30), LUNCH_OPTIONS);
+            timetable.addEvent("Welcome coffee", room, date(9, 0), date(9, 20), MEAL_OPTIONS);
+            timetable.addEvent("Networking Lunch and Speed Dating", room, date(12, 0), date(13, 30), MEAL_OPTIONS);
+            timetable.addEvent("Closing Aperitif", room, date(16, 20), date(17, 00), MEAL_OPTIONS);
 
             room = 'BC HALL #2';
             timetable.addEvent("Poster Session", room, date(11, 0), date(13, 30), POSTER_OPTIONS);
