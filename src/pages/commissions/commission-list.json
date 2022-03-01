@@ -8,70 +8,75 @@
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
-                "name": "Tom Demont",
-                "imageURL": "tomdemont.jpg",
-                "websiteURL": "https://people.epfl.ch/tom.demont",
+                "name": "Faourk Boukil",
+                "imageURL": "faroukboukil.jpg",
+                "websiteURL": "https://people.epfl.ch/farouk.boukil",
                 "role": "Président"
             },
             {
-                "name": "Maëlys Billon",
-                "imageURL": "maelysbillon.jpg",
-                "websiteURL": "https://people.epfl.ch/maelys.billon",
+                "name": "Nicolas Wagner",
+                "imageURL": "nicolas.wagner.jpg",
+                "websiteURL": "https://people.epfl.ch/nicolas.wagner",
                 "role": "Vice-présidente"
             },
             {
-                "name": "Alessio Verardo",
+                "name": "Juliette Parchet",
+                "imageURL": "julietteparchet.jpg",
+                "websiteURL": "https://people.epfl.ch/juliette.parchet",
+                "role": "Administratrice-Trésorière"
+            },
+            {
+                "name": "Iana Culic",
                 "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/alessio.verardo",
-                "role": "Administrateur-Trésorier"
+                "websiteURL": "https://people.epfl.ch/iana.culic",
+                "role": "Sponsoring"
             },
             {
-                "name": "Eloi Garandel",
+                "name": "Fouad Mahmoud",
+                "imageURL": "fouadmahmoud.jpg",
+                "websiteURL": "https://people.epfl.ch/fouad.mahmoud",
+                "role": "Sponsoring"
+            },
+            {
+                "name": "Emilien Duc",
                 "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/eloi.garandel",
-                "role": "Administrateur-Trésorier"
+                "websiteURL": "https://people.epfl.ch/emilien.duc",
+                "role": "Communication"
             },
             {
-                "name": "Louise Rieupouilh",
+                "name": "Lina Ber",
+                "imageURL": "linaber.jpg",
+                "websiteURL": "https://people.epfl.ch/lina.ber",
+                "role": "Communication"
+            },
+            {
+                "name": "Paul Oliver",
+                "imageURL": "pauloliver.jpg",
+                "websiteURL": "https://people.epfl.ch/paul.oliver",
+                "role": "Logistique"
+            },
+            {
+                "name": "Anas Hakim",
                 "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/louise.rieupouilh",
-                "role": "Responsable Communication"
+                "websiteURL": "https://people.epfl.ch/anas.hakim",
+                "role": "Logistique"
             },
             {
-                "name": "Kilian D'Eternod",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/kilian.deternod",
-                "role": "Responsable Sponsoring"
+                "name": "Andrea Gilot",
+                "imageURL": "andreagilot.jpg",
+                "websiteURL": "https://people.epfl.ch/andrea.gilot",
+                "role": "Logistique"
             },
             {
-                "name": "Elisa Bianchi",
-                "imageURL": "elisabianchi.jpg",
-                "websiteURL": "https://people.epfl.ch/elisa.bianchi",
-                "role": "Responsable Animations"
-            },
-            {
-                "name": "Elior Papiernik",
-                "imageURL": "eliorpapiernik.jpg",
-                "websiteURL": "https://people.epfl.ch/elior.papiernik",
-                "role": "Responsable Logistique"
-            },
-            {
-                "name": "Emmanuelle Denove",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/emmanuelle.denove",
-                "role": "Responsable Logement"
-            },
-            {
-                "name": "Florian Constantin",
-                "imageURL": "florianconstantin.jpg",
-                "websiteURL": "https://people.epfl.ch/florian.constantin",
-                "role": "Responsable Transport"
+                "name": "Christelle Lam",
+                "imageURL": "christellelam.jpg",
+                "websiteURL": "https://people.epfl.ch/christelle.lam",
+                "role": "Logistique"
             }
         ],
         "social": {
             "Instagram": "https://www.instagram.com/ictravel.clic/",
-            "Email": "mailto:ictravel.clic@epfl.ch",
-            "Formulaire": "https://go.epfl.ch/ICTravel2021Inscriptions"
+            "Email": "mailto:ictravel.clic@epfl.ch"
         }
     },
     {
