@@ -10,7 +10,7 @@ Chaque année nous organisons un voyage avec toutes les personnes en dernière a
 
 #### Où partons-nous ?
 
-Maintenant que le covid passe gentiment derrière nous, on peut enfin esperer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! 
+Maintenant que le Covid passe gentiment derrière nous, on peut enfin espérer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! 
 
 #### Activités
 
