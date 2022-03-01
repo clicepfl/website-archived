@@ -144,5 +144,47 @@
 		"shortText": "Etudiant.e en master, vous cherchez à bénéficier de l'exérience des alumni IC ? Inscrivez vous à ICBD !",
 		"moreInfoUrl": "/events/icbd",
 		"cancelled": false
+	},
+	{
+		"title": "Orbital Game Jam",
+		"organizer": {
+			"name": "OGJ",
+			"url": "https://orbitalgamejam.ch"
+		},
+		"time": "14h",
+		"place": {
+			"name": "Satellite",
+			"url": "https://satellite.bar"
+		},
+		"date": {
+			"day": 12,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/ogj22.png",
+		"shortText": "Viens créer un jeu en 24h ! Le weekend du 12 et 13 Mars, Sat est réservé pour l'Orbital Game Jam !",
+		"moreInfoUrl": "https://orbitalgamejam.ch",
+		"cancelled": false
+	},
+	{
+		"title": "PolyLAN 37",
+		"organizer": {
+			"name": "PolyLAN",
+			"url": "https://polylan.ch"
+		},
+		"time": "17h00",
+		"place": {
+			"name": "STCC",
+			"url": null
+		},
+		"date": {
+			"day": 15,
+			"month": 4,
+			"year": 2022
+		},
+		"image": "events/polylan_logo.png",
+		"shortText": "LAN de 1 000 personnes sur 4 jours, organisée par des étudiants de l'EPFL",
+		"moreInfoUrl": "https://polylan.ch",
+		"cancelled": false
 	}
 ]
