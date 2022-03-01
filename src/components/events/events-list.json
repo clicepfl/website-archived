@@ -144,5 +144,47 @@
 		"shortText": "Etudiant.e en master, vous cherchez à bénéficier de l'exérience des alumni IC ? Inscrivez vous à ICBD !",
 		"moreInfoUrl": "/events/icbd",
 		"cancelled": false
+	},
+	{
+		"title": "Orbital Game Jam",
+		"organizer": {
+			"name": "OGJ",
+			"url": "https://itch.io/jam/orbital-game-jam-4"
+		},
+		"time": "14h",
+		"place": {
+			"name": "Satellite",
+			"url": "https://satellite.bar"
+		},
+		"date": {
+			"day": 12,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/ogj22.png",
+		"shortText": "Viens créer un jeu en 24h ! Le weekend du 12 et 13 Mars, Sat est réservé pour l'Orbital Game Jam !",
+		"moreInfoUrl": "https://itch.io/jam/orbital-game-jam-4",
+		"cancelled": false
+	},
+	{
+		"title": "PolyLAN 37",
+		"organizer": {
+			"name": "PolyLAN",
+			"url": "https://polylan.ch"
+		},
+		"time": "17h00",
+		"place": {
+			"name": "STCC",
+			"url": "https://plan.epfl.ch/?dim_floor=1&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532938&map_y=1152803&map_zoom=10"
+		},
+		"date": {
+			"day": 15,
+			"month": 4,
+			"year": 2022
+		},
+		"image": "events/polylan_logo.png",
+		"shortText": "LAN de 1 000 personnes sur 4 jours, organisée par des étudiants de l'EPFL",
+		"moreInfoUrl": "https://polylan.ch",
+		"cancelled": false
 	}
 ]
