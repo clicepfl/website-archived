@@ -18,10 +18,6 @@ Nous préparons tout un éventail d'activités pour pouvoir profiter un maximum 
 
 Suivez-nous sur Instagram pour être au courant des futures updates [https://instagram.com/ictravel.clic](https://instagram.com/ictravel.clic). 📸 (si vous avez pas Instagram: [https://www.picuki.com/profile/ictravel.clic](https://www.picuki.com/profile/ictravel.clic))
 
-(On vous met quelques photos pour que vous compreniez bien où on veut en venir 👀)
-
-![caption](/commissions/ic-travel/URL.png) //TODO
-
 #### Inscriptions, prix & co
 
 Un voyage aussi cool, on imagine bien que tu te réjouis de réserver ta place ;). Les inscriptions ouvriront d'ici à quelques semaines. A ce moment là, tu pourras également prendre connaissance du prix maximum et des aides que la faculté offrira. Le prix final dépendra des sponsors et du nombre de participant·es et ne saura connu qu'après la fin des inscriptions.
