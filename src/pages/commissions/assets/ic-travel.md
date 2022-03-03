@@ -10,7 +10,7 @@ Chaque année nous organisons un voyage avec toutes les personnes en dernière a
 
 #### Où partons-nous ?
 
-Maintenant que le covid passe gentiment derrière nous, on peut enfin esperer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! 
+Maintenant que le Covid passe gentiment derrière nous, on peut enfin espérer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! 
 
 #### Activités
 
@@ -20,5 +20,5 @@ Suivez-nous sur Instagram pour être au courant des futures updates [https://ins
 
 #### Inscriptions, prix & co
 
-Un voyage aussi cool, on imagine bien que tu te réjouis de réserver ta place ;). Les inscriptions ouvriront d'ici à quelques semaines. A ce moment là, tu pourras également prendre connaissance du prix maximum et des aides que la faculté offrira. Le prix final dépendra des sponsors et du nombre de participant·es et ne saura connu qu'après la fin des inscriptions, voir du voyage. De ce fait, il te sera demandé de payer la totalité du voyage à l'avance. Puis, une fois que nous recevrons les remboursements de la faculté, tu recevras une partie, voir la totalité en retour.
+Un voyage aussi cool, on imagine bien que tu te réjouis de réserver ta place ;). Les inscriptions ouvriront d'ici à quelques semaines. A ce moment là, tu pourras également prendre connaissance du prix maximum et des aides que la Faculté offrira. Le prix final dépendra des sponsors et du nombre de participant·es et ne saura connu qu'après la fin des inscriptions, voir du voyage. De ce fait, il te sera demandé de payer la totalité du voyage à l'avance. Puis, une fois que nous recevrons les remboursements de la Faculté, tu recevras une partie, voir la totalité en retour.
 
