@@ -314,7 +314,7 @@
             };
             const MT_OPTIONS = {
                 url: '#mini-talk',
-                class: 'talk-entry'
+                class: 'mini-talk-entry'
             };
             const CV_OPTIONS = {
                 url: '#cv-corr',
@@ -331,8 +331,8 @@
 
             let timetable = new Timetable();
 
-            // Only display hours between 9 and 17
-            timetable.setScope(9, 17);
+            // Only display hours between 8 and 17
+            timetable.setScope(8, 17);
 
             timetable.addLocations([
                 'ROOM #1',
@@ -363,7 +363,7 @@
             eventName = "Mock Coding Interview"
             timetable.addEvent(eventName, room, date(9, 20), date(9, 55), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(10, 20), date(10, 55), MOCK_OPTIONS);
-            timetable.addEvent(eventName, room, date(11, 10), date(12, 45), MOCK_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 10), date(11, 45), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(13, 30), date(14, 05), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(14, 40), date(15, 15), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(15, 40), date(16, 15), MOCK_OPTIONS);
@@ -384,13 +384,13 @@
             });
             timetable.addEvent('MT Soft. Eng.', room, date(9, 20), date(9, 45), MT_OPTIONS);
             timetable.addEvent('MT Cyber Sec.', room, date(11, 30), date(11, 55), MT_OPTIONS);
-            timetable.addEvent('MT AI', room, date(14, 40), date(15, 05), MT_OPTIONS);
+            timetable.addEvent('MT AI', room, date(14, 40), date(15, 5), MT_OPTIONS);
 
 
             // BC 410 events
             room = 'BC 410';
             timetable.addEvent('MT Network', room, date(9, 50), date(10, 15), MT_OPTIONS);
-            timetable.addEvent('MT Distrib. Systems', room, date(11, 00), date(11, 25), MT_OPTIONS);
+            timetable.addEvent('MT Distrib. Systems', room, date(11, 0), date(11, 25), MT_OPTIONS);
             timetable.addEvent('MT Data Science', room, date(14, 10), date(14, 35), MT_OPTIONS);
             timetable.addEvent('MT Video Games', room, date(15, 10), date(15, 35), MT_OPTIONS);
 
