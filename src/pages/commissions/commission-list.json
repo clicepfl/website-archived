@@ -45,7 +45,7 @@
             },
             {
                 "name": "Lina Ber",
-                "imageURL": "linaber.jpg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/lina.ber",
                 "role": "Communication"
             },
