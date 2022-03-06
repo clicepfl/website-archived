@@ -33,7 +33,7 @@
             },
             {
                 "name": "Fouad Mahmoud",
-                "imageURL": "fouadmahmoud.jpg",
+                "imageURL": "../ic-travel.svg",
                 "websiteURL": "https://people.epfl.ch/fouad.mahmoud",
                 "role": "Sponsoring"
             },
