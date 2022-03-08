@@ -182,7 +182,7 @@
 			"month": 4,
 			"year": 2022
 		},
-		"image": "events/polylan_logo.png",
+		"image": "/events/polylan_logo.png",
 		"shortText": "LAN de 1 000 personnes sur 4 jours, organisée par des étudiants de l'EPFL",
 		"moreInfoUrl": "https://polylan.ch",
 		"cancelled": false
@@ -203,9 +203,9 @@
 			"month": 3,
 			"year": 2022
 		},
-		"image": "events/default_event.png",
+		"image": "/events/default_event.png",
 		"shortText": "",
-		"moreInfoUrl": "",
+		"moreInfoUrl": "/events#clicoaching",
 		"cancelled": false
 	},
 	{
@@ -226,7 +226,7 @@
 		},
 		"image": "/events/sdf21.png",
 		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
-		"moreInfoUrl": "",
+		"moreInfoUrl": "/events#sdf",
 		"cancelled": false
 	},
 	{
@@ -245,9 +245,9 @@
 			"month": 3,
 			"year": 2022
 		},
-		"image": "/events/default_event.png",
-		"shortText": "",
-		"moreInfoUrl": "",
+		"image": "/events/janestreet.png",
+		"shortText": "Jane Street vient sur le campus de l'EPFL pour organiser un événement qui risque d'intéresser plus d'un.e d'entre vous !",
+		"moreInfoUrl": "/news/36",
 		"cancelled": false
 	}
 ]
