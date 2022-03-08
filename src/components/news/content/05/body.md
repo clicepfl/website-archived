@@ -2,4 +2,4 @@ La section IC de l'EPFL ayant accueilli un très grand nombre de nouveaux étudi
 
 De plus, après une séance d’examens plutôt intense pour la majorité des étudiants, le comité CLIC et ses équipiers se sont monbilisés pour préparer une bonne soupe à la courge en début de soirée, avec les courges qui ont décorer notre bibliothèque pendant la période d'Halloween ! Puis quoi de mieux que de la bière et de la sangria pour désaltérer tout ce monde !
 
-De nombreuses photos ont été prises tout au long de la soirée par Mallory Henriet. L'album photos se trouve sur [notre page Facebook](https://www.facebook.com/pg/clic.epfl/photos/?tab=album&album_id=2800334960010686)
+De nombreuses photos ont été prises tout au long de la soirée par Mallory Henriet. L'album photos se trouvait sur notre page Facebook maintenant supprimée. [Contactez nous](mailto:clic@epfl.ch) si vous souhaitez consulter ces photos.
