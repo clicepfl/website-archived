@@ -50,4 +50,4 @@ Quand tout ça sera fait, tu seras prêt.e à embarquer 🛫!
 
 #### Calendrier du voyage
 
-<iframe width="100%" height="500" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/q4GrWAHwfZFZC7P2"></iframe>
+<iframe width="100%" height="600" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/q4GrWAHwfZFZC7P2"></iframe>
