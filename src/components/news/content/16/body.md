@@ -4,6 +4,4 @@ Ainsi notre Faculté a vu naître "Hello World - Les Welcome Games IC" ! Plus de
 
 Loup-Garou, Mario Kart, Just Dance, Juste Prix, Fléchettes, Burger quiz, Course de Vélo, ou encore Game design, de nombreux stands ont été tenus rien que pour nos étudiant.e.s par la CLIC et ses commissions Game*, Orbital Game Jam ainsi qu'IC Travel.
 
-Vous pourrez découvrir de nombreuses photos prises par nos fameuses photographes dans les albums suivants:
-* [Photos prises par Mallory Henriet et Marine Bossanne](https://www.facebook.com/media/set/?set=a.3669908179720022&type=3)
-* [Photos prises par Jessica Chautems](https://www.facebook.com/media/set/?set=a.3669915779719262&type=3)
+L'album photos se trouvait sur notre page Facebook maintenant supprimée. [Contactez nous](mailto:clic@epfl.ch) si vous souhaitez consulter ces photos.
