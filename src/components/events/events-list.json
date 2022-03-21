@@ -203,9 +203,9 @@
 			"month": 3,
 			"year": 2022
 		},
-		"image": "/events/default_event.png",
-		"shortText": "",
-		"moreInfoUrl": "/events#clicoaching",
+		"image": "/events/clicoaching.png",
+		"shortText": "Organisé par la CLIC et le Coaching IC, c'est une soirée qui se présente comme un tournoi de mini-jeux en équipes avec à la clef toutes sortes de lots !",
+		"moreInfoUrl": "/news/37",
 		"cancelled": false
 	},
 	{
