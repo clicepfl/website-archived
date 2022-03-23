@@ -5,4 +5,4 @@ Les meilleures équipes du tour de qualification en ligne seront invitées aux f
 
 L'EPFL a été l'un des hubs de cet événement, et CLIC l'a hébérgé dans le Hall du BC de 18h30 à 22h30. Une distributuon de snacks et de boissons a eu lieu tout au long de l'événement afin de garantir un bon esprit et une concentration exceptionnelle de nos participants.
 
-De nombreuses photos ont également été prises tout au long de la soirée par Marine Bossanne. L'album photos se trouve sur [notre page Facebook](https://www.facebook.com/pg/clic.epfl/photos/?tab=album&album_id=3049248241786022)
+De nombreuses photos ont également été prises tout au long de la soirée par Marine Bossanne. L'album photos se trouvait sur notre page Facebook maintenant supprimée. [Contactez nous](mailto:clic@epfl.ch) si vous souhaitez consulter ces photos.

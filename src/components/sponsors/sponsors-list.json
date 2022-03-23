@@ -1,5 +1,17 @@
 [
     {
+        "name": "Faculté IC",
+        "websiteURL": "https://www.epfl.ch/schools/ic/fr",
+        "imageURL": "/sponsors/faculte_ic.jpg",
+        "imageStyles": null,
+        "tier": "subventions",
+        "expiration": {
+            "year": 2042,
+            "month": 12,
+            "day": 15
+        }
+    },
+    {
         "name": "Swissquote",
         "websiteURL": "https://en.swissquote.com/company/jobs",
         "imageURL": "/sponsors/swissquote.png",
