@@ -6,13 +6,17 @@
  */
 import { Page } from '../../page'
 import { Request, Response } from 'express'
+import { Staff } from '../../../components/committee/committee'
+import data from './icbd-speakers.json'
 
 /**
  * View model that binds the data to the template for the icbd page
  * Properties of this class are directly used in template {@link
  * icbd-page-view.njk}
  */
-class IcbdPageViewModel { }
+class IcbdPageViewModel {
+    speakersList: Staff[] = data.map(Staff.fromAny)
+}
 
 /**
  * ICBD page class, defines actions for the ICBD page
