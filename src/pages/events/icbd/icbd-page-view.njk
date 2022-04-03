@@ -8,6 +8,7 @@
     @author Alexandre CHAU
 #}
 {% import "components/base-view.njk" as base %}
+{% import "components/committee/committee-view.njk" as committee %}
 
 <!DOCTYPE html>
 <html>
@@ -62,25 +63,10 @@
 
                     <p class="center-text registration">
                         {# <a href="https://go.epfl.ch/ICBD_Registration" target="_blank"> #}
-                            Registrations open soon ...
+                            Registrations open soon...
                             {# <i class="fas fa-arrow-right"></i>
                         </a> #}
                     </p>
-
-                    <div class="sponsors">
-                        <a href="https://clic.epfl.ch">
-                            <img src="/img/logo.png" alt="clic">
-                        </a>
-                        <a href="https://www.epfl.ch">
-                            <img src="/img/epfl.png" alt="epfl">
-                        </a>
-                        <a href="https://www.epfl.ch/campus/associations/list/epic">
-                            <img src="/img/epic.png" alt="epic">
-                        </a>
-                        <a href="https://www.epfl.ch/schools/ic/">
-                            <img src="/img/icbd/faculty_ic_20_years.jpg" alt="faculté ic">
-                        </a>
-                    </div>
                 </div>
                 <!-- content -->
             </div>
@@ -89,6 +75,51 @@
         <!-- wrapper -->
 
         <div class="wrapper bg-orange">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="sponsors">
+                        <a href="https://clic.epfl.ch">
+                        <img src="/img/logo_black.png" alt="clic">
+                        </a>
+                        <a href="https://www.epfl.ch">
+                            <img src="/img/epfl.png" alt="epfl">
+                        </a>
+                    </div>
+                    <div class="sponsors">
+                        <a href="https://www.epfl.ch/campus/associations/list/epic">
+                            <img src="/img/epic_alpha.png" alt="epic">
+                        </a>
+                        <a href="https://www.epfl.ch/schools/ic/">
+                            <img src="/img/faculty_ic_20_years_alpha.png" alt="faculté ic">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Alumni</h1>
+                    <h3>Speakers present at the event</h3>
+                    <div class="pole">
+                        {% for member in speakersList %}
+                            <a href="{{member.websiteURL}}" target="_blank">
+                                <div class="member">
+                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{member.name}}</p>
+                                        <p class="role">{{member.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-orange-gradient">
             <div class="center">
                 <div class="content padded-40 planning">
                     <h1>Activities</h1>
@@ -105,7 +136,7 @@
                                     You have spent years studying the ins and outs of computer science and coding interviews may very well 
                                     be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
                                     it would be beneficial for you to practice and get advice directly from the people who run them! Register 
-                                    for this activity and let IC alumni from [TBD], [TBD] or [TBD] help you sharpen your abilities. Note that 
+                                    for this activity and let IC alumni from Oracle, [TBD] or [TBD] help you sharpen your abilities. Note that 
                                     there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
                                 </p>
                             </div>
@@ -141,7 +172,7 @@
                             <div class="details">
                                 <p>
                                     From 12:00 to 13:30, take part for free in an informal lunch with alumni and seize this opportunity 
-                                    to ask them any question you’d like! This will be a standing lunch so that you can walk around and 
+                                    to ask them any question you'd like! This will be a standing lunch so that you can walk around and 
                                     meet as many people as you wish. And because we want you to be as prepared as you could be after your 
                                     Master, a speed-dating will be organized towards the end of the lunch in which you will have a few 
                                     minutes to convince an alumnus to hire you. <br>
@@ -161,7 +192,7 @@
                             <div class="details">
                                 <p>
                                     Have you ever wondered what concrete projects the IC labs are working on ? Are you interested in pursuing 
-                                    a more research-oriented career after your Master but you are unsure which lab to join ? Then take advantage 
+                                    a more research-oriented career after your Master or looking for an academic project but you are unsure which lab to join ? Then take advantage 
                                     of the Poster Session, co-organized with EPIC, and have a chat with the numerous PhDs who will be here to showcase 
                                     their work! This activity will be held around lunch time and you will be free to roam around.
 
@@ -197,8 +228,8 @@
                             <div class="details">
                                 <h4>The keys to accomplish a successful internship</h4>
                                 <p>
-                                    You can’t escape it : the industry internship is an important part of your cursus and many IC students will also choose 
-                                    to do their Master thesis during this internship. Meet [TBD], our guest for this talk who will tell you about what behavior 
+                                    You can't escape it : the industry internship is an important part of your cursus and many IC students will also choose 
+                                    to do their Master thesis during this internship. Meet Franck Youssef, our guest for this talk who will tell you about what behavior 
                                     you should adopt during your internship, how it is a great opportunity for you to expand your network and more broadly 
                                     speaking, how to make the most out of this experience.
                                 </p>
@@ -232,13 +263,13 @@
                             </div>
 
                             <div class="details">
-                                <h4>Various fields</h4>
+                                <h4>What does a career in your dream field look like?</h4>
                                 <p>
                                     Data Science, Cyber Security, Software Engineering… These are all broad IT fields you have heard about but perhaps you would 
                                     like to have a more concrete understanding of what the daily life of an engineer in such domains is like. During this activity, 
                                     several alumni working in the same field will come to give a quick overview of a project they worked on before discussing their 
                                     daily routine and give you insights on what your future work life may look like. We will host alumni working in domains such 
-                                    as Data Science, Networks, Cybersecurity, Distributed Systems, Software Engineering, Video Games and Artificial Intelligence!
+                                    as Data Science, Networks, Cybersecurity, Software Engineering, Video Games and Artificial Intelligence!
                                 </p>
                             </div>
                         </div>
@@ -255,8 +286,8 @@
                                     It will soon be the time for you to dive into the working world but you perhaps have a few concerns or questions. This is why we 
                                     are inviting alumni to talk about their own experience on diverse subjects. This discussion-oriented activity will allow you to 
                                     engage in interesting conversations with alumni who already went through some of your interrogations and have great insights about them. 
-                                    The featured subjects are : “Master is done, what now ? Research, industry, both ?”, “What does it mean to work in the IT field as a 
-                                    woman ?”, “Should I aim for a more sustainable company and if so, what is it like ?”, “What is it like to work in big-tech 
+                                    The featured subjects are : “Master completed, what now ? Research, industry, both ?”, “What is it like to work in the IT field as a 
+                                    woman ?”, “Should I aim for a more ethical company and if so, what are they like ?”, “What is it like to work in big-tech 
                                     companies such as the GAFAS ?” and finally, “How about working in a start-up?”.
                                 </p>
                             </div>
@@ -370,37 +401,38 @@
 
             // BC 420 events
             room = 'BC 420';
-            timetable.addEvent("TALK Throwback 10 years later", room, date(16, 20), date(17, 05), {
+            timetable.addEvent("Throwback 10 years later", room, date(16, 20), date(17, 05), {
                 class: 'talk-entry',
                 url: '#10years-talk'
             });
-            timetable.addEvent('TALK How to get familiar with a large codebase', room, date(10, 30), date(11, 15), {
+            timetable.addEvent('How to get familiar with a large codebase', room, date(10, 30), date(11, 15), {
                 class: 'talk-entry',
                 url: '#codebase-talk'
             });
-            timetable.addEvent('TALK The keys to a successful internship', room, date(13, 30), date(14, 15), {
+            timetable.addEvent('The keys to a successful internship', room, date(13, 30), date(14, 15), {
                 class: 'talk-entry',
                 url: '#internship-talk'
             });
 
-            timetable.addEvent('MT Soft. Eng.', room, date(9, 10), date(9, 45), MT_OPTIONS);
-            timetable.addEvent('MT AI', room, date(15, 0), date(15, 35), MT_OPTIONS);
+            timetable.addEvent('Soft. Eng.', room, date(9, 10), date(9, 45), MT_OPTIONS);
+            timetable.addEvent('Video Games', room, date(15, 00), date(15, 35), MT_OPTIONS);
 
 
             // BC 02 events
             room = 'BC 02';
-            timetable.addEvent('MT Network', room, date(9, 50), date(10, 25), MT_OPTIONS);
-            timetable.addEvent('MT Cyber Sec.', room, date(11, 20), date(11, 55), MT_OPTIONS);
+            timetable.addEvent('Network', room, date(15, 40), date(16, 15), MT_OPTIONS);
+            timetable.addEvent('Cyber Sec.', room, date(11, 20), date(11, 55), MT_OPTIONS);
             
             
             // BC 04 events
             room = 'BC 04';
-            timetable.addEvent('MT Data Science', room, date(14, 20), date(14, 55), MT_OPTIONS);
-            timetable.addEvent('MT Video Games', room, date(15, 40), date(16, 15), MT_OPTIONS);
+            timetable.addEvent('Data Science', room, date(9, 50), date(10, 25), MT_OPTIONS);
+            timetable.addEvent('AI', room, date(14, 20), date(14, 55), MT_OPTIONS);
+            
 
             // BC Hall events
             room = 'BC HALL #1';
-            timetable.addEvent("Welcome coffee (alumni)", room, date(8, 10), date(9, 0), MEAL_OPTIONS);
+            timetable.addEvent("Welcome coffee (for alumni)", room, date(8, 10), date(9, 0), MEAL_OPTIONS);
             timetable.addEvent("Networking Lunch and Speed Dating", room, date(12, 0), date(13, 30), MEAL_OPTIONS);
             timetable.addEvent("Closing Aperitif", room, date(17, 0), date(18, 0), MEAL_OPTIONS);
 

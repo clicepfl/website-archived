@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Joël Theytaz",
+        "role": "Elca Informatique",
+        "imageURL": "/events/JoelTheytaz.jpg",
+        "websiteURL": "https://www.linkedin.com/in/theytaz-joel/"
+    },
+    {
+        "name": "Matthieu Rudelle",
+        "role": "Artmyn",
+        "imageURL": "/events/MatthieuRudelle.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mrudelle/"
+    },
+    {
+        "name": "Doga Tekin",
+        "role": "Oracle",
+        "imageURL": "/events/DogaTekin.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dogatekin/"
+    },
+    {
+        "name": "Benjamin D'Incau",
+        "role": "Procter & Gamble",
+        "imageURL": "/events/BenjaminDIncau.jpg",
+        "websiteURL": "https://www.linkedin.com/in/benjamindincau/"
+    },
+    {
+        "name": "Elio Abi Karam",
+        "role": "Swisscom",
+        "imageURL": "/events/ElioAbiKaram.jpg",
+        "websiteURL": "https://www.linkedin.com/in/elioabikaram/"
+    },
+    {
+        "name": "Mohamad Dia",
+        "role": "CSEM",
+        "imageURL": "/events/MohamadDia.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mohamad-dia-3ab57896/"
+    },
+    {
+        "name": "Sidney Bovet",
+        "role": "Logitech",
+        "imageURL": "/events/SidneyBovet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sidney-bovet-1275616b/"
+    },
+    {
+        "name": "Alexandre Chappuis",
+        "role": "TPF",
+        "imageURL": "/img/logo_square_black.png",
+        "websiteURL": null
+    },
+    {
+        "name": "Lionel Martin",
+        "role": "Arcanite",
+        "imageURL": "/events/LionelMartin.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lionel-martin-081a8b35/"
+    },
+    {
+        "name": "Franck Youssef",
+        "role": "Accenture",
+        "imageURL": "/events/FranckYoussef.jpg",
+        "websiteURL": "https://www.linkedin.com/in/franckyoussef/"
+    },
+    {
+        "name": "Sofia Kypraiou",
+        "role": "Women at the Table",
+        "imageURL": "/events/SofiaKypraiou.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sofia-kypraiou/"
+    },
+    {
+        "name": "Martin Galanthay",
+        "role": "CICR",
+        "imageURL": "/events/MartinGalanthay.jpg",
+        "websiteURL": "https://www.linkedin.com/in/m%C3%A1rton-gal%C3%A1nthay-644640/"
+    },
+    {
+        "name": "Sabrine Boumelala",
+        "role": "Deloitte",
+        "imageURL": "/events/SabrineBoumelala.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sabrine-boumelala/"
+    },
+    {
+        "name": "Loïc Gardiol",
+        "role": "PocketCampus",
+        "imageURL": "/events/LoicGardiol.jpg",
+        "websiteURL": "https://www.linkedin.com/in/loicgardiol/"
+    },
+    {
+        "name": "Timon Zimmermann",
+        "role": "Visium",
+        "imageURL": "/events/TimonZimmermann.jpg",
+        "websiteURL": "https://www.linkedin.com/in/timon-zimmermann/"
+    }
+]
