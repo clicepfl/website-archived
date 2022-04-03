@@ -10,7 +10,7 @@ Chaque année, nous organisons un voyage avec toutes les personnes en dernière 
 
 #### Où partons-nous ?
 
-Maintenant que le Covid passe gentiment derrière nous, on peut enfin espérer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! 
+Maintenant que le Covid passe gentiment derrière nous, on peut enfin espérer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! Le voyage se déroulera du 6 au 13 septembre.
 
 #### Activités
 
@@ -40,12 +40,12 @@ Maintenant, pour ce qui est du paiement, il va falloir prendre en compte plusieu
 
 #### Jusqu’à quand est-il possible de s’inscrire ?
 
-Les inscriptions sont ouvertes entre maintenant là tout de suite (enfin sauf si c’est après la fin) et **_le 01/04/2022_**. Parce que c'est compliqué de prendre l'avion à 250, **les places sont limitées**, premier·ère arrivé·e, premier·ère servi·e ! Nous fermerons les inscriptions dès que nous aurons atteint la limite.
+Les inscriptions sont ouvertes entre maintenant là tout de suite (enfin sauf si c’est après la fin) et **_le 08/04/2022_**. Parce que c'est compliqué de prendre l'avion à 250, **les places sont limitées**, premier·ère arrivé·e, premier·ère servi·e ! Nous fermerons les inscriptions dès que nous aurons atteint la limite.
 
 #### Validation de l'inscription ####
 
 Normalement si tu as tout lu au-dessus tu sais déjà ce qu’on va te dire, mais aller on  le remet quand même. Pour s’inscrire au voyage il faut :
-* Remplir le [formulaire](https://go.epfl.ch/ICTravel2022Inscriptions) avant le **_01/04/2022_**. 
+* Remplir le [formulaire](https://go.epfl.ch/ICTravel2022Inscriptions) avant le **_08/04/2022_**. 
 * Faire un virement de CHF 200 .- au compte dont les informations sont en bas du formulaire.
 
 Quand tout ça sera fait, tu seras prêt.e à embarquer 🛫! 
