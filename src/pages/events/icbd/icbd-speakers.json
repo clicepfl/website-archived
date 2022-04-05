@@ -32,8 +32,8 @@
     {
         "name": "Alexandre Chappuis",
         "role": "TPF",
-        "imageURL": "/img/logo_square_black.png",
-        "websiteURL": null
+        "imageURL": "/events/AlexandreChappuis.jpg",
+        "websiteURL": "https://www.linkedin.com/in/alexandrechappuis/?originalSubdomain=ch"
     },
     {
         "name": "Lionel Martin",
@@ -54,9 +54,9 @@
         "websiteURL": "https://www.linkedin.com/in/sofia-kypraiou/"
     },
     {
-        "name": "Martin Galanthay",
+        "name": "Márton Galánthay",
         "role": "CICR",
-        "imageURL": "/events/MartinGalanthay.jpg",
+        "imageURL": "/events/MartonGalanthay.jpg",
         "websiteURL": "https://www.linkedin.com/in/m%C3%A1rton-gal%C3%A1nthay-644640/"
     },
     {
@@ -76,5 +76,11 @@
         "role": "Visium",
         "imageURL": "/events/TimonZimmermann.jpg",
         "websiteURL": "https://www.linkedin.com/in/timon-zimmermann/"
+    },
+    {
+        "name": "Alexandre Margot",
+        "role": "Peerdom",
+        "imageURL": "/events/AlexandreMargot.jpg",
+        "websiteURL": "https://www.linkedin.com/in/alexmargot/?originalSubdomain=ch"
     }
 ]
