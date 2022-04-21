@@ -105,7 +105,7 @@
                     <div class="pole">
                         {% for member in speakersList %}
                             <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member">
+                                <div class="member" id="{{member.name}}">
                                     <img src="{{member.imageURL}}" alt="{{member.name}}"/>
                                     <div class="desc">
                                         <p class="name">{{member.name}}</p>
@@ -210,7 +210,7 @@
                             <div class="details">
                                 <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
                                 <p>
-                                    Come and meet Alexandre Margot, an alumnus who finished their master at EPFL more than 10 years ago. What did they learn during 
+                                    Come and meet <a href="#Alexandre Margot">Alexandre Margot</a>, an alumnus who finished their master at EPFL more than 10 years ago. What did they learn during 
                                     their time in the industry? What do they wish they would have learned while at EPFL? What’s the situation now? Come 
                                     listen to their experience in this nostalgic (for them) yet insightful (for you) talk. And to end the day on a high 
                                     note, an <i>apero</i> will take place in BC right after this huge talk!
@@ -229,7 +229,7 @@
                                 <h4>The keys to accomplish a successful internship</h4>
                                 <p>
                                     You can't escape it : the industry internship is an important part of your cursus and many IC students will also choose 
-                                    to do their Master thesis during this internship. Meet Franck Youssef, our guest for this talk who will tell you about what behavior 
+                                    to do their Master thesis during this internship. Meet <a href="#Franck Youssef">Franck Youssef</a>, our guest for this talk who will tell you about what behavior 
                                     you should adopt during your internship, how it is a great opportunity for you to expand your network and more broadly 
                                     speaking, how to make the most out of this experience.
                                 </p>
