@@ -7,7 +7,8 @@
 import { Page } from '../../page'
 import { Request, Response } from 'express'
 import { Staff } from '../../../components/committee/committee'
-import data from './icbd-speakers.json'
+import data_speaker_alumni from './icbd-speakers.json'
+import data_speaker_labos from './icbd-labos.json'
 
 /**
  * View model that binds the data to the template for the icbd page
@@ -15,7 +16,8 @@ import data from './icbd-speakers.json'
  * icbd-page-view.njk}
  */
 class IcbdPageViewModel {
-    speakersList: Staff[] = data.map(Staff.fromAny)
+    speakersAlumniList: Staff[] = data_speaker_alumni.map(Staff.fromAny)
+    speakersLabosList: Staff[] = data_speaker_labos.map(Staff.fromAny)
 }
 
 /**
