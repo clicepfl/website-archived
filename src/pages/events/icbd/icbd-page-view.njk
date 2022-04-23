@@ -103,9 +103,24 @@
                     <h1>Alumni</h1>
                     <h3>Speakers present at the event</h3>
                     <div class="pole">
-                        {% for member in speakersList %}
+                        {% for member in speakersAlumniList %}
                             <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member">
+                                <div class="member" id="{{member.name}}">
+                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{member.name}}</p>
+                                        <p class="role">{{member.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                    <h1>PhD Students</h1>
+                    <h3>Presenter of IC labs' work during poster session</h3>
+                    <div class="pole">
+                        {% for member in speakersLabosList %}
+                            <a href="{{member.websiteURL}}" target="_blank">
+                                <div class="member" id="{{member.name}}">
                                     <img src="{{member.imageURL}}" alt="{{member.name}}"/>
                                     <div class="desc">
                                         <p class="name">{{member.name}}</p>
@@ -136,7 +151,7 @@
                                     You have spent years studying the ins and outs of computer science and coding interviews may very well 
                                     be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
                                     it would be beneficial for you to practice and get advice directly from the people who run them! Register 
-                                    for this activity and let IC alumni from Oracle, [TBD] or [TBD] help you sharpen your abilities. Note that 
+                                    for this activity and let IC alumni from Oracle Labs, AdNovum or [TBD] help you sharpen your abilities. Note that 
                                     there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
                                 </p>
                             </div>
@@ -210,7 +225,7 @@
                             <div class="details">
                                 <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
                                 <p>
-                                    Come and meet [TBD], an alumnus who finished their master at EPFL more than 10 years ago. What did they learn during 
+                                    Come and meet <a href="#Alexandre Margot">Alexandre Margot</a>, an alumnus who finished their master at EPFL more than 10 years ago. What did they learn during 
                                     their time in the industry? What do they wish they would have learned while at EPFL? What’s the situation now? Come 
                                     listen to their experience in this nostalgic (for them) yet insightful (for you) talk. And to end the day on a high 
                                     note, an <i>apero</i> will take place in BC right after this huge talk!
@@ -229,7 +244,7 @@
                                 <h4>The keys to accomplish a successful internship</h4>
                                 <p>
                                     You can't escape it : the industry internship is an important part of your cursus and many IC students will also choose 
-                                    to do their Master thesis during this internship. Meet Franck Youssef, our guest for this talk who will tell you about what behavior 
+                                    to do their Master thesis during this internship. Meet <a href="#Franck Youssef">Franck Youssef</a>, our guest for this talk who will tell you about what behavior 
                                     you should adopt during your internship, how it is a great opportunity for you to expand your network and more broadly 
                                     speaking, how to make the most out of this experience.
                                 </p>
