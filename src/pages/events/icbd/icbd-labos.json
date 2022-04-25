@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Ekaterina Svikhnushina",
+        "role": "Human-Computer Interaction Group",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/292820.jpg?ts=1650570064",
+        "websiteURL": "https://people.epfl.ch/ekaterina.svikhnushina"
+    },
+    {
+        "name": "Mahsa Forouzesh",
+        "role": "INDY2",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279301.jpg?ts=1650570413",
+        "websiteURL": "https://people.epfl.ch/mahsa.forouzesh"
+    },
+    {
+        "name": "Akhil Arora",
+        "role": "DLAB",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279798.jpg?ts=1650570494",
+        "websiteURL": "https://people.epfl.ch/akhil.arora"
+    },
+    {
+        "name": "Periklis Chrysogelos",
+        "role": "DIAS",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/267208.jpg?ts=1650570547",
+        "websiteURL": "https://people.epfl.ch/periklis.chrysogelos"
+    },
+    {
+        "name": "Tuğrulcan Elmas",
+        "role": "LSIR",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279685.jpg?ts=1650570621",
+        "websiteURL": "https://people.epfl.ch/tugrulcan.elmas"
+    },
+    {
+        "name": "Arnout Devos",
+        "role": "INDY1",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/249067.jpg?ts=1650570690",
+        "websiteURL": "https://people.epfl.ch/arnout.devos"
+    },
+    {
+        "name": "Haoqiong Bian",
+        "role": "DIAS",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/325550.jpg?ts=1650570750",
+        "websiteURL": "https://people.epfl.ch/haoqiong.bian"
+    },
+    {
+        "name": "Vinitra Swamy",
+        "role": "MLO / ML4ED",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/323195.jpg?ts=1650570800",
+        "websiteURL": "https://people.epfl.ch/vinitra.swamy"
+    },
+    {
+        "name": "Utku Norman",
+        "role": "CHILI",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/292915.jpg?ts=1650570872",
+        "websiteURL": "https://people.epfl.ch/utku.norman"
+    },
+    {
+        "name": "Lê Nguyên Hoang",
+        "role": "DCL",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/200907.jpg?ts=1650570924",
+        "websiteURL": "https://people.epfl.ch/le.hoang"
+    },
+    {
+        "name": "Xinrui Jia",
+        "role": "THL2",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/276997.jpg?ts=1650570993",
+        "websiteURL": "https://people.epfl.ch/xinrui.jia"
+    },
+    {
+        "name": "Rob Mills",
+        "role": "MOBOTS",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://people.epfl.ch/rob.mills"
+    },
+    {
+        "name": "Kasra Edalatnejad",
+        "role": "Spring",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/284678.jpg?ts=1650571188",
+        "websiteURL": "https://people.epfl.ch/kasra.edalat"
+    }
+]
