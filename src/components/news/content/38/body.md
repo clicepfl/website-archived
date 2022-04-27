@@ -25,7 +25,7 @@ Salade de fruits <br>
 🪙 Prix: 10.- en liquide** *(12.- après le 9 mai)* à remettre à CLIC en allant s’inscrire
 
 **Pour s’inscrire:**
-- Ce jeudi 28 et ce vendredi 29 de 12h à 14h dans le hall INM.
+- Ce jeudi 28/04 et ce vendredi 29/04 de 12h à 14h dans le hall INM.
 - Puis tous les jours au bureau de la CLIC (INN132).
 
 <br>
