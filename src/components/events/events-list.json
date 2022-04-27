@@ -249,5 +249,26 @@
 		"shortText": "Jane Street vient sur le campus de l'EPFL pour organiser un événement qui risque d'intéresser plus d'un.e d'entre vous !",
 		"moreInfoUrl": "/news/36",
 		"cancelled": false
+	},
+	{
+		"title": "Assemblée Générale Ordinaire de Printemps",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "INM202",
+			"url": "https://plan.epfl.ch/?dim_floor=2&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&baselayer_ref=grp_backgrounds&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&map_x=2532818&map_y=1152278&map_zoom=13"
+		},
+		"date": {
+			"day": 23,
+			"month": 5,
+			"year": 2022
+		},
+		"image": null,
+		"shortText": "Vous voulez vous présenter en Comité CLIC ? Vous êtes intéréssé.e de rejoindre une de nos équipes ou Commissions ? Ou passer voir nos activités et perspectives ? Venez à l'AG !",
+		"moreInfoUrl": "/about",
+		"cancelled": false
 	}
 ]
