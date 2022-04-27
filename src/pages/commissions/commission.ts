@@ -3,7 +3,6 @@ import path from 'path'
 import showdown from 'showdown'
 import data from './commission-list.json'
 import { logger } from '../../logger'
-import { fstat } from 'fs'
 
 /**
  * Commission content path

@@ -102,5 +102,173 @@
 		"shortText": "Le retour du weekend ski ! Organisé par le Coaching IC du 11 au 13 mars",
 		"moreInfoUrl": "https://weskic.agepoly.ch",
 		"cancelled": false
+	},
+	{
+		"title": "Google Hash Code",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/events#hashcode"
+		},
+		"time": "18h30",
+		"place": {
+			"name": "BC 05-06",
+			"url": "https://plan.epfl.ch/?room=%3DBC%2005&dim_floor=0&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&baselayer_ref=grp_backgrounds&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&map_x=2532710&map_y=1152305&map_zoom=14"
+		},
+		"date": {
+			"day": 24,
+			"month": 2,
+			"year": 2022
+		},
+		"image": "/events/hashcode.png",
+		"shortText": "Google Hash Code, l'annuelle compétition de code. Rejoignez le Hub CLIC !",
+		"moreInfoUrl": "/news/35",
+		"cancelled": false
+	},
+	{
+		"title": "IC Boost Day",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/events#icbd"
+		},
+		"time": "9h-17h",
+		"place": {
+			"name": "Bâtiment BC",
+			"url": "https://plan.epfl.ch/?room=%3DBC%20094.6&dim_floor=0&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&baselayer_ref=grp_backgrounds&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&map_x=2532723&map_y=1152291&map_zoom=12"
+		},
+		"date": {
+			"day": 4,
+			"month": 5,
+			"year": 2022
+		},
+		"image": "/events/icbd.png",
+		"shortText": "Etudiant.e en master, vous cherchez à bénéficier de l'exérience des alumni IC ? Inscrivez vous à ICBD !",
+		"moreInfoUrl": "/events/icbd",
+		"cancelled": false
+	},
+	{
+		"title": "Orbital Game Jam",
+		"organizer": {
+			"name": "OGJ",
+			"url": "https://itch.io/jam/orbital-game-jam-4"
+		},
+		"time": "14h00",
+		"place": {
+			"name": "Satellite",
+			"url": "https://satellite.bar"
+		},
+		"date": {
+			"day": 12,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/ogj22.png",
+		"shortText": "Viens créer un jeu en 24h ! Le weekend du 12 et 13 Mars, Sat est réservé pour l'Orbital Game Jam !",
+		"moreInfoUrl": "https://itch.io/jam/orbital-game-jam-4",
+		"cancelled": false
+	},
+	{
+		"title": "PolyLAN 37",
+		"organizer": {
+			"name": "PolyLAN",
+			"url": "https://polylan.ch"
+		},
+		"time": "17h00",
+		"place": {
+			"name": "STCC",
+			"url": "https://plan.epfl.ch/?dim_floor=1&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532938&map_y=1152803&map_zoom=10"
+		},
+		"date": {
+			"day": 15,
+			"month": 4,
+			"year": 2022
+		},
+		"image": "/events/polylan_logo.png",
+		"shortText": "LAN de 1 000 personnes sur 4 jours, organisée par des étudiants de l'EPFL",
+		"moreInfoUrl": "https://polylan.ch",
+		"cancelled": false
+	},
+	{
+		"title": "CLICoaching",
+		"organizer": {
+			"name": "CLIC & Coaching IC",
+			"url": "/coaching"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "Hall BC",
+			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
+		},
+		"date": {
+			"day": 24,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/clicoaching.png",
+		"shortText": "Organisé par la CLIC et le Coaching IC, c'est une soirée qui se présente comme un tournoi de mini-jeux en équipes avec à la clef toutes sortes de lots !",
+		"moreInfoUrl": "/news/37",
+		"cancelled": false
+	},
+	{
+		"title": "Souper de Faculté",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "Hall BC",
+			"url": "https://map.epfl.ch/?dim_floor=0&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&baselayer_ref=grp_backgrounds&map_x=2532727&map_y=1152292&map_zoom=12"
+		},
+		"date": {
+			"day": 19,
+			"month": 5,
+			"year": 2022
+		},
+		"image": "/events/sdf21.png",
+		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
+		"moreInfoUrl": "/events#sdf",
+		"cancelled": false
+	},
+	{
+		"title": "Jane Street",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "Polyvalente",
+			"url": null
+		},
+		"date": {
+			"day": 10,
+			"month": 3,
+			"year": 2022
+		},
+		"image": "/events/janestreet.png",
+		"shortText": "Jane Street vient sur le campus de l'EPFL pour organiser un événement qui risque d'intéresser plus d'un.e d'entre vous !",
+		"moreInfoUrl": "/news/36",
+		"cancelled": false
+	},
+	{
+		"title": "Assemblée Générale Ordinaire de Printemps",
+		"organizer": {
+			"name": "CLIC",
+			"url": "/about"
+		},
+		"time": "18h00",
+		"place": {
+			"name": "INM202",
+			"url": "https://plan.epfl.ch/?dim_floor=2&lang=fr&dim_lang=fr&tree_groups=centres_nevralgiques%2Cacces%2Cmobilite_reduite%2Censeignement%2Ccommerces_et_services%2Cvehicules%2Cinfrastructure_plan_grp&baselayer_ref=grp_backgrounds&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_acces=metro&tree_group_layers_mobilite_reduite=&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&tree_group_layers_vehicules=&tree_group_layers_infrastructure_plan_grp=batiments_query_plan&map_x=2532818&map_y=1152278&map_zoom=13"
+		},
+		"date": {
+			"day": 23,
+			"month": 5,
+			"year": 2022
+		},
+		"image": null,
+		"shortText": "Vous voulez vous présenter en Comité CLIC ? Vous êtes intéréssé.e de rejoindre une de nos équipes ou Commissions ? Ou passer voir nos activités et perspectives ? Venez à l'AG !",
+		"moreInfoUrl": "/about",
+		"cancelled": false
 	}
 ]
