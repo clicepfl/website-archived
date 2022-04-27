@@ -8,7 +8,7 @@ Il ne manque plus que toi !
 
 On t'invite à partager un bon repas et un bon moment avec toute la Fac 😁
 
-Les profits de la soirée serviront à financer le voyage d’études des étudiant.e.s de 3ème année cet été organisé par [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
+Les profits de la soirée serviront notamment à financer le voyage d’études des étudiant.e.s de 3ème année cet été organisé par [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
 
 **Au menu :** 🍽️ 
 <p style="text-align: center;">
