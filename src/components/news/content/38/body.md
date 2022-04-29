@@ -6,9 +6,9 @@ Pas de restrictions sanitaires, une nouvelle date et du soleil (bon ça on garan
 
 Il ne manque plus que toi !
 
-On t'invite à partager un bon repas et un bon moment avec toute la fac 😁
+On t'invite à partager un bon repas et un bon moment avec toute la Fac 😁
 
-Les profits de la soirée serviront à financer le voyage d’études des étudiant.e.s de 3ème année cet été organisé par [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
+Les profits de la soirée serviront notamment à financer le voyage d’études des étudiant.e.s de 3ème année cet été organisé par [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
 
 **Au menu :** 🍽️ 
 <p style="text-align: center;">
@@ -25,7 +25,7 @@ Salade de fruits <br>
 🪙 Prix: 10.- en liquide** *(12.- après le 9 mai)* à remettre à CLIC en allant s’inscrire
 
 **Pour s’inscrire:**
-- Ce jeudi 28 et ce vendredi 29 de 12h à 14h dans le hall INM.
+- Ce jeudi 28/04 et ce vendredi 29/04 de 12h à 14h dans le hall INM.
 - Puis tous les jours au bureau de la CLIC (INN132).
 
 <br>
