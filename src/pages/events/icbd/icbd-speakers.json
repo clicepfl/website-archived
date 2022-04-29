@@ -115,13 +115,13 @@
     },
     {
         "name": "Arnaud Delamare",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/ArnaudDelamare.png",
         "websiteURL": "https://labs.oracle.com/pls/apex/f?p=94065:11:104549644310502:2597"
     },
     {
         "name": "Boris Spasoievic",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/BorisSpasojevic.jpg",
         "websiteURL": "https://labs.oracle.com/pls/apex/f?p=LABS:bio:0:2430"
     },
@@ -133,7 +133,7 @@
     },
     {
         "name": "François Farquet",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/FrancoisFarquet.jpg",
         "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
     },
