@@ -224,7 +224,7 @@
 			"month": 5,
 			"year": 2022
 		},
-		"image": "/events/sdf21.png",
+		"image": "/events/sdf22.png",
 		"shortText": "La CLIC vous invite à un repas convivial en compagnie de vos professeurs et de la Faculté",
 		"moreInfoUrl": "/events#sdf",
 		"cancelled": false
@@ -266,7 +266,7 @@
 			"month": 5,
 			"year": 2022
 		},
-		"image": null,
+		"image": "/events/AG.png",
 		"shortText": "Vous voulez vous présenter en Comité CLIC ? Vous êtes intéréssé.e de rejoindre une de nos équipes ou Commissions ? Ou passer voir nos activités et perspectives ? Venez à l'AG !",
 		"moreInfoUrl": "/about",
 		"cancelled": false
