@@ -102,29 +102,29 @@
                 <div class="content padded-40">
                     <h1>Alumni</h1>
                     <h3>Speakers present at the event</h3>
-                    <div class="pole">
-                        {% for member in speakersAlumniList %}
-                            <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member" id="{{member.name}}">
-                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                    <div class="speakers">
+                        {% for speaker in speakersAlumniList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
                                     <div class="desc">
-                                        <p class="name">{{member.name}}</p>
-                                        <p class="role">{{member.role}}</p>
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
                                     </div>
                                 </div>
                             </a>
                         {% endfor %}
                     </div>
                     <h1>PhD Students</h1>
-                    <h3>Presenter of IC labs' work during poster session</h3>
-                    <div class="pole">
-                        {% for member in speakersLabosList %}
-                            <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member" id="{{member.name}}">
-                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                    <h3>During the poster session</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersLabosList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
                                     <div class="desc">
-                                        <p class="name">{{member.name}}</p>
-                                        <p class="role">{{member.role}}</p>
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
                                     </div>
                                 </div>
                             </a>
