@@ -142,5 +142,17 @@
         "role": "Windmill",
         "imageURL": "/events/FlavienAubelle.jpg",
         "websiteURL": "https://www.linkedin.com/in/flavien-aubelle/"
+    },
+    {
+        "name": "Daria Printseva",
+        "role": "Logitech",
+        "imageURL": "/events/DariaPrintseva.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
+    },
+    {
+        "name": "Paul Bombarde",
+        "role": "Logitech",
+        "imageURL": "/events/PaulBombarde.jpg",
+        "websiteURL": "https://www.linkedin.com/in/paul-bombarde/"
     }
 ]

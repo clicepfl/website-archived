@@ -115,6 +115,8 @@
                             </a>
                         {% endfor %}
                     </div>
+                </div>
+                <div class="content padded-40">
                     <h1>PhD Students</h1>
                     <h3>During the poster session</h3>
                     <div class="speakers">
@@ -380,8 +382,9 @@
             timetable.setScope(8, 18);
 
             timetable.addLocations([
-                'BC 133',
+                'BC 229',
                 'BC 129',
+                'BC 133',
                 'BC 02',
                 'BC 04',
                 'BC 420',
@@ -404,8 +407,14 @@
             
             timetable.addEvent('Networks', room, date(15, 40), date(16, 15), MT_OPTIONS);
 
-            // BC 133 events    
             room = 'BC 133';
+            timetable.addEvent(eventName, room, date(9, 20), date(9, 50), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 0), date(10, 30), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 50), date(11, 20), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 30), date(12, 00), CV_OPTIONS);
+
+            // BC 133 events    
+            room = 'BC 229';
             eventName = "Mock Coding Interview"
             timetable.addEvent(eventName, room, date(9, 0), date(9, 35), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(9, 50), date(10, 25), MOCK_OPTIONS);
