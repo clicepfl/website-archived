@@ -76,5 +76,11 @@
         "role": "SPRING",
         "imageURL": "https://people.epfl.ch/private/common/photos/links/284678.jpg?ts=1650571188",
         "websiteURL": "https://people.epfl.ch/kasra.edalat"
+    },
+    {
+        "name": "Panagiotis Sioulas",
+        "role": "DIAS",
+        "imageURL": "/events/PanagiotisSioulas.jpg",
+        "websiteURL": "https://www.linkedin.com/in/panagiotis-sioulas-6931a9a7/"
     }
 ]
