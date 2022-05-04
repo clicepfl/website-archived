@@ -8,7 +8,7 @@
         "catchPhrase": "Pour vous accompagner dans le voyage",
         "members": [
             {
-                "name": "Faourk Boukil",
+                "name": "Farouk Boukil",
                 "imageURL": "faroukboukil.jpg",
                 "websiteURL": "https://people.epfl.ch/farouk.boukil",
                 "role": "Président"
@@ -26,9 +26,9 @@
                 "role": "Administratrice-Trésorière"
             },
             {
-                "name": "Iana Culic",
+                "name": "Iana Peix",
                 "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/iana.culic",
+                "websiteURL": "https://people.epfl.ch/iana.peix",
                 "role": "Sponsoring"
             },
             {
@@ -46,7 +46,7 @@
             {
                 "name": "Lina Ber",
                 "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/lina.ber",
+                "websiteURL": "https://people.epfl.ch/lina.berrayana",
                 "role": "Communication"
             },
             {
@@ -70,7 +70,7 @@
             {
                 "name": "Christelle Lam",
                 "imageURL": "christellelam.jpg",
-                "websiteURL": "https://people.epfl.ch/christelle.lam",
+                "websiteURL": "https://people.epfl.ch/phi.lam",
                 "role": "Logistique"
             }
         ],
