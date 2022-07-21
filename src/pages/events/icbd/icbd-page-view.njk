@@ -102,29 +102,31 @@
                 <div class="content padded-40">
                     <h1>Alumni</h1>
                     <h3>Speakers present at the event</h3>
-                    <div class="pole">
-                        {% for member in speakersAlumniList %}
-                            <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member" id="{{member.name}}">
-                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                    <div class="speakers">
+                        {% for speaker in speakersAlumniList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
                                     <div class="desc">
-                                        <p class="name">{{member.name}}</p>
-                                        <p class="role">{{member.role}}</p>
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
                                     </div>
                                 </div>
                             </a>
                         {% endfor %}
                     </div>
+                </div>
+                <div class="content padded-40">
                     <h1>PhD Students</h1>
-                    <h3>Presenter of IC labs' work during poster session</h3>
-                    <div class="pole">
-                        {% for member in speakersLabosList %}
-                            <a href="{{member.websiteURL}}" target="_blank">
-                                <div class="member" id="{{member.name}}">
-                                    <img src="{{member.imageURL}}" alt="{{member.name}}"/>
+                    <h3>During the poster session</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersLabosList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
                                     <div class="desc">
-                                        <p class="name">{{member.name}}</p>
-                                        <p class="role">{{member.role}}</p>
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
                                     </div>
                                 </div>
                             </a>
@@ -173,6 +175,25 @@
                                     partner will first give an in-depth presentation on how to turn your CV into an asset and then they will 
                                     stay available so that they can provide you with tailored feedback about your resume. Note that there is 
                                     a limited number of spots for this activity so be sure to sign up for it as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="mini-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Specialization talks</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>What does a career in your dream field look like?</h4>
+                                <p>
+                                    Data Science, Cyber Security, Software Engineering… These are all broad IT fields you have heard about but perhaps you would 
+                                    like to have a more concrete understanding of what the daily life of an engineer in such domains is like. During this activity, 
+                                    several alumni working in the same field will come to give a quick overview of a project they worked on before discussing their 
+                                    daily routine and give you insights on what your future work life may look like. We will host alumni working in domains such 
+                                    as Data Science, Networks, Cybersecurity, Software Engineering, Video Games and Artificial Intelligence!
                                 </p>
                             </div>
                         </div>
@@ -263,28 +284,8 @@
                                 <p>
                                     When entering a company, you will often face large existing codebases, written by many other programmers with perhaps as many 
                                     different coding styles. Where does one start? Should you read and understand everything at once? Start everything back from 
-                                    scratch? Well, meet [TBD], an alumnus who already dealt with this kind of issues and is now ready to share all their experience 
+                                    scratch? Well, meet <a href="#Christian Zommerfelds">Christian Zommerfelds</a>, an alumnus who already dealt with this kind of issues and is now ready to share all their experience 
                                     and knowledge to help you flourish during your first few weeks at a new place!
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <div id="mini-talk" class="event">
-                            <div class="front">
-                                <h3>
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                    Specialization talks</h3>
-                            </div>
-
-                            <div class="details">
-                                <h4>What does a career in your dream field look like?</h4>
-                                <p>
-                                    Data Science, Cyber Security, Software Engineering… These are all broad IT fields you have heard about but perhaps you would 
-                                    like to have a more concrete understanding of what the daily life of an engineer in such domains is like. During this activity, 
-                                    several alumni working in the same field will come to give a quick overview of a project they worked on before discussing their 
-                                    daily routine and give you insights on what your future work life may look like. We will host alumni working in domains such 
-                                    as Data Science, Networks, Cybersecurity, Software Engineering, Video Games and Artificial Intelligence!
                                 </p>
                             </div>
                         </div>
@@ -381,8 +382,9 @@
             timetable.setScope(8, 18);
 
             timetable.addLocations([
-                'BC 133',
+                'BC 229',
                 'BC 129',
+                'BC 133',
                 'BC 02',
                 'BC 04',
                 'BC 420',
@@ -402,10 +404,17 @@
             timetable.addEvent("Sustaina-ble/Ethic Compa-nies", room, date(14, 0), date(14, 20), MEETUP_OPTIONS);
             timetable.addEvent("Start-ups", room, date(14, 30), date(14, 50), MEETUP_OPTIONS);
             timetable.addEvent("Women in IT", room, date(15, 10), date(15, 30), MEETUP_OPTIONS);
-            timetable.addEvent("Big Tech Compa-nies", room, date(15, 50), date(16, 10), MEETUP_OPTIONS);
+            
+            timetable.addEvent('Networks', room, date(15, 40), date(16, 15), MT_OPTIONS);
+
+            room = 'BC 133';
+            timetable.addEvent(eventName, room, date(9, 20), date(9, 50), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 0), date(10, 30), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(10, 50), date(11, 20), CV_OPTIONS);
+            timetable.addEvent(eventName, room, date(11, 30), date(12, 00), CV_OPTIONS);
 
             // BC 133 events    
-            room = 'BC 133';
+            room = 'BC 229';
             eventName = "Mock Coding Interview"
             timetable.addEvent(eventName, room, date(9, 0), date(9, 35), MOCK_OPTIONS);
             timetable.addEvent(eventName, room, date(9, 50), date(10, 25), MOCK_OPTIONS);
@@ -439,11 +448,14 @@
             
             // BC 04 events
             room = 'BC 04';
+            
             timetable.addEvent('Video Games', room, date(14, 20), date(14, 55), MT_OPTIONS);
-            timetable.addEvent('Network', room, date(15, 40), date(16, 15), MT_OPTIONS);
+            timetable.addEvent("Big Tech Compa-nies", room, date(15, 50), date(16, 10), MEETUP_OPTIONS);
+
             
             // BC Hall events
             room = 'BC HALL #1';
+            
             timetable.addEvent("Welcome coffee (for alumni)", room, date(8, 0), date(8, 40), MEAL_OPTIONS);
             timetable.addEvent("Networking Lunch and Speed Dating", room, date(12, 0), date(13, 30), MEAL_OPTIONS);
             timetable.addEvent("Closing Aperitif", room, date(17, 0), date(18, 0), MEAL_OPTIONS);

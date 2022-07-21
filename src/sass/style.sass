@@ -1,6 +1,8 @@
 $navy-blue: #204561
 $text-color: #778b93
 $light-gray: #bbb
+$orange: rgb(255, 198, 64)
+$gradient-orange: linear-gradient(125deg, rgb(255, 198, 64) 0%, rgb(232, 109, 72)100%)
 
 $menu-mobile-threshold: 950px
 
@@ -88,13 +90,13 @@ h4
     background: #fff
 
 .bg-orange
-    background: rgb(255, 198, 64)
+    background: $orange
 
     h1, h2, h3, p
         color: #fff
 
 .bg-orange-gradient
-    background: linear-gradient(125deg, rgb(255, 198, 64) 0%, rgb(232, 109, 72)100%)
+    background: $gradient-orange
 
 .full-height
     height: 100%
@@ -941,8 +943,73 @@ h4
             ul li.current a, ul li a:hover
                 border-bottom: 3px solid #000
 
-    .member
-        background: #f6f7f9
+    .speakers .speaker
+        float: none
+        display: inline-block
+    
+    .speaker
+        float: left
+        width: 31.33%
+        margin: 1%
+        background: $orange
+        padding: 15px
+        height: 130px
+        position: relative
+
+        img
+            float: left
+            display: block
+            height: 100px
+            border-radius: 100%
+            background: #fff
+            padding: 5px
+            border: 1px solid #ccc
+            position: absolute
+            top: 50%
+            -ms-transform: translateY(-50%)
+            transform: translateY(-50%)
+
+        .desc
+            position: absolute
+            left: 130px
+            top: 50%
+            -ms-transform: translateY(-50%)
+            transform: translateY(-50%)
+            padding-right: 15px
+
+        .name
+            color: #000
+            font-weight: bold
+            font-size: 18px
+
+        .role
+            color: #000
+            @media screen and (max-width: 400px)
+                font-size: 14px
+
+        @media screen and (max-width: 1100px)
+            width: 40%
+            margin: 10px 5%
+
+        @media screen and (max-width: 800px)
+            width: 46%
+            margin: 10px 2%
+
+        @media screen and (max-width: 700px)
+            width: 60%
+            margin: 10px 20%
+
+        @media screen and (max-width: 600px)
+            width: 70%
+            margin: 10px 15%
+
+        @media screen and (max-width: 500px)
+            width: 80%
+            margin: 10px 10%
+
+        @media screen and (max-width: 400px)
+            width: 90%
+            margin: 10px 5%
 
     .footer
         background-color: #000

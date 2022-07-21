@@ -24,6 +24,12 @@
         "websiteURL": "https://www.linkedin.com/in/benjamindincau/"
     },
     {
+        "name": "Christian Zommerfelds",
+        "role": "Google",
+        "imageURL": "/events/ChristianZommerfelds.jpg",
+        "websiteURL": "https://www.linkedin.com/in/zommerfelds/"
+    },
+    {
         "name": "Höng-Ân Sandlin",
         "role": "Armasuisse",
         "imageURL": "/events/HonganSandlin.jpg",
@@ -115,13 +121,13 @@
     },
     {
         "name": "Arnaud Delamare",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/ArnaudDelamare.png",
         "websiteURL": "https://labs.oracle.com/pls/apex/f?p=94065:11:104549644310502:2597"
     },
     {
         "name": "Boris Spasoievic",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/BorisSpasojevic.jpg",
         "websiteURL": "https://labs.oracle.com/pls/apex/f?p=LABS:bio:0:2430"
     },
@@ -133,7 +139,7 @@
     },
     {
         "name": "François Farquet",
-        "role": "Oracle Labs Switzerland",
+        "role": "Oracle",
         "imageURL": "/events/FrancoisFarquet.jpg",
         "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
     },
@@ -142,5 +148,17 @@
         "role": "Windmill",
         "imageURL": "/events/FlavienAubelle.jpg",
         "websiteURL": "https://www.linkedin.com/in/flavien-aubelle/"
+    },
+    {
+        "name": "Daria Printseva",
+        "role": "Logitech",
+        "imageURL": "/events/DariaPrintseva.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
+    },
+    {
+        "name": "Paul Bombarde",
+        "role": "Logitech",
+        "imageURL": "/events/PaulBombarde.jpg",
+        "websiteURL": "https://www.linkedin.com/in/paul-bombarde/"
     }
 ]
