@@ -102,8 +102,8 @@
         }
     },
     {
-        "name": "Sponsoring",
-        "slug": "sponsoring",
+        "name": "Partenariats",
+        "slug": "partenariats",
         "imageURL": "thumbnails/sponso.PNG",
         "shortDescription": "",
         "pageBodyPath": "sponso.md",
@@ -113,7 +113,7 @@
                 "name": "Harold Benoit",
                 "imageURL": "sponso.PNG",
                 "websiteURL": "https://people.epfl.ch/harold.benoit",
-                "role": "Responsable Sponsoring"
+                "role": "Responsable Partenariats"
             }
         ],
         "teammates": null,
@@ -123,7 +123,7 @@
         }
     },
     {
-        "name": "Évènementiel",
+        "name": "Animation",
         "slug": "event",
         "imageURL": "thumbnails/event.PNG",
         "shortDescription": "",
@@ -134,7 +134,7 @@
                 "name": "Cécile Michel",
                 "imageURL": "event.PNG",
                 "websiteURL": "https://people.epfl.ch/cecile.michel",
-                "role": "Responsable Évènementiel"
+                "role": "Responsable Animation"
             }
         ],
         "teammates": null,
