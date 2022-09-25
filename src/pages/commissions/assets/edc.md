@@ -14,7 +14,7 @@ De plus, nous participerons cette année au [Google Solution Challenge](https://
 
 Hi there! 
 
-This is CLIC’s newest commission, the EPFL Developers club. We promote the developers’ community on campus through workshops, projects and tech talks with industry pioneers. Our goal is to build a more collaborative campus and bridge the gap between theory and practice.
+This is CLIC’s newest commission, the **EPFL Developers club**. We promote the developers’ community on campus through workshops, projects and tech talks with industry pioneers. Our goal is to build a more collaborative campus and bridge the gap between theory and practice.
 
 Moreover, we will participate in the [Google Solution Challenge](https://developers.google.com/community/gdsc-solution-challenge) this year, with the winners going to California. 
 
