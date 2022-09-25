@@ -239,5 +239,36 @@
             "Twitter": "https://twitter.com/polygl0ts",
             "Mailing List": "https://polygl0ts.ch/contact"
         }
+    },
+    {
+        "name": "EPFL Developers Club",
+        "slug": "edc",
+        "imageURL": "edc.png",
+        "shortDescription": "Nous promouvons la communauté des développeurs sur le campus par le biais d'ateliers, de projets et de discussions techniques avec des pionniers de l'industrie.",
+        "pageBodyPath": "edc.md",
+        "catchPhrase": "construire un campus plus collaboratif et combler le fossé entre la théorie et la pratique",
+        "members": [
+            {
+                "name": "Ahmed Ezzo",
+                "imageURL": "ahmedezzo.jpg",
+                "websiteURL": "https://people.epfl.ch/ahmed.ezzo",
+                "role": "Président"
+            },
+            {
+                "name": "Anirudhh Ramesh",
+                "imageURL": "anirudhhramesh.jpg",
+                "websiteURL": "https://people.epfl.ch/anirudhh.ramesh",
+                "role": "Vice-Président"
+            },
+            {
+                "name": "Omar Shalby",
+                "imageURL": "omarshalby.jpg",
+                "websiteURL": "https://people.epfl.ch/omar.shalby",
+                "role": "Vice-Président"
+            }
+        ],
+        "social": {
+            "Instagram": "https://www.instagram.com/epfl_developers_club.clic/" 
+        }
     }
 ]
