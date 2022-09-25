@@ -7,8 +7,8 @@ De plus, nous participerons cette année au [Google Solution Challenge](https://
 **Événements à venir**
 
 - Session d'info Mercredi 5 Octobre, 16h @ **BC129**
----
 
+---
 
 **Apply To Become A Member [Here](https://forms.gle/a7rcCrJnBUX8vemZ6)**
 
