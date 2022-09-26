@@ -188,6 +188,12 @@
                 "imageURL": "../ceve.png",
                 "websiteURL": "https://people.epfl.ch/claire.lopez",
                 "role": "Comité"
+            },
+            {
+                "name": "Camille Espieux",
+                "imageURL": "../ceve.png",
+                "websiteURL": "https://people.epfl.ch/camille.espieux",
+                "role": "Comité"
             }
         ],
         "social": {
