@@ -1,0 +1,11 @@
+{
+    "title": "Hello World 3",
+    "date": {
+        "day": 29,
+        "month": 9,
+        "year": 2022
+    },
+    "author": "Sara Jun",
+    "image": "/news/39/banner.png",
+    "shortText": "Premier événement de l'année, la troisième édition de Hello World aura lieu le 29 Septembre !! "
+}
