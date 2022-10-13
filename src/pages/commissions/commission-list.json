@@ -141,6 +141,12 @@
                 "websiteURL": "https://people.epfl.ch/nicolas.duprat",
                 "role": "Coordinateur"
             },
+            {
+                "name": "... Et nos coéquipier·ère·s !",
+                "imageURL": "coeqp.jpg",
+                "websiteURL": "#",
+                "role": ""
+            },
         ],
         "social": {
             "Site Web": "http://sibyll.in/clicgamestar",
