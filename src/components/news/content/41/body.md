@@ -7,7 +7,7 @@ Nous avons la chance d'accueillir 4 intervenants qui présenteront chacun un asp
 
 - Bastien Wanner - **"Cyberdéfense active - L'approche suisse"** 
 - Patrick Antonietti - **"Les menaces et la défense au quotidien"**
-- Christopher Gerber - **"La souveraineté des données et la base industrielle"**
+- Christophe Gerber - **"La souveraineté des données et la base industrielle"**
 - Gérald Vernez - **"Les enseignements apportés par les conflits en cours"** 
   
 <br>
