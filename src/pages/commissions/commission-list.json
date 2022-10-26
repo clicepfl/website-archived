@@ -88,28 +88,64 @@
         "catchPhrase": "Informer ; Organiser ; Rassembler. Faire vivre les actrices et acteurs du jeu vidéo sur le campus UNIL-EPFL",
         "members": [
             {
-                "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.hueber",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Lucas Strauss",
-                "imageURL": "lucasstrauss.jpg",
-                "websiteURL": "https://people.epfl.ch/lucas.strauss",
-                "role": "Coordinateur"
-            },
-            {
                 "name": "Camille Montemagni",
                 "imageURL": "camillemontemagni.jpg",
                 "websiteURL": "https://people.epfl.ch/camille.montemagni",
                 "role": "Coordinatrice"
             },
             {
+                "name": "Hugo \"Stache\" Hueber",
+                "imageURL": "hugohueber.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Ursula El Khoury",
+                "imageURL": "ursulaelkhoury.jpg",
+                "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
+                "role": "Coordinatrice"
+            },
+            {
+                "name": "Kévin Faustini",
+                "imageURL": "kevinfaustini.jpg",
+                "websiteURL": "https://people.epfl.ch/kevin.faustini",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Myriam Himmi",
+                "imageURL": "myriamhimmi.jpg",
+                "websiteURL": "https://people.epfl.ch/myriam.himmi",
+                "role": "Coordinatrice"
+            },
+            {
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
+                "role": "Coordinateur"
+            },
+            {
                 "name": "Loeva La Ragione",
                 "imageURL": "loevalaragione.jpg",
-                "websiteURL": "",
+                "websiteURL": "https://unil.ch/unisciences/loevalaragione",
                 "role": "Coordinatrice"
+            },
+            {
+                "name": "Clément Josso",
+                "imageURL": "clementjosso.jpg",
+                "websiteURL": "https://people.epfl.ch/clement.josso",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "Nicolas Duprat",
+                "imageURL": "nicolasduprat.jpg",
+                "websiteURL": "https://people.epfl.ch/nicolas.duprat",
+                "role": "Coordinateur"
+            },
+            {
+                "name": "... Et nos coéquipier·ère·s !",
+                "imageURL": "coeqp.jpg",
+                "websiteURL": "#",
+                "role": ""
             }
         ],
         "social": {
