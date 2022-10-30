@@ -18,7 +18,7 @@ Le ou la gagnant.e recevra sonpull gratuitement !
 
 Vous pouvez participer en groupe. Cependant, cela ne permet pas de doubler les prix (c'est-à-dire que vous ne recevrez qu'un seul sweat-shirt gratuit pour tout le groupe).
 
-Pour soumettre vos créations, il suffit d'envoyer un mail à logistique.clic@epfl.ch avec vos deux fichiers .svg (😠), et n'hésitez pas à nous donner votre compte d'artiste si vous voulez que nous en fassions la promotion.
+Pour soumettre vos créations, il suffit d'envoyer un mail à logistique.clic@epfl.ch avec un fichier .zip contenant vos deux fichiers .svg (😠), et n'hésitez pas à nous donner votre compte d'artiste si vous voulez que nous en fassions la promotion.
 
 Alors prenez vos souris et vos crayons, et laissez libre cours à votre créativité !
 
@@ -42,7 +42,7 @@ You have until **20th of November 23h59** to submit your design. After this date
 
 You can participate in groups. However, this doesn't duplicate the prizes (i.e., you will only get one free hoodie for the entire group).
 
-To submit your designs, just send an email to logistique.clic@epfl.ch with your two .svg files (😠), and don't hesitate to give us your artist account if you want us to promote it.
+To submit your designs, just send an email to logistique.clic@epfl.ch with a .zip file containing your two .svg files (😠), and don't hesitate to give us your artist account if you want us to promote it.
 
 So grab your pencils, and let your creativity flow!
 
