@@ -6,9 +6,13 @@ Nous sommes IC Travel, la commission de la CLIC qui organise ton voyage d’étu
 
 #### Qui est concerné par ce voyage ?
 
-Chaque année, nous organisons un voyage avec toutes les personnes en dernière année de bachelor de notre chère Faculté.
+Toute personne en dernière année de bachelor de la Faculté IC peut participer au voyage.
 
-#### Où partons-nous ?
+#### Quelle est la destination ?
+
+Elle n'a pas encore été décidée, le comité est en train de préparer une liste de propositions !
+
+<!-- #### Où partons-nous ?
 
 Maintenant que le Covid passe gentiment derrière nous, on peut enfin espérer plus de liberté de mouvement pour cet été. Pour marquer le coup, on te prépare un voyage de rêve à San Francisco ! Le voyage se déroulera du 6 au 13 septembre.
 
@@ -48,7 +52,7 @@ Normalement si tu as tout lu au-dessus tu sais déjà ce qu’on va te dire, mai
 * Remplir le [formulaire](https://go.epfl.ch/ICTravel2022Inscriptions) avant le **_08/04/2022_**. 
 * Faire un virement de CHF 200 .- au compte dont les informations sont en bas du formulaire.
 
-Quand tout ça sera fait, tu seras prêt.e à embarquer 🛫! 
+Quand tout ça sera fait, tu seras prêt.e à embarquer 🛫!  -->
 
 #### Calendrier du voyage
 

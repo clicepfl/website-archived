@@ -3,74 +3,44 @@
         "name": "IC Travel",
         "slug": "ic-travel",
         "imageURL": "ic-travel.svg",
-        "shortDescription": "Nous nous occupons chaque année d’organiser le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
+        "shortDescription": "Chaque année, nous organisons le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
         "pageBodyPath": "ic-travel.md",
-        "catchPhrase": "Pour vous accompagner dans le voyage",
+        "catchPhrase": "Pour vous préparer un beau voyage",
         "members": [
-            {
-                "name": "Farouk Boukil",
-                "imageURL": "faroukboukil.jpg",
-                "websiteURL": "https://people.epfl.ch/farouk.boukil",
-                "role": "Président"
-            },
-            {
-                "name": "Nicolas Wagner",
-                "imageURL": "nicolaswagner.jpg",
-                "websiteURL": "https://people.epfl.ch/nicolas.wagner",
-                "role": "Vice-président"
-            },
-            {
-                "name": "Juliette Parchet",
-                "imageURL": "julietteparchet.jpg",
-                "websiteURL": "https://people.epfl.ch/juliette.parchet",
-                "role": "Administratrice-Trésorière"
-            },
-            {
-                "name": "Iana Peix",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/iana.peix",
-                "role": "Sponsoring"
-            },
-            {
-                "name": "Fouad Mahmoud",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/fouad.mahmoud",
-                "role": "Sponsoring"
-            },
-            {
-                "name": "Emilien Duc",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/emilien.duc",
-                "role": "Communication"
-            },
-            {
-                "name": "Lina Ber",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/lina.berrayana",
-                "role": "Communication"
-            },
-            {
-                "name": "Paul Oliver",
-                "imageURL": "pauloliver.jpg",
-                "websiteURL": "https://people.epfl.ch/paul.oliver",
-                "role": "Logistique"
-            },
-            {
-                "name": "Anas Hakim",
-                "imageURL": "../ic-travel.svg",
-                "websiteURL": "https://people.epfl.ch/anas.hakim",
-                "role": "Logistique"
-            },
-            {
-                "name": "Andrea Gilot",
-                "imageURL": "andreagilot.jpg",
-                "websiteURL": "https://people.epfl.ch/andrea.gilot",
-                "role": "Logistique"
-            },
             {
                 "name": "Christelle Lam",
                 "imageURL": "christellelam.jpg",
                 "websiteURL": "https://people.epfl.ch/phi.lam",
+                "role": "Présidente"
+            },
+            {
+                "name": "Roman Paccaud",
+                "imageURL": "romanpaccaud.jpg",
+                "websiteURL": "https://people.epfl.ch/roman.paccaud",
+                "role": "Trésorier"
+            },
+            {
+                "name": "Cécile Michel",
+                "imageURL": "cecilemichel.jpg",
+                "websiteURL": "https://people.epfl.ch/cecile.michel",
+                "role": "Communication"
+            },
+            {
+                "name": "Mathieu Sauser",
+                "imageURL": "mathieusauser.jpg",
+                "websiteURL": "https://people.epfl.ch/mathieu.sauser",
+                "role": "Logistique"
+            },
+            {
+                "name": "Malen Raychev",
+                "imageURL": "malenraychev.jpg",
+                "websiteURL": "https://people.epfl.ch/malen.raychev",
+                "role": "Logistique"
+            },
+            {
+                "name": "Hugo Majerczyk",
+                "imageURL": "hugomajerczyk.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
                 "role": "Logistique"
             }
         ],
