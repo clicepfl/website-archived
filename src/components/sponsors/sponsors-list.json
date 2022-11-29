@@ -16,11 +16,11 @@
         "websiteURL": "https://www.janestreet.com/",
         "imageURL": "/sponsors/jane_street.png",
         "imageStyles": null,
-        "tier": "platinum",
+        "tier": "partners",
         "expiration": {
             "year": 2023,
-            "month": 12,
-            "day": 31
+            "month": 6,
+            "day": 30
         }
     },
     {
