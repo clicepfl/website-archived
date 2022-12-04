@@ -16,8 +16,8 @@ import data_speaker_labos from './icbd-labos.json'
  * icbd-page-view.njk}
  */
 class IcbdPageViewModel {
-    speakersAlumniList: Staff[] 
-    speakersLabosList: Staff[] 
+    speakersAlumniList: Staff[] = data_speaker_alumni.map(Staff.fromAny)
+    speakersLabosList: Staff[] = data_speaker_labos.map(Staff.fromAny)
 }
 
 /**

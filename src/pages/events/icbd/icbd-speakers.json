@@ -1,164 +1,164 @@
 [
     {
-        "name": "Joël Theytaz",
-        "role": "Elca Informatique",
-        "imageURL": "/events/JoelTheytaz.jpg",
-        "websiteURL": "https://www.linkedin.com/in/theytaz-joel/"
-    },
-    {
-        "name": "Matthieu Rudelle",
-        "role": "Artmyn",
-        "imageURL": "/events/MatthieuRudelle.jpg",
-        "websiteURL": "https://www.linkedin.com/in/mrudelle/"
-    },
-    {
-        "name": "Doga Tekin",
-        "role": "Oracle",
-        "imageURL": "/events/DogaTekin.jpg",
-        "websiteURL": "https://www.linkedin.com/in/dogatekin/"
-    },
-    {
-        "name": "Benjamin D'Incau",
-        "role": "Procter & Gamble",
-        "imageURL": "/events/BenjaminDincau.jpg",
-        "websiteURL": "https://www.linkedin.com/in/benjamindincau/"
-    },
-    {
-        "name": "Christian Zommerfelds",
-        "role": "Google",
-        "imageURL": "/events/ChristianZommerfelds.jpg",
-        "websiteURL": "https://www.linkedin.com/in/zommerfelds/"
-    },
-    {
-        "name": "Höng-Ân Sandlin",
-        "role": "Armasuisse",
-        "imageURL": "/events/HonganSandlin.jpg",
-        "websiteURL": "https://www.linkedin.com/in/hong-an/"
-    },
-    {
-        "name": "Stephane Mojon",
-        "role": "AdNovum SA",
-        "imageURL": "/events/StephaneMojon.jpg",
-        "websiteURL": "https://www.linkedin.com/in/st%C3%A9phane-mojon-83a8bb3/"
-    },
-    {
-        "name": "Mohamad Dia",
-        "role": "CSEM",
-        "imageURL": "/events/MohamadDia.jpg",
-        "websiteURL": "https://www.linkedin.com/in/mohamad-dia-3ab57896/"
-    },
-    {
-        "name": "Sidney Bovet",
-        "role": "Logitech",
-        "imageURL": "/events/SidneyBovet.jpg",
-        "websiteURL": "https://www.linkedin.com/in/sidney-bovet-1275616b/"
-    },
-    {
-        "name": "Alexandre Chappuis",
-        "role": "TPF",
-        "imageURL": "/events/AlexandreChappuis.jpg",
-        "websiteURL": "https://www.linkedin.com/in/alexandrechappuis/?originalSubdomain=ch"
-    },
-    {
-        "name": "Franck Youssef",
-        "role": "Accenture",
-        "imageURL": "/events/FranckYoussef.jpg",
-        "websiteURL": "https://www.linkedin.com/in/franckyoussef/"
-    },
-    {
-        "name": "Alexandre Margot",
-        "role": "Peerdom",
-        "imageURL": "/events/AlexandreMargot.jpg",
-        "websiteURL": "https://www.linkedin.com/in/alexmargot/?locale=en_US"
-    },
-    {
-        "name": "Mohamed Kafsi",
-        "role": "NexThink SA",
-        "imageURL": "/events/MohamedKafsi.jpg",
-        "websiteURL": "https://www.linkedin.com/in/mohamed-kafsi/"
-    },
-    {
-        "name": "Johan Paratte",
-        "role": "Arcanite Sàrl",
-        "imageURL": "/events/JohanParatte.jpg",
-        "websiteURL": "https://www.linkedin.com/in/johan-paratte-a2070039/"
-    },
-    {
-        "name": "Sofia Kypraiou",
-        "role": "Women at the Table",
-        "imageURL": "/events/SofiaKypraiou.jpg",
-        "websiteURL": "https://www.linkedin.com/in/sofia-kypraiou/"
-    },
-    {
-        "name": "Márton Galánthay",
-        "role": "CICR",
-        "imageURL": "/events/MartonGalanthay.jpg",
-        "websiteURL": "https://www.linkedin.com/in/m%C3%A1rton-gal%C3%A1nthay-644640/"
-    },
-    {
-        "name": "Lucie Perotta",
-        "role": "Apple Inc.",
-        "imageURL": "/events/LuciePerrotta.jpg",
-        "websiteURL": "https://www.linkedin.com/in/lucie-perrotta/"
-    },
-    {
-        "name": "Sabrine Boumelala",
-        "role": "Deloitte",
-        "imageURL": "/events/SabrineBoumelala.jpg",
-        "websiteURL": "https://www.linkedin.com/in/sabrine-boumelala/"
-    },
-    {
-        "name": "Loïc Gardiol",
-        "role": "PocketCampus",
-        "imageURL": "/events/LoicGardiol.jpg",
-        "websiteURL": "https://www.linkedin.com/in/loicgardiol/"
-    },
-    {
-        "name": "Timon Zimmermann",
-        "role": "Visium SA",
-        "imageURL": "/events/TimonZimmermann.jpg",
-        "websiteURL": "https://www.linkedin.com/in/timon-zimmermann/"
-    },
-    {
-        "name": "Arnaud Delamare",
-        "role": "Oracle",
-        "imageURL": "/events/ArnaudDelamare.png",
-        "websiteURL": "https://labs.oracle.com/pls/apex/f?p=94065:11:104549644310502:2597"
-    },
-    {
-        "name": "Boris Spasoievic",
-        "role": "Oracle",
-        "imageURL": "/events/BorisSpasojevic.jpg",
-        "websiteURL": "https://labs.oracle.com/pls/apex/f?p=LABS:bio:0:2430"
-    },
-    {
-        "name": "Iré Pla",
-        "role": "AdNovum SA",
-        "imageURL": "/img/icbd/icbd_logo.png",
+        "name": "",
+        "role": "",
+        "imageURL": "",
         "websiteURL": ""
     },
     {
-        "name": "François Farquet",
-        "role": "Oracle",
-        "imageURL": "/events/FrancoisFarquet.jpg",
-        "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
     },
     {
-        "name": "Flavien Aubelle",
-        "role": "Windmill",
-        "imageURL": "/events/FlavienAubelle.jpg",
-        "websiteURL": "https://www.linkedin.com/in/flavien-aubelle/"
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
     },
     {
-        "name": "Daria Printseva",
-        "role": "Logitech",
-        "imageURL": "/events/DariaPrintseva.jpg",
-        "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
     },
     {
-        "name": "Paul Bombarde",
-        "role": "Logitech",
-        "imageURL": "/events/PaulBombarde.jpg",
-        "websiteURL": "https://www.linkedin.com/in/paul-bombarde/"
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
+    },
+    {
+        "name": "",
+        "role": "",
+        "imageURL": "",
+        "websiteURL": ""
     }
 ]
