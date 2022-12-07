@@ -29,7 +29,7 @@ class IcbdPage extends Page {
     /** @inheritdoc */
     render = (req: Request, res: Response) => {
         // template path is relative to src/ as defined in web.ts
-        const template = "pages/events/icbd/icbd-page-view.njk"
+        const template = "pages/events/icbd2/icbd-page-view.njk"
 
         res.render(template, this.viewModel)
     }
