@@ -10,7 +10,7 @@ Toute personne en dernière année de bachelor de la Faculté IC peut participer
 
 #### Quelle est la destination ?
 
-Elle n'a pas encore été décidée, le comité est en train de préparer une liste de propositions !
+Vous pouvez voter pour choisir la destination et les dates [ici](https://go.epfl.ch/ictravel22-23), jusqu'au 8 janvier 2023 !
 
 <!-- #### Où partons-nous ?
 
