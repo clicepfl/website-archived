@@ -1,51 +1,45 @@
 [
     {
-        "name": "Manon Michel",
-        "role": "Présidente",
-        "imageURL": "/committee/manonmichel.jpg",
-        "websiteURL": "https://people.epfl.ch/manon.michel"
-    },
-    {
         "name": "Tom Demont",
-        "role": "Vice-Président",
+        "role": "Président",
         "imageURL": "/committee/tomdemont.jpg",
         "websiteURL": "https://people.epfl.ch/tom.demont"
     },
     {
         "name": "Maëlys Billon",
-        "role": "Administratrice",
+        "role": "Vice-Présidente",
         "imageURL": "/committee/maelysbillon.jpg",
         "websiteURL": "https://people.epfl.ch/maelys.billon"
     },
     {
-        "name": "Eugénie Kwak",
-        "role": "Vice-Administratrice",
-        "imageURL": "/committee/eugeniekwak.jpg",
-        "websiteURL": "https://people.epfl.ch/eugenie.kwak"
+        "name": "Maxime Lestiboudois",
+        "role": "Administratrice",
+        "imageURL": "/committee/maximelestiboudois.jpg",
+        "websiteURL": "https://people.epfl.ch/maxime.lestiboudois"
     },
     {
-        "name": "Hugo El Guedj",
+        "name": "Emi Sakamoto",
+        "role": "Administratrice",
+        "imageURL": "/committee/emisakamoto.jpg",
+        "websiteURL": "https://people.epfl.ch/emi.sakamoto"
+    },
+    {
+        "name": "Jean-Etienne Charbonnet",
         "role": "IT",
-        "imageURL": "/committee/hugoelguedj.jpg",
-        "websiteURL": "https://people.epfl.ch/hugo.elguedj"
+        "imageURL": "/committee/jean-etiennecharbonnet.jpg",
+        "websiteURL": "https://people.epfl.ch/jean-etienne.charbonnet"
     },
     {
-        "name": "Lucas Trognon",
-        "role": "Événements",
-        "imageURL": "/committee/lucastrognon.jpg",
-        "websiteURL": "https://people.epfl.ch/lucas.trognon"
+        "name": "Cécile Michel",
+        "role": "Animation",
+        "imageURL": "/committee/cecilemichel.jpg",
+        "websiteURL": "https://people.epfl.ch/cecile.michel"
     },
     {
-        "name": "Kévin Faustini",
-        "role": "Événements",
-        "imageURL": "/committee/kevinfaustini.jpg",
-        "websiteURL": "https://people.epfl.ch/kevin.faustini"
-    },
-    {
-        "name": "Marine Bossanne",
-        "role": "Sponsoring",
-        "imageURL": "/committee/marinebossanne.jpg",
-        "websiteURL": "https://people.epfl.ch/marine.bossanne"
+        "name": "Harold Benoit",
+        "role": "Partenariats",
+        "imageURL": "/committee/haroldbenoit.jpg",
+        "websiteURL": "https://people.epfl.ch/harold.benoit"
     },
     {
         "name": "Noé Terrier",
@@ -54,15 +48,21 @@
         "websiteURL": "https://people.epfl.ch/noe.terrier"
     },
     {
-        "name": "Mallory Henriet",
+        "name": "Sara Jun",
         "role": "Communication",
-        "imageURL": "/committee/malloryhenriet.jpg",
-        "websiteURL": "https://people.epfl.ch/mallory.henriet"
+        "imageURL": "/committee/sarajun.jpg",
+        "websiteURL": "https://people.epfl.ch/sara.jun"
     },
     {
-        "name": "Eloïse Doyard",
+        "name": "Christelle Lam",
         "role": "Logistique",
-        "imageURL": "/committee/eloisedoyard.jpg",
-        "websiteURL": "https://people.epfl.ch/eloise.doyard"
+        "imageURL": "/committee/christellelam.jpg",
+        "websiteURL": "https://people.epfl.ch/phi.lam"
+    },
+    {
+        "name": "Roman Paccaud",
+        "role": "Logistique",
+        "imageURL": "/committee/romanpaccaud.jpg",
+        "websiteURL": "https://people.epfl.ch/roman.paccaud"
     }
 ]
