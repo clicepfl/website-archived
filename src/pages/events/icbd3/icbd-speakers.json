@@ -1,8 +1,26 @@
 [
     {
-        "name": "John Doe",
-        "role": "Example",
+        "name": "Alexandre Connat",
+        "role": "CICR - Meetup sustainable and ethical companies",
+        "imageURL": "/events/AlexandreConnat.jpg",
+        "websiteURL": "https://www.linkedin.com/in/connat/"
+    },
+    {
+        "name": "Elie Najm",
+        "role": "Credit Suisse - Mini-Talk Data Science",
+        "imageURL": "/events/ElieNajm.jpg",
+        "websiteURL": "https://www.linkedin.com/in/elie-najm-29078a39/"
+    },
+    {
+        "name": "Manohar Jonnalagedda",
+        "role": "Big-Talk EPFL 10 years after",
         "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://people.epfl.ch/"
+        "websiteURL": "https://www.linkedin.com/in/manojo/"
+    },
+    {
+        "name": "Daria Printseva",
+        "role": "Logitech - CV Correction",
+        "imageURL": "/events/DariaPrintseva.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
     }
 ]
