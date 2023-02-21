@@ -34,26 +34,26 @@ $timetable-background-color: white !default
  * ==========================================================================
 
 =valign-middle
-	position: relative
-	top: 50%
-	transform: translateY(-50%)
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
 
 =valign-parent
-	transform-style: preserve-3d
+    transform-style: preserve-3d
 
 =clearfix
-	&::after
-		clear: both
-		content: ""
-		display: table
+    &::after
+        clear: both
+        content: ""
+        display: table
 
 =ellipsis($width: 100%)
-	display: inline-block
-	max-width: $width
-	overflow: hidden
-	text-overflow: ellipsis
-	white-space: nowrap
-	word-wrap: normal
+    display: inline-block
+    max-width: $width
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    word-wrap: normal
 
 
 
@@ -62,195 +62,195 @@ $timetable-background-color: white !default
  * ==========================================================================
 
 .timetable
-	display: flex
-	align-items: stretch
-	width: 100%
-	max-width: 100%
-	box-sizing: border-box
+    display: flex
+    align-items: stretch
+    width: 100%
+    max-width: 100%
+    box-sizing: border-box
 
-	*
-		box-sizing: inherit
+    *
+        box-sizing: inherit
 
-	ul
-		list-style-type: none
-		margin: 0
+    ul
+        list-style-type: none
+        margin: 0
 
-	ul, li
-		margin: 0
-		padding: 0
-		list-style-type: none
+    ul, li
+        margin: 0
+        padding: 0
+        list-style-type: none
 
-	> aside
-		flex: none
-		max-width: 30%
-		padding: 0 !important
-		margin-top: $timetable-hour-row-height
-		border-right: $timetable-row-header-gap
-		position: relative
-		li
-			padding: 0 $timetable-row-header-padding
-			background-color: $timetable-row-header-color
-			line-height: $timetable-hour-row-height
+    > aside
+        flex: none
+        max-width: 30%
+        padding: 0 !important
+        margin-top: $timetable-hour-row-height
+        border-right: $timetable-row-header-gap
+        position: relative
+        li
+            padding: 0 $timetable-row-header-padding
+            background-color: $timetable-row-header-color
+            line-height: $timetable-hour-row-height
 
-			&:not(:last-of-type)
-				border-bottom: $timetable-legend-row-separator
+            &:not(:last-of-type)
+                border-bottom: $timetable-legend-row-separator
 
-		.row-heading
-			+ellipsis
+        .row-heading
+            +ellipsis
 
-		&::before
-			content: ''
-			display: block
-			background-color: $timetable-background-color
-			height: $timetable-hour-row-height
-			position: if($timetable-use-sticky-header, sticky, relative)
-			margin-top: - $timetable-hour-row-height
-			top: 0
+        &::before
+            content: ''
+            display: block
+            background-color: $timetable-background-color
+            height: $timetable-hour-row-height
+            position: if($timetable-use-sticky-header, sticky, relative)
+            margin-top: - $timetable-hour-row-height
+            top: 0
 
-	aside li, time li
-		height: $timetable-hour-row-height
+    aside li, time li
+        height: $timetable-hour-row-height
 
-	> section
-		flex: 3 0 auto
-		width: 0
-		padding: 0 !important
+    > section
+        flex: 3 0 auto
+        width: 0
+        padding: 0 !important
 
-		time
-			display: block
-			width: 100%
-			overflow-x: scroll
-			-webkit-overflow-scrolling: touch
+        time
+            display: block
+            width: 100%
+            overflow-x: scroll
+            -webkit-overflow-scrolling: touch
 
-		> header
-			position: if($timetable-use-sticky-header, sticky, relative)
-			top: 0
-			z-index: 3
-			width: 100%
-			overflow: hidden
-			background-color: $timetable-background-color
-			transform-style: preserve-3d
+        > header
+            position: if($timetable-use-sticky-header, sticky, relative)
+            top: 0
+            z-index: 3
+            width: 100%
+            overflow: hidden
+            background-color: $timetable-background-color
+            transform-style: preserve-3d
 
-			ul
-				display: flex
-				height: $timetable-hour-row-height
-				align-items: center
+            ul
+                display: flex
+                height: $timetable-hour-row-height
+                align-items: center
 
-			li
-				flex: none
-				display: block
-				position: relative
-				width: $timetable-hour-column-width
+            li
+                flex: none
+                display: block
+                position: relative
+                width: $timetable-hour-column-width
 
-				.time-label
-					display: block
-					position: absolute
-					left: 0
-				&:not(:first-of-type) .time-label
-					transform: translateX(-50%)
-				&:last-of-type
-					width: 0
-					.time-label
-						transform: translateX(-100%)
+                .time-label
+                    display: block
+                    position: absolute
+                    left: 0
+                &:not(:first-of-type) .time-label
+                    transform: translateX(-50%)
+                &:last-of-type
+                    width: 0
+                    .time-label
+                        transform: translateX(-100%)
 
-	ul.room-timeline
-		border-left: none
-		display: flex
-		flex-direction: column
-		align-items: stretch
+    ul.room-timeline
+        border-left: none
+        display: flex
+        flex-direction: column
+        align-items: stretch
 
-		li
-			position: relative
-			background-color: $timetable-row-even-color
-			height: $timetable-hour-row-height
-			&:nth-of-type(odd)
-				background-color: $timetable-row-uneven-color
-			&:first-of-type
-				border-top: $timetable-grid
-			&:last-of-type
-				border-bottom: $timetable-grid
-			&:not(:last-of-type)
-				border-bottom: $timetable-entry-row-separator
-			&:first-child .time-entry
-				height: $timetable-hour-row-height - 2px
+        li
+            position: relative
+            background-color: $timetable-row-even-color
+            height: $timetable-hour-row-height
+            &:nth-of-type(odd)
+                background-color: $timetable-row-uneven-color
+            &:first-of-type
+                border-top: $timetable-grid
+            &:last-of-type
+                border-bottom: $timetable-grid
+            &:not(:last-of-type)
+                border-bottom: $timetable-entry-row-separator
+            &:first-child .time-entry
+                height: $timetable-hour-row-height - 2px
 
-			&:after, &:before
-				content: ""
-				position: absolute
-				z-index: 1
-				left: 0
-				top: 0
-				right: 0
-				bottom: 0
-			&:before
-				background-image: linear-gradient(to right, $timetable-grid-color 1px, transparent 1px)
-				background-size: $timetable-hour-column-width / 4 auto
-			&:after
-				background-image: linear-gradient(to right, $timetable-grid-color, $timetable-grid-color 1px, $timetable-row-even-color 1px, $timetable-row-even-color 2px, $timetable-grid-color 2px, $timetable-grid-color 3px, transparent 3px, transparent)
-				background-size: $timetable-hour-column-width auto
-				background-position: -2px 0
-	.time-entry
-		background-color: $timetable-entry-color
-		transition: 200ms background-color
-		height: $timetable-hour-row-height - 1px
-		display: block
-		position: absolute
-		z-index: 2
-		padding: 0 $timetable-entry-padding
-		white-space: normal
-		overflow: hidden
-		color: white
-		border: $timetable-entry-border
-		+valign-parent
-		small
-			+valign-middle
-			display: block
+            &:after, &:before
+                content: ""
+                position: absolute
+                z-index: 1
+                left: 0
+                top: 0
+                right: 0
+                bottom: 0
+            &:before
+                background-image: linear-gradient(to right, $timetable-grid-color 1px, transparent 1px)
+                background-size: calc($timetable-hour-column-width / 4) auto
+            &:after
+                background-image: linear-gradient(to right, $timetable-grid-color, $timetable-grid-color 1px, $timetable-row-even-color 1px, $timetable-row-even-color 2px, $timetable-grid-color 2px, $timetable-grid-color 3px, transparent 3px, transparent)
+                background-size: $timetable-hour-column-width auto
+                background-position: -2px 0
+    .time-entry
+        background-color: $timetable-entry-color
+        transition: 200ms background-color
+        height: $timetable-hour-row-height - 1px
+        display: block
+        position: absolute
+        z-index: 2
+        padding: 0 $timetable-entry-padding
+        white-space: normal
+        overflow: hidden
+        color: white
+        border: $timetable-entry-border
+        +valign-parent
+        small
+            +valign-middle
+            display: block
 
-		&:hover
-			background-color: $timetable-entry-color-hover
+        &:hover
+            background-color: $timetable-entry-color-hover
 
-	// Custom entries
-	.mock-entry
-		background-color: #ec6a5e
-		font-size: 17px
-		.time
-			font-size: 12px
+    // Custom entries
+    .mock-entry
+        background-color: #ec6a5e
+        font-size: 17px
+        .time
+            font-size: 12px
 
-	.talk-entry
-		background-color: #1f8ecb
-		font-size: 16px
-		.time
-			font-size: 11px
+    .talk-entry
+        background-color: #1f8ecb
+        font-size: 16px
+        .time
+            font-size: 11px
 
-	.cvcheck-entry
-		background-color: #f19016
-		font-size: 17px
-		.time
-			font-size: 12px
+    .cvcheck-entry
+        background-color: #f19016
+        font-size: 17px
+        .time
+            font-size: 12px
 
-	.meal-entry
-		background-color: #289a1e
-		font-size: 18px
-		.time
-			font-size: 13px
+    .meal-entry
+        background-color: #289a1e
+        font-size: 18px
+        .time
+            font-size: 13px
 
-	.meetup-entry
-		background-color: #6b6b6b
-		font-size: 13px
-		.time
-			font-size: 8px
-	
-	.poster-entry
-		background-color: #a133d8
-		font-size: 18px
-		.time
-			font-size: 13px
+    .meetup-entry
+        background-color: #6b6b6b
+        font-size: 13px
+        .time
+            font-size: 8px
+    
+    .poster-entry
+        background-color: #a133d8
+        font-size: 18px
+        .time
+            font-size: 13px
 
-	.mini-talk-entry
-		background-color: #310ecd
-		font-size: 17px
-		.time
-			font-size: 12px
+    .mini-talk-entry
+        background-color: #310ecd
+        font-size: 17px
+        .time
+            font-size: 12px
 
-	.time-label
-		color: #778b93
+    .time-label
+        color: #778b93
 

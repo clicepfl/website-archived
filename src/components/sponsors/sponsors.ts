@@ -127,7 +127,7 @@ class SponsorsComponent {
      */
     listValidByTier(): Map<string, Sponsor[]> {
         var groupedBy: Map<string, Sponsor[]> = new Map()
-        for (let tier of ["platinum", "gold", "silver", "bronze", "subventions"]) {
+        for (let tier of ["partners", "platinum", "gold", "silver", "bronze", "subventions"]) {
             var fromTier: Sponsor[] = this.listValidFromTier(tier)
             if (fromTier.length > 0) {
                 groupedBy.set(tier, fromTier)
