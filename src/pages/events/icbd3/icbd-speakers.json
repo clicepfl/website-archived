@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Alexandre Connat",
+        "role": "CICR - Meetup sustainable and ethical companies",
+        "imageURL": "/events/AlexandreConnat.jpg",
+        "websiteURL": "https://www.linkedin.com/in/connat/"
+    },
+    {
+        "name": "Elie Najm",
+        "role": "Credit Suisse - Mini-Talk Data Science",
+        "imageURL": "/events/ElieNajm.jpg",
+        "websiteURL": "https://www.linkedin.com/in/elie-najm-29078a39/"
+    },
+    {
+        "name": "Manohar Jonnalagedda",
+        "role": "Big-Talk EPFL 10 years after",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/manojo/"
+    },
+    {
+        "name": "Daria Printseva",
+        "role": "Logitech - CV Correction",
+        "imageURL": "/events/DariaPrintseva.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
+    },
+    {
+        "name": "Lomig Mégard",
+        "role": "Swissborg - Mini-talk software Engineering",
+        "imageURL": "/events/LomigMegard.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lomigmegard"
+    },
+    {
+        "name": "Téo Stocco",
+        "role": "Kiwi - Big-talk start-up hits and misses",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/zifeo"
+    },
+    {
+        "name": "Loan Verneau",
+        "role": "Mobius Digital Games - Mini-talk video games",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/loan-verneau-869b7057"
+    },
+    {
+        "name": "Solène Buet Chiche",
+        "role": "Pocket Campus - Meet-up women in IT",
+        "imageURL": "/events/SoleneBuetChiche.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sol%C3%A8ne-buet-chiche-b8a43841"
+    }
+]

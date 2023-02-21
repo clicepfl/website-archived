@@ -9,8 +9,7 @@ const { exec } = require('child_process')
 const mkdirp = require('mkdirp')
 const del = require('del')
 const gulp = require('gulp')
-const gulpSass = require('gulp-sass')(require('node-sass'))
-gulpSass.compiler = require('node-sass')
+const gulpSass = require('gulp-sass')(require('sass'))
 
 const DIST = 'dist/'
 

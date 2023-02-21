@@ -12,6 +12,18 @@
         }
     },
     {
+        "name": "Jane Street",
+        "websiteURL": "https://www.janestreet.com/",
+        "imageURL": "/sponsors/jane_street.png",
+        "imageStyles": null,
+        "tier": "partners",
+        "expiration": {
+            "year": 2023,
+            "month": 6,
+            "day": 30
+        }
+    },
+    {
         "name": "Swissquote",
         "websiteURL": "https://en.swissquote.com/company/jobs",
         "imageURL": "/sponsors/swissquote.png",
