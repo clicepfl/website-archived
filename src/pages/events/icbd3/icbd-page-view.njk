@@ -389,7 +389,7 @@
                 //'BC 02',
                 'BC 129',
                 'BC 229',
-                //'BC 329',
+                'BC 329',
                 'BC 133',
                 //'BC 233',
                 //'BC 333',
@@ -419,8 +419,8 @@
                 url: '#whatnext-talk'
             });
             timetable.addEvent("Mini-talk : cybersecurity", room, date(14, 30), date(15, 10), MT_OPTIONS);
-            timetable.addEvent("Mini-talk : video games", room, date(16, 10), date(16, 50), MT_OPTIONS);
             timetable.addEvent("Mini-talk : open source", room, date(15, 20), date(16, 00), MT_OPTIONS);
+            timetable.addEvent("Mini-talk : video games", room, date(16, 10), date(16, 50), MT_OPTIONS);
             timetable.addEvent("Big-talk : throwback 10 years after", room, date(17, 0), date(18, 0), {
                 class: 'talk-entry',
                 url: '#10years-talk'
@@ -434,28 +434,40 @@
             
             // BC 129 events
             room = 'BC 129';
+
+            // BC 329 events
+            room = 'BC 329';
+            timetable.addEvent("Mock traditional interview", room, date(8, 50), date(9, 20), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(9, 30), date(10, 00), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(10, 20), date(10, 50), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(11, 0), date(11, 30), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(13, 30), date(14, 0), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(14, 10), date(14, 40), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(14, 50), date(15, 20), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(15, 30), date(16, 0), MOCK_OPTIONS);
             
             // BC 229 events
             room = 'BC 229';
-            timetable.addEvent("Mock traditional interview", room, date(8, 40), date(9, 40), MOCK_OPTIONS);
-            timetable.addEvent("Mock traditional interview", room, date(10, 0), date(10, 50), MOCK_OPTIONS);
-            timetable.addEvent("Mock coding interview", room, date(11, 10), date(12, 0), MOCK_OPTIONS);
-            timetable.addEvent("Mock traditional interview", room, date(14, 20), date(15, 10), MOCK_OPTIONS);
-            timetable.addEvent("Mock coding interview", room, date(15, 30), date(16, 20), MOCK_OPTIONS);
-            timetable.addEvent("Mock coding interview", room, date(16, 40), date(17, 30), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(8, 50), date(9, 20), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(9, 30), date(10, 00), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(10, 20), date(10, 50), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(11, 0), date(11, 30), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(13, 30), date(14, 0), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(14, 10), date(14, 40), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(14, 50), date(15, 20), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(15, 30), date(16, 0), MOCK_OPTIONS);
             
             // BC 133 events
             room = 'BC 133';
-            timetable.addEvent("CV correction", room, date(8, 40), date(9, 40), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(8, 50), date(9, 40), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(10, 0), date(10, 50), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(11, 10), date(12, 0), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(14, 20), date(15, 10), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(15, 30), date(16, 20), CV_OPTIONS);
-            timetable.addEvent("Mock traditional interview", room, date(16, 40), date(17, 30), MOCK_OPTIONS);
 
             // BC 129 events
             room = 'BC 129';
-            timetable.addEvent("CV correction", room, date(8, 40), date(9, 40), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(8, 50), date(9, 40), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(10, 0), date(10, 50), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(11, 10), date(12, 0), CV_OPTIONS);
             timetable.addEvent("CV correction", room, date(14, 20), date(15, 10), CV_OPTIONS);
@@ -463,9 +475,9 @@
 
             // BC Hall events
             room = 'BC HALL';
-            timetable.addEvent("Welcome coffee", room, date(8, 0), date(9, 0), MEAL_OPTIONS);
-            timetable.addEvent("Networking lunch and poster session", room, date(11, 0), date(13, 30), MEAL_OPTIONS);
-            timetable.addEvent("Closing aperitive", room, date(18, 0), date(19, 30), MEAL_OPTIONS);
+            timetable.addEvent("Welcome coffee", room, date(8, 0), date(8, 40), MEAL_OPTIONS);
+            timetable.addEvent("Networking lunch and poster session", room, date(11, 10), date(14, 0), MEAL_OPTIONS);
+            timetable.addEvent("Closing aperitive", room, date(18, 0), date(19, 40), MEAL_OPTIONS);
 
             // Render timetable
             let renderer = new Timetable.Renderer(timetable);
