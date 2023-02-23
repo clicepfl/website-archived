@@ -14,7 +14,7 @@
     {
         "name": "Manohar Jonnalagedda",
         "role": "Big-Talk EPFL 10 years after",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "imageURL": "/events/ManoharJonnalagedda.jpg",
         "websiteURL": "https://www.linkedin.com/in/manojo/"
     },
     {
@@ -46,5 +46,48 @@
         "role": "Pocket Campus - Meet-up women in IT",
         "imageURL": "/events/SoleneBuetChiche.jpg",
         "websiteURL": "https://www.linkedin.com/in/sol%C3%A8ne-buet-chiche-b8a43841"
+    },
+
+    {
+        "name": "Arnaud Delamare",
+        "role": "Oracle Labs Swizterland - Meet-up Big Tech",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3"
+    },
+    {
+        "name": "Lionel Martin",
+        "role": "Arcanite - Meet-up Research vs Industry",
+        "imageURL": "/events/LionelMartin.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lionel-martin-081a8b35/"
+    },
+    {
+        "name": "Frédéric Catalayud",
+        "role": "Nextink - Big-talk Don't know what to do next? Neither did we!",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-calatayud-a1612668/"
+    },
+    {
+        "name": "Chaabouni Rafik",
+        "role": "Mini-talk Cybersecurity",
+        "imageURL": "/events/RafikChaabouni.jpg",
+        "websiteURL": "https://www.linkedin.com/in/rafikchaabouni/"
+    },
+    {
+        "name": "Jean-Louis Raisaro",
+        "role": "CHUV - Mini-talk AI for good",
+        "imageURL": "/events/JeanLouisRaisaro.jpg",
+        "websiteURL": "https://www.linkedin.com/in/jean-louis-raisaro/"
+    },
+    {
+        "name": "David Dieulivol",
+        "role": "Gitlab - Mini-talk open source",
+        "imageURL": "/events/DavidDieulivol.jpg",
+        "websiteURL": "https://www.linkedin.com/in/born4new/"
+    },
+    {
+        "name": "Thomas Baignères",
+        "role": "Olvid - Mini-talk cryptography",
+        "imageURL": "/events/ThomasBaigneres.jpg",
+        "websiteURL": "https://www.linkedin.com/in/baigneres/"
     }
 ]
