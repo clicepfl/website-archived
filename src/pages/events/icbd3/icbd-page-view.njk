@@ -44,7 +44,7 @@
                         <div class="event-info">
                             <h1>Tuesday
                                 <span>March 14th 2023</span></h1>
-                            <h3>9 AM to 6 PM, BC building</h3>
+                            <h3>9 AM to 7:40 PM, BC building</h3>
                         </div>
                     </div>
                     <!-- content-->
@@ -55,12 +55,9 @@
         <!-- wrapper -->
 
         <div class="wrapper bg-white">
-            <div class="center">
-                <div class="content padded-40">
-                    <p class="center-text padded-40">
-                        CLIC and the IC Faculty are proud to present the 4th edition of IC Boost Day, a day dedicated to your future career in Computer and Communication Sciences! Take part in mock coding interviews and CV reviews, join various talks and meet plenty of EPFL IC alumni! They will be here to answer all the questions you may have as a future EPFL alumnus, both during specific “meetup sessions” or during our famous networking lunch! ICBD is a unique opportunity to prepare for your professional future in the world of computer science and engineering.
-                    </p>
+            <div class="center description">
 
+                <div class="content padded-40">
                     <p class="center-text registration">
                         <!-- TODO: Change this link -->
                         <a href="https://go.epfl.ch/icbd-form" target="_blank">
@@ -68,7 +65,19 @@
                             <i class="fas fa-arrow-right"></i>
                         </a>
                     </p>
+
+                    <p class="center-text padded-40">
+                        CLIC and the IC Faculty are proud to present the 4th edition of IC Boost Day, a day dedicated to your future career in Computer and Communication Sciences! Take part in mock coding interviews and CV reviews, join various talks and meet plenty of EPFL IC alumni! They will be here to answer all the questions you may have as a future EPFL alumnus, both during specific “meetup sessions” or during our famous networking lunch! ICBD is a unique opportunity to prepare for your professional future in the world of computer science and engineering.
+                    </p>
+
+                    <video class="video-pres-icbd" controls>
+                        <source src="https://clic.epfl.ch/nextcloud/s/e6ECN9geQgmYypy/download/ICBD%20Promotional%20Video_IC-COM.mp4" type="video/mp4">
+                        <p>Votre navigateur ne prend pas en charge les vidéos HTML5.
+                            Voici <a href="https://clic.epfl.ch/nextcloud/s/e6ECN9geQgmYypy/download/ICBD%20Promotional%20Video_IC-COM.mp4">un lien pour télécharger la vidéo</a>.</p>
+                    </video>
+
                 </div>
+        
                 <!-- content -->
             </div>
             <!-- center -->
@@ -117,6 +126,7 @@
                         {% endfor %}
                     </div>
                 </div>
+                
                 <div class="content padded-40">
                     <h1>PhD Students</h1>
                     <h3>During the poster session</h3>
@@ -137,6 +147,18 @@
             </div>
         </div>
 
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40 timetable-container">
+                    <h1>Timetable</h1>
+                    <div class="timetable"></div>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
         <div class="wrapper bg-orange-gradient">
             <div class="center">
                 <div class="content padded-40 planning">
@@ -154,7 +176,7 @@
                                     You have spent years studying the ins and outs of computer science and coding interviews may very well 
                                     be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
                                     it would be beneficial for you to practice and get advice directly from the people who run them! Register 
-                                    for this activity and let IC alumni from ??? <!--TODO: set enterprise--> help you sharpen your abilities. Note that 
+                                    for this activity and let IC alumni from Oracle and Swisscom help you sharpen your abilities. Note that 
                                     there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
                                 </p>
                             </div>
@@ -193,7 +215,7 @@
                                     Data Science, Cyber Security, Software Engineering… These are all broad IT fields <a href="https://t.me/clicnews/382">you have let us know you are the most interested in</a>! Therefore, these mini-talks are there to give you a more concrete understanding of what the daily life of an engineer in such domains is like. During these activities, 
                                     several alumni working in the same field will come to give a quick overview of a project they worked on before discussing their 
                                     daily routine and give you insights into what your future work life may look like. We will host alumni working in domains such 
-                                    as <a href="#Elie Najm">Data Science</a>, AI for good, Cyber Security, Cryptography, <a href="#Loan Verneau">Video Games</a>, <a href="#Lomig Mégard">Software Engineering</a>, and Open-Source!
+                                    as <a href="#Elie Najm">Data Science</a>, <a href="#Jean-Louis Raisaro">AI for good</a>, <a href="#Chaabouni Rafik">Cyber Security</a>, <a href="#Thomas Baignères">Cryptography</a>, <a href="#Loan Verneau">Video Games</a>, <a href="#Lomig Mégard">Software Engineering</a>, and <a href="#David Dieulivol">Open-Source</a>!
                                 </p>
                             </div>
                         </div>
@@ -285,7 +307,7 @@
                                     You may be rather close to the end of your studies, and still have no idea of what you will do next. 
                                     First, let us say that you are not alone (at all). Secondly, we therefore wanted to invite someone that 
                                     faced the same issues and could explain in a relatable way how to deal with it. 
-                                    Come and meet <a href="#Tom Demont">[An alumnus]</a>, an alumnus-a that finished her/his IC EPFL master 
+                                    Come and meet <a href="#Frédéric Catalayud">Frédéric Catalayud</a>, an alumnus-a that finished her/his IC EPFL master 
                                     without being sure of what career to follow. Come and discover how to bounce back and find your own way!
                                 </p>
                             </div>
@@ -303,9 +325,23 @@
                                     It will soon be the time for you to dive into the working world but you perhaps have a few concerns or questions that you'd like to discuss open-hearted. This is why we 
                                     are inviting alumni to talk about their own experience on diverse subjects. This discussion-oriented activity will allow you to 
                                     engage in interesting conversations with alumni who already went through some of your interrogations and have great insights about them. 
-                                    The featured subjects are : <b>“Master completed, what now ? Research, industry, both ?”, <a href="#Solène Buet Chiche">“What is it like to work in the IT field as a 
-                                    woman ?”</a>, <a href="#Alexandre Connat">“Should I aim for a more ethical company and if so, what are they like ?”</a>, “What is it like to work in big-tech 
-                                    companies such as the GAFAMs ?”</b> and finally, <b>“How about working in a start-up?”</b>.
+                                    The featured subjects are : <b><a href="#Lionel Martin">“Master completed, what now ? Research, industry, both ?”</a>, <a href="#Solène Buet Chiche">“What is it like to work in the IT field as a 
+                                    woman ?”</a>, <a href="#Alexandre Connat">“Should I aim for a more ethical company and if so, what are they like ?”</a>, <a href="#Arnaud Delamare">“What is it like to work in big-tech 
+                                    companies such as the GAFAMs ?”</a></b> and finally, <b><a href="#Téo Stocco">“How about working in a start-up?”</a></b>.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="closing-aperitive" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Closing aperitive</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    The event will end with an aperitive, a second opportunity to interact with the alumni, professor and other students.
                                 </p>
                             </div>
                         </div>
@@ -318,17 +354,6 @@
         </div>
         <!-- wrapper -->
 
-        <div class="wrapper bg-white">
-            <div class="center">
-                <div class="content padded-40 timetable-container">
-                    <h1>Timetable</h1>
-                    <div class="timetable"></div>
-                </div>
-                <!-- content -->
-            </div>
-            <!-- center -->
-        </div>
-        <!-- wrapper -->
 
         {{ base.footer() }}
 
@@ -358,6 +383,10 @@
             };
             const MEAL_OPTIONS = {
                 url: '#lunch',
+                class: 'meal-entry'
+            };
+            const APERITIVE_OPTIONS = {
+                url: '#closing-aperitive',
                 class: 'meal-entry'
             };
             const MT_OPTIONS = {
@@ -477,7 +506,7 @@
             room = 'BC HALL';
             timetable.addEvent("Welcome coffee", room, date(8, 0), date(8, 40), MEAL_OPTIONS);
             timetable.addEvent("Networking lunch and poster session", room, date(11, 10), date(14, 0), MEAL_OPTIONS);
-            timetable.addEvent("Closing aperitive", room, date(18, 0), date(19, 40), MEAL_OPTIONS);
+            timetable.addEvent("Closing aperitive", room, date(18, 0), date(19, 40), APERITIVE_OPTIONS);
 
             // Render timetable
             let renderer = new Timetable.Renderer(timetable);
