@@ -20,6 +20,12 @@
                 "role": "Trésorier"
             },
             {
+                "name": "Alexis Schlomer",
+                "imageURL": "alexisschlomer.jpg",
+                "websiteURL": "https://people.epfl.ch/alexis.schlomer",
+                "role": "Sponsoring"
+            },
+            {
                 "name": "Cécile Michel",
                 "imageURL": "cecilemichel.jpg",
                 "websiteURL": "https://people.epfl.ch/cecile.michel",
