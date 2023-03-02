@@ -34,5 +34,11 @@
         "role": "Hexhive",
         "imageURL": "/events/AtriBhattacharyya.jpg",
         "websiteURL": "https://people.epfl.ch/atri.bhattacharyya"
+    },
+    {
+        "name": "Zilu Tian",
+        "role": "DATA",
+        "imageURL": "/events/ZiluTian.jpg",
+        "websiteURL": "https://people.epfl.ch/zilu.tian"
     }
 ]
