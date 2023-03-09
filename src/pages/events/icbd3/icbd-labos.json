@@ -40,5 +40,11 @@
         "role": "DATA",
         "imageURL": "/events/ZiluTian.jpg",
         "websiteURL": "https://people.epfl.ch/zilu.tian"
+    },
+    {
+        "name": "Can Cebeci",
+        "role": "DSLAB",
+        "imageURL": "/events/CanCebeci.jpg",
+        "websiteURL": "https://people.epfl.ch/can.cebeci"
     }
 ]
