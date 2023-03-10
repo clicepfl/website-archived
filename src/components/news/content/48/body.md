@@ -14,7 +14,7 @@ Les profits de la soirée serviront à financer le voyage d’études des étudi
 
 Pour s’inscrire:
 1. Remplir [ce formulaire](https://go.epfl.ch/inscriptions-souper-fac-ic-2023)
-2. Aller payer au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h. Vous pouvez payer soit en cash, soit par camipro (en personne au bureau), ou finalement par virement bancaire via le QR code qui se trouve ici (lien du site) avec le message “SDF 2023 NOM PRÉNOM”
+2. Aller payer au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h. Vous pouvez payer soit en cash, soit par camipro (en personne au bureau), ou finalement par virement bancaire via le QR code qui se trouve à la fin du form d’inscription.
 
 La CLIC qui vous aime ❤️💙
 
@@ -38,6 +38,6 @@ The profits of the evening will be used to finance the 3rd year students' study 
 
 To register:
 1. Fill in [this form](https://go.epfl.ch/inscriptions-souper-fac-ic-2023)
-2. Go and pay at the CLIC office (INN132), open every day from 10am to 5pm. You can pay either in cash, or by camipro (in person at the office), or finally by bank transfer via the QR code that can be found here (link from the website) with the message "SDF 2023 LASTNAME NAME"
+2. Go and pay at the CLIC office (INN132), open every day from 10am to 5pm. You can pay either in cash, or by camipro (in person at the office), or finally by bank transfer via the QR code that can be found at the end of the registration form.
 
 Love from CLIC ❤️💙
