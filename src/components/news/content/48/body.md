@@ -6,16 +6,7 @@ Cette année on s’est un peu inspiré d’Harry Potter, alors révisez bien vo
 
 Les profits de la soirée serviront à financer le voyage d’études des étudiant.e.s de 3ème année cet été, organisé par [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
 
-Au menu : 🍽️ 
-
-Option Omni
-Salade mêlée
-***
-Cannelloni de Bœuf Suisse, Sauce napolitaine 
-OU (option végé) :
-Cannelloni Ricotta / Epinard, Sauce Napolitaine 
-***
-Tarte au fruit de Saison  
+![Menu FR](/news/48/menu_fr.png "")
 
 **📅 Date: 23 mars à partir de 18h. Vous devez être présent.e au plus tard à 19h. <br>
 📍 Lieu:  Hall BC <br>
@@ -26,27 +17,20 @@ Pour s’inscrire:
 2. Aller payer au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h. Vous pouvez payer soit en cash, soit par camipro (en personne au bureau), ou finalement par virement bancaire via le QR code qui se trouve à la fin du form d’inscription.
 
 La CLIC qui vous aime ❤️💙
+
 Et pour citer Albus Dumbledore dans la scène d’ouverture du repas dans H.P. 1: “Bon app”
 <br><br>
 
 ___
 ***VERSION FRANCAISE AU DESSUS***
 
-You were waiting for it (yes, you just didn't know it yet), here it is. The IC 2023 Faculty Dinner! Meet us on March 23rd at the BC Hall to share a meal with other students and faculty members (including professors, who never dreamed of toasting with his or her analysis 2 professor?)
+You were waiting for it (yes, you just didn't know it yet), here it is. The **IC 2023 Faculty Dinner**! Meet us on **March 23rd at the BC Hall** to share a meal with other students and faculty members (including professors, who never dreamed of toasting with his or her analysis 2 professor?)
 
 This year we've been inspired by Harry Potter, so be sure to brush up on your classics, or finish Hogwarts legacy that works too, to win the Faculty Dinner Quiz. 🧙 The musical atmosphere of the evening will be provided by [EPFL Big Band](https://musical.epfl.ch/fr/big-band/), (thanks to the reufs).
 
 The profits of the evening will be used to finance the 3rd year students' study trip this summer, organised by [IC Travel](https://clic.epfl.ch/commissions/ic-travel/).
 
-On the menu: 🍽️
-Omni option
-Mixed salad
-***
-Swiss Beef Cannelloni with Neapolitan Sauce
-OR (vegetarian option) :
-Cannelloni Ricotta / Spinach, Neapolitan Sauce
-***
-Seasonal Fruit Tart  
+![Menu EN](/news/48/menu_en.png "")
 
 **📅 Date: 23 March from 6pm. You must be present at the latest at 7pm. <br>
 📍 Location: Hall BC <br>
