@@ -22,8 +22,8 @@ Tarte au fruit de Saison
 🪙 Prix:   10.- jusqu’au 20 mars 23:59, 12.- après**
 
 Pour s’inscrire:
-1. Remplir ce formulaire
-2. Aller payer au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h. Vous pouvez payer soit en cash, soit par camipro (en personne au bureau), ou finalement par virement bancaire via le QR code qui se trouve ici (lien du site) avec le message “SDF 2023 NOM PRÉNOM”
+1. Remplir [ce formulaire](https://go.epfl.ch/inscriptions-souper-fac-ic-2023)
+2. Aller payer au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h. Vous pouvez payer soit en cash, soit par camipro (en personne au bureau), ou finalement par virement bancaire via le QR code qui se trouve à la fin du form d’inscription.
 
 La CLIC qui vous aime ❤️💙
 Et pour citer Albus Dumbledore dans la scène d’ouverture du repas dans H.P. 1: “Bon app”
@@ -53,7 +53,7 @@ Seasonal Fruit Tart
 🪙 Price: 10.00 until 20 March 23:59, 12.00 after**
 
 To register:
-1. Fill in this form
-2. Go and pay at the LINC office (INN132), open every day from 10am to 5pm. You can pay either in cash, or by camipro (in person at the office), or finally by bank transfer via the QR code that can be found here (link from the website) with the message "SDF 2023 LASTNAME NAME"
+1. Fill in [this form](https://go.epfl.ch/inscriptions-souper-fac-ic-2023)
+2. Go and pay at the CLIC office (INN132), open every day from 10am to 5pm. You can pay either in cash, or by camipro (in person at the office), or finally by bank transfer via the QR code that can be found at the end of the registration form.
 
 Love from CLIC ❤️💙
