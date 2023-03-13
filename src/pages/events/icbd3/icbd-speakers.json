@@ -113,5 +113,17 @@
         "role": "Open Systems AG - Mock & coding interviews",
         "imageURL": "/events/LionelFleury.jpg",
         "websiteURL": "https://www.linkedin.com/in/lionelfleury/"
+    },
+    {
+        "name": "Emma Lejal Glaude",
+        "role": "Swisscom - CV Correction",
+        "imageURL": "/events/EmmaLejalGlaude.jpg",
+        "websiteURL": "https://www.linkedin.com/in/emma-lejal-glaude/"
+    },
+    {
+        "name": "Julien Perrochet",
+        "role": "Perrochet Reactive Systems - Mock & coding interviews",
+        "imageURL": "/events/JulienPerrochet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/julien-perrochet-58004252/"
     }
 ]
