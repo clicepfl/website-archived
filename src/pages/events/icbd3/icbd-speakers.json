@@ -24,6 +24,12 @@
         "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
     },
     {
+        "name": "Junghyun Kim",
+        "role": "Logitech - CV Correction",
+        "imageURL": "/events/JunghyunKim.jpg",
+        "websiteURL": "https://www.linkedin.com/in/junghyun-judy-kim-6b42a115/"
+    },
+    {
         "name": "Lomig Mégard",
         "role": "Swissborg - Mini-talk software Engineering",
         "imageURL": "/events/LomigMegard.jpg",
@@ -37,7 +43,7 @@
     },
     {
         "name": "Loan Verneau",
-        "role": "Mobius Digital Games - Mini-talk video games",
+        "role": "Mobius Digital Games - Mini-talk The Entertainment Industry and Video Games",
         "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
         "websiteURL": "https://www.linkedin.com/in/loan-verneau-869b7057"
     },
@@ -55,20 +61,32 @@
         "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3"
     },
     {
-        "name": "Lionel Martin",
-        "role": "Arcanite - Meet-up Research vs Industry",
-        "imageURL": "/events/LionelMartin.jpg",
-        "websiteURL": "https://www.linkedin.com/in/lionel-martin-081a8b35/"
+        "name": "Keshav Singh",
+        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
+        "imageURL": "/events/KeshavSingh.jpg",
+        "websiteURL": "https://www.linkedin.com/in/keshav-singh-900472148/"
     },
     {
-        "name": "Frédéric Catalayud",
+        "name": "Soomin Lee",
+        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
+        "imageURL": "/events/SoominLee.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sumin0/"
+    },
+    {
+        "name": "Johan Paratte",
+        "role": "Arcanite - Meet-up Research vs Industry",
+        "imageURL": "/events/JohanParatte.jpg",
+        "websiteURL": "https://www.linkedin.com/in/johan-paratte-a2070039/?originalSubdomain=ch"
+    },
+    {
+        "name": "Frédéric Calatayud",
         "role": "Nextink - Big-talk Don't know what to do next? Neither did we!",
         "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
         "websiteURL": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-calatayud-a1612668/"
     },
     {
         "name": "Chaabouni Rafik",
-        "role": "Mini-talk Cybersecurity",
+        "role": "Swiss Armed Forces - Mini-talk Cybersecurity",
         "imageURL": "/events/RafikChaabouni.jpg",
         "websiteURL": "https://www.linkedin.com/in/rafikchaabouni/"
     },
@@ -89,5 +107,23 @@
         "role": "Olvid - Mini-talk cryptography",
         "imageURL": "/events/ThomasBaigneres.jpg",
         "websiteURL": "https://www.linkedin.com/in/baigneres/"
+    },
+    {
+        "name": "Lionel Fleury",
+        "role": "Open Systems AG - Mock & coding interviews",
+        "imageURL": "/events/LionelFleury.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lionelfleury/"
+    },
+    {
+        "name": "Emma Lejal Glaude",
+        "role": "Swisscom - CV Correction",
+        "imageURL": "/events/EmmaLejalGlaude.jpg",
+        "websiteURL": "https://www.linkedin.com/in/emma-lejal-glaude/"
+    },
+    {
+        "name": "Julien Perrochet",
+        "role": "Perrochet Reactive Systems - Mock & coding interviews",
+        "imageURL": "/events/JulienPerrochet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/julien-perrochet-58004252/"
     }
 ]
