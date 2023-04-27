@@ -14,7 +14,7 @@
     {
         "name": "Manohar Jonnalagedda",
         "role": "Big-Talk EPFL 10 years after",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "imageURL": "/events/ManoharJonnalagedda.jpg",
         "websiteURL": "https://www.linkedin.com/in/manojo/"
     },
     {
@@ -22,6 +22,12 @@
         "role": "Logitech - CV Correction",
         "imageURL": "/events/DariaPrintseva.jpg",
         "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
+    },
+    {
+        "name": "Junghyun Kim",
+        "role": "Logitech - CV Correction",
+        "imageURL": "/events/JunghyunKim.jpg",
+        "websiteURL": "https://www.linkedin.com/in/junghyun-judy-kim-6b42a115/"
     },
     {
         "name": "Lomig Mégard",
@@ -37,7 +43,7 @@
     },
     {
         "name": "Loan Verneau",
-        "role": "Mobius Digital Games - Mini-talk video games",
+        "role": "Mobius Digital Games - Mini-talk The Entertainment Industry and Video Games",
         "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
         "websiteURL": "https://www.linkedin.com/in/loan-verneau-869b7057"
     },
@@ -46,5 +52,78 @@
         "role": "Pocket Campus - Meet-up women in IT",
         "imageURL": "/events/SoleneBuetChiche.jpg",
         "websiteURL": "https://www.linkedin.com/in/sol%C3%A8ne-buet-chiche-b8a43841"
+    },
+
+    {
+        "name": "Arnaud Delamare",
+        "role": "Oracle Labs Swizterland - Meet-up Big Tech",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3"
+    },
+    {
+        "name": "Keshav Singh",
+        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
+        "imageURL": "/events/KeshavSingh.jpg",
+        "websiteURL": "https://www.linkedin.com/in/keshav-singh-900472148/"
+    },
+    {
+        "name": "Soomin Lee",
+        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
+        "imageURL": "/events/SoominLee.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sumin0/"
+    },
+    {
+        "name": "Johan Paratte",
+        "role": "Arcanite - Meet-up Research vs Industry",
+        "imageURL": "/events/JohanParatte.jpg",
+        "websiteURL": "https://www.linkedin.com/in/johan-paratte-a2070039/?originalSubdomain=ch"
+    },
+    {
+        "name": "Frédéric Calatayud",
+        "role": "Nextink - Big-talk Don't know what to do next? Neither did we!",
+        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
+        "websiteURL": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-calatayud-a1612668/"
+    },
+    {
+        "name": "Chaabouni Rafik",
+        "role": "Swiss Armed Forces - Mini-talk Cybersecurity",
+        "imageURL": "/events/RafikChaabouni.jpg",
+        "websiteURL": "https://www.linkedin.com/in/rafikchaabouni/"
+    },
+    {
+        "name": "Jean-Louis Raisaro",
+        "role": "CHUV - Mini-talk AI for good",
+        "imageURL": "/events/JeanLouisRaisaro.jpg",
+        "websiteURL": "https://www.linkedin.com/in/jean-louis-raisaro/"
+    },
+    {
+        "name": "David Dieulivol",
+        "role": "Gitlab - Mini-talk open source",
+        "imageURL": "/events/DavidDieulivol.jpg",
+        "websiteURL": "https://www.linkedin.com/in/born4new/"
+    },
+    {
+        "name": "Thomas Baignères",
+        "role": "Olvid - Mini-talk cryptography",
+        "imageURL": "/events/ThomasBaigneres.jpg",
+        "websiteURL": "https://www.linkedin.com/in/baigneres/"
+    },
+    {
+        "name": "Lionel Fleury",
+        "role": "Open Systems AG - Mock & coding interviews",
+        "imageURL": "/events/LionelFleury.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lionelfleury/"
+    },
+    {
+        "name": "Emma Lejal Glaude",
+        "role": "Swisscom - CV Correction",
+        "imageURL": "/events/EmmaLejalGlaude.jpg",
+        "websiteURL": "https://www.linkedin.com/in/emma-lejal-glaude/"
+    },
+    {
+        "name": "Julien Perrochet",
+        "role": "Perrochet Reactive Systems - Mock & coding interviews",
+        "imageURL": "/events/JulienPerrochet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/julien-perrochet-58004252/"
     }
 ]
