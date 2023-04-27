@@ -1,8 +1,50 @@
 [
     {
-        "name": "John Doe",
-        "role": "Example",
+        "name": "Mikhail Makarov",
+        "role": "THL4",
         "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://people.epfl.ch/"
+        "websiteURL": "https://people.epfl.ch/mikhail.makarov"
+    },
+    {
+        "name": "Bahar Aydemir",
+        "role": "IVRL",
+        "imageURL": "/events/BaharAydemir.jpg",
+        "websiteURL": "https://people.epfl.ch/bahar.aydemir"
+    },
+    {
+        "name": "Sachin Basil John",
+        "role": "DATA",
+        "imageURL": "/events/SachinBasilJohn.jpg",
+        "websiteURL": "https://people.epfl.ch/sachin.basiljohn"
+    },
+    {
+        "name": "Akhil Arora",
+        "role": "DLAB",
+        "imageURL": "/events/AkhilArora.jpg",
+        "websiteURL": "https://people.epfl.ch/akhil.arora"
+    },
+    {
+        "name": "Eric Bezzam",
+        "role": "LCAV",
+        "imageURL": "/events/EricBezzam.jpg",
+        "websiteURL": "https://people.epfl.ch/eric.bezzam"
+    },
+    {
+        "name": "Atri Bhattacharyya",
+        "role": "Hexhive",
+        "imageURL": "/events/AtriBhattacharyya.jpg",
+        "websiteURL": "https://people.epfl.ch/atri.bhattacharyya"
+    },
+    {
+        "name": "Zilu Tian",
+        "role": "DATA",
+        "imageURL": "/events/ZiluTian.jpg",
+        "websiteURL": "https://people.epfl.ch/zilu.tian"
+    },
+    {
+        "name": "Can Cebeci",
+        "role": "DSLAB",
+        "imageURL": "/events/CanCebeci.jpg",
+        "websiteURL": "https://people.epfl.ch/can.cebeci"
     }
 ]

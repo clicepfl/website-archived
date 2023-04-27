@@ -6,11 +6,19 @@ Nous sommes IC Travel, la commission de la CLIC qui organise ton voyage d’étu
 
 #### Qui est concerné par ce voyage ?
 
-Toute personne en dernière année de bachelor de la Faculté IC peut participer au voyage.
+Toute personne en troisième année de bachelor de la Faculté IC peut participer au voyage.
 
 #### Quelle est la destination ?
 
-Elle n'a pas encore été décidée, le comité est en train de préparer une liste de propositions !
+La destination de cette année est **Amsterdam**, et le voyage se déroulera du **10 au 17 juillet 2023**.
+
+#### Comment s'inscrire ?
+
+Les inscriptions sont fermées !
+
+<!-- Pour s'inscrire au voyage, c'est par [ICI](https://go.epfl.ch/ictravel2223)
+
+Toutes les informations nécessaires figurent dans le formulaire, qui ferme le **5 mars à 23:59**. Le remplir nous permettra de réserver le bon nombre de places pour le train, le logement et les activités : vous vous engagez donc à participer en le remplissant. -->
 
 <!-- #### Où partons-nous ?
 
