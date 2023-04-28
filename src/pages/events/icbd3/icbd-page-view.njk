@@ -1,0 +1,468 @@
+{#
+    This file contains the template to render the ICBD page
+    CLIC website software
+
+    Template strings are bound to the IcbdPageViewModel defined in {@link
+    icbd-page.ts}
+
+    @author Alexandre CHAU, Jean-Etienne CHARBONNET
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/committee/committee-view.njk" as committee %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = 'IC Boost Day | CLIC') }}
+    </head>
+
+    <body id="icbd">
+        <div class="wrapper bg-animation">
+            <div class="absolute" id="particles-js"></div>
+            <div class="absolute ignore-pointer-events">
+                <div class="header">
+                    <div class="center">
+                        <div class="logo">
+                            <img src="/img/logo_black.png" alt="logo"/>
+                        </div>
+
+                        <div class="menu">
+                            <ul>
+                                <li class="current">
+                                    <a href="/">&laquo; Back to homepage</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- header-->
+
+                <div class="center">
+                    <div class="content">
+                        <img src="/img/icbd/icbd_logo.svg" class="event-logo" alt="IC Boost Day">
+
+                        <div class="event-info">
+                            <h1>Tuesday
+                                <span>March 14th 2023</span></h1>
+                            <h3>9 AM to 6 PM, BC building</h3>
+                        </div>
+                    </div>
+                    <!-- content-->
+                </div>
+                <!-- center -->
+            </div>
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <p class="center-text padded-40">
+                        CLIC and the IC Faculty are proud to present the 3rd edition of IC Boost Day, a day dedicated to your future career in Computer and Communication Sciences! Take part in mock coding interviews and CV reviews, join various talks and meet plenty of EPFL IC alumni! They will be here to answer all the questions you may have as a future EPFL alumnus, both during specific “meetup sessions” or during our famous networking lunch! ICBD is a unique opportunity to prepare for your professional future in the world of computer science and engineering.
+                    </p>
+
+                    <p class="center-text registration">
+                        <!-- TODO: Change this link -->
+                        <a href="https://go.epfl.ch/icbd-form" target="_blank">
+                            Registration
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </p>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-orange">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="sponsors">
+                        <a href="https://clic.epfl.ch">
+                        <img src="/img/logo_black.png" alt="clic">
+                        </a>
+                        <a href="https://www.epfl.ch">
+                            <img src="/img/epfl.png" alt="epfl">
+                        </a>
+                    </div>
+                    <div class="sponsors">
+                        <a href="https://www.epfl.ch/campus/associations/list/epic">
+                            <img src="/img/epic_alpha.png" alt="epic">
+                        </a>
+                        <a href="https://www.epfl.ch/schools/ic/">
+                            <img src="/img/faculty_ic_20_years_alpha.png" alt="faculté ic">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Alumni</h1>
+                    <h3>Speakers present at the event</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersAlumniList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="content padded-40">
+                    <h1>PhD Students</h1>
+                    <h3>During the poster session</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersLabosList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-orange-gradient">
+            <div class="center">
+                <div class="content padded-40 planning">
+                    <h1>Activities</h1>
+                    <div class="events-container">
+                        <div id="mock" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-handshake"></i>
+                                    Mock (Coding) Interviews</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    You have spent years studying the ins and outs of computer science and coding interviews may very well 
+                                    be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
+                                    it would be beneficial for you to practice and get advice directly from the people who run them! Register 
+                                    for this activity and let IC alumni from ??? <!--TODO: set enterprise--> help you sharpen your abilities. Note that 
+                                    there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                        <div id="cv-corr" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-check"></i>
+                                    CV correction</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    The resume is a key element in the recruitment process, hence the necessity to have an impeccable one. 
+                                    How would yours fare among dozens, if not hundreds, of CVs sent to the company you hope to work for ? 
+                                    Well luckily for you, we offer you the opportunity to perfect your resume. During this activity, our 
+                                    partner will first give an in-depth presentation on how to turn your CV into an asset and then they will 
+                                    stay available so that they can provide you with tailored feedback about your resume. Note that there is 
+                                    a limited number of spots for this activity so be sure to sign up for it as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="mini-talks" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Mini talks</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>What does a career in your dream field look like?</h4>
+                                <p>
+                                    Data Science, Cyber Security, Software Engineering… These are all broad IT fields <a href="https://t.me/clicnews/382">you have let us know you are the most interested in</a>! Therefore, these mini-talks are there to give you a more concrete understanding of what the daily life of an engineer in such domains is like. During these activities, 
+                                    several alumni working in the same field will come to give a quick overview of a project they worked on before discussing their 
+                                    daily routine and give you insights into what your future work life may look like. We will host alumni working in domains such 
+                                    as Data Science, AI for good, Cyber Security, Cryptography, Video Games, Software Engineering, and Open-Source!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="lunch" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Networking Lunch & Speed Dating</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    From 12:00 to 13:30, take part for free in an informal lunch with alumni and seize this opportunity 
+                                    to ask them any question you'd like! This will be a standing lunch so that you can walk around and 
+                                    meet as many people as you wish. And because we want you to be as prepared as you could be after your 
+                                    Master, a speed-dating will be organized towards the end of the lunch in which you will have a few 
+                                    minutes to convince an alumnus to hire you. <br>
+                                    Note that the lunch is mandatory if you want to participate in any other activity of the day and as 
+                                    such we ask 10CHF as a deposit (you will get them back right after the lunch).
+                                </p>
+                            </div>
+                        </div>
+
+                          <div id="poster" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-newspaper"></i>
+                                    Poster Session</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    Have you ever wondered what concrete projects the IC labs are working on ? Are you interested in pursuing 
+                                    a more research-oriented career after your Master or looking for an academic project but you are unsure which lab to join ? Then take advantage 
+                                    of the Poster Session, co-organized with EPIC, and have a chat with the numerous PhDs who will be here to showcase 
+                                    their work! This activity will be held around lunch time and you will be free to roam around.
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="10years-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Big Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
+                                <p>
+                                    Come and meet <a href="#Tom Demont">[An alumnus]</a>, an alumnus who finished their master at EPFL more than 10 years ago. What did they learn during 
+                                    their time in the industry? What do they wish they would have learned while at EPFL? What’s the situation now? Come 
+                                    listen to their experience in this nostalgic (for them) yet insightful (for you) talk. And to end the day on a high 
+                                    note, an <i>apero</i> will take place in BC right after this huge talk!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="startup-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Big Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Start-up: hits and misses, how to tackle the start-up journey?</h4>
+                                <p>
+                                    Come and meet <a href="#Tom Demont">[An alumnus]</a>, an alumnus-a who experienced the creation of start-up and will explain us the challenges he/she faced, how to exploit the opportunities and make them lead to the success of your ideas! If you ever felt the entrepreneurship excitation, come to this insightful talk.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="whatnext-talk" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Big Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Don't know what to do next? Neither did we!</h4>
+                                <p>
+                                    You may be rather close to the end of your studies, and still have no idea of what you will do next. First, let us say that you are not alone (at all). Secondly, we therefore wanted to invite someone that faced the same issues and could explain in a relatable way how to deal with it. Come and meet <a href="#Tom Demont">Tom Demont</a>, an alumnus-a that finished her/his IC EPFL master without being sure of what career to follow. Come and discover how to bounce back and find your own way!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="meetup" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-users"></i>
+                                    Meetup Sessions</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    It will soon be the time for you to dive into the working world but you perhaps have a few concerns or questions that you'd like to discuss open-hearted. This is why we 
+                                    are inviting alumni to talk about their own experience on diverse subjects. This discussion-oriented activity will allow you to 
+                                    engage in interesting conversations with alumni who already went through some of your interrogations and have great insights about them. 
+                                    The featured subjects are : <b>“Master completed, what now ? Research, industry, both ?”, “What is it like to work in the IT field as a 
+                                    woman ?”, “Should I aim for a more ethical company and if so, what are they like ?”, “What is it like to work in big-tech 
+                                    companies such as the GAFAMs ?”</b> and finally, <b>“How about working in a start-up?”</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- events-container -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40 timetable-container">
+                    <h1>Timetable</h1>
+                    <div class="timetable"></div>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        {{ base.footer() }}
+
+        <script src="/vendor/particles.min.js"></script>
+        <script src="/vendor/timetable.js"></script>
+
+        <script>
+            // activate particles rendering
+            particlesJS.load('particles-js', '/config/config.particles.json', () => {
+                console.log('Initialized particles.js')
+            })
+        </script>
+        <script>
+            /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
+
+            const YEAR = 2023;
+            const MONTH = 3;
+            const DAY = 14;
+
+            function date(hour, minute) {
+                return new Date(YEAR, MONTH, DAY, hour, minute);
+            }
+
+            const MOCK_OPTIONS = {
+                url: '#mock',
+                class: 'mock-entry'
+            };
+            const MEAL_OPTIONS = {
+                url: '#lunch',
+                class: 'meal-entry'
+            };
+            const MT_OPTIONS = {
+                url: '#mini-talk',
+                class: 'mini-talk-entry'
+            };
+            const CV_OPTIONS = {
+                url: '#cv-corr',
+                class: 'cvcheck-entry'
+            };
+            const MEETUP_OPTIONS = {
+                url: '#meetup',
+                class: 'meetup-entry'
+            };
+            const POSTER_OPTIONS = {
+                url: '#poster',
+                class: 'poster-entry'
+            };
+
+            let timetable = new Timetable();
+
+            // Only display hours between 8 and 20
+            timetable.setScope(8, 20);
+
+            timetable.addLocations([
+                'BC 410',
+                'BC 420',
+                //'BC 010',
+                //'BC 02',
+                'BC 129',
+                'BC 229',
+                //'BC 329',
+                'BC 133',
+                //'BC 233',
+                //'BC 333',
+                'BC HALL'
+            ]);
+
+            // BC 410 events
+            let room = 'BC 410';
+            timetable.addEvent("Meetup : sustainable/ethical companies", room, date(9, 0), date(9, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : big tech companies", room, date(10, 0), date(10, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : research or industry?", room, date(10, 0), date(10, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Mini-talk : data science", room, date(13, 40), date(14, 20), MT_OPTIONS);
+            timetable.addEvent("Mini-talk : AI for good", room, date(14, 30), date(15, 10), MT_OPTIONS);
+            timetable.addEvent("Meetup : startups", room, date(15, 20), date(16, 00), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : women in IT", room, date(16, 10), date(16, 50), MEETUP_OPTIONS);
+            
+            // BC 420 events    
+            room = 'BC 420';
+            timetable.addEvent("Mini-talk : software engineering", room, date(9, 0), date(9, 40), MT_OPTIONS);
+            timetable.addEvent("Big-talk : startups hits and misses", room, date(10, 0), date(11, 0), {
+                class: 'talk-entry',
+                url: '#startup-talk'
+            });
+            timetable.addEvent("Mini-talk : cryptography", room, date(11, 20), date(12, 0), MT_OPTIONS);
+            timetable.addEvent("Big-talk : don't know what to do next?", room, date(13, 20), date(14, 20), {
+                class: 'talk-entry',
+                url: '#whatnext-talk'
+            });
+            timetable.addEvent("Mini-talk : cybersecurity", room, date(14, 30), date(15, 10), MT_OPTIONS);
+            timetable.addEvent("Mini-talk : video games", room, date(15, 20), date(16, 0), MT_OPTIONS);
+            timetable.addEvent("Mini-talk : open source", room, date(16, 10), date(16, 50), MT_OPTIONS);
+            timetable.addEvent("Big-talk : throwback 10 years after", room, date(17, 0), date(18, 0), {
+                class: 'talk-entry',
+                url: '#10years-talk'
+            });
+            
+            // BC 010 events
+            room = 'BC 010';
+            
+            // BC 02 events
+            room = 'BC 02';
+            
+            // BC 129 events
+            room = 'BC 129';
+            
+            // BC 229 events
+            room = 'BC 229';
+            timetable.addEvent("Mock traditional interview", room, date(8, 40), date(9, 40), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(10, 0), date(10, 50), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(11, 10), date(12, 0), MOCK_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(14, 20), date(15, 10), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(15, 30), date(16, 20), MOCK_OPTIONS);
+            timetable.addEvent("Mock coding interview", room, date(16, 40), date(17, 30), MOCK_OPTIONS);
+            
+            // BC 133 events
+            room = 'BC 133';
+            timetable.addEvent("CV correction", room, date(8, 40), date(9, 40), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(10, 0), date(10, 50), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(11, 10), date(12, 0), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(14, 20), date(15, 10), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(15, 30), date(16, 20), CV_OPTIONS);
+            timetable.addEvent("Mock traditional interview", room, date(16, 40), date(17, 30), MOCK_OPTIONS);
+
+            // BC 129 events
+            room = 'BC 129';
+            timetable.addEvent("CV correction", room, date(8, 40), date(9, 40), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(10, 0), date(10, 50), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(11, 10), date(12, 0), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(14, 20), date(15, 10), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(15, 30), date(16, 20), CV_OPTIONS);
+
+            // BC Hall events
+            room = 'BC HALL';
+            timetable.addEvent("Welcome coffee", room, date(8, 0), date(9, 0), MEAL_OPTIONS);
+            timetable.addEvent("Networking lunch and poster session", room, date(11, 0), date(13, 30), MEAL_OPTIONS);
+            timetable.addEvent("Closing aperitive", room, date(18, 0), date(19, 30), MEAL_OPTIONS);
+
+            // Render timetable
+            let renderer = new Timetable.Renderer(timetable);
+            renderer.draw('.timetable');
+        </script>
+    </body>
+</html>
