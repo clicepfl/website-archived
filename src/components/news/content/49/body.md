@@ -30,6 +30,10 @@ Pour en savoir plus, consultez le site [www.en.wikipedia.org/wiki/Richard_Stallm
 
 [Inscrivez-vous ici!](https://go.epfl.ch/RMS-talk-inscriptions)
 
+**📅 Date: Mardi 16 mai de 18h à 20h. <br>
+📍 Lieux: BC 420 <br>
+🪙 Prix: gratuit**
+
 La CLIC qui vous aime ❤️💙
 
 
@@ -62,7 +66,7 @@ show and finalize with a Q&A with the audience.
 
 See more at [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
 
-**📅 Date: Monday 15th May from 6pm to 8pm <br>
+**📅 Date: Thursday 16th May from 6pm to 8pm. <br>
 📍 Location: BC 420 <br>
 🪙 Price: free entrance**
 
