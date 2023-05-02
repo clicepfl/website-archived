@@ -22,6 +22,10 @@ Dans ce discours, il partagera les bases du hacking éthique, fera un spectacle 
 
 Pour en savoir plus, consultez le site [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
 
+**📅 Date: Lundi 15 mai de 18h à 20h <br>
+📍 Lieu: BC 420 <br>
+🪙 Prix: gratuit**
+
 [Inscrivez-vous ici!](https://go.epfl.ch/RMS-talk-inscriptions)
 
 La CLIC qui vous aime ❤️💙
@@ -53,6 +57,10 @@ show and finalize with a Q&A with the audience.
 > *— Larry Lessig, founder of CreativeCommons, licences being used on Wikipedia & TED talks.*
 
 See more at [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
+
+**📅 Date: Monday 15th May from 6pm to 8pm <br>
+📍 Location: BC 420 <br>
+🪙 Price: free entrance**
 
 [Register here!](https://go.epfl.ch/RMS-talk-inscriptions)
 
