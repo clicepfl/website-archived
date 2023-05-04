@@ -2,7 +2,7 @@
 
 Richard Stallman fait sont grand retour sur le campus de l'EPFL pour une conférence sur l'éthique du numérique !
 
-L'[Yternet foundation](https://www.ynternet.org/), la CLIC et [Gnu Generation](https://gnugeneration.epfl.ch/en/) sont heureux·euses de vous accueillir pour cet événement sur le campus le 16 Mai en [BC420](https://plan.epfl.ch/?dim_floor=4&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532712&map_y=1152288&map_zoom=13) !
+L'[Ynternet foundation](https://www.ynternet.org/), la CLIC et [Gnu Generation](https://gnugeneration.epfl.ch/en/) sont heureux·euses de vous accueillir pour cet événement sur le campus le 16 Mai en [BC420](https://plan.epfl.ch/?dim_floor=4&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532712&map_y=1152288&map_zoom=13) !
 
 Richard Stallman (RMS) est un homme de superlatifs. Cofondateur du mouvement GNU et des licences libres en
 1984, ces concepts ont donné naissance à des biens communs numériques majeurs : GNU/Linux,
@@ -24,9 +24,10 @@ Dans ce discours, il partagera les bases du hacking éthique, fera un spectacle 
 
 Pour en savoir plus, consultez le site [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
 
-**📅 Date: Lundi 15 mai de 18h à 20h <br>
+**📅 Date: Lundi 16 mai de 18h à 20h <br>
 📍 Lieu: BC 420 <br>
-🪙 Prix: gratuit**
+🪙 Prix: gratuit <br>
+🇬🇧 Langue: anglais**
 
 [Inscrivez-vous ici!](https://go.epfl.ch/RMS-talk-inscriptions)
 
@@ -38,7 +39,7 @@ ___
 
 Richard Stallman is back on the EPFL campus for a conference on software ethics!
 
-[Yternet foundation](https://www.ynternet.org/), CLIC and [Gnu Generation](https://gnugeneration.epfl.ch/en/) are pleased to welcome you to this event on campus on May 16th in [BC420](https://plan.epfl.ch/?dim_floor=4&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532712&map_y=1152288&map_zoom=13) !
+[Ynternet foundation](https://www.ynternet.org/), CLIC and [Gnu Generation](https://gnugeneration.epfl.ch/en/) are pleased to welcome you to this event on campus on May 16th in [BC420](https://plan.epfl.ch/?dim_floor=4&lang=en&dim_lang=en&tree_groups=centres_nevralgiques%2Cmobilite_acces_grp%2Censeignement%2Ccommerces_et_services&tree_group_layers_centres_nevralgiques=information_epfl%2Cguichet_etudiants&tree_group_layers_mobilite_acces_grp=metro&tree_group_layers_enseignement=&tree_group_layers_commerces_et_services=&baselayer_ref=grp_backgrounds&map_x=2532712&map_y=1152288&map_zoom=13) !
 
 Richard Stallman (RMS) is a man of superlatives. Co-founder of GNU Movement and free licensing in
 1984, these concepts gave birth to major digital common goods : GNU/Linux,
@@ -64,7 +65,8 @@ See more at [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wi
 
 **📅 Date: Thursday 16th May from 6pm to 8pm. <br>
 📍 Location: BC 420 <br>
-🪙 Price: free entrance**
+🪙 Price: free entrance <br>
+🇬🇧 Language: english**
 
 [Register here!](https://go.epfl.ch/RMS-talk-inscriptions)
 
