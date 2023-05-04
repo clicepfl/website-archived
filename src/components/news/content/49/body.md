@@ -24,7 +24,7 @@ Dans ce discours, il partagera les bases du hacking éthique, fera un spectacle 
 
 Pour en savoir plus, consultez le site [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
 
-**📅 Date: Lundi 16 mai de 18h à 20h <br>
+**📅 Date: Mardi 16 mai de 18h à 20h <br>
 📍 Lieu: BC 420 <br>
 🪙 Prix: gratuit <br>
 🇬🇧 Langue: anglais**
