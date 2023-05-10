@@ -1,11 +1,11 @@
 {
-    "title": "Conférence de Richard Stallman",
+    "title": "Annulation de la conférence avec Richard Stallman",
     "date": {
-        "day": 26,
-        "month": 4,
+        "day": 10,
+        "month": 5,
         "year": 2023
     },
     "author": "Noé Terrier",
     "image": "/news/49/banner.png",
-    "shortText": "Richard Stallman revient sur le campus pour parler éthique du numérique."
+    "shortText": "Annulation de la conférence avec Richard Stallman"
 }

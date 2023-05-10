@@ -1,73 +1,38 @@
 ***ENGLISH VERSION BELOW***
 
-Richard Stallman fait sont grand retour sur le campus de l'EPFL pour une conférence sur l'éthique du numérique !
+Bonjour tout le monde,
 
-L'[Ynternet foundation](https://www.ynternet.org/), la CLIC et [Gnu Generation](https://gnugeneration.epfl.ch/en/) sont heureux·euses de vous accueillir pour cet événement sur le campus le 16 Mai en [Polydome](https://plan.epfl.ch//?room==PO%2001) !
+Nous venons de voir les derniers messages concernant la conférence de Richard Stallman.
+Nous sommes vraiment désolé·e·s de se rendre compte aussi tard de l'ampleur des implications de cet événement.
 
-Richard Stallman (RMS) est un homme de superlatifs. Cofondateur du mouvement GNU et des licences libres en
-1984, ces concepts ont donné naissance à des biens communs numériques majeurs : GNU/Linux,
-Mozilla Firefox, LibreOffice, Wikipedia (RMS en a eu l'idée), les CreativeCommons.
-RMS partage sa vision des enjeux actuels de la société de l'information, et sa
-de la société de l'information, et sa philosophie de Freedom@DigitalAge.
+En acceptant la proposition de conférence, notre seule intention était de promouvoir le logiciel libre, qui nous tient à cœur et dont nous vous savons friands. Nous réalisons que cette idée n'était pas bien pensée et qu'il est tout à fait justifiable de la remettre en question.
 
-Parfois rejeté pour ses positions tranchées, il a aussi reçu l'une des premières récompenses du Internet Hall of Fame, de nombreux doctorats académiques Honoris Causa,
-et même un Astéroïde à son nom.
-Dans ce discours, il partagera les bases du hacking éthique, fera un spectacle théâtral et finira par une séance de questions-réponses avec le public.
+Nous nous sommes mieux renseigné·e·s sur la situation concernant Richard Stallman et avons considéré les prises de positions des organisations qui nous servent d’exemples et qui se sont positionnées sur le sujet avant nous. En aucun cas nous ne voulons associer notre image et celle des étudiant·e·s aux propos abjects de Richard Stallman, c’est pourquoi nous avons entrepris les démarches pour annuler la conférence.
 
-> *Richard Stallman est le prophète du mouvement du logiciel libre.* 
-> *Il a compris les dangers des brevets logiciels il y a des années.* 
-> *maintenant que c'est devenu une question cruciale dans le monde, achetez son livre et lisez ce qu'il a dit.* 
-> *— Sir Tim Berners-Lee, inventeur du World Wide Web* 
+Il y aura sûrement d'autres occasions dans un meilleur cadre de parler de GNU/Linux, LibreOffice et Mozilla Firefox sans associer le mouvement du logiciel libre à des propos abjectes que nous ne soutenons ni ne partageons.
 
-> *Vous avez dit Richard Stallman ? On peut ne pas aimer son attitude, mais on ne peut pas ne pas aimer ses idées.* 
-> *— Larry Lessig, fondateur de CreativeCommons, licences utilisées sur Wikipedia & les conférences TED.* 
+Les logiciels libres ont des implications importantes pour la société, la technologie et l'innovation. Ils permettent une plus grande transparence, une meilleure collaboration et une plus grande accessibilité, ce qui peut conduire à des résultats plus éthiques et plus équitables dans le domaine de la technologie et au-delà. Ils encouragent également l'innovation en permettant aux développeur·euse·s et aux utilisateur·trice·s de s'appuyer sur les logiciels existants et de créer de nouvelles solutions qui répondent à des besoins émergents.
 
-Pour en savoir plus, consultez le site [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
+Nous reconnaissons l'importance des logiciels libres et ouverts et nous nous réjouissons de soutenir leur développement et leur adoption. Nous sommes reconnaissant·e·s envers celles et ceux qui ont fait part de leurs préoccupations et attiré l'attention sur cette question, et nous nous réjouissons de la poursuite des discussions et de la collaboration sur ce sujet important.
 
-**📅 Date: Mardi 16 mai de 18h à 20h <br>
-📍 Lieu: Polydome <br>
-🪙 Prix: gratuit <br>
-🇬🇧 Langue: anglais**
-
-[Inscrivez-vous ici!](https://go.epfl.ch/RMS-talk-inscriptions)
-
-La CLIC qui vous aime ❤️💙
-
+La CLIC
 
 ___
 ***VERSION FRANCAISE AU DESSUS***
 
-Richard Stallman is back on the EPFL campus for a conference on software ethics!
+Hello everyone,
 
-[Ynternet foundation](https://www.ynternet.org/), CLIC and [Gnu Generation](https://gnugeneration.epfl.ch/en/) are pleased to welcome you to this event on campus on May 16th in [Polydome](https://plan.epfl.ch//?room==PO%2001) !
+We've just seen the latest posts about Richard Stallman's conference.
+We are very sorry to be so late in realizing the extent of the implications of this event.
 
-Richard Stallman (RMS) is a man of superlatives. Co-founder of GNU Movement and free licensing in
-1984, these concepts gave birth to major digital common goods : GNU/Linux,
-Mozilla Firefox, LibreOffice, Wikipedia (RMS had the idea), the CreativeCommons.
-RMS shares his vision of current stakes within information society, and his
-philosophy of Freedom@DigitalAge.
+Our only intention in agreeing to the conference proposal was to promote free software, which we care about and know you love. We realize that this idea was not well thought out and that it is entirely justifiable to question it.
 
-Sometimes rejected for his firm position, he also received one of the first
-stars on the Internet Hall of Fame, numerous academic Doctorate Honoris Causa,
-and even an got Asteroïd on his name.
-In this speech, he will shares the basics of ethical hacking, make a theatral
-show and finalize with a Q&A with the audience.
+We have done more research on the situation regarding Richard Stallman and have considered the positions of the organizations that serve as examples for us and that have taken positions on the subject before us. Under no circumstances do we want to associate our image and that of the students with Richard Stallman's abject remarks, which is why we have taken steps to cancel the conference.
 
-> *Richard Stallman is the prophet of the free software movement.*
-> *He understood the dangers of software patents years ago.* 
-> *Now that this has become a crucial issue in the world, buy his book and read what he said.* 
-> *— Sir Tim Berners-Lee, inventor of the World Wide Web*
+There will surely be other opportunities in a better setting to talk about GNU/Linux, LibreOffice and Mozilla Firefox without associating the free software movement with abject statements that we neither support nor share.
 
-> *You said Richard Stallman ? You may dislike his attitude, but you can't dislike his ideas.* 
-> *— Larry Lessig, founder of CreativeCommons, licences being used on Wikipedia & TED talks.*
+Free software has important implications for society, technology, and innovation. It enables greater transparency, collaboration, and accessibility, which can lead to more ethical and equitable outcomes in technology and beyond. They also encourage innovation by allowing developers and users to build on existing software and create new solutions that meet emerging needs.
 
-See more at [www.en.wikipedia.org/wiki/Richard_Stallman](www.en.wikipedia.org/wiki/Richard_Stallman)
+We recognize the importance of free and open-source software and are pleased to support its development and adoption. We are grateful to those who have raised concerns and drawn attention to this issue, and we look forward to continued discussion and collaboration on this important topic.
 
-**📅 Date: Thursday 16th May from 6pm to 8pm. <br>
-📍 Location: Polydome <br>
-🪙 Price: free entrance <br>
-🇬🇧 Language: english**
-
-[Register here!](https://go.epfl.ch/RMS-talk-inscriptions)
-
-Love from CLIC ❤️💙
+CLIC
