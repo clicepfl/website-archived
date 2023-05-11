@@ -6,7 +6,7 @@ Nous avons vu vos retours concernant la conférence de Richard Stallman. Nous so
 
 En acceptant la proposition de conférence, notre seule intention était de promouvoir le logiciel libre, qui nous tient à cœur et dont nous vous savons friands. Nous réalisons que cette idée dépasse le contexte du logiciel libre.
 
-Nous nous sommes mieux renseigné·e·s sur la situation concernant Richard Stallman et avons considéré les décisions de certaines organisations qui nous servent d’exemples et qui ont fait certains choix avant nous. La CLIC ne souhaite en aucun cas participer à organiser un événement qui a une portée autre qu’informer sur le logiciel libre. Nous ne souhaiterions
+Nous nous sommes mieux renseigné·e·s sur la situation concernant Richard Stallman et avons considéré les décisions de certaines organisations qui nous servent d’exemple et qui ont fait certains choix avant nous. La CLIC ne souhaite en aucun cas participer à organiser un événement qui a une portée autre qu’informer sur le logiciel libre. Nous ne souhaiterions
 pas que l’image de la CLIC et des étudiant·e·s soit associée à des propos qui ne correspondent à aucune de nos valeurs, bien au contraire. C’est pourquoi nous avons entrepris les démarches pour **annuler la conférence**.
 
 Il y aura d'autres occasions dans un meilleur cadre de parler de GNU/Linux, LibreOffice, Wikipedia et Mozilla Firefox dans un contexte plus apaisé.
