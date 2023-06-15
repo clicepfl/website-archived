@@ -1,42 +1,37 @@
 ***ENGLISH VERSION BELOW***
 
-La seconde commande de pulls de Faculté c’est maintenant !
+Bonjour tout le monde,
 
-Les pulls proviennent de la marque Stanley Stella. Le modèle choisi est Cruiser, soit 350g/m², composé de 85% de coton biologique, et 15% de polyester recyclé. Beaucoup de chiffres pour vous dire que le modèle de pull a été minutieusement choisi pour sa qualité en tout point. Plusieurs couleurs vous sont proposées comme vous pouvez le constater sur le site de vente. Chaque pull aura le logo EPFL, le logo IC ainsi que le design, le tout brodé ! Encore félicitations à Luna pour son magnifique design !
+Nous avons vu vos retours concernant la conférence de Richard Stallman. Nous sommes vraiment désolé·e·s de nous rendre compte aussi tard de l'ampleur des implications de l’organisation de cet événement.
 
-Chaque pull adulte coûte **45 CHF**. La plateforme de paiement [One Way](https://go.epfl.ch/shop-pull-fac-ic) vous permet de pré-commander et payer vos pulls directement sur ce site. Comme nous effectuons une commande groupée, les pulls mettront environ 3 à 5 semaines à arriver au bureau de la CLIC après la fermeture des commandes. Les frais de port **jusqu’à la CLIC** sont inclus et la date de distribution est prévue pour septembre et se fera sur le campus: **faites attention si vous n’êtes plus là l’année prochaine !**
+En acceptant la proposition de conférence, notre seule intention était de promouvoir le logiciel libre, qui nous tient à cœur et dont nous vous savons friands. Nous réalisons que cette idée dépasse le contexte du logiciel libre.
 
-A savoir:
-- Il est possible de commander jusqu'au 9 juillet 2023 - 23h59!
-- La CLIC NE fera PAS de stock. 
-- Les pulls couleur [natural raw](https://www.stanleystella.com/en-gb/natural-raw-colour) ont des petits points noirs qui ne se voient pas bien sur les photos, c’est tout à fait normal: cela est dû au fait qu’aucune teinture n’est utilisée lors de la fabrication de ces pulls ! 
-  
-<br>
+Nous nous sommes mieux renseigné·e·s sur la situation concernant Richard Stallman et avons considéré les décisions de certaines organisations qui nous servent d’exemple et qui ont fait certains choix avant nous. La CLIC ne souhaite en aucun cas participer à organiser un événement qui a une portée autre qu’informer sur le logiciel libre. Nous ne souhaiterions
+pas que l’image de la CLIC et des étudiant·e·s soit associée à des propos qui ne correspondent à aucune de nos valeurs, bien au contraire. C’est pourquoi nous avons entrepris les démarches pour **annuler la conférence**.
 
-**MERCI DE NOTER QUE LES PULLS SERONT LIVRÉS À LA CLIC ET NON À L’ADRESSE QUE VOUS ENTREREZ LORS DE L’ACHAT ET SERONT DISTRIBUÉS EN SEPTEMBRE.**
+Il y aura d'autres occasions dans un meilleur cadre de parler de GNU/Linux, LibreOffice, Wikipedia et Mozilla Firefox dans un contexte plus apaisé.
 
-[COMMANDEZ-ICI](https://go.epfl.ch/shop-pull-fac-ic)
+Les logiciels libres ont des implications importantes pour la société, la technologie et l'innovation. Ils permettent une plus grande transparence, une meilleure collaboration et une plus grande accessibilité, ce qui peut conduire à des résultats plus éthiques et plus équitables dans le domaine de la technologie et au-delà. Ils encouragent également l'innovation en permettant aux développeur·euse·s et aux utilisateur·trice·s de s'appuyer sur les logiciels existants et de créer de nouvelles solutions qui répondent à des besoins émergents.
 
-La CLIC vous aime ❤️💙
+Nous reconnaissons l'importance des logiciels libres et ouverts et nous nous réjouissons de soutenir leur développement et leur adoption. Nous sommes reconnaissant·e·s envers celles et ceux qui ont fait part de leurs préoccupations et attiré l'attention sur cette question, et avons hâte de poursuivre les discussions et la collaboration sur ce sujet important.
 
-____________
-***VERSION FRANÇAISE AU DESSUS***
+La CLIC
 
-The second order of Faculty jumpers is now here!
+___
+***VERSION FRANCAISE AU DESSUS***
 
-The jumpers are from Stanley Stella. The model chosen is Cruiser, 350g/m², made from 85% organic cotton and 15% recycled polyester. That's a lot of figures to tell you that the jumper has been carefully chosen for its quality in every respect. Several colours are available, as you can see on the sales site. Each jumper will have the EPFL logo, the IC logo and the design, all embroidered! Congratulations again to Luna for her magnificent design!
+Hello everyone,
 
-Each adult jumper costs **45 CHF**. The [One Way](https://go.epfl.ch/shop-pull-fac-ic) payment platform allows you to pre-order and pay for your jumpers directly on this site. As we're placing a bulk order, the jumpers will take around 3 to 5 weeks to arrive at the CLIC office after orders close. Postage to the **CLIC office** is included and the distribution date is scheduled for September and will take place on campus: **watch out if you're not around next year!**
+We've seen your feedback on Richard Stallman's conference. We are very sorry to be so late in realizing the extent of the implications of organizing this event.
 
-And don't forget:
-- It is possible to order until 9 July 2023 - 23:59!
-- CLIC will NOT be holding any stock.
-- The [natural raw](https://www.stanleystella.com/en-gb/natural-raw-colour) jumpers have small black dots that are not clearly visible on the photos. This is completely normal: this is due to the fact that no dye is used in the manufacture of these jumpers!
+Our only intention in agreeing to the conference proposal was to promote free software, which we value and which we know you love. We realize that this idea goes beyond the context of free software.
 
-**PLEASE NOTE THAT THE JUMPERS WILL BE DELIVERED TO THE CLICK AND NOT TO THE ADDRESS YOU ENTER WHEN PURCHASING AND WILL BE DISTRIBUTED IN SEPTEMBER.**
+We have been learning more about the situation regarding Richard Stallman and have considered the decisions of organizations that serve as examples and that have made certain choices before us. CLIC does not wish to participate in any way in the organization of an event that has a scope other than informing about free software. We do not want the image of CLIC and the students to be associated with statements that do not correspond to any of our values, quite the contrary. This is why we have taken steps to **cancel the conference**.
 
-<br>
+There will be other opportunities in a better setting to talk about GNU/Linux, LibreOffice, Wikipedia and Mozilla Firefox in a more peaceful context.
 
-[ORDER HERE](https://go.epfl.ch/shop-pull-fac-ic)
+Free software has important implications for society, technology and innovation. It enables greater transparency, collaboration and accessibility, which can lead to more ethical and equitable outcomes in technology and beyond. They also encourage innovation by enabling developers and users to build on existing software and create new solutions that meet emerging needs.
 
-CLIC loves you ❤️💙
+We recognise the importance of free and open source software, and are pleased to support its development and adoption. We are grateful to those who have raised concerns and drawn attention to this issue, and look forward to continued discussion and collaboration on this important topic.
+
+CLIC
