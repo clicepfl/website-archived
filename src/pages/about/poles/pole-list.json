@@ -36,13 +36,13 @@
         "members": [
             {
                 "name": "Sarah Badr",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Administratrice"
             },
             {
                 "name": "Ursula El Khoury",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
                 "role": "Administratrice"
             }
@@ -69,7 +69,7 @@
             },
             {
                 "name": "Ludovic Mermod",
-                "imageURL": "ludovicmermod.png",
+                "imageURL": "ludovicmermod.jpg",
                 "websiteURL": "https://people.epfl.ch/ludovic.mermod",
                 "role": "Responsable IT"
             }
@@ -96,7 +96,7 @@
             },
             {
                 "name": "Marwa Rezziki",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/marwa.rezziki",
                 "role": "Responsable Communication"
             }
@@ -117,7 +117,7 @@
         "members": [
             {
                 "name": "Hugo Majerczyk",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
                 "role": "Responsable Animation"
             },
@@ -129,7 +129,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
@@ -156,7 +156,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "default.jpg",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
