@@ -15,9 +15,9 @@
             },
             {
                 "name": "Noé Terrier",
-                "role": "Co-Président",
                 "imageURL": "noeterrier.jpg",
-                "websiteURL": "https://people.epfl.ch/noe.terrier"
+                "websiteURL": "https://people.epfl.ch/noe.terrier",
+                "role": "Co-Président"
             }
         ],
         "teammates": null,
@@ -50,20 +50,6 @@
         "teammates": null,
         "social": {
             "Email": "mailto:admin.clic@epfl.ch",
-            "Instagram": "https://www.instagram.com/clicepfl/"
-        }
-    },
-    {
-        "name": "Partenariats",
-        "slug": "partenariats",
-        "imageURL": "thumbnails/sponso.PNG",
-        "shortDescription": "",
-        "pageBodyPath": "sponso.md",
-        "catchPhrase": "",
-        "members": null,
-        "teammates": null,
-        "social": {
-            "Email": "mailto:sponsoring.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
