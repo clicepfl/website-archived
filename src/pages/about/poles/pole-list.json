@@ -36,13 +36,13 @@
         "members": [
             {
                 "name": "Sarah Badr",
-                "imageURL": "sarahbadr.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Administratrice"
             },
             {
                 "name": "Ursula El Khoury",
-                "imageURL": "ursulaelkhoury.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
                 "role": "Administratrice"
             }
@@ -110,7 +110,7 @@
             },
             {
                 "name": "Marwa Rezziki",
-                "imageURL": "marwarezziki.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/marwa.rezziki",
                 "role": "Responsable Communication"
             }
@@ -131,7 +131,7 @@
         "members": [
             {
                 "name": "Hugo Majerczyk",
-                "imageURL": "hugomajerczyk.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
                 "role": "Responsable Animation"
             },
@@ -143,7 +143,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "irissegard.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
@@ -170,7 +170,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "irissegard.jpg",
+                "imageURL": "default.jpg",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
