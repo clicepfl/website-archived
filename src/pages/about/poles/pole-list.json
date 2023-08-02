@@ -1,5 +1,32 @@
 [
     {
+        "name": "Présidence",
+        "slug": "president",
+        "imageURL": "thumbnails/pres.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "pres.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Christelle Lam",
+                "imageURL": "christellelam.jpg",
+                "websiteURL": "https://people.epfl.ch/phi.lam",
+                "role": "Co-Présidente"
+            },
+            {
+                "name": "Noé Terrier",
+                "role": "Co-Président",
+                "imageURL": "noeterrier.jpg",
+                "websiteURL": "https://people.epfl.ch/noe.terrier"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:presidence.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
         "name": "Administration",
         "slug": "administration",
         "imageURL": "thumbnails/admin.PNG",
@@ -8,21 +35,35 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Maxime Lestiboudois",
-                "imageURL": "maximelestiboudois.jpg",
-                "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
+                "name": "Sarah Badr",
+                "imageURL": "sarahbadr.jpg",
+                "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Administratrice"
             },
             {
-                "name": "Emi Sakamoto",
-                "imageURL": "emisakamoto.jpg",
-                "websiteURL": "https://people.epfl.ch/emi.sakamoto",
+                "name": "Ursula El Khoury",
+                "imageURL": "ursulaelkhoury.jpg",
+                "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
                 "role": "Administratrice"
             }
         ],
         "teammates": null,
         "social": {
             "Email": "mailto:admin.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Partenariats",
+        "slug": "partenariats",
+        "imageURL": "thumbnails/sponso.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "sponso.md",
+        "catchPhrase": "",
+        "members": null,
+        "teammates": null,
+        "social": {
+            "Email": "mailto:sponsoring.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
@@ -35,192 +76,21 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Jean-Etienne Charbonnet",
-                "imageURL": "jean-etiennecharbonnet.jpg",
-                "websiteURL": "https://people.epfl.ch/jean-etienne.charbonnet",
+                "name": "Sidonie Bouthors",
+                "imageURL": "sidoniebouthors.jpg",
+                "websiteURL": "https://people.epfl.ch/sidonie.bouthors",
+                "role": "Responsable IT"
+            },
+            {
+                "name": "Ludovic Mermod",
+                "imageURL": "ludovicmermod.png",
+                "websiteURL": "https://people.epfl.ch/ludovic.mermod",
                 "role": "Responsable IT"
             }
         ],
-        "teammates": [
-            {
-                "name": "Hugo El Guedj",
-                "imageURL": "hugoelguedj.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.elguedj",
-                "role": "Equipier"
-            },
-            {
-                "name": "Maxime Lestiboudois",
-                "imageURL": "maximelestiboudois.jpg",
-                "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
-                "role": "Equipière"
-            },
-            {
-                "name": "Ludovic Mermod",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/ludovic.mermod",
-                "role": "Equipier"
-            },
-            {
-                "name": "Lucas Trognon",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/lucas.trognon",
-                "role": "Equipier"
-            }
-        ],
+        "teammates": null,
         "social": {
             "Email": "mailto:it.clic@epfl.ch",
-            "Instagram": "https://www.instagram.com/clicepfl/"
-        }
-    },
-    {
-        "name": "Logistique",
-        "slug": "logistique",
-        "imageURL": "thumbnails/log.PNG",
-        "shortDescription": "",
-        "pageBodyPath": "log.md",
-        "catchPhrase": "",
-        "members": [
-            {
-                "name": "Christelle Lam",
-                "imageURL": "christellelam.jpg",
-                "websiteURL": "https://people.epfl.ch/phi.lam",
-                "role": "Responsable Logistique"
-            },
-            {
-                "name": "Roman Paccaud",
-                "imageURL": "romanpaccaud.jpg",
-                "websiteURL": "https://people.epfl.ch/roman.paccaud",
-                "role": "Responsable Logistique"
-            }
-        ],
-        "teammates": null,
-        "social": {
-            "Email": "mailto:logistique.clic@epfl.ch",
-            "Instagram": "https://www.instagram.com/clicepfl/"
-        }
-    },
-    {
-        "name": "Présidence",
-        "slug": "president",
-        "imageURL": "thumbnails/pres.PNG",
-        "shortDescription": "",
-        "pageBodyPath": "pres.md",
-        "catchPhrase": "",
-        "members": [
-            {
-                "name": "Tom Demont",
-                "imageURL": "tomdemont.jpg",
-                "websiteURL": "https://people.epfl.ch/tom.demont",
-                "role": "Président"
-            },
-            {
-                "name": "Maëlys Billon",
-                "role": "Vice-Présidente",
-                "imageURL": "maelysbillon.jpg",
-                "websiteURL": "https://people.epfl.ch/maelys.billon"
-            }
-        ],
-        "teammates": null,
-        "social": {
-            "Email": "mailto:presidence.clic@epfl.ch",
-            "Instagram": "https://www.instagram.com/clicepfl/"
-        }
-    },
-    {
-        "name": "Partenariats",
-        "slug": "partenariats",
-        "imageURL": "thumbnails/sponso.PNG",
-        "shortDescription": "",
-        "pageBodyPath": "sponso.md",
-        "catchPhrase": "",
-        "members": [
-            {
-                "name": "Harold Benoit",
-                "imageURL": "haroldbenoit.jpg",
-                "websiteURL": "https://people.epfl.ch/harold.benoit",
-                "role": "Responsable Partenariats"
-            }
-        ],
-        "teammates": [
-            {
-                "name": "Etienne Boisson",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/etienne.boisson",
-                "role": "Equipier"
-            }
-        ],
-        "social": {
-            "Email": "mailto:sponsoring.clic@epfl.ch",
-            "Instagram": "https://www.instagram.com/clicepfl/"
-        }
-    },
-    {
-        "name": "Evénementiel",
-        "slug": "event",
-        "imageURL": "thumbnails/event.PNG",
-        "shortDescription": "",
-        "pageBodyPath": "event.md",
-        "catchPhrase": "",
-        "members": [
-            {
-                "name": "Cécile Michel",
-                "imageURL": "cecilemichel.jpg",
-                "websiteURL": "https://people.epfl.ch/cecile.michel",
-                "role": "Responsable Animation"
-            },
-            {
-                "name": "Christelle Lam",
-                "imageURL": "christellelam.jpg",
-                "websiteURL": "https://people.epfl.ch/phi.lam",
-                "role": "Responsable Logistique"
-            },
-            {
-                "name": "Roman Paccaud",
-                "imageURL": "romanpaccaud.jpg",
-                "websiteURL": "https://people.epfl.ch/roman.paccaud",
-                "role": "Responsable Logistique"
-            }
-        ],
-        "teammates": [
-            {
-                "name": "Fanny Lasne",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/fanny.lasne",
-                "role": "Equipière"
-            },
-            {
-                "name": "Khalil M'hirsi",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/khalil.mhirsi",
-                "role": "Equipier"
-            },
-            {
-                "name": "Hugo Majerczyk",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
-                "role": "Equipier"
-            },
-            {
-                "name": "Ludovic Mermod",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/ludovic.mermod",
-                "role": "Equipier"
-            },
-            {
-                "name": "Eric Saikali",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/eric.saikali",
-                "role": "Equipier"
-            },
-            {
-                "name": "Maxime Teuber",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/maxime.teuber",
-                "role": "Equipier"
-            }
-        ],
-        "social": {
-            "Email": "mailto:event.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     },
@@ -233,28 +103,81 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Noé Terrier",
-                "imageURL": "noeterrier.jpg",
-                "websiteURL": "https://people.epfl.ch/noe.terrier",
-                "role": "Responsable Communication"
-            },
-            {
                 "name": "Sara Jun",
                 "imageURL": "sarajun.jpg",
                 "websiteURL": "https://people.epfl.ch/sara.jun",
                 "role": "Responsable Communication"
-            }
-        ],
-        "teammates": [
+            },
             {
-                "name": "Eugénie Kwak",
-                "imageURL": "default.png",
-                "websiteURL": "https://people.epfl.ch/eugenie.kwak",
-                "role": "Equipière"
+                "name": "Marwa Rezziki",
+                "imageURL": "marwarezziki.jpg",
+                "websiteURL": "https://people.epfl.ch/marwa.rezziki",
+                "role": "Responsable Communication"
             }
         ],
+        "teammates": null,
         "social": {
             "Email": "mailto:communication.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Evénementiel",
+        "slug": "event",
+        "imageURL": "thumbnails/event.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "event.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Hugo Majerczyk",
+                "imageURL": "hugomajerczyk.jpg",
+                "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
+                "role": "Responsable Animation"
+            },
+            {
+                "name": "Roman Paccaud",
+                "imageURL": "romanpaccaud.jpg",
+                "websiteURL": "https://people.epfl.ch/roman.paccaud",
+                "role": "Responsable Logistique"
+            },
+            {
+                "name": "Iris Segard",
+                "imageURL": "irissegard.jpg",
+                "websiteURL": "https://people.epfl.ch/iris.segard",
+                "role": "Responsable Logistique"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:event.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Logistique",
+        "slug": "logistique",
+        "imageURL": "thumbnails/log.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "log.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Roman Paccaud",
+                "imageURL": "romanpaccaud.jpg",
+                "websiteURL": "https://people.epfl.ch/roman.paccaud",
+                "role": "Responsable Logistique"
+            },
+            {
+                "name": "Iris Segard",
+                "imageURL": "irissegard.jpg",
+                "websiteURL": "https://people.epfl.ch/iris.segard",
+                "role": "Responsable Logistique"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:logistique.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     }
