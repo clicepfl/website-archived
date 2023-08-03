@@ -1,51 +1,39 @@
 [
     {
-        "name": "Tom Demont",
-        "role": "Président",
-        "imageURL": "/committee/tomdemont.jpg",
-        "websiteURL": "https://people.epfl.ch/tom.demont"
-    },
-    {
-        "name": "Maëlys Billon",
-        "role": "Vice-Présidente",
-        "imageURL": "/committee/maelysbillon.jpg",
-        "websiteURL": "https://people.epfl.ch/maelys.billon"
-    },
-    {
-        "name": "Maxime Lestiboudois",
-        "role": "Administratrice",
-        "imageURL": "/committee/maximelestiboudois.jpg",
-        "websiteURL": "https://people.epfl.ch/maxime.lestiboudois"
-    },
-    {
-        "name": "Emi Sakamoto",
-        "role": "Administratrice",
-        "imageURL": "/committee/emisakamoto.jpg",
-        "websiteURL": "https://people.epfl.ch/emi.sakamoto"
-    },
-    {
-        "name": "Jean-Etienne Charbonnet",
-        "role": "IT",
-        "imageURL": "/committee/jean-etiennecharbonnet.jpg",
-        "websiteURL": "https://people.epfl.ch/jean-etienne.charbonnet"
-    },
-    {
-        "name": "Cécile Michel",
-        "role": "Animation",
-        "imageURL": "/committee/cecilemichel.jpg",
-        "websiteURL": "https://people.epfl.ch/cecile.michel"
-    },
-    {
-        "name": "Harold Benoit",
-        "role": "Partenariats",
-        "imageURL": "/committee/haroldbenoit.jpg",
-        "websiteURL": "https://people.epfl.ch/harold.benoit"
+        "name": "Christelle Lam",
+        "role": "Co-Présidente",
+        "imageURL": "/committee/christellelam.jpg",
+        "websiteURL": "https://people.epfl.ch/phi.lam"
     },
     {
         "name": "Noé Terrier",
-        "role": "Communication",
+        "role": "Co-Président",
         "imageURL": "/committee/noeterrier.jpg",
         "websiteURL": "https://people.epfl.ch/noe.terrier"
+    },
+    {
+        "name": "Sarah Badr",
+        "role": "Administratrice",
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/sarah.badr"
+    },
+    {
+        "name": "Ursula El Khoury",
+        "role": "Administratrice",
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/ursula.elkhoury"
+    },
+    {
+        "name": "Sidonie Bouthors",
+        "role": "IT",
+        "imageURL": "/committee/sidoniebouthors.jpg",
+        "websiteURL": "https://people.epfl.ch/sidonie.bouthors"
+    },
+    {
+        "name": "Ludovic Mermod",
+        "role": "IT",
+        "imageURL": "/committee/ludovicmermod.jpg",
+        "websiteURL": "https://people.epfl.ch/ludovic.mermod"
     },
     {
         "name": "Sara Jun",
@@ -54,15 +42,27 @@
         "websiteURL": "https://people.epfl.ch/sara.jun"
     },
     {
-        "name": "Christelle Lam",
-        "role": "Logistique",
-        "imageURL": "/committee/christellelam.jpg",
-        "websiteURL": "https://people.epfl.ch/phi.lam"
+        "name": "Marwa Rezziki",
+        "role": "Communication",
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/marwa.rezziki"
+    },
+    {
+        "name": "Hugo Majerczyk",
+        "role": "Animation",
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/hugo.majerczyk"
     },
     {
         "name": "Roman Paccaud",
         "role": "Logistique",
         "imageURL": "/committee/romanpaccaud.jpg",
         "websiteURL": "https://people.epfl.ch/roman.paccaud"
+    },
+    {
+        "name": "Iris Segard",
+        "role": "Logistique",
+        "imageURL": "/committee/default.png",
+        "websiteURL": "https://people.epfl.ch/iris.segard"
     }
 ]
