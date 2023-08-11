@@ -36,7 +36,7 @@
         "members": [
             {
                 "name": "Sarah Badr",
-                "imageURL": "default.png",
+                "imageURL": "sarahbadr.jpg",
                 "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Administratrice"
             },
@@ -117,7 +117,7 @@
         "members": [
             {
                 "name": "Hugo Majerczyk",
-                "imageURL": "default.png",
+                "imageURL": "hugomajerczyk.jpg",
                 "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
                 "role": "Responsable Animation"
             },
