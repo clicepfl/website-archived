@@ -5,7 +5,17 @@
  * @author  Alexandre CHAU
  */
 
-import { webService } from './web'
+import { webService } from './web';
+
+process.on('SIGINT', () => {
+    console.log('Received SIGINT signal. Gracefully shutting down...');
+    process.exit(0);
+});
+
+process.on('SIGTERM', () => {
+    console.log('Received SIGTERM signal. Gracefully shutting down...');
+    process.exit(0);
+});
 
 /** Set name of process */
 process.title = "nodeWebServer"
