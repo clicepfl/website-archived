@@ -32,7 +32,7 @@ Crème Chantilly vanillée <br>
 **🪙 Prix:   10.- jusqu’au 5 novembre 23:59, 12.- après** <br>
 
 Pour s’inscrire:
-Remplir ce [formulaire](https://go.epfl.ch/helloWorld4)
+Remplir ce [formulaire](https://go.epfl.ch/sdf-ic-2023-automne)
 Aller au bureau de la CLIC (INN132), ouvert tous les jours de 10h à 17h et payer en personne soit en cash, soit par camipro, ou finalement par virement bancaire via le QR code qui se trouve à la fin du formulaire d’inscription.
 
 La CLIC qui vous aime ❤️💙
@@ -74,7 +74,7 @@ Vanilla whipped cream <br>
 **🪙 Price: 10.- until November 5 23:59, 12.- afterwards** <br>
 
 To register:
-Fill in this [form](https://go.epfl.ch/helloWorld4)
+Fill in this [form](https://go.epfl.ch/sdf-ic-2023-automne)
 Go and pay at the CLIC office (INN132), open every day from 10am to 5pm. You can pay either by cash or by camipro, in person at the office. You can also pay by bank transfer via the QR code that can be found at the end of the registration form.
 
 Love from CLIC ❤️💙
