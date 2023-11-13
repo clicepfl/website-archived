@@ -121,27 +121,21 @@
         "catchPhrase": "Venez créer avec nous !",
         "members": [
             {
-                "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber2.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "name": "Marwa Rezziki",
+                "imageURL": "marwarezziki.jpg",
+                "websiteURL": "https://people.epfl.ch/marwa.rezziki",
+                "role": "Coordinatrice / Responsable Graphisme"
+            },
+            {
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
                 "role": "Coordinateur"
             },
             {
-                "name": "Lucas Trognon",
-                "imageURL": "lucastrognon.jpg",
-                "websiteURL": "https://people.epfl.ch/lucas.trognon",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Guillaume Parchet",
-                "imageURL": "guillaumeparchet.jpg",
-                "websiteURL": "https://people.epfl.ch/guillaume.parchet",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Thibault Viglino",
-                "imageURL": "thibaultviglino.jpg",
-                "websiteURL": "https://people.epfl.ch/thibault.viglino",
+                "name": "Jacopo Philip Moretti",
+                "imageURL": "jacopomoretti.jpg",
+                "websiteURL": "https://people.epfl.ch/jacopo.moretti",
                 "role": "Coordinateur"
             }
         ],
