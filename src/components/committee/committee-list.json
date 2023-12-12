@@ -64,5 +64,11 @@
         "role": "Logistique",
         "imageURL": "/committee/irissegard.jpg",
         "websiteURL": "https://people.epfl.ch/iris.segard"
+    },
+    {
+        "name": "Mallory Henriet",
+        "role": "Relations Externes",
+        "imageURL": "/committee/malloryhenriet.jpg",
+        "websiteURL": "https://people.epfl.ch/mallory.henriet"
     }
 ]
