@@ -61,7 +61,7 @@
         {% endset %}
         {{ base.header(tab = "home", append = slider | safe) }}
 #}
-{% macro header(tab = "", classes = "bg-navy-blue", append = "") %}
+{% macro header(tab = "", classes = "", append = "") %}
     <div class="wrapper {{classes}}">
         <div class="header">
             <div class="center">
@@ -71,7 +71,7 @@
                 </a>
 
                 <div class="logo">
-                    <a href="/"><img src="/img/logo_white.png" alt="logo"/></a>
+                    <a href="/"><img src="/img/logo_blue.png" alt="logo"/></a>
                 </div>
 
                 <div class="menu">

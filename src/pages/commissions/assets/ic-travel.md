@@ -14,9 +14,11 @@ La destination de cette année est **Amsterdam**, et le voyage se déroulera du 
 
 #### Comment s'inscrire ?
 
-Pour s'inscrire au voyage, c'est par [ICI](https://go.epfl.ch/ictravel2223)
+Les inscriptions sont fermées !
 
-Toutes les informations nécessaires figurent dans le formulaire, qui ferme le **5 mars à 23:59**. Le remplir nous permettra de réserver le bon nombre de places pour le train, le logement et les activités : vous vous engagez donc à participer en le remplissant.
+<!-- Pour s'inscrire au voyage, c'est par [ICI](https://go.epfl.ch/ictravel2223)
+
+Toutes les informations nécessaires figurent dans le formulaire, qui ferme le **5 mars à 23:59**. Le remplir nous permettra de réserver le bon nombre de places pour le train, le logement et les activités : vous vous engagez donc à participer en le remplissant. -->
 
 <!-- #### Où partons-nous ?
 
@@ -60,6 +62,6 @@ Normalement si tu as tout lu au-dessus tu sais déjà ce qu’on va te dire, mai
 
 Quand tout ça sera fait, tu seras prêt.e à embarquer 🛫!  -->
 
-#### Calendrier du voyage
+<!-- #### Calendrier du voyage
 
-<iframe width="100%" height="600" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/q4GrWAHwfZFZC7P2"></iframe>
+<iframe width="100%" height="600" src="https://clic.epfl.ch/nextcloud/apps/calendar/embed/q4GrWAHwfZFZC7P2"></iframe> -->
