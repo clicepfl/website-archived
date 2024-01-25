@@ -56,13 +56,13 @@
                     {{ social.stackedRoundIcons() }}
 
                     <div class="padded-25">
-                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/s/d4kNNTqYHgTeykr" target="_blank">
+                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/index.php/s/d4kNNTqYHgTeykr" target="_blank">
                             <i class="fas fa-gavel fa-lg" style="padding-right: 5px"></i>
                             Statuts et règlements de l'association
                         </a>
                     </div>
                     <div class="padded-25">
-                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/s/SomnjMcz77mpNCK" target="_blank">
+                        <a class="more-news" href="https://clic.epfl.ch/nextcloud/index.php/s/SomnjMcz77mpNCK" target="_blank">
                             <i class="fas fa-file fa-lg" style="padding-right: 5px"></i>
                             Procès verbaux
                         </a>
@@ -98,7 +98,7 @@
                         que ce soit à propos du rôle de comité ou d'équipier.
                     </p>
                     <div class="poles padded-40">
-                        {% for row in polesList | batch(4) %}
+                        {% for row in polesList | batch(3) %}
                             <div class="poles-row">
                             {% for item in row %}
                                 <div class="poles-item">

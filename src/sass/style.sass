@@ -171,7 +171,7 @@ h4
         color: #0099ff
 
 .slider
-    background: #fff url("/img/background_home.JPG") no-repeat fixed center
+    background: #fff url("/img/background_home.jpg") no-repeat fixed center
     -webkit-background-size: cover
     -moz-background-size: cover
     -o-background-size: cover
@@ -181,7 +181,7 @@ h4
     width: 100%
     float: left
     padding: 20px 0 20px 0
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 5%, rgba(255,255,255,0) 50%)
 
     .logo
         float: left
@@ -207,22 +207,22 @@ h4
                 display: block
                 padding: 5px
                 margin: 10px
-                color: #fff
+                color: $navy-blue
                 font-weight: bold
                 font-size: 17px
                 text-decoration: none
                 text-transform: uppercase
 
         ul li.current a, ul li a:hover
-            border-bottom: 3px solid #fff
+            border-bottom: 3px solid $navy-blue
 
         @media screen and (max-width: $menu-mobile-threshold)
             display: none
 
     .mobile-menu-toggle
         display: none
-        color: #fff
-        border: 1px solid #fff
+        color: $navy-blue
+        border: 1px solid $navy-blue
         width: min-content
         padding: 10px
         position: relative
@@ -237,13 +237,13 @@ h4
     padding: 20px
     color: #fff
     text-align: center
-    background: rgba(0, 0, 0, 0.15)
+    background: rgba(0, 0, 66, 0.25)
 
     h1
         font-size: 50px
         text-transform: uppercase
-        font-weight: 300
-        text-shadow: 2px 2px #333
+        font-weight: 400
+        text-shadow: 3px 3px 3px #335
         color: #fff
 
         @media screen and (max-width: 1200px)
