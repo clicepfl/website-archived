@@ -1,8 +1,111 @@
 [
     {
-        "name": "Speaker",
-        "role": "Entreprise - Talk Name",
+        "name": "Tim Nguyen",
+        "role": "Altab Studio - Video Games",
+        "imageURL": "/events/TimNguyen.jpg",
+        "websiteURL": "https://www.linkedin.com/in/akynna/"
+    },
+    {
+        "name": "Florian Badertscher",
+        "role": "Bug Bounty - Cybersecurity",
+        "imageURL": "/events/FlorianBadertscher.jpg",
+        "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
+    },
+    {
+        "name": "Christophe Tafani-Dereeper",
+        "role": "DataDog - Open Source",
+        "imageURL": "/events/ChristopheTafaniDereeper.jpg",
+        "websiteURL": "https://www.linkedin.com/in/christophetafanidereeper/"
+    },
+    {
+        "name": "Paul Habfast",
+        "role": "Iprova SA - Throwback 10 years later",
+        "imageURL": "/events/PaulHabfast.jpg",
+        "websiteURL": "https://www.linkedin.com/in/habfast/"
+    },
+    {
+        "name": "Tiago Kieliger",
+        "role": "Rivia SA - Start-ups",
+        "imageURL": "/events/TiagoKieliger.jpg",
+        "websiteURL": "https://www.linkedin.com/in/tiagokieliger/"
+    },
+    {
+        "name": "Florian Laurent",
+        "role": "NyxAI - Start-ups",
+        "imageURL": "/events/FlorianLaurent.jpg",
+        "websiteURL": "https://www.linkedin.com/in/florianlaurent/"
+    },
+    {
+        "name": "Natalia Nessler",
+        "role": "Logitech Europe SA - Women in IT",
+        "imageURL": "/events/NataliaNessler.jpg",
+        "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/"
+    },
+    {
+        "name": "Jelena Malić",
+        "role": "Swisscom SA - Women in IT",
+        "imageURL": "/events/JelenaMalic.jpg",
+        "websiteURL": "https://www.linkedin.com/in/jelena-malic/" 
+    },
+    {
+        "name": "Ireneu Pla",
+        "role": "Google - Research & Development",
+        "imageURL": "/events/IreneuPla.jpg",
+        "websiteURL": "https://www.linkedin.com/in/ireneup/"
+    }, 
+    {
+        "name": "François Farquet",
+        "role": "Oracle Labs - Research & Development",
+        "imageURL": "/events/FrancoisFarquet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
+    },
+    {
+        "name": "Arnaud Boissaye-Heaume",
+        "role": "Wavestone - Speed-Networking",
+        "imageURL": "/events/ArnaudBoissayeHeaume.jpg",
+        "websiteURL": "https://www.linkedin.com/in/arnaud-boissaye-heaume/"
+    },
+    {
+        "name": "Michael Barroco", 
+        "role": "Orbitalize - Speed-Networking",
+        "imageURL": "/events/MichaelBarroco.jpg",
+        "websiteURL": "https://www.linkedin.com/in/barroco/"
+    },
+    {
+        "name": "Maurice Gaillard",
+        "role": "Start-up",
+        "imageURL": "/events/MauriceGaillard.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mauricegaillard/"
+    },
+    {
+        "name": "Irina Ristic",
+        "role": "Elca Informatique SA - CV Correction, Mock interviews, Speed-Networking",
         "imageURL": "/img/icbd/icbd_logo.png",
         "websiteURL": "https://www.linkedin.com/"
+    },
+    {
+        "name": "Alfonso Peterssen",
+        "role": "Oracle Labs - CV Correction, Mock interviews, Speed-Networking",
+        "imageURL": "/events/AlfonsoPeterssen.jpg",
+        "websiteURL": "https://www.linkedin.com/in/alfonso2peterssen/"
+    },
+    {
+        "name": "Arnaud Delamare",
+        "role": "Oracle Labs - CV Correction, Mock interviews, Speed-Networking",
+        "imageURL": "/events/ArnaudDelamare.jpg",
+        "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3/"
+    },
+    {
+        "name": "Vincent Etter",
+        "role": "Google - Mock interviews",
+        "imageURL": "/events/VincentEtter.jpg",
+        "websiteURL": "https://www.linkedin.com/in/vincentetter/"
+    },
+    {
+        "name": "Virgile Neu",
+        "role": "Google - Mock interviews",
+        "imageURL": "/events/VirgileNeu.jpg",
+        "websiteURL": "https://www.linkedin.com/in/virgile-n-6a0a79206/"
     }
+
 ]
