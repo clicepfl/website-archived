@@ -8,39 +8,51 @@
         "catchPhrase": "Pour vous préparer un voyage mémorable",
         "members": [
             {
-                "name": "Christelle Lam",
-                "imageURL": "christellelam.jpg",
-                "websiteURL": "https://people.epfl.ch/phi.lam",
-                "role": "Présidente"
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
+                "role": "Coprésident"
             },
             {
                 "name": "Roman Paccaud",
                 "imageURL": "romanpaccaud.jpg",
                 "websiteURL": "https://people.epfl.ch/roman.paccaud",
-                "role": "Trésorier"
+                "role": "Coprésident"
             },
             {
-                "name": "Cécile Michel",
-                "imageURL": "cecilemichel.jpg",
-                "websiteURL": "https://people.epfl.ch/cecile.michel",
+                "name": "Clémentine Jordan",
+                "imageURL": "clementinejordan.jpg",
+                "websiteURL": "https://people.epfl.ch/clementine.jordan",
+                "role": "Trésorière"
+            },
+            {
+                "name": "Imane Oujja",
+                "imageURL": "imaneoujja.jpg",
+                "websiteURL": "https://people.epfl.ch/imane.oujja",
                 "role": "Communication"
             },
             {
-                "name": "Mathieu Sauser",
-                "imageURL": "mathieusauser.jpg",
-                "websiteURL": "https://people.epfl.ch/mathieu.sauser",
+                "name": "Alonso Coaguila",
+                "imageURL": "alonsocoaguila.jpg",
+                "websiteURL": "https://people.epfl.ch/alonso.coaguila",
                 "role": "Logistique"
             },
             {
-                "name": "Malen Raychev",
-                "imageURL": "malenraychev.jpg",
-                "websiteURL": "https://people.epfl.ch/malen.raychev",
+                "name": "Léander Crétegny",
+                "imageURL": "leandercretegny.jpg",
+                "websiteURL": "https://people.epfl.ch/leander.cretegny",
                 "role": "Logistique"
             },
             {
-                "name": "Hugo Majerczyk",
-                "imageURL": "hugomajerczyk.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
+                "name": "François Théron",
+                "imageURL": "francoistheron.jpg",
+                "websiteURL": "https://people.epfl.ch/francois.theron",
+                "role": "Logistique"
+            },
+            {
+                "name": "Sarah Badr",
+                "imageURL": "sarahbadr.jpg",
+                "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Logistique"
             }
         ],
@@ -149,38 +161,26 @@
         "name": "CEVE",
         "slug": "ceve",
         "imageURL": "ceve.png",
-        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s.",
+        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s. Viens nous rejoindre en BC09 !",
         "pageBodyPath": "ceve.md",
         "catchPhrase": "Une petite pause ?",
         "members": [
             {
-                "name": "Maxime Lestiboudois",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
                 "role": "Comité"
             },
             {
-                "name": "Ahmed Elalamy",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/ahmed.elalamy",
+                "name": "Jacopo Philip Moretti",
+                "imageURL": "jacopomoretti.jpg",
+                "websiteURL": "https://people.epfl.ch/jacopo.moretti",
                 "role": "Comité"
             },
             {
-                "name": "Claire Lopez",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/claire.lopez",
-                "role": "Comité"
-            },
-            {
-                "name": "Elior Papiernik",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/claire.lopez",
-                "role": "Comité"
-            },
-            {
-                "name": "Camille Espieux",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/camille.espieux",
+                "name": "Clément Josso",
+                "imageURL": "clementjosso.jpg",
+                "websiteURL": "https://people.epfl.ch/clement.josso",
                 "role": "Comité"
             }
         ],
