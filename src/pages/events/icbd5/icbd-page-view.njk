@@ -1,0 +1,550 @@
+{#
+    This file contains the template to render the ICBD page
+    CLIC website software
+
+    Template strings are bound to the IcbdPageViewModel defined in {@link
+    icbd-page.ts}
+
+    @author Alexandre CHAU, Jean-Etienne CHARBONNET
+#}
+{% import "components/base-view.njk" as base %}
+{% import "components/committee/committee-view.njk" as committee %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ base.head(title = 'IC Boost Day | CLIC') }}
+    </head>
+
+    <body id="icbd">
+        <div class="wrapper bg-animation">
+            <div class="absolute" id="particles-js"></div>
+            <div class="absolute ignore-pointer-events">
+                <div class="header">
+                    <div class="center">
+                        <div class="logo">
+                            <img src="/img/logo_black.png" alt="logo"/>
+                        </div>
+
+                        <div class="menu">
+                            <ul>
+                                <li class="current">
+                                    <a href="/">&laquo; Back to homepage</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- header-->
+
+                <div class="center">
+                    <div class="content">
+                        <img src="/img/icbd/icbd_logo.svg" class="event-logo" alt="IC Boost Day">
+
+                        <div class="event-info">
+                            <h1>Wednesday
+                                <span>March 13th 2024</span></h1>
+                            <h3>9 AM to 6:40 PM, BC building</h3>
+                        </div>
+                    </div>
+                    <!-- content-->
+                </div>
+                <!-- center -->
+            </div>
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-white">
+            <div class="center description">
+
+                <div class="content padded-40">
+                    <p class="center-text registration">
+                        <!-- TODO: Change this link -->
+                        <a href="https://go.epfl.ch/icbd-form" target="_blank">
+                            Registration
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </p>
+
+                    <p class="center-text padded-40">
+                        CLIC and the IC Faculty are proud to present the 5th edition of IC Boost Day, a day dedicated to your future career in Computer and Communication Sciences! Take part in mock coding interviews and CV reviews, join various talks and meet plenty of EPFL IC alumni! They will be here to answer all the questions you may have as a future EPFL alumnus, both during specific “meetup sessions” or during our famous networking lunch! ICBD is a unique opportunity to prepare for your professional future in the world of computer science and engineering.
+                    </p>
+
+                    <video class="video-pres-icbd" controls>
+                        <source src="https://clic.epfl.ch/nextcloud/s/e6ECN9geQgmYypy/download/ICBD%20Promotional%20Video_IC-COM.mp4" type="video/mp4">
+                        <p>Votre navigateur ne prend pas en charge les vidéos HTML5.
+                            Voici <a href="https://clic.epfl.ch/nextcloud/s/e6ECN9geQgmYypy/download/ICBD%20Promotional%20Video_IC-COM.mp4">un lien pour télécharger la vidéo</a>.</p>
+                    </video>
+
+                </div>
+        
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-orange">
+            <div class="center">
+                <div class="content padded-40">
+                    <div class="sponsors">
+                        <a href="https://clic.epfl.ch">
+                        <img src="/img/logo_black.png" alt="clic">
+                        </a>
+                        <a href="https://www.epfl.ch">
+                            <img src="/img/epfl.png" alt="epfl">
+                        </a>
+                    </div>
+                    <div class="sponsors">
+                        <a href="https://www.epfl.ch/campus/associations/list/epic">
+                            <img src="/img/epic_alpha.png" alt="epic">
+                        </a>
+                        <a href="https://www.epfl.ch/schools/ic/">
+                            <img src="/img/faculte_fr_black.png" alt="faculté ic">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40">
+                    <h1>Alumni</h1>
+                    <h3>Speakers present at the event</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersAlumniList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <div class="content padded-40">
+                    <h1>PhD Students</h1>
+                    <h3>During the poster session</h3>
+                    <div class="speakers">
+                        {% for speaker in speakersLabosList %}
+                            <a href="{{speaker.websiteURL}}" target="_blank">
+                                <div class="speaker" id="{{speaker.name}}">
+                                    <img src="{{speaker.imageURL}}" alt="{{speaker.name}}"/>
+                                    <div class="desc">
+                                        <p class="name">{{speaker.name}}</p>
+                                        <p class="role">{{speaker.role}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg-white">
+            <div class="center">
+                <div class="content padded-40 timetable-container">
+                    <h1>Timetable</h1>
+                    <div class="timetable"></div>
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+        <div class="wrapper bg-orange-gradient">
+            <div class="center">
+                <div class="content padded-40 planning">
+                    <h1>Activities</h1>
+                    <div class="events-container">
+                        <div id="mock" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-handshake"></i>
+                                    Mock traditional & coding Interviews</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    You have spent years studying the ins and outs of computer science and coding interviews may very well 
+                                    be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
+                                    it would be beneficial for you to practice and get advice directly from the people who run them! Register 
+                                    for this activity and let IC alumni from Oracle and Swisscom help you sharpen your abilities. Note that 
+                                    there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+                        <div id="cv-corr" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-check"></i>
+                                    CV correction</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    The resume is a key element in the recruitment process, hence the necessity to have an impeccable one. 
+                                    How would yours fare among dozens, if not hundreds, of CVs sent to the company you hope to work for ? 
+                                    Well luckily for you, we offer you the opportunity to perfect your resume. During this activity, our 
+                                    partner will first give an in-depth presentation on how to turn your CV into an asset and then they will 
+                                    stay available so that they can provide you with tailored feedback about your resume. Note that there is 
+                                    a limited number of spots for this activity so be sure to sign up for it as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="lunch" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Networking Lunch</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                   
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="lunch" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Speed networking</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                   
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="poster" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-newspaper"></i>
+                                    Poster Session</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    Have you ever wondered what concrete projects the IC labs are working on ? 
+                                    Are you interested in pursuing a more research-oriented career after your Master or looking for an academic project but you are unsure which lab to join ? 
+                                    Then take advantage of the Poster Session, co-organized with EPIC, and have a chat with the numerous PhDs who will be here to showcase their work! This activity will be held around lunch time and you will be free to roam around.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="meetup" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-users"></i>
+                                    Meetup Sessions</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="generative-ai" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Generative AI</h4>
+                                <p>
+                                    Discover generative artificial intelligence from A to Z in this 
+                                    presentation by [Alumni]. Delve into what it is, how it differs 
+                                    from other forms of AI, and unravel the intricacies of data collection 
+                                    and algorithm training. Learn about the diverse applications of 
+                                    generative AI and discover how professionals in various fields 
+                                    can harness it as a powerful new tool.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="video-games" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Video Games</h4>
+                                <p>
+                                    Have you ever harbored the dream of crafting your own video game? 
+                                    Join [Alumni] from [studio], known for their work on [game names], 
+                                    as they share their insights and experiences in the realm of independent 
+                                    video game development.Discover the art, challenges, and triumphs of 
+                                    crafting distinctive gaming experiences, from innovative design concepts 
+                                    to the technology shaping the future of indie games.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="software-engineering" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Software engineering</h4>
+                                <p>
+                                    Description
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="cybersecurity" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Cybersecurity</h4>
+                                <p>
+                                    [Alumni] is [role] and use penetration testing as a method 
+                                    to identify cyber vulnerabilities. Discover the crucial role 
+                                    these practices play in securing digital systems and networks. 
+                                    From identifying vulnerabilities to implementing robust security 
+                                    measures, learn how penetration testing is a proactive approach 
+                                    to safeguarding against cyber threats.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="open-source" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Open source</h4>
+                                <p>
+                                    [Alumni] incorporates open source tools into daily operations and is dedicated 
+                                    to expanding their utilization within [entreprise]. Join to hear firsthand 
+                                    about the practical applications of open source and the advantages it brings 
+                                    to an established organization like [entreprise]. Discover the inherent value 
+                                    of open source in industry and gain insights into its positive impact on a well-established firm. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="career-reorientation" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Career reorientation</h4>
+                                <p>
+                                    How one's can change from a field in computer science to another after many years 
+                                    in industry ? [Alumni] worked in [field] and now [field]. He/she share his/her 
+                                    motivation between such a change and his/her experience on this transition.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="throwback-10-years-after" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    Talk</h3>
+                            </div>
+
+                            <div class="details">
+                                <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
+                                <p>
+                                    [Alumni] revisits his journey a decade after completing his master's at EPFL. 
+                                    Currently employed at [entreprise], he reflects on a series of experiences and 
+                                    decisions that have molded his life to date. This presentation seeks to assist 
+                                    you in envisioning your own trajectory over the next ten years, both personally 
+                                    and professionally.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="closing-aperitive" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-utensils"></i>
+                                    Closing aperitive</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    The event will end with an aperitive, a second opportunity to interact with the alumni, professor and other students.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- events-container -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- center -->
+        </div>
+        <!-- wrapper -->
+
+
+        {{ base.footer() }}
+
+        <script src="/vendor/particles.min.js"></script>
+        <script src="/vendor/timetable.js"></script>
+
+        <script>
+            // activate particles rendering
+            particlesJS.load('particles-js', '/config/config.particles.json', () => {
+                console.log('Initialized particles.js')
+            })
+        </script>
+        <script>
+            /* Instantiate and populate timetable. Style is defined the timetable.sass file. */
+
+            const YEAR = 2023;
+            const MONTH = 3;
+            const DAY = 14;
+
+            function date(hour, minute) {
+                return new Date(YEAR, MONTH, DAY, hour, minute);
+            }
+
+            const MOCK_OPTIONS = {
+                url: '#mock',
+                class: 'mock-entry'
+            };
+            const MEAL_OPTIONS = {
+                url: '#lunch',
+                class: 'meal-entry'
+            };
+            const APERITIVE_OPTIONS = {
+                url: '#closing-aperitive',
+                class: 'meal-entry'
+            };
+            const MT_OPTIONS = {
+                url: '#mini-talk',
+                class: 'mini-talk-entry'
+            };
+            const CV_OPTIONS = {
+                url: '#cv-corr',
+                class: 'cvcheck-entry'
+            };
+            const MEETUP_OPTIONS = {
+                url: '#meetup',
+                class: 'meetup-entry'
+            };
+            const POSTER_OPTIONS = {
+                url: '#poster',
+                class: 'poster-entry'
+            };
+
+            let timetable = new Timetable();
+
+            // Only display hours between 8 and 20
+            timetable.setScope(9, 19);
+
+            timetable.addLocations([
+                'BC 410',
+                'BC 420',
+                'BC 010',
+                'BC 129',
+                'BC 133',
+                'BC 05-06',
+                'BC HALL BOOTH',
+                'BC HALL'
+            ]);
+
+            // BC 410 events
+            let room = 'BC 410';
+            timetable.addEvent("Meetup : Startups", room, date(10, 0), date(10, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : Academia VS Industry", room, date(11, 0), date(11, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : Women in IT", room, date(13, 0), date(13, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : Sustainable and Ethical Companies", room, date(14, 0), date(14, 40), MEETUP_OPTIONS);
+            timetable.addEvent("Meetup : Research and Development", room, date(15, 0), date(15, 40), MEETUP_OPTIONS);
+            
+            // BC 420 events    
+            room = 'BC 420';
+            timetable.addEvent("Talk : Generative AI", room, date(10, 0), date(10, 40), {
+                class: 'talk-entry',
+                url: '#generative-ai'
+            });
+            timetable.addEvent("Talk : Video games", room, date(11, 0), date(11, 40), {
+                class: 'talk-entry',
+                url: '#video-games'
+            });
+            timetable.addEvent("Talk : Software engineering", room, date(13, 0), date(13, 40), {
+                class: 'talk-entry',
+                url: '#software-engineering'
+            });
+            timetable.addEvent("Talk : Cybersecurity", room, date(14, 0), date(14, 40), {
+                class: 'talk-entry',
+                url: '#cybersecurity'
+            });
+            timetable.addEvent("Talk : Open source", room, date(15, 0), date(15, 40), {
+                class: 'talk-entry',
+                url: '#open-source'
+            });
+            timetable.addEvent("Talk : Career reorientation", room, date(16, 0), date(16, 40), {
+                class: 'talk-entry',
+                url: '#career-reorientation'
+            });
+            timetable.addEvent("Talk : Throwback 10 years after", room, date(17, 0), date(17, 40), {
+                class: 'talk-entry',
+                url: '#throwback-10-years-after'
+            });
+            
+            [10, 11, 14, 15, 16].forEach(start_hour => {
+                ['BC 010', 'BC 129', 'BC 133'].forEach(element => {
+                    timetable.addEvent("Mock traditional & coding interview", element, date(start_hour, 0), date(start_hour, 50), MOCK_OPTIONS);
+                });
+            })
+
+            // BC 129 events
+            room = 'BC 05-06';
+            timetable.addEvent("Speed networking", room, date(10, 30), date(11, 30), MT_OPTIONS);
+            timetable.addEvent("Speed networking", room, date(14, 0), date(15, 0), MT_OPTIONS);
+
+            // BC Hall events
+            room = 'BC HALL BOOTH';
+            timetable.addEvent("CV correction", room, date(10, 0), date(12, 0), CV_OPTIONS);
+            timetable.addEvent("CV correction", room, date(14, 0), date(17, 0), CV_OPTIONS);
+
+            // BC Hall events
+            room = 'BC HALL';
+            timetable.addEvent("Welcome coffee", room, date(9, 0), date(10, 0), MEAL_OPTIONS);
+            timetable.addEvent("Networking lunch and poster session", room, date(11, 30), date(14, 0), MEAL_OPTIONS);
+            timetable.addEvent("Closing aperitive", room, date(17, 30), date(18, 30), APERITIVE_OPTIONS);
+            
+
+            // Render timetable
+            let renderer = new Timetable.Renderer(timetable);
+            renderer.draw('.timetable');
+        </script>
+    </body>
+</html>

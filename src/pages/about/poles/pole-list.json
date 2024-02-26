@@ -36,13 +36,13 @@
         "members": [
             {
                 "name": "Sarah Badr",
-                "imageURL": "default.png",
+                "imageURL": "sarahbadr.jpg",
                 "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Administratrice"
             },
             {
                 "name": "Ursula El Khoury",
-                "imageURL": "default.png",
+                "imageURL": "ursulaelkhoury.jpg",
                 "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
                 "role": "Administratrice"
             }
@@ -96,7 +96,7 @@
             },
             {
                 "name": "Marwa Rezziki",
-                "imageURL": "default.png",
+                "imageURL": "marwarezziki.jpg",
                 "websiteURL": "https://people.epfl.ch/marwa.rezziki",
                 "role": "Responsable Communication"
             }
@@ -117,7 +117,7 @@
         "members": [
             {
                 "name": "Hugo Majerczyk",
-                "imageURL": "default.png",
+                "imageURL": "hugomajerczyk.jpg",
                 "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
                 "role": "Responsable Animation"
             },
@@ -129,7 +129,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "default.png",
+                "imageURL": "irissegard.jpg",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
@@ -156,7 +156,7 @@
             },
             {
                 "name": "Iris Segard",
-                "imageURL": "default.png",
+                "imageURL": "irissegard.jpg",
                 "websiteURL": "https://people.epfl.ch/iris.segard",
                 "role": "Responsable Logistique"
             }
@@ -164,6 +164,27 @@
         "teammates": null,
         "social": {
             "Email": "mailto:logistique.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Relations Externes",
+        "slug": "sponsoring",
+        "imageURL": "thumbnails/sponso.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "sponso.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Mallory Henriet",
+                "imageURL": "malloryhenriet.jpg",
+                "websiteURL": "https://people.epfl.ch/mallory.henriet",
+                "role": "Responsable Relations Externes"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:sponsoring.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     }

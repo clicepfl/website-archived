@@ -1,50 +1,86 @@
 [
     {
-        "name": "Mikhail Makarov",
-        "role": "THL4",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://people.epfl.ch/mikhail.makarov"
+        "name": "Ekaterina Svikhnushina",
+        "role": "HCI",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/292820.jpg?ts=1650570064",
+        "websiteURL": "https://people.epfl.ch/ekaterina.svikhnushina"
     },
     {
-        "name": "Bahar Aydemir",
-        "role": "IVRL",
-        "imageURL": "/events/BaharAydemir.jpg",
-        "websiteURL": "https://people.epfl.ch/bahar.aydemir"
-    },
-    {
-        "name": "Sachin Basil John",
-        "role": "DATA",
-        "imageURL": "/events/SachinBasilJohn.jpg",
-        "websiteURL": "https://people.epfl.ch/sachin.basiljohn"
+        "name": "Mahsa Forouzesh",
+        "role": "INDY2",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279301.jpg?ts=1650570413",
+        "websiteURL": "https://people.epfl.ch/mahsa.forouzesh"
     },
     {
         "name": "Akhil Arora",
         "role": "DLAB",
-        "imageURL": "/events/AkhilArora.jpg",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279798.jpg?ts=1650570494",
         "websiteURL": "https://people.epfl.ch/akhil.arora"
     },
     {
-        "name": "Eric Bezzam",
-        "role": "LCAV",
-        "imageURL": "/events/EricBezzam.jpg",
-        "websiteURL": "https://people.epfl.ch/eric.bezzam"
+        "name": "Periklis Chrysogelos",
+        "role": "DIAS",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/267208.jpg?ts=1650570547",
+        "websiteURL": "https://people.epfl.ch/periklis.chrysogelos"
     },
     {
-        "name": "Atri Bhattacharyya",
-        "role": "Hexhive",
-        "imageURL": "/events/AtriBhattacharyya.jpg",
-        "websiteURL": "https://people.epfl.ch/atri.bhattacharyya"
+        "name": "Tuğrulcan Elmas",
+        "role": "LSIR",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/279685.jpg?ts=1650570621",
+        "websiteURL": "https://people.epfl.ch/tugrulcan.elmas"
     },
     {
-        "name": "Zilu Tian",
-        "role": "DATA",
-        "imageURL": "/events/ZiluTian.jpg",
-        "websiteURL": "https://people.epfl.ch/zilu.tian"
+        "name": "Arnout Devos",
+        "role": "INDY1",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/249067.jpg?ts=1650570690",
+        "websiteURL": "https://people.epfl.ch/arnout.devos"
     },
     {
-        "name": "Can Cebeci",
-        "role": "DSLAB",
-        "imageURL": "/events/CanCebeci.jpg",
-        "websiteURL": "https://people.epfl.ch/can.cebeci"
+        "name": "Haoqiong Bian",
+        "role": "DIAS",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/325550.jpg?ts=1650570750",
+        "websiteURL": "https://people.epfl.ch/haoqiong.bian"
+    },
+    {
+        "name": "Vinitra Swamy",
+        "role": "MLO / ML4ED",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/323195.jpg?ts=1650570800",
+        "websiteURL": "https://people.epfl.ch/vinitra.swamy"
+    },
+    {
+        "name": "Utku Norman",
+        "role": "CHILI",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/292915.jpg?ts=1650570872",
+        "websiteURL": "https://people.epfl.ch/utku.norman"
+    },
+    {
+        "name": "Lê Nguyên Hoang",
+        "role": "DCL",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/200907.jpg?ts=1650570924",
+        "websiteURL": "https://people.epfl.ch/le.hoang"
+    },
+    {
+        "name": "Xinrui Jia",
+        "role": "THL2",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/276997.jpg?ts=1650570993",
+        "websiteURL": "https://people.epfl.ch/xinrui.jia"
+    },
+    {
+        "name": "Rob Mills",
+        "role": "MOBOTS",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://people.epfl.ch/rob.mills"
+    },
+    {
+        "name": "Kasra Edalatnejad",
+        "role": "SPRING",
+        "imageURL": "https://people.epfl.ch/private/common/photos/links/284678.jpg?ts=1650571188",
+        "websiteURL": "https://people.epfl.ch/kasra.edalat"
+    },
+    {
+        "name": "Panagiotis Sioulas",
+        "role": "DIAS",
+        "imageURL": "/events/PanagiotisSioulas.jpg",
+        "websiteURL": "https://www.linkedin.com/in/panagiotis-sioulas-6931a9a7/"
     }
 ]
