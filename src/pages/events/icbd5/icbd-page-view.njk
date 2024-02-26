@@ -435,9 +435,17 @@
                 return new Date(YEAR, MONTH, DAY, hour, minute);
             }
 
-            const MOCK_OPTIONS = {
+            const MOCK_TRAD_OPTIONS = {
                 url: '#mock',
-                class: 'mock-entry'
+                class: 'mock-trad-entry'
+            };
+            const MOCK_CODING_OPTIONS = {
+                url: '#mock',
+                class: 'mock-coding-entry'
+            };
+            const SPEED_NETWORKING_OPTIONS = {
+                url: '#speed-networking',
+                class: 'speed-networking-entry'
             };
             const MEAL_OPTIONS = {
                 url: '#lunch',
@@ -519,16 +527,27 @@
                 url: '#throwback-10-years-after'
             });
             
-            [10, 11, 14, 15, 16].forEach(start_hour => {
-                ['BC 010', 'BC 129', 'BC 133'].forEach(element => {
-                    timetable.addEvent("Mock traditional & coding interview", element, date(start_hour, 0), date(start_hour, 50), MOCK_OPTIONS);
-                });
+
+            let rooms = [['BC 010', 'G'], ['BC 129', 'O'], ['BC 133', 'S']]
+            let hours = [10, 11, 14, 15, 16]
+
+            rooms.forEach(pair => {
+                let room = pair[0];
+                let id = pair[1];
+                let nb = 1;
+                hours.forEach(hour => {
+                    timetable.addEvent(`Mock traditional interview ${id}${nb}`, room, date(hour, 0), date(hour, 20), MOCK_TRAD_OPTIONS);
+                    timetable.addEvent(`Mock coding interview ${id}${nb}`, room, date(hour, 20), date(hour, 50), MOCK_CODING_OPTIONS);
+                    nb += 1;
+                })
             })
 
             // BC 129 events
             room = 'BC 05-06';
-            timetable.addEvent("Speed networking", room, date(10, 30), date(11, 30), MT_OPTIONS);
-            timetable.addEvent("Speed networking", room, date(14, 0), date(15, 0), MT_OPTIONS);
+            timetable.addEvent("Speed networking A1 B1", room, date(10, 30), date(11, 0), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A2 B2", room, date(11, 0), date(11, 30), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A3 B3", room, date(14, 0), date(14, 30), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A4 B4", room, date(14, 30), date(15, 0), SPEED_NETWORKING_OPTIONS);
 
             // BC Hall events
             room = 'BC HALL BOOTH';
