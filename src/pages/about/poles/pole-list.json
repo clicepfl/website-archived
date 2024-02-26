@@ -42,7 +42,7 @@
             },
             {
                 "name": "Ursula El Khoury",
-                "imageURL": "ursulael-khoury.jpg",
+                "imageURL": "ursulaelkhoury.jpg",
                 "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
                 "role": "Administratrice"
             }
@@ -164,6 +164,27 @@
         "teammates": null,
         "social": {
             "Email": "mailto:logistique.clic@epfl.ch",
+            "Instagram": "https://www.instagram.com/clicepfl/"
+        }
+    },
+    {
+        "name": "Relations Externes",
+        "slug": "sponsoring",
+        "imageURL": "thumbnails/sponso.PNG",
+        "shortDescription": "",
+        "pageBodyPath": "sponso.md",
+        "catchPhrase": "",
+        "members": [
+            {
+                "name": "Mallory Henriet",
+                "imageURL": "malloryhenriet.jpg",
+                "websiteURL": "https://people.epfl.ch/mallory.henriet",
+                "role": "Responsable Relations Externes"
+            }
+        ],
+        "teammates": null,
+        "social": {
+            "Email": "mailto:sponsoring.clic@epfl.ch",
             "Instagram": "https://www.instagram.com/clicepfl/"
         }
     }

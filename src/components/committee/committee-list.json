@@ -20,7 +20,7 @@
     {
         "name": "Ursula El Khoury",
         "role": "Administratrice",
-        "imageURL": "/committee/ursulael-khoury.jpg",
+        "imageURL": "/committee/ursulaelkhoury.jpg",
         "websiteURL": "https://people.epfl.ch/ursula.elkhoury"
     },
     {
@@ -64,5 +64,11 @@
         "role": "Logistique",
         "imageURL": "/committee/irissegard.jpg",
         "websiteURL": "https://people.epfl.ch/iris.segard"
+    },
+    {
+        "name": "Mallory Henriet",
+        "role": "Relations Externes",
+        "imageURL": "/committee/malloryhenriet.jpg",
+        "websiteURL": "https://people.epfl.ch/mallory.henriet"
     }
 ]
