@@ -1,61 +1,61 @@
 [
     {
         "name": "Tim Nguyen",
-        "role": "Altab Studio - Video Games",
+        "role": "Altab Studio - Talk Video Games",
         "imageURL": "/events/TimNguyen.jpg",
         "websiteURL": "https://www.linkedin.com/in/akynna/"
     },
     {
         "name": "Florian Badertscher",
-        "role": "Bug Bounty - Cybersecurity",
+        "role": "Bug Bounty - Talk Cybersecurity",
         "imageURL": "/events/FlorianBadertscher.jpg",
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
         "name": "Christophe Tafani-Dereeper",
-        "role": "DataDog - Open Source",
+        "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
         "websiteURL": "https://www.linkedin.com/in/christophetafanidereeper/"
     },
     {
         "name": "Paul Habfast",
-        "role": "Iprova SA - Throwback 10 years later",
+        "role": "Iprova SA - Talk Throwback 10 years later",
         "imageURL": "/events/PaulHabfast.jpg",
         "websiteURL": "https://www.linkedin.com/in/habfast/"
     },
     {
         "name": "Tiago Kieliger",
-        "role": "Rivia SA - Start-ups",
+        "role": "Rivia SA - Meetup Start-ups",
         "imageURL": "/events/TiagoKieliger.jpg",
         "websiteURL": "https://www.linkedin.com/in/tiagokieliger/"
     },
     {
         "name": "Florian Laurent",
-        "role": "NyxAI - Start-ups",
+        "role": "NyxAI - Meetup Start-ups",
         "imageURL": "/events/FlorianLaurent.jpg",
         "websiteURL": "https://www.linkedin.com/in/florianlaurent/"
     },
     {
         "name": "Natalia Nessler",
-        "role": "Logitech Europe SA - Women in IT",
+        "role": "Logitech Europe SA - Meetup Women in IT",
         "imageURL": "/events/NataliaNessler.jpg",
         "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/"
     },
     {
         "name": "Jelena Malić",
-        "role": "Swisscom SA - Women in IT",
+        "role": "Swisscom SA - Meetup Women in IT",
         "imageURL": "/events/JelenaMalic.jpg",
         "websiteURL": "https://www.linkedin.com/in/jelena-malic/" 
     },
     {
         "name": "Ireneu Pla",
-        "role": "Google - Research & Development",
+        "role": "Google - Meetup Research & Development",
         "imageURL": "/events/IreneuPla.jpg",
         "websiteURL": "https://www.linkedin.com/in/ireneup/"
     }, 
     {
         "name": "François Farquet",
-        "role": "Oracle Labs - Research & Development",
+        "role": "Oracle Labs - Meetup Research & Development",
         "imageURL": "/events/FrancoisFarquet.jpg",
         "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
     },
@@ -73,7 +73,7 @@
     },
     {
         "name": "Maurice Gaillard",
-        "role": "Start-up",
+        "role": "Program Leader, Ventura Builder - PDM dans ta propre start-up",
         "imageURL": "/events/MauriceGaillard.jpg",
         "websiteURL": "https://www.linkedin.com/in/mauricegaillard/"
     },
