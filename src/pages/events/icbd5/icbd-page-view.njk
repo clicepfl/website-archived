@@ -192,11 +192,11 @@
 
                             <div class="details">
                                 <p>
-                                    The resume is a key element in the recruitment process, hence the necessity to have an impeccable one. 
+                                    The CV is a key element in the recruitment process, hence the necessity to have an impeccable one. 
                                     How would yours fare among dozens, if not hundreds, of CVs sent to the company you hope to work for ? 
-                                    Well luckily for you, we offer you the opportunity to perfect your resume. During this activity, our 
-                                    partner will first give an in-depth presentation on how to turn your CV into an asset and then they will 
-                                    stay available so that they can provide you with tailored feedback about your resume. Note that there is 
+                                    Luckily, we offer you the opportunity to perfect your CV. During this activity, our partner will 
+                                    first give an in-depth presentation on how to turn your CV into an asset and then they will stay 
+                                    available so that they can provide you with tailored feedback about your own CV. Note that there is 
                                     a limited number of spots for this activity so be sure to sign up for it as soon as possible.
                                 </p>
                             </div>
@@ -255,7 +255,11 @@
 
                             <div class="details">
                                 <p>
-                                    
+                                    It will soon be the time for you to dive into the working world but you perhaps have a few concerns or questions that you'd like to discuss open-hearted. This is why we 
+                                    are inviting alumni to talk about their own experience on diverse subjects. This discussion-oriented activity will allow you to 
+                                    engage in interesting conversations with alumni who already went through some of your interrogations and have great insights about them. 
+                                    The featured subjects are : <b>“Master completed, what now ? Research, industry, both ?”, “What is it like to work in the IT field as a 
+                                    woman ?”, “Should I aim for a more ethical company and if so, what are they like ?”, “What really is Research and Development ?” and finally, “How about working in a start-up?”</b>.
                                 </p>
                             </div>
                         </div>
@@ -291,7 +295,7 @@
                                 <h4>Video Games</h4>
                                 <p>
                                     Have you ever harbored the dream of crafting your own video game? 
-                                    Join [Alumni] from [studio], known for their work on [game names], 
+                                    Join Tim Nguyen from Altab Studio 
                                     as they share their insights and experiences in the realm of independent 
                                     video game development.Discover the art, challenges, and triumphs of 
                                     crafting distinctive gaming experiences, from innovative design concepts 
@@ -325,7 +329,7 @@
                             <div class="details">
                                 <h4>Cybersecurity</h4>
                                 <p>
-                                    [Alumni] is [role] and use penetration testing as a method 
+                                    FLorian Badertscher is co-founder of Bug Bounty and use penetration testing as a method 
                                     to identify cyber vulnerabilities. Discover the crucial role 
                                     these practices play in securing digital systems and networks. 
                                     From identifying vulnerabilities to implementing robust security 
@@ -345,10 +349,10 @@
                             <div class="details">
                                 <h4>Open source</h4>
                                 <p>
-                                    [Alumni] incorporates open source tools into daily operations and is dedicated 
-                                    to expanding their utilization within [entreprise]. Join to hear firsthand 
+                                    Christophe Tafani-Dereeper incorporates open source tools into daily operations and is dedicated 
+                                    to expanding their utilization within DataDog. Join to hear firsthand 
                                     about the practical applications of open source and the advantages it brings 
-                                    to an established organization like [entreprise]. Discover the inherent value 
+                                    to an established organization like DataDog. Discover the inherent value 
                                     of open source in industry and gain insights into its positive impact on a well-established firm. 
                                 </p>
                             </div>
@@ -381,8 +385,8 @@
                             <div class="details">
                                 <h4>Throwback ten years after leaving EPFL: what do I regret and which useful lessons have I kept</h4>
                                 <p>
-                                    [Alumni] revisits his journey a decade after completing his master's at EPFL. 
-                                    Currently employed at [entreprise], he reflects on a series of experiences and 
+                                    Paul Habfast revisits his journey a decade after completing his master's at EPFL. 
+                                    Currently employed at Iprova SA, he reflects on a series of experiences and 
                                     decisions that have molded his life to date. This presentation seeks to assist 
                                     you in envisioning your own trajectory over the next ten years, both personally 
                                     and professionally.
@@ -435,9 +439,17 @@
                 return new Date(YEAR, MONTH, DAY, hour, minute);
             }
 
-            const MOCK_OPTIONS = {
+            const MOCK_TRAD_OPTIONS = {
                 url: '#mock',
-                class: 'mock-entry'
+                class: 'mock-trad-entry'
+            };
+            const MOCK_CODING_OPTIONS = {
+                url: '#mock',
+                class: 'mock-coding-entry'
+            };
+            const SPEED_NETWORKING_OPTIONS = {
+                url: '#speed-networking',
+                class: 'speed-networking-entry'
             };
             const MEAL_OPTIONS = {
                 url: '#lunch',
@@ -519,16 +531,27 @@
                 url: '#throwback-10-years-after'
             });
             
-            [10, 11, 14, 15, 16].forEach(start_hour => {
-                ['BC 010', 'BC 129', 'BC 133'].forEach(element => {
-                    timetable.addEvent("Mock traditional & coding interview", element, date(start_hour, 0), date(start_hour, 50), MOCK_OPTIONS);
-                });
+
+            let rooms = [['BC 010', 'G'], ['BC 129', 'O'], ['BC 133', 'S']]
+            let hours = [10, 11, 14, 15, 16]
+
+            rooms.forEach(pair => {
+                let room = pair[0];
+                let id = pair[1];
+                let nb = 1;
+                hours.forEach(hour => {
+                    timetable.addEvent(`Mock traditional interview ${id}${nb}`, room, date(hour, 0), date(hour, 20), MOCK_TRAD_OPTIONS);
+                    timetable.addEvent(`Mock coding interview ${id}${nb}`, room, date(hour, 20), date(hour, 50), MOCK_CODING_OPTIONS);
+                    nb += 1;
+                })
             })
 
             // BC 129 events
             room = 'BC 05-06';
-            timetable.addEvent("Speed networking", room, date(10, 30), date(11, 30), MT_OPTIONS);
-            timetable.addEvent("Speed networking", room, date(14, 0), date(15, 0), MT_OPTIONS);
+            timetable.addEvent("Speed networking A1 B1", room, date(10, 30), date(11, 0), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A2 B2", room, date(11, 0), date(11, 30), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A3 B3", room, date(14, 0), date(14, 30), SPEED_NETWORKING_OPTIONS);
+            timetable.addEvent("Speed networking A4 B4", room, date(14, 30), date(15, 0), SPEED_NETWORKING_OPTIONS);
 
             // BC Hall events
             room = 'BC HALL BOOTH';
