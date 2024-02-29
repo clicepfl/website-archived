@@ -12,6 +12,12 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
+        "name": "Antoine Laurens",
+        "role": "Deepmind - Talk Generative AI",
+        "imageURL": "/events/AntoineLaurens.jpg",
+        "websiteURL": "https://www.linkedin.com/in/antoinelaurens/"
+    },
+    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
@@ -120,12 +126,15 @@
         "websiteURL": "https://www.linkedin.com/in/virgile-n-6a0a79206/"
     },
     {
+<<<<<<< HEAD
         "name": "Manon Michel",
         "role": "Tune Insight SA - Speed Networking",
         "imageURL": "/events/ManonMichel.jpg",
         "websiteURL": "https://www.linkedin.com/in/msmichel/"
     },
     {
+=======
+>>>>>>> 661ac4608fe12f8c6cae71152b5f4f75c081db63
         "name": "Maurice Gaillard",
         "role": "Program Leader, Ventura Builder - PDM dans ta propre start-up",
         "imageURL": "/events/MauriceGaillard.jpg",
