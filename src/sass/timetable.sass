@@ -61,6 +61,17 @@ $timetable-background-color: white !default
  * Timetable
  * ==========================================================================
 
+.timetable-img 
+    width: 100%
+    img 
+        width: 100%
+
+    @media screen and (max-width: 850px)
+        overflow: scroll
+        img
+            width: 50em
+
+
 .timetable
     display: flex
     align-items: stretch

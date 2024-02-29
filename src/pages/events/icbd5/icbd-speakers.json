@@ -12,6 +12,12 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
+        "name": "Antoine Laurens",
+        "role": "Deepmind - Talk Generative AI",
+        "imageURL": "/events/AntoineLaurens.jpg",
+        "websiteURL": "https://www.linkedin.com/in/antoinelaurens/"
+    },
+    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
@@ -72,12 +78,6 @@
         "websiteURL": "https://www.linkedin.com/in/barroco/"
     },
     {
-        "name": "Maurice Gaillard",
-        "role": "Program Leader, Ventura Builder - PDM dans ta propre start-up",
-        "imageURL": "/events/MauriceGaillard.jpg",
-        "websiteURL": "https://www.linkedin.com/in/mauricegaillard/"
-    },
-    {
         "name": "Irina Ristic",
         "role": "Elca Informatique SA - CV Correction, Mock interviews, Speed-Networking",
         "imageURL": "/img/icbd/icbd_logo.png",
@@ -106,6 +106,12 @@
         "role": "Google - Mock interviews",
         "imageURL": "/events/VirgileNeu.jpg",
         "websiteURL": "https://www.linkedin.com/in/virgile-n-6a0a79206/"
+    },
+    {
+        "name": "Maurice Gaillard",
+        "role": "Program Leader, Ventura Builder - PDM dans ta propre start-up",
+        "imageURL": "/events/MauriceGaillard.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mauricegaillard/"
     }
 
 ]
