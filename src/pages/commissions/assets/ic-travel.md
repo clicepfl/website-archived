@@ -10,15 +10,15 @@ Toute personne en troisième année de bachelor de la Faculté IC peut participe
 
 #### Quelle est la destination ?
 
-La destination de cette année est **Amsterdam**, et le voyage se déroulera du **10 au 17 juillet 2023**.
+La destination de cette année est **Barcelone**, et le voyage se déroulera du **8 au 15 juillet 2024**.
 
 #### Comment s'inscrire ?
 
-Les inscriptions sont fermées !
+<!-- Les inscriptions sont fermées ! -->
 
-<!-- Pour s'inscrire au voyage, c'est par [ICI](https://go.epfl.ch/ictravel2223)
+Pour s'inscrire au voyage, c'est par [ICI](https://go.epfl.ch/ictravel24)
 
-Toutes les informations nécessaires figurent dans le formulaire, qui ferme le **5 mars à 23:59**. Le remplir nous permettra de réserver le bon nombre de places pour le train, le logement et les activités : vous vous engagez donc à participer en le remplissant. -->
+Toutes les informations nécessaires figurent dans le formulaire, qui ferme le **4 mars à 23:59**. Le remplir nous permettra de réserver le bon nombre de places pour le train, le logement et les activités : vous vous engagez donc à participer en le remplissant. 
 
 <!-- #### Où partons-nous ?
 
