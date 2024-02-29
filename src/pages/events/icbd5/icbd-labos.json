@@ -10,5 +10,23 @@
         "role": "LCAV",
         "imageURL": "/events/EricBezzam.jpg",
         "websiteURL": "https://people.epfl.ch/eric.bezzam"
+    },
+    {
+        "name": "Daniel Collins",
+        "role": "LASEC",
+        "imageURL": "/events/DanielCollins.jpg",
+        "websiteURL": "https://people.epfl.ch/daniel.collins"
+    },
+    {
+        "name": "Arnout Devos",
+        "role": "",
+        "imageURL": "/events/ArnoutDevos.jpg",
+        "websiteURL": "https://people.epfl.ch/arnout.devos"
+    },
+    {
+        "name": "Vinitra Swamy",
+        "role": "ML4ED & MLO",
+        "imageURL": "/events/VinitraSwamy.jpg",
+        "websiteURL": "https://people.epfl.ch/vinitra.swamy"
     }
 ]
