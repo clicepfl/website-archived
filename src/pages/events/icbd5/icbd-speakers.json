@@ -1,7 +1,7 @@
 [
     {
         "name": "Tim Nguyen",
-        "role": "Altab Studio - Talk Video Games",
+        "role": "Altab Studio - Talk Video Games, Speed-Networking",
         "imageURL": "/events/TimNguyen.jpg",
         "websiteURL": "https://www.linkedin.com/in/akynna/"
     },
@@ -12,12 +12,6 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
-        "name": "Antoine Laurens",
-        "role": "Deepmind - Talk Generative AI",
-        "imageURL": "/events/AntoineLaurens.jpg",
-        "websiteURL": "https://www.linkedin.com/in/antoinelaurens/"
-    },
-    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
@@ -25,49 +19,49 @@
     },
     {
         "name": "Thierry Bossy",
-        "role": "Tune Insight SA - Talk Software Engineering",
+        "role": "Tune Insight - Talk Software Engineering",
         "imageURL": "/events/ThierryBossy.jpg",
         "websiteURL": "https://www.linkedin.com/in/thierry-bossy/"
     },
     {
         "name": "Mathias Humbert",
-        "role": "Université de Lausanne - Talk Career Orientation, Meetup Academia vs Industry",
+        "role": "Université de Lausanne - Talk Career Orientation",
         "imageURL": "/img/icbd/icbd_logo.png",
         "websiteURL": "https://www.linkedin.com/in/mathiashumbert/"
     },
     {
         "name": "Vincent Etter",
-        "role": "Google - Talk Generative AI",
+        "role": "Google - Talk Generative AI, Mock interviews",
         "imageURL": "/events/VincentEtter.jpg",
         "websiteURL": "https://www.linkedin.com/in/vincentetter/"
     },
     {
         "name": "Paul Habfast",
-        "role": "Iprova SA - Talk Throwback 10 years later",
+        "role": "Iprova - Talk Throwback 10 years later",
         "imageURL": "/events/PaulHabfast.jpg",
         "websiteURL": "https://www.linkedin.com/in/habfast/"
     },
     {
         "name": "Tiago Kieliger",
-        "role": "Rivia SA - Meetup Start-ups",
+        "role": "Rivia - Meetup Start-ups, Speed-Networking",
         "imageURL": "/events/TiagoKieliger.jpg",
         "websiteURL": "https://www.linkedin.com/in/tiagokieliger/"
     },
     {
         "name": "Florian Laurent",
-        "role": "NyxAI - Meetup Start-ups",
+        "role": "NyxAI - Meetup Start-ups, Speed-Networking",
         "imageURL": "/events/FlorianLaurent.jpg",
         "websiteURL": "https://www.linkedin.com/in/florianlaurent/"
     },
     {
         "name": "Natalia Nessler",
-        "role": "Logitech Europe SA - Meetup Women in IT",
+        "role": "Logitech - Meetup Women in IT, Speed-Networking, Speed-Networking",
         "imageURL": "/events/NataliaNessler.jpg",
         "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/"
     },
     {
         "name": "Jelena Malić",
-        "role": "Swisscom SA - Meetup Women in IT",
+        "role": "Swisscom - Meetup Women in IT, Speed-Networking",
         "imageURL": "/events/JelenaMalic.jpg",
         "websiteURL": "https://www.linkedin.com/in/jelena-malic/" 
     },
@@ -79,43 +73,43 @@
     }, 
     {
         "name": "François Farquet",
-        "role": "Oracle Labs - Meetup Research & Development",
+        "role": "Oracle Labs - Meetup Research & Development, Mock interviews",
         "imageURL": "/events/FrancoisFarquet.jpg",
         "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
     },
     {
         "name": "Mohamed Kafsi",
-        "role": "Nextthink - Meetup Academia vs Industry",
+        "role": "Nexthink - Meetup Academia vs Industry",
         "imageURL": "/events/MohamedKafsi.jpg",
         "websiteURL": "https://www.linkedin.com/in/mohamed-kafsi/"
     },
     {
         "name": "Arnaud Boissaye-Heaume",
-        "role": "Wavestone - Speed-Networking",
+        "role": "Wavestone - Speed-Networking, Speed-Networking",
         "imageURL": "/events/ArnaudBoissayeHeaume.jpg",
         "websiteURL": "https://www.linkedin.com/in/arnaud-boissaye-heaume/"
     },
     {
         "name": "Michael Barroco", 
-        "role": "Orbitalize - Speed-Networking",
+        "role": "Orbitalize - Speed-Networking, Speed-Networking",
         "imageURL": "/events/MichaelBarroco.jpg",
         "websiteURL": "https://www.linkedin.com/in/barroco/"
     },
     {
         "name": "Irina Ristic",
-        "role": "Elca Informatique SA - CV Correction, Mock interviews, Speed-Networking",
+        "role": "Elca Informatique - CV Correction",
         "imageURL": "/img/icbd/icbd_logo.png",
         "websiteURL": "https://www.linkedin.com/"
     },
     {
         "name": "Alfonso Peterssen",
-        "role": "Oracle Labs - CV Correction, Mock interviews, Speed-Networking",
+        "role": "Oracle Labs - Mock interviews",
         "imageURL": "/events/AlfonsoPeterssen.jpg",
         "websiteURL": "https://www.linkedin.com/in/alfonso2peterssen/"
     },
     {
         "name": "Arnaud Delamare",
-        "role": "Oracle Labs - CV Correction, Mock interviews, Speed-Networking",
+        "role": "Oracle Labs - Mock interviews",
         "imageURL": "/events/ArnaudDelamare.jpg",
         "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3/"
     },
@@ -127,7 +121,7 @@
     },
     {
         "name": "Manon Michel",
-        "role": "Tune Insight SA - Speed Networking",
+        "role": "Tune Insight - Speed Networking",
         "imageURL": "/events/ManonMichel.jpg",
         "websiteURL": "https://www.linkedin.com/in/msmichel/"
     },
