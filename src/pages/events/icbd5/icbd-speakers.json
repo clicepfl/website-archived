@@ -12,16 +12,28 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
-        "name": "Antoine Laurens",
-        "role": "Deepmind - Talk Generative AI",
-        "imageURL": "/events/AntoineLaurens.jpg",
-        "websiteURL": "https://www.linkedin.com/in/antoinelaurens/"
-    },
-    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
         "websiteURL": "https://www.linkedin.com/in/christophetafanidereeper/"
+    },
+    {
+        "name": "Thierry Bossy",
+        "role": "Tune Insight SA - Talk Software Engineering",
+        "imageURL": "/events/ThierryBossy.jpg",
+        "websiteURL": "https://www.linkedin.com/in/thierry-bossy/"
+    },
+    {
+        "name": "Mathias Humbert",
+        "role": "Université de Lausanne - Talk Career Orientation, Meetup Academia vs Industry",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://www.linkedin.com/in/mathiashumbert/"
+    },
+    {
+        "name": "Vincent Etter",
+        "role": "Google - Talk Generative AI",
+        "imageURL": "/events/VincentEtter.jpg",
+        "websiteURL": "https://www.linkedin.com/in/vincentetter/"
     },
     {
         "name": "Paul Habfast",
@@ -55,7 +67,7 @@
     },
     {
         "name": "Ireneu Pla",
-        "role": "Google - Meetup Research & Development",
+        "role": "Google - Meetup Research & Development, Mock interviews",
         "imageURL": "/events/IreneuPla.jpg",
         "websiteURL": "https://www.linkedin.com/in/ireneup/"
     }, 
@@ -64,6 +76,12 @@
         "role": "Oracle Labs - Meetup Research & Development",
         "imageURL": "/events/FrancoisFarquet.jpg",
         "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
+    },
+    {
+        "name": "Mohamed Kafsi",
+        "role": "Nextthink - Meetup Academia vs Industry",
+        "imageURL": "/events/MohamedKafsi.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mohamed-kafsi/"
     },
     {
         "name": "Arnaud Boissaye-Heaume",
@@ -96,16 +114,16 @@
         "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3/"
     },
     {
-        "name": "Vincent Etter",
-        "role": "Google - Mock interviews",
-        "imageURL": "/events/VincentEtter.jpg",
-        "websiteURL": "https://www.linkedin.com/in/vincentetter/"
-    },
-    {
         "name": "Virgile Neu",
         "role": "Google - Mock interviews",
         "imageURL": "/events/VirgileNeu.jpg",
         "websiteURL": "https://www.linkedin.com/in/virgile-n-6a0a79206/"
+    },
+    {
+        "name": "Manon Michel",
+        "role": "Tune Insight SA - Speed Networking",
+        "imageURL": "/events/ManonMichel.jpg",
+        "websiteURL": "https://www.linkedin.com/in/msmichel/"
     },
     {
         "name": "Maurice Gaillard",
