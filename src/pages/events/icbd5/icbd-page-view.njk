@@ -58,13 +58,49 @@
             <div class="center description">
 
                 <div class="content padded-40">
-                    <p class="center-text registration">
-                        <!-- TODO: Change this link -->
-                        <a href="https://go.epfl.ch/icbd-form" target="_blank">
-                            Registration
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </p>
+                    <div class="center-text registration">
+                        <h1> Registration </h1>
+                        <p class="center-text">
+                            1. Register for each of the activities
+                            you'd like to take part in. All activities are free of charge, but a deposit of CHF 10 is required 
+                            to ensure your participation. This is payable at the CLIC office (INN 132), by cash or camipro. 
+                            It must be paid by March 6th to secure your place in the activities with a limited number of participants 
+                            (mock interview and speed networking). After this date, registrations with unpaid deposits will be cancelled, 
+                            and you will have to re-register and pay the deposit until the day before ICBD. 
+                            The deposit will be returned to you during the lunch if you only registered for talks/meetups, 
+                            otherwise after the last activity you registered for!
+                            <br><br>
+                            2. Master courses will be recorded or cancelled on this date. We will keep the teachers of BA6 courses informed, 
+                            but we cannot guarantee that courses will be cancelled.
+                        </p>
+                        <div class="buttons">
+                            <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
+                            <a href="https://lu.ma/event/evt-jl8ySRI9GGAtkWm"
+                                class="luma-checkout--button"
+                                data-luma-action="checkout"
+                                data-luma-event-id="evt-jl8ySRI9GGAtkWm"
+                            >
+                                Talks and meetups
+                            </a>
+                            <a  href="https://lu.ma/event/evt-sddFjg2Xixyj5PV"
+                                class="luma-checkout--button"
+                                data-luma-action="checkout"
+                                data-luma-event-id="evt-sddFjg2Xixyj5PV"
+                            >
+                                Mock interviews
+                            </a>
+                            <a  href="https://lu.ma/event/evt-yzNqzZ2llO3kzoL"
+                                class="luma-checkout--button"
+                                data-luma-action="checkout"
+                                data-luma-event-id="evt-yzNqzZ2llO3kzoL"
+                            >
+                                Speed Networking
+                            </a>
+                        </div>
+                    <a href="#timetable" class="link">
+                        <h3>Detailed planning below</h3>
+                    </a>
+                    </div>
 
                     <p class="center-text padded-40">
                         CLIC and the IC Faculty are proud to present the 5th edition of IC Boost Day, a day dedicated to your future career in Computer and Communication Sciences! Take part in mock coding interviews and CV reviews, join various talks and meet plenty of EPFL IC alumni! They will be here to answer all the questions you may have as a future EPFL alumnus, both during specific “meetup sessions” or during our famous networking lunch! ICBD is a unique opportunity to prepare for your professional future in the world of computer science and engineering.
@@ -150,7 +186,7 @@
         <div class="wrapper bg-white">
             <div class="center">
                 <div class="content padded-40 timetable-container">
-                    <h1>Timetable</h1>
+                    <h1 id="timetable">Timetable</h1>
                     <div class="timetable"></div>
                 </div>
                 <!-- content -->
@@ -176,7 +212,7 @@
                                     You have spent years studying the ins and outs of computer science and coding interviews may very well 
                                     be one of the first times you will need to put into practice the skills you acquired. As such, we believe 
                                     it would be beneficial for you to practice and get advice directly from the people who run them! Register 
-                                    for this activity and let IC alumni from Oracle and Swisscom help you sharpen your abilities. Note that 
+                                    for this activity and let IC alumni from Google (G), Oracle (O) and Swisscom (S) help you sharpen your abilities. Note that 
                                     there is a limited number of spots for this activity so make sure to sign up for it as soon as possible.
                                 </p>
                             </div>
@@ -211,7 +247,10 @@
 
                             <div class="details">
                                 <p>
-                                   
+                                    During the lunch break, professors, alumni and students will come together over a meal, 
+                                    providing the perfect setting for networking and conversation. You will have the chance 
+                                    to engage directly with alumni, tapping into their wealth of knowledge and experience. 
+                                    The lunch is going to be a delicious vegetarian buffet!
                                 </p>
                             </div>
                         </div>
@@ -225,7 +264,33 @@
 
                             <div class="details">
                                 <p>
-                                   
+                                    The Speed Networking sessions are a new way for both students and IC Alumnis from diverse 
+                                    backgrounds to meet and network: for each session (30min), you will have 5 minutes to present yourself to each of the 5 alumnis one after the other, 
+                                    and they will present you their company and their profiles. This should let fast exchange of information and contact for both parties, 
+                                    and successful or interesting meetings can be later continued during the network lunch or the 
+                                    closing aperitif! Note that there is a limited number of spots for this activity so make sure 
+                                    to sign up for it as soon as possible. <br><br>
+                                    You will have the choice between 2 sessions: <br>
+                                    A - Elca Informatique SA / Tune Insight / Procter & Gamble / Swisscom / OpenSystem AG <br>
+                                    B - Nagravision SA / CYNA / Netguardians / Cartier / Wavestone
+                                </p>
+                            </div>
+                        </div>
+
+                                                
+                        <div id="blaze" class="event">
+                            <div class="front">
+                                <h3>
+                                    <i class="fas fa-user-tie"></i>
+                                    Stand Blaze</h3>
+                            </div>
+
+                            <div class="details">
+                                <p>
+                                    Do you wonder what does it take to found a startup and how does it work? 
+                                    Do you want to know what kind of leverages do you have access to? 
+                                    Then come discuss with Maurice Gaillard, head of program at Blaze, 
+                                    the accelerator for fast-deploying startups at EPFL, at his stand in the BC hall !
                                 </p>
                             </div>
                         </div>
@@ -297,7 +362,7 @@
                                     Have you ever harbored the dream of crafting your own video game? 
                                     Join Tim Nguyen from Altab Studio 
                                     as they share their insights and experiences in the realm of independent 
-                                    video game development.Discover the art, challenges, and triumphs of 
+                                    video game development. Discover the art, challenges, and triumphs of 
                                     crafting distinctive gaming experiences, from innovative design concepts 
                                     to the technology shaping the future of indie games.
                                 </p>
@@ -314,7 +379,12 @@
                             <div class="details">
                                 <h4>Software engineering</h4>
                                 <p>
-                                    Description
+                                    Join us for an engaging talk by Virgile Hernicot, a Logitech software engineer and an EPFL master's graduate, 
+                                    as he delves into the real-world applications of Software Engineering principles. 
+                                    Discover how these theories adapt to industry settings, navigating challenges like limited time and cost constraints.
+                                    Explore the complexities of managing multi-million-line software systems developed by diverse teams over years, 
+                                    and learn strategies for addressing technical debt in critical legacy software, such as those powering banking 
+                                    systems. Don't miss this opportunity to gain valuable insights into the practical side of Software Engineering!
                                 </p>
                             </div>
                         </div>
@@ -329,12 +399,10 @@
                             <div class="details">
                                 <h4>Cybersecurity</h4>
                                 <p>
-                                    FLorian Badertscher is co-founder of Bug Bounty and use penetration testing as a method 
-                                    to identify cyber vulnerabilities. Discover the crucial role 
-                                    these practices play in securing digital systems and networks. 
-                                    From identifying vulnerabilities to implementing robust security 
-                                    measures, learn how penetration testing is a proactive approach 
-                                    to safeguarding against cyber threats.
+                                    Florian Badertscher is co-founder of Bug Bounty Switzerland and uses ethical hacking to identify cyber vulnerabilities. 
+                                    Discover why there is no way around ethical hackers when it comes to securing digital systems, how such a collaboration 
+                                    with ethical hackers looks like, and the different roles and career possibilities involved. Learn how this proactive 
+                                    approach eliminates the breeding ground for cyber-attacks and how you can be part of it. 
                                 </p>
                             </div>
                         </div>
