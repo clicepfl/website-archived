@@ -4,5 +4,11 @@
         "role": "PARSA",
         "imageURL": "/events/ShashwatShrivastava.jpg",
         "websiteURL": "https://people.epfl.ch/shashwat.shrivastava"
+    },
+    {
+        "name": "Eric Bezzam",
+        "role": "LCAV",
+        "imageURL": "/events/EricBezzam.jpg",
+        "websiteURL": "https://people.epfl.ch/eric.bezzam"
     }
 ]
