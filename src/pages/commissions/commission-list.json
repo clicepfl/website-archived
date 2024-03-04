@@ -198,13 +198,13 @@
         "members": [
             {
                 "name": "Solène Husseini",
-                "imageURL": "../solenehusseini.jpg",
+                "imageURL": "solenehusseini.jpg",
                 "websiteURL": "https://people.epfl.ch/tanguy.husseini",
                 "role": "Présidente"
             },
             {
                 "name": "Philippe Dourassov",
-                "imageURL": "../philippedourassov.jpg",
+                "imageURL": "philippedourassov.jpg",
                 "websiteURL": "https://people.epfl.ch/philippe.dourassov",
                 "role": "Trésorier"
             }
