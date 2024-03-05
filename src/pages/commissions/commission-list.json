@@ -189,7 +189,7 @@
         }
     },
     {
-        "name": "Polygl0ts",
+        "name": "polygl0ts",
         "slug": "polygl0ts",
         "imageURL": "polygl0ts.svg",
         "shortDescription": "Née en 2018, polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité. Avec l'équipe de l'ETHZ nous formons 0rganizers, l'une des meilleures équipes européennes participant à des événements internationaux tels que DEFCON.",
@@ -197,34 +197,16 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Marc Egli",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/marc.egli",
-                "role": "Président"
+                "name": "Solène Husseini",
+                "imageURL": "solenehusseini.jpg",
+                "websiteURL": "https://people.epfl.ch/tanguy.husseini",
+                "role": "Présidente"
             },
             {
-                "name": "Lucio Romerio",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/lucio.romerio",
-                "role": "Vice-Président"
-            },
-            {
-                "name": "Francesco Berla",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/francesco.berla",
+                "name": "Philippe Dourassov",
+                "imageURL": "philippedourassov.jpg",
+                "websiteURL": "https://people.epfl.ch/philippe.dourassov",
                 "role": "Trésorier"
-            },
-            {
-                "name": "Luca Di Bartolomeo",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/luca.dibartolomeo",
-                "role": "Communication"
-            },
-            {
-                "name": "Florian Hofhammer",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/florian.hofhammer",
-                "role": "Évènementiel"
             }
         ],
         "social": {
@@ -232,37 +214,6 @@
             "Discord": "https://discord.gg/7Zx4FZyTSP",
             "Twitter": "https://twitter.com/polygl0ts",
             "Mailing List": "https://polygl0ts.ch/contact"
-        }
-    },
-    {
-        "name": "EPFL Developers Club",
-        "slug": "edc",
-        "imageURL": "edc.png",
-        "shortDescription": "Nous promouvons la communauté des développeurs sur le campus par le biais d'ateliers, de projets et de discussions techniques avec des pionniers de l'industrie.",
-        "pageBodyPath": "edc.md",
-        "catchPhrase": "construire un campus plus collaboratif et combler le fossé entre la théorie et la pratique",
-        "members": [
-            {
-                "name": "Ahmed Ezzo",
-                "imageURL": "ahmedezzo.jpg",
-                "websiteURL": "https://people.epfl.ch/ahmed.ezzo",
-                "role": "Président"
-            },
-            {
-                "name": "Anirudhh Ramesh",
-                "imageURL": "anirudhhramesh.jpg",
-                "websiteURL": "https://people.epfl.ch/anirudhh.ramesh",
-                "role": "Vice-Président"
-            },
-            {
-                "name": "Omar Shalby",
-                "imageURL": "omarshalby.jpg",
-                "websiteURL": "https://people.epfl.ch/omar.shalby",
-                "role": "Vice-Président"
-            }
-        ],
-        "social": {
-            "Instagram": "https://www.instagram.com/epfl_developers_club.clic/" 
         }
     }
 ]
