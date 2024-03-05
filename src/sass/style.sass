@@ -38,10 +38,12 @@ h1
     color: #666
 
     @media screen and (max-width: 600px)
-        font-size: 60px
+        font-size: 50px
+        font-weight: 300
 
     @media screen and (max-width: 400px)
-        font-size: 45px
+        font-size: 40px
+        font-weight: 300
 
 h3
     font-weight: 300
@@ -97,6 +99,9 @@ h4
 
 .bg-orange-gradient
     background: $gradient-orange
+
+    h1
+        color: white
 
 .full-height
     height: 100%
@@ -171,7 +176,7 @@ h4
         color: #0099ff
 
 .slider
-    background: #fff url("/img/background_home.JPG") no-repeat fixed center
+    background: #fff url("/img/background_home.jpg") no-repeat fixed center
     -webkit-background-size: cover
     -moz-background-size: cover
     -o-background-size: cover
@@ -181,7 +186,7 @@ h4
     width: 100%
     float: left
     padding: 20px 0 20px 0
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+    background: linear-gradient(90deg, rgba(255,255,255,0.9) 5%, rgba(255,255,255,0) 50%)
 
     .logo
         float: left
@@ -207,22 +212,22 @@ h4
                 display: block
                 padding: 5px
                 margin: 10px
-                color: #fff
+                color: $navy-blue
                 font-weight: bold
                 font-size: 17px
                 text-decoration: none
                 text-transform: uppercase
 
         ul li.current a, ul li a:hover
-            border-bottom: 3px solid #fff
+            border-bottom: 3px solid $navy-blue
 
         @media screen and (max-width: $menu-mobile-threshold)
             display: none
 
     .mobile-menu-toggle
         display: none
-        color: #fff
-        border: 1px solid #fff
+        color: $navy-blue
+        border: 1px solid $navy-blue
         width: min-content
         padding: 10px
         position: relative
@@ -237,13 +242,13 @@ h4
     padding: 20px
     color: #fff
     text-align: center
-    background: rgba(0, 0, 0, 0.15)
+    background: rgba(0, 0, 66, 0.25)
 
     h1
         font-size: 50px
         text-transform: uppercase
-        font-weight: 300
-        text-shadow: 2px 2px #333
+        font-weight: 400
+        text-shadow: 3px 3px 3px #335
         color: #fff
 
         @media screen and (max-width: 1200px)
@@ -276,12 +281,18 @@ h4
         margin: 50px auto
 
 .sponsors
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+
     img
         height: 80px
         margin: 20px
 
     h3.tier
         margin: 30px 0 15px 0
+        flex-basis: 100%
 
     @media screen and (max-width: 500px)
         img
@@ -841,25 +852,6 @@ h4
         @media screen and (max-width: 900px)
             width: 80%
 
-    .registration
-        padding: 40px 0 40px 0
-        text-align: center
-
-        a
-            text-transform: uppercase
-            font-size: 30px
-            color: #000
-            padding: 15px 30px
-            background-color: rgb(255, 198, 64)
-
-        @media screen and (max-width: 900px)
-            padding: 20px 0 20px 0
-
-            a
-                font-size: 20px
-                padding: 10px 20px
-        
-
     .planning
         .events-container
             display: flex
@@ -1008,6 +1000,9 @@ h4
             @media screen and (max-width: 400px)
                 font-size: 14px
 
+        .desc, .name, .role
+            text-align: left
+
         @media screen and (max-width: 1100px)
             width: 40%
             margin: 10px 5%
@@ -1031,6 +1026,52 @@ h4
         @media screen and (max-width: 400px)
             width: 90%
             margin: 10px 5%
+
+    .registration
+        padding: 40px 0 40px 0
+        text-align: center
+
+        a
+            text-transform: uppercase
+            font-size: 30px
+            color: #fff
+            padding: 15px 30px
+            background-color: rgb(255, 198, 64)
+
+        background-color: #eee
+        width: 100%
+        padding: 2em
+        display: flex
+        flex-direction: column
+        gap: 2em
+
+        .buttons 
+            display: flex
+            gap: 2em
+            color: white
+            
+        h1 
+            background-color: inherit
+
+        h3
+            color: black
+            margin: 0
+        
+        .link
+            background-color: transparent
+            margin-bottom: 0
+
+        @media screen and (max-width: 900px)
+            padding: 20px 0 20px 0
+
+            a
+                font-size: 20px
+                padding: 10px 20px
+                width: 80%
+                margin: auto
+
+            .buttons 
+                flex-direction: column
 
     .footer
         background-color: #000

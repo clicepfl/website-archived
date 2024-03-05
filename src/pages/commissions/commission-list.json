@@ -5,48 +5,54 @@
         "imageURL": "ic-travel.svg",
         "shortDescription": "Chaque année, nous organisons le voyage d’études pour les étudiant.e.s en dernière année de Bachelor !",
         "pageBodyPath": "ic-travel.md",
-        "catchPhrase": "Pour vous préparer un beau voyage",
+        "catchPhrase": "Pour vous préparer un voyage mémorable",
         "members": [
             {
-                "name": "Christelle Lam",
-                "imageURL": "christellelam.jpg",
-                "websiteURL": "https://people.epfl.ch/phi.lam",
-                "role": "Présidente"
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
+                "role": "Coprésident"
             },
             {
                 "name": "Roman Paccaud",
                 "imageURL": "romanpaccaud.jpg",
                 "websiteURL": "https://people.epfl.ch/roman.paccaud",
-                "role": "Trésorier"
+                "role": "Coprésident"
             },
             {
-                "name": "Alexis Schlomer",
-                "imageURL": "alexisschlomer.jpg",
-                "websiteURL": "https://people.epfl.ch/alexis.schlomer",
-                "role": "Sponsoring"
+                "name": "Clémentine Jordan",
+                "imageURL": "clementinejordan.jpg",
+                "websiteURL": "https://people.epfl.ch/clementine.jordan",
+                "role": "Trésorière"
             },
             {
-                "name": "Cécile Michel",
-                "imageURL": "cecilemichel.jpg",
-                "websiteURL": "https://people.epfl.ch/cecile.michel",
+                "name": "Imane Oujja",
+                "imageURL": "imaneoujja.jpg",
+                "websiteURL": "https://people.epfl.ch/imane.oujja",
                 "role": "Communication"
             },
             {
-                "name": "Mathieu Sauser",
-                "imageURL": "mathieusauser.jpg",
-                "websiteURL": "https://people.epfl.ch/mathieu.sauser",
+                "name": "Alonso Coaguila",
+                "imageURL": "alonsocoaguila.jpg",
+                "websiteURL": "https://people.epfl.ch/alonso.coaguila",
                 "role": "Logistique"
             },
             {
-                "name": "Malen Raychev",
-                "imageURL": "malenraychev.jpg",
-                "websiteURL": "https://people.epfl.ch/malen.raychev",
+                "name": "Léander Crétegny",
+                "imageURL": "leandercretegny.jpg",
+                "websiteURL": "https://people.epfl.ch/leander.cretegny",
                 "role": "Logistique"
             },
             {
-                "name": "Hugo Majerczyk",
-                "imageURL": "hugomajerczyk.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.majerczyk",
+                "name": "François Théron",
+                "imageURL": "francoistheron.jpg",
+                "websiteURL": "https://people.epfl.ch/francois.theron",
+                "role": "Logistique"
+            },
+            {
+                "name": "Sarah Badr",
+                "imageURL": "sarahbadr.jpg",
+                "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Logistique"
             }
         ],
@@ -64,58 +70,40 @@
         "catchPhrase": "Informer ; Organiser ; Rassembler. Faire vivre les actrices et acteurs du jeu vidéo sur le campus UNIL-EPFL",
         "members": [
             {
-                "name": "Camille Montemagni",
-                "imageURL": "camillemontemagni.jpg",
-                "websiteURL": "https://people.epfl.ch/camille.montemagni",
+                "name": "Maï-Linh Cordonnier",
+                "imageURL": "mai-linhcordonnier.jpg",
+                "websiteURL": "https://people.epfl.ch/mai-linh.cordonnier",
                 "role": "Coordinatrice"
-            },
-            {
-                "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.hueber",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Ursula El Khoury",
-                "imageURL": "ursulaelkhoury.jpg",
-                "websiteURL": "https://people.epfl.ch/ursula.elkhoury",
-                "role": "Coordinatrice"
-            },
-            {
-                "name": "Kévin Faustini",
-                "imageURL": "kevinfaustini.jpg",
-                "websiteURL": "https://people.epfl.ch/kevin.faustini",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Myriam Himmi",
-                "imageURL": "myriamhimmi.jpg",
-                "websiteURL": "https://people.epfl.ch/myriam.himmi",
-                "role": "Coordinatrice"
-            },
-            {
-                "name": "Mamoun Imghi",
-                "imageURL": "mamounimghi.jpg",
-                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Loeva La Ragione",
-                "imageURL": "loevalaragione.jpg",
-                "websiteURL": "https://unil.ch/unisciences/loevalaragione",
-                "role": "Coordinatrice"
-            },
-            {
-                "name": "Clément Josso",
-                "imageURL": "clementjosso.jpg",
-                "websiteURL": "https://people.epfl.ch/clement.josso",
-                "role": "Coordinateur"
             },
             {
                 "name": "Nicolas Duprat",
                 "imageURL": "nicolasduprat.jpg",
                 "websiteURL": "https://people.epfl.ch/nicolas.duprat",
                 "role": "Coordinateur"
+            },
+            {
+                "name": "Cyrielle Lozano",
+                "imageURL": "cyriellelozano.jpg",
+                "websiteURL": "https://people.epfl.ch/cyrielle.lozano",
+                "role": "Comité"
+            },
+            {
+                "name": "Clément Josso",
+                "imageURL": "clementjosso.jpg",
+                "websiteURL": "https://people.epfl.ch/clement.josso",
+                "role": "Comité"
+            },
+            {
+                "name": "Valentin Schneeberger",
+                "imageURL": "valentinschneeberger.jpg",
+                "websiteURL": "https://people.epfl.ch/valentin.schneeberger",
+                "role": "Comité"
+            },
+            {
+                "name": "François Théron",
+                "imageURL": "francoistheron.jpg",
+                "websiteURL": "https://people.epfl.ch/francois.theron",
+                "role": "Comité"
             },
             {
                 "name": "... Et nos coéquipier·ère·s !",
@@ -145,27 +133,21 @@
         "catchPhrase": "Venez créer avec nous !",
         "members": [
             {
-                "name": "Hugo \"Stache\" Hueber",
-                "imageURL": "hugohueber2.jpg",
-                "websiteURL": "https://people.epfl.ch/hugo.hueber",
+                "name": "Marwa Rezziki",
+                "imageURL": "marwarezziki.jpg",
+                "websiteURL": "https://people.epfl.ch/marwa.rezziki",
+                "role": "Coordinatrice / Responsable Graphisme"
+            },
+            {
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
                 "role": "Coordinateur"
             },
             {
-                "name": "Lucas Trognon",
-                "imageURL": "lucastrognon.jpg",
-                "websiteURL": "https://people.epfl.ch/lucas.trognon",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Guillaume Parchet",
-                "imageURL": "guillaumeparchet.jpg",
-                "websiteURL": "https://people.epfl.ch/guillaume.parchet",
-                "role": "Coordinateur"
-            },
-            {
-                "name": "Thibault Viglino",
-                "imageURL": "thibaultviglino.jpg",
-                "websiteURL": "https://people.epfl.ch/thibault.viglino",
+                "name": "Jacopo Philip Moretti",
+                "imageURL": "jacopomoretti.jpg",
+                "websiteURL": "https://people.epfl.ch/jacopo.moretti",
                 "role": "Coordinateur"
             }
         ],
@@ -179,38 +161,26 @@
         "name": "CEVE",
         "slug": "ceve",
         "imageURL": "ceve.png",
-        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s.",
+        "shortDescription": "Notre but est la création et à la gestion d’espaces de vie et de détente pour les étudiant.e.s. Viens nous rejoindre en BC09 !",
         "pageBodyPath": "ceve.md",
         "catchPhrase": "Une petite pause ?",
         "members": [
             {
-                "name": "Maxime Lestiboudois",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/maxime.lestiboudois",
+                "name": "Mamoun Imghi",
+                "imageURL": "mamounimghi.jpg",
+                "websiteURL": "https://people.epfl.ch/mamoun.imghi",
                 "role": "Comité"
             },
             {
-                "name": "Ahmed Elalamy",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/ahmed.elalamy",
+                "name": "Jacopo Philip Moretti",
+                "imageURL": "jacopomoretti.jpg",
+                "websiteURL": "https://people.epfl.ch/jacopo.moretti",
                 "role": "Comité"
             },
             {
-                "name": "Claire Lopez",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/claire.lopez",
-                "role": "Comité"
-            },
-            {
-                "name": "Elior Papiernik",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/claire.lopez",
-                "role": "Comité"
-            },
-            {
-                "name": "Camille Espieux",
-                "imageURL": "../ceve.png",
-                "websiteURL": "https://people.epfl.ch/camille.espieux",
+                "name": "Clément Josso",
+                "imageURL": "clementjosso.jpg",
+                "websiteURL": "https://people.epfl.ch/clement.josso",
                 "role": "Comité"
             }
         ],
@@ -219,7 +189,7 @@
         }
     },
     {
-        "name": "Polygl0ts",
+        "name": "polygl0ts",
         "slug": "polygl0ts",
         "imageURL": "polygl0ts.svg",
         "shortDescription": "Née en 2018, polygl0ts est l'équipe de Capture The Flag (CTF) de l'EPFL. Nous participons à des compétitions de cybersécurité. Avec l'équipe de l'ETHZ nous formons 0rganizers, l'une des meilleures équipes européennes participant à des événements internationaux tels que DEFCON.",
@@ -227,34 +197,16 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Marc Egli",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/marc.egli",
-                "role": "Président"
+                "name": "Solène Husseini",
+                "imageURL": "solenehusseini.jpg",
+                "websiteURL": "https://people.epfl.ch/tanguy.husseini",
+                "role": "Présidente"
             },
             {
-                "name": "Lucio Romerio",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/lucio.romerio",
-                "role": "Vice-Président"
-            },
-            {
-                "name": "Francesco Berla",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/francesco.berla",
+                "name": "Philippe Dourassov",
+                "imageURL": "philippedourassov.jpg",
+                "websiteURL": "https://people.epfl.ch/philippe.dourassov",
                 "role": "Trésorier"
-            },
-            {
-                "name": "Luca Di Bartolomeo",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/luca.dibartolomeo",
-                "role": "Communication"
-            },
-            {
-                "name": "Florian Hofhammer",
-                "imageURL": "../polygl0ts.svg",
-                "websiteURL": "https://people.epfl.ch/florian.hofhammer",
-                "role": "Évènementiel"
             }
         ],
         "social": {
@@ -262,37 +214,6 @@
             "Discord": "https://discord.gg/7Zx4FZyTSP",
             "Twitter": "https://twitter.com/polygl0ts",
             "Mailing List": "https://polygl0ts.ch/contact"
-        }
-    },
-    {
-        "name": "EPFL Developers Club",
-        "slug": "edc",
-        "imageURL": "edc.png",
-        "shortDescription": "Nous promouvons la communauté des développeurs sur le campus par le biais d'ateliers, de projets et de discussions techniques avec des pionniers de l'industrie.",
-        "pageBodyPath": "edc.md",
-        "catchPhrase": "construire un campus plus collaboratif et combler le fossé entre la théorie et la pratique",
-        "members": [
-            {
-                "name": "Ahmed Ezzo",
-                "imageURL": "ahmedezzo.jpg",
-                "websiteURL": "https://people.epfl.ch/ahmed.ezzo",
-                "role": "Président"
-            },
-            {
-                "name": "Anirudhh Ramesh",
-                "imageURL": "anirudhhramesh.jpg",
-                "websiteURL": "https://people.epfl.ch/anirudhh.ramesh",
-                "role": "Vice-Président"
-            },
-            {
-                "name": "Omar Shalby",
-                "imageURL": "omarshalby.jpg",
-                "websiteURL": "https://people.epfl.ch/omar.shalby",
-                "role": "Vice-Président"
-            }
-        ],
-        "social": {
-            "Instagram": "https://www.instagram.com/epfl_developers_club.clic/" 
         }
     }
 ]

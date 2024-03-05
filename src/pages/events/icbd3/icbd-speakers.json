@@ -1,117 +1,164 @@
 [
     {
-        "name": "Alexandre Connat",
-        "role": "CICR - Meetup sustainable and ethical companies",
-        "imageURL": "/events/AlexandreConnat.jpg",
-        "websiteURL": "https://www.linkedin.com/in/connat/"
+        "name": "Joël Theytaz",
+        "role": "Elca Informatique",
+        "imageURL": "/events/JoelTheytaz.jpg",
+        "websiteURL": "https://www.linkedin.com/in/theytaz-joel/"
     },
     {
-        "name": "Elie Najm",
-        "role": "Credit Suisse - Mini-Talk Data Science",
-        "imageURL": "/events/ElieNajm.jpg",
-        "websiteURL": "https://www.linkedin.com/in/elie-najm-29078a39/"
+        "name": "Matthieu Rudelle",
+        "role": "Artmyn",
+        "imageURL": "/events/MatthieuRudelle.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mrudelle/"
     },
     {
-        "name": "Manohar Jonnalagedda",
-        "role": "Big-Talk EPFL 10 years after",
-        "imageURL": "/events/ManoharJonnalagedda.jpg",
-        "websiteURL": "https://www.linkedin.com/in/manojo/"
+        "name": "Doga Tekin",
+        "role": "Oracle",
+        "imageURL": "/events/DogaTekin.jpg",
+        "websiteURL": "https://www.linkedin.com/in/dogatekin/"
+    },
+    {
+        "name": "Benjamin D'Incau",
+        "role": "Procter & Gamble",
+        "imageURL": "/events/BenjaminDincau.jpg",
+        "websiteURL": "https://www.linkedin.com/in/benjamindincau/"
+    },
+    {
+        "name": "Christian Zommerfelds",
+        "role": "Google",
+        "imageURL": "/events/ChristianZommerfelds.jpg",
+        "websiteURL": "https://www.linkedin.com/in/zommerfelds/"
+    },
+    {
+        "name": "Höng-Ân Sandlin",
+        "role": "Armasuisse",
+        "imageURL": "/events/HonganSandlin.jpg",
+        "websiteURL": "https://www.linkedin.com/in/hong-an/"
+    },
+    {
+        "name": "Stephane Mojon",
+        "role": "AdNovum SA",
+        "imageURL": "/events/StephaneMojon.jpg",
+        "websiteURL": "https://www.linkedin.com/in/st%C3%A9phane-mojon-83a8bb3/"
+    },
+    {
+        "name": "Mohamad Dia",
+        "role": "CSEM",
+        "imageURL": "/events/MohamadDia.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mohamad-dia-3ab57896/"
+    },
+    {
+        "name": "Sidney Bovet",
+        "role": "Logitech",
+        "imageURL": "/events/SidneyBovet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sidney-bovet-1275616b/"
+    },
+    {
+        "name": "Alexandre Chappuis",
+        "role": "TPF",
+        "imageURL": "/events/AlexandreChappuis.jpg",
+        "websiteURL": "https://www.linkedin.com/in/alexandrechappuis/?originalSubdomain=ch"
+    },
+    {
+        "name": "Franck Youssef",
+        "role": "Accenture",
+        "imageURL": "/events/FranckYoussef.jpg",
+        "websiteURL": "https://www.linkedin.com/in/franckyoussef/"
+    },
+    {
+        "name": "Alexandre Margot",
+        "role": "Peerdom",
+        "imageURL": "/events/AlexandreMargot.jpg",
+        "websiteURL": "https://www.linkedin.com/in/alexmargot/?locale=en_US"
+    },
+    {
+        "name": "Mohamed Kafsi",
+        "role": "NexThink SA",
+        "imageURL": "/events/MohamedKafsi.jpg",
+        "websiteURL": "https://www.linkedin.com/in/mohamed-kafsi/"
+    },
+    {
+        "name": "Johan Paratte",
+        "role": "Arcanite Sàrl",
+        "imageURL": "/events/JohanParatte.jpg",
+        "websiteURL": "https://www.linkedin.com/in/johan-paratte-a2070039/"
+    },
+    {
+        "name": "Sofia Kypraiou",
+        "role": "Women at the Table",
+        "imageURL": "/events/SofiaKypraiou.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sofia-kypraiou/"
+    },
+    {
+        "name": "Márton Galánthay",
+        "role": "CICR",
+        "imageURL": "/events/MartonGalanthay.jpg",
+        "websiteURL": "https://www.linkedin.com/in/m%C3%A1rton-gal%C3%A1nthay-644640/"
+    },
+    {
+        "name": "Lucie Perotta",
+        "role": "Apple Inc.",
+        "imageURL": "/events/LuciePerrotta.jpg",
+        "websiteURL": "https://www.linkedin.com/in/lucie-perrotta/"
+    },
+    {
+        "name": "Sabrine Boumelala",
+        "role": "Deloitte",
+        "imageURL": "/events/SabrineBoumelala.jpg",
+        "websiteURL": "https://www.linkedin.com/in/sabrine-boumelala/"
+    },
+    {
+        "name": "Loïc Gardiol",
+        "role": "PocketCampus",
+        "imageURL": "/events/LoicGardiol.jpg",
+        "websiteURL": "https://www.linkedin.com/in/loicgardiol/"
+    },
+    {
+        "name": "Timon Zimmermann",
+        "role": "Visium SA",
+        "imageURL": "/events/TimonZimmermann.jpg",
+        "websiteURL": "https://www.linkedin.com/in/timon-zimmermann/"
+    },
+    {
+        "name": "Arnaud Delamare",
+        "role": "Oracle",
+        "imageURL": "/events/ArnaudDelamare.png",
+        "websiteURL": "https://labs.oracle.com/pls/apex/f?p=94065:11:104549644310502:2597"
+    },
+    {
+        "name": "Boris Spasoievic",
+        "role": "Oracle",
+        "imageURL": "/events/BorisSpasojevic.jpg",
+        "websiteURL": "https://labs.oracle.com/pls/apex/f?p=LABS:bio:0:2430"
+    },
+    {
+        "name": "Iré Pla",
+        "role": "AdNovum SA",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": ""
+    },
+    {
+        "name": "François Farquet",
+        "role": "Oracle",
+        "imageURL": "/events/FrancoisFarquet.jpg",
+        "websiteURL": "https://www.linkedin.com/in/francoisfarquet/"
+    },
+    {
+        "name": "Flavien Aubelle",
+        "role": "Windmill",
+        "imageURL": "/events/FlavienAubelle.jpg",
+        "websiteURL": "https://www.linkedin.com/in/flavien-aubelle/"
     },
     {
         "name": "Daria Printseva",
-        "role": "Logitech - CV Correction",
+        "role": "Logitech",
         "imageURL": "/events/DariaPrintseva.jpg",
         "websiteURL": "https://www.linkedin.com/in/dariaprintseva/"
     },
     {
-        "name": "Junghyun Kim",
-        "role": "Logitech - CV Correction",
-        "imageURL": "/events/JunghyunKim.jpg",
-        "websiteURL": "https://www.linkedin.com/in/junghyun-judy-kim-6b42a115/"
-    },
-    {
-        "name": "Lomig Mégard",
-        "role": "Swissborg - Mini-talk software Engineering",
-        "imageURL": "/events/LomigMegard.jpg",
-        "websiteURL": "https://www.linkedin.com/in/lomigmegard"
-    },
-    {
-        "name": "Téo Stocco",
-        "role": "Kiwi - Big-talk start-up hits and misses",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://www.linkedin.com/in/zifeo"
-    },
-    {
-        "name": "Loan Verneau",
-        "role": "Mobius Digital Games - Mini-talk The Entertainment Industry and Video Games",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://www.linkedin.com/in/loan-verneau-869b7057"
-    },
-    {
-        "name": "Solène Buet Chiche",
-        "role": "Pocket Campus - Meet-up women in IT",
-        "imageURL": "/events/SoleneBuetChiche.jpg",
-        "websiteURL": "https://www.linkedin.com/in/sol%C3%A8ne-buet-chiche-b8a43841"
-    },
-
-    {
-        "name": "Arnaud Delamare",
-        "role": "Oracle Labs Swizterland - Meet-up Big Tech",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://www.linkedin.com/in/arnaud-delamare-3aa071a3"
-    },
-    {
-        "name": "Keshav Singh",
-        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
-        "imageURL": "/events/KeshavSingh.jpg",
-        "websiteURL": "https://www.linkedin.com/in/keshav-singh-900472148/"
-    },
-    {
-        "name": "Soomin Lee",
-        "role": "Oracle Labs Swizterland - Mock & Coding interviews",
-        "imageURL": "/events/SoominLee.jpg",
-        "websiteURL": "https://www.linkedin.com/in/sumin0/"
-    },
-    {
-        "name": "Lionel Martin",
-        "role": "Arcanite - Meet-up Research vs Industry",
-        "imageURL": "/events/LionelMartin.jpg",
-        "websiteURL": "https://www.linkedin.com/in/lionel-martin-081a8b35/"
-    },
-    {
-        "name": "Frédéric Calatayud",
-        "role": "Nextink - Big-talk Don't know what to do next? Neither did we!",
-        "imageURL": "https://clic.epfl.ch/nextcloud/s/j6KzM6FAqB8yHDg/download/default_pp.png",
-        "websiteURL": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-calatayud-a1612668/"
-    },
-    {
-        "name": "Chaabouni Rafik",
-        "role": "Mini-talk Cybersecurity",
-        "imageURL": "/events/RafikChaabouni.jpg",
-        "websiteURL": "https://www.linkedin.com/in/rafikchaabouni/"
-    },
-    {
-        "name": "Jean-Louis Raisaro",
-        "role": "CHUV - Mini-talk AI for good",
-        "imageURL": "/events/JeanLouisRaisaro.jpg",
-        "websiteURL": "https://www.linkedin.com/in/jean-louis-raisaro/"
-    },
-    {
-        "name": "David Dieulivol",
-        "role": "Gitlab - Mini-talk open source",
-        "imageURL": "/events/DavidDieulivol.jpg",
-        "websiteURL": "https://www.linkedin.com/in/born4new/"
-    },
-    {
-        "name": "Thomas Baignères",
-        "role": "Olvid - Mini-talk cryptography",
-        "imageURL": "/events/ThomasBaigneres.jpg",
-        "websiteURL": "https://www.linkedin.com/in/baigneres/"
-    },
-    {
-        "name": "Lionel Fleury",
-        "role": "Open Systems AG - Mock & coding interviews",
-        "imageURL": "/events/LionelFleury.jpg",
-        "websiteURL": "https://www.linkedin.com/in/lionelfleury/"
+        "name": "Paul Bombarde",
+        "role": "Logitech",
+        "imageURL": "/events/PaulBombarde.jpg",
+        "websiteURL": "https://www.linkedin.com/in/paul-bombarde/"
     }
 ]

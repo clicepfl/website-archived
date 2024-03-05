@@ -15,12 +15,12 @@
         "name": "Jane Street",
         "websiteURL": "https://www.janestreet.com/",
         "imageURL": "/sponsors/jane_street.png",
-        "imageStyles": null,
+        "imageStyles": "width: 300px; height: auto",
         "tier": "partners",
         "expiration": {
-            "year": 2023,
-            "month": 6,
-            "day": 30
+            "year": 2024,
+            "month": 8,
+            "day": 1
         }
     },
     {
@@ -137,6 +137,18 @@
             "year": 2020,
             "month": 10,
             "day": 8
+        }
+    },
+    {
+        "name": "Infomaniak",
+        "websiteURL": "https://infomaniak.ch",
+        "imageURL": "/sponsors/infomaniak.svg",
+        "imageStyles": "width: 300px; height: auto",
+        "tier": "partners",
+        "expiration": {
+            "year": 2025,
+            "month": 3,
+            "day": 1
         }
     }
 ]
