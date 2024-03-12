@@ -12,6 +12,12 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
+        "name": "Gaëtan Renault",
+        "role": "Bug Bounty - Talk Cybersecurity",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://www.linkedin.com/in/gata-r-150745295/"
+    },
+    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
