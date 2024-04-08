@@ -197,16 +197,22 @@
         "catchPhrase": "",
         "members": [
             {
-                "name": "Solène Husseini",
-                "imageURL": "../solenehusseini.jpg",
-                "websiteURL": "https://people.epfl.ch/tanguy.husseini",
-                "role": "Présidente"
-            },
-            {
                 "name": "Philippe Dourassov",
                 "imageURL": "../philippedourassov.jpg",
                 "websiteURL": "https://people.epfl.ch/philippe.dourassov",
+                "role": "Président"
+            },
+            {
+                "name": "Léo Larigauderie",
+                "imageURL": "../default.png",
+                "websiteURL": "https://people.epfl.ch/leo.larigauderie",
                 "role": "Trésorier"
+            },
+            {
+                "name": "Eduarda Assunção",
+                "imageURL": "../eduardaassuncao.jpg",
+                "websiteURL": "https://people.epfl.ch/eduarda.guimaraesassuncao",
+                "role": "Membre du comité"
             }
         ],
         "social": {
