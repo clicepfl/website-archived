@@ -61,6 +61,17 @@ $timetable-background-color: white !default
  * Timetable
  * ==========================================================================
 
+.timetable-img 
+    width: 100%
+    img 
+        width: 100%
+
+    @media screen and (max-width: 850px)
+        overflow: scroll
+        img
+            width: 50em
+
+
 .timetable
     display: flex
     align-items: stretch
@@ -215,8 +226,26 @@ $timetable-background-color: white !default
         .time
             font-size: 12px
 
+    .mock-trad-entry
+        background-color: #4dccbd
+        font-size: 17px
+        .time
+            font-size: 12px
+
+    .mock-coding-entry
+        background-color: #296eb4
+        font-size: 17px
+        .time
+            font-size: 12px
+
     .talk-entry
-        background-color: #1f8ecb
+        background-color: #5f50ce
+        font-size: 16px
+        .time
+            font-size: 11px
+
+    .speed-networking-entry
+        background-color: #d9252a
         font-size: 16px
         .time
             font-size: 11px
