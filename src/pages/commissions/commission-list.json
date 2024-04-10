@@ -11,13 +11,13 @@
                 "name": "Mamoun Imghi",
                 "imageURL": "mamounimghi.jpg",
                 "websiteURL": "https://people.epfl.ch/mamoun.imghi",
-                "role": "Coprésident"
+                "role": "Co-président"
             },
             {
-                "name": "Roman Paccaud",
-                "imageURL": "romanpaccaud.jpg",
-                "websiteURL": "https://people.epfl.ch/roman.paccaud",
-                "role": "Coprésident"
+                "name": "Sarah Badr",
+                "imageURL": "sarahbadr.jpg",
+                "websiteURL": "https://people.epfl.ch/sarah.badr",
+                "role": "Co-présidente"
             },
             {
                 "name": "Clémentine Jordan",
@@ -47,12 +47,6 @@
                 "name": "François Théron",
                 "imageURL": "francoistheron.jpg",
                 "websiteURL": "https://people.epfl.ch/francois.theron",
-                "role": "Logistique"
-            },
-            {
-                "name": "Sarah Badr",
-                "imageURL": "sarahbadr.jpg",
-                "websiteURL": "https://people.epfl.ch/sarah.badr",
                 "role": "Logistique"
             }
         ],
