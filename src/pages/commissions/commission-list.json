@@ -198,13 +198,13 @@
             },
             {
                 "name": "Léo Larigauderie",
-                "imageURL": "../default.png",
+                "imageURL": "default.png",
                 "websiteURL": "https://people.epfl.ch/leo.larigauderie",
                 "role": "Trésorier"
             },
             {
                 "name": "Eduarda Assunção",
-                "imageURL": "../eduardaassuncao.jpg",
+                "imageURL": "eduardaassuncao.jpg",
                 "websiteURL": "https://people.epfl.ch/eduarda.guimaraesassuncao",
                 "role": "Membre du comité"
             }

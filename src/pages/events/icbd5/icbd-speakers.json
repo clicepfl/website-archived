@@ -12,6 +12,12 @@
         "websiteURL": "https://www.linkedin.com/in/florian-badertscher/"
     },
     {
+        "name": "Gaëtan Renault",
+        "role": "Bug Bounty - Talk Cybersecurity",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://www.linkedin.com/in/gata-r-150745295/"
+    },
+    {
         "name": "Christophe Tafani-Dereeper",
         "role": "DataDog - Talk Open Source",
         "imageURL": "/events/ChristopheTafaniDereeper.jpg",
@@ -24,16 +30,16 @@
         "websiteURL": "https://www.linkedin.com/in/thierry-bossy/"
     },
     {
-        "name": "Mathias Humbert",
-        "role": "Université de Lausanne - Talk Career Orientation, Meetup Academia vs Industry",
-        "imageURL": "/img/icbd/icbd_logo.png",
-        "websiteURL": "https://www.linkedin.com/in/mathiashumbert/"
-    },
-    {
         "name": "Vincent Etter",
         "role": "Google - Talk Generative AI, Mock interviews",
         "imageURL": "/events/VincentEtter.jpg",
         "websiteURL": "https://www.linkedin.com/in/vincentetter/"
+    },
+    {
+        "name": "Christoper Chiche",
+        "role": "Beeld - Talk Career orientation",
+        "imageURL": "/events/ChristopherChiche.jpg",
+        "websiteURL": "https://www.linkedin.com/in/cchiche/"
     },
     {
         "name": "Paul Habfast",
@@ -54,10 +60,10 @@
         "websiteURL": "https://www.linkedin.com/in/florianlaurent/"
     },
     {
-        "name": "Natalia Nessler",
-        "role": "Logitech - Meetup Women in IT, Speed-Networking",
-        "imageURL": "/events/NataliaNessler.jpg",
-        "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/"
+        "name": "Manon Michel",
+        "role": "Tune Insight - Meetup Women in IT, Speed Networking",
+        "imageURL": "/events/ManonMichel.jpg",
+        "websiteURL": "https://www.linkedin.com/in/msmichel/"
     },
     {
         "name": "Jelena Malić",
@@ -96,10 +102,10 @@
         "websiteURL": "https://www.linkedin.com/in/barroco/"
     },
     {
-        "name": "Irina Ristic",
+        "name": "Elena Ristic",
         "role": "Elca Informatique - CV Correction",
-        "imageURL": "/img/icbd/icbd_logo.png",
-        "websiteURL": "https://www.linkedin.com/"
+        "imageURL": "/events/ElenaRistic.jpg",
+        "websiteURL": "https://www.linkedin.com/in/elena-ristic-1a040b18b/"
     },
     {
         "name": "Alfonso Peterssen",
@@ -120,10 +126,10 @@
         "websiteURL": "https://www.linkedin.com/in/virgile-n-6a0a79206/"
     },
     {
-        "name": "Manon Michel",
-        "role": "Tune Insight - Speed Networking",
-        "imageURL": "/events/ManonMichel.jpg",
-        "websiteURL": "https://www.linkedin.com/in/msmichel/"
+        "name": "Natalia Nessler",
+        "role": "Logitech - Speed Networking",
+        "imageURL": "/events/NataliaNessler.jpg",
+        "websiteURL": "https://www.linkedin.com/in/natalia-nessler-730933149/"
     },
     {
         "name": "Maurice Gaillard",
