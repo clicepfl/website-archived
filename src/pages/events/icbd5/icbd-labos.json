@@ -34,5 +34,23 @@
         "role": "dlab",
         "imageURL": "/events/SaiboGeng.jpg",
         "websiteURL": "https://people.epfl.ch/saibo.geng"
+    },
+    {
+        "name": "Paul Rolland",
+        "role": "SDSC",
+        "imageURL": "/events/PaulRolland.jpg",
+        "websiteURL": "https://people.epfl.ch/paul.rolland"
+    },
+    {
+        "name": "Isinsu Katircioglu",
+        "role": "SDSC",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://people.epfl.ch/isinsu.katircioglu"
+    },
+    {
+        "name": "Corinne Jones",
+        "role": "SDSC",
+        "imageURL": "/img/icbd/icbd_logo.png",
+        "websiteURL": "https://people.epfl.ch/corinne.jones"
     }
 ]
