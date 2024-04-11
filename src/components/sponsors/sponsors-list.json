@@ -150,5 +150,17 @@
             "month": 3,
             "day": 1
         }
+    },
+    {
+        "name": "Dieci",
+        "websiteURL": "https://dieci.ch",
+        "imageURL": "/sponsors/dieci.png",
+        "imageStyles": "width: 150px; height: auto",
+        "tier": "partners",
+        "expiration": {
+            "year": 2024,
+            "month": 8,
+            "day": 1
+        }
     }
 ]
